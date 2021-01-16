@@ -21,11 +21,10 @@ class _HomeScreenState extends State<HomeScreen> {
     return SafeArea(
         child: OpenFlutterScaffold(
       background: null,
-      title: null,
+      title: 'ROYAL AUTO PARTS MARKET',
       body: BlocProvider<HomeBloc>(
           create: (context) {
-            return HomeBloc()
-              ..add(HomeLoadEvent());
+            return HomeBloc()..add(HomeLoadEvent());
           },
           child: HomeWrapper()),
       bottomMenuIndex: 0,
@@ -45,18 +44,32 @@ class _HomeWrapperState extends OpenFlutterWrapperState<HomeWrapper> {
   Widget build(BuildContext context) {
     return BlocBuilder<HomeBloc, HomeState>(
         builder: (BuildContext context, HomeState state) {
-      return getPageView(<Widget>[
+      return ListView(children: <Widget>[
+        Main2View(
+            changeView: changePage,
+            salesProducts:
+                state is HomeLoadedState ? state.salesProducts : <Product>[],
+            newProducts:
+                state is HomeLoadedState ? state.newProducts : <Product>[]),
         Main1View(
           changeView: changePage,
-          products: state is HomeLoadedState ? state.newProducts : <Product>[],),
-        Main2View(
-          changeView: changePage,
-          salesProducts:
-            state is HomeLoadedState ? state.salesProducts : <Product>[],
-          newProducts:
-            state is HomeLoadedState ? state.newProducts : <Product>[]),
+          products: state is HomeLoadedState ? state.newProducts : <Product>[],
+        ),
         Main3View(changeView: changePage)
       ]);
+
+      // return getPageView(<Widget>[
+      //   Main1View(
+      //     changeView: changePage,
+      //     products: state is HomeLoadedState ? state.newProducts : <Product>[],),
+      //   Main2View(
+      //     changeView: changePage,
+      //     salesProducts:
+      //       state is HomeLoadedState ? state.salesProducts : <Product>[],
+      //     newProducts:
+      //       state is HomeLoadedState ? state.newProducts : <Product>[]),
+      //   Main3View(changeView: changePage)
+      // ]);
     });
   }
 }

@@ -32,8 +32,8 @@ class _Main1ViewState extends State<Main1View> {
     var width = MediaQuery.of(context).size.width;
     var widgetWidth = width - AppSizes.sidePadding * 2;
     return BlocBuilder<HomeBloc, HomeState>(
-      builder: (BuildContext context, HomeState state) {
-        return SingleChildScrollView(
+        builder: (BuildContext context, HomeState state) {
+      return Container(
         child: Column(
           children: <Widget>[
             Container(
@@ -82,21 +82,18 @@ class _Main1ViewState extends State<Main1View> {
               linkText: 'View All',
               onLinkTap: () => {
                 Navigator.of(context).pushNamed(OpenFlutterEcommerceRoutes.shop,
-                  arguments: CategoriesParameters(0))
+                    arguments: CategoriesParameters(0))
               },
               description: 'You’ve never seen it before!',
             ),
             OpenFlutterProductListView(
-              width: widgetWidth, 
+              width: widgetWidth,
               products: widget.products,
-              onFavoritesTap: ( (Product product) => {
-                BlocProvider.of<HomeBloc>(context).add(
-                  HomeAddToFavoriteEvent(
-                    isFavorite: !product.isFavorite,
-                    product: product
-                  )
-                )
-              }),
+              onFavoritesTap: ((Product product) => {
+                    BlocProvider.of<HomeBloc>(context).add(
+                        HomeAddToFavoriteEvent(
+                            isFavorite: !product.isFavorite, product: product))
+                  }),
             ),
             OpenFlutterButton(
               title: 'Next Home Page',
