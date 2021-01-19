@@ -40,6 +40,7 @@ class BaseProductTile extends StatelessWidget {
             InkWell(
               onTap: onClick,
               child: Column(
+
                 children: <Widget>[
                   Card(
                     shape: RoundedRectangleBorder(

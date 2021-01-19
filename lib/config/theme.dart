@@ -46,7 +46,7 @@ class OpenFlutterEcommerceTheme {
   static ThemeData of(context) {
     var theme = Theme.of(context);
     return theme.copyWith(
-      primaryColor: AppColors.black,
+      primaryColor: AppColors.red,
       primaryColorLight: AppColors.lightGray,
       accentColor: AppColors.red,
       bottomAppBarColor: AppColors.lightGray,

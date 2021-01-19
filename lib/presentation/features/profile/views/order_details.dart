@@ -132,7 +132,8 @@ class _MyOrderDetailsViewState extends State<MyOrderDetailsView> {
                       ),
                       buildSummaryLine(
                           'Total Amount:',
-                          '\$' + state.orderData.totalPrice.toStringAsFixed(0),
+                          '\AED' +
+                              state.orderData.totalPrice.toStringAsFixed(0),
                           _theme,
                           width),
                       SizedBox(
@@ -175,15 +176,9 @@ class _MyOrderDetailsViewState extends State<MyOrderDetailsView> {
       for (CartItem item in state.orderData.products)
         OpenFlutterCartTile(
           item: item,
-          onAddToFav: (() => {
-            
-          }),
-          onChangeQuantity: ((int quantity) => {
-
-          }),
-          onRemoveFromCart: (() => {
-            
-          }),
+          onAddToFav: (() => {}),
+          onChangeQuantity: ((int quantity) => {}),
+          onRemoveFromCart: (() => {}),
           orderComplete: true,
         )
     ];

@@ -52,10 +52,10 @@ class _CartViewState extends State<CartView> {
     return BlocListener<CartBloc, CartState>(listener: (context, state) {
       if (state is CartErrorState) {
         return Container(
-          padding: EdgeInsets.all(AppSizes.sidePadding),
-          child: Text('An error occured',
-            style: _theme.textTheme.display1
-              .copyWith(color: _theme.errorColor)));
+            padding: EdgeInsets.all(AppSizes.sidePadding),
+            child: Text('An error occured',
+                style: _theme.textTheme.display1
+                    .copyWith(color: _theme.errorColor)));
       }
       return Container();
     }, child: BlocBuilder<CartBloc, CartState>(builder: (context, state) {
@@ -72,9 +72,8 @@ class _CartViewState extends State<CartView> {
               padding: EdgeInsets.only(bottom: AppSizes.sidePadding * 3),
             ),
             OpenFlutterInputButton(
-              placeHolder:
-                state.appliedPromo != null ?
-                  state.appliedPromo.promoCode 
+              placeHolder: state.appliedPromo != null
+                  ? state.appliedPromo.promoCode
                   : 'Enter your promo code',
               controller: _promoController,
               width: width,
@@ -83,24 +82,24 @@ class _CartViewState extends State<CartView> {
             Padding(
               padding: EdgeInsets.only(bottom: AppSizes.sidePadding * 3),
             ),
-            state.appliedPromo != null ?
-              Column(
-                children: <Widget> [
-                  OpenFlutterSummaryLine(
+            state.appliedPromo != null
+                ? Column(children: <Widget>[
+                    OpenFlutterSummaryLine(
+                        title: 'Subtotal:',
+                        summary: '\AED' + state.totalPrice?.toStringAsFixed(2)),
+                    OpenFlutterSummaryLine(
+                        title: 'Discount percent:',
+                        summary:
+                            state.appliedPromo.discount.toStringAsFixed(0) +
+                                '%'),
+                    OpenFlutterSummaryLine(
+                        title: 'Total amount:',
+                        summary:
+                            '\AED' + state.calculatedPrice?.toStringAsFixed(2)),
+                  ])
+                : OpenFlutterSummaryLine(
                     title: 'Subtotal:',
-                    summary: '\$' + state.totalPrice?.toStringAsFixed(2)),
-                  OpenFlutterSummaryLine(
-                    title: 'Discount percent:',
-                    summary: state.appliedPromo.discount.toStringAsFixed(0) + '%'),
-                  OpenFlutterSummaryLine(
-                    title: 'Total amount:',
-                    summary: '\$' + state.calculatedPrice?.toStringAsFixed(2)),
-                  ]
-                )  : 
-                OpenFlutterSummaryLine(
-                  title: 'Subtotal:',
-                  summary: '\$' + state.totalPrice?.toStringAsFixed(2)
-                ),
+                    summary: '\AED' + state.totalPrice?.toStringAsFixed(2)),
             Padding(
               padding: EdgeInsets.only(bottom: AppSizes.sidePadding * 3),
             ),
@@ -112,34 +111,34 @@ class _CartViewState extends State<CartView> {
               title: 'CHECK OUT',
             )
           ])),
-          state.showPromoPopup ? 
-            OpenFlutterBottomPopup(
-              title: '',
-              child: Column(
-                children: <Widget>[
-                  OpenFlutterInputButton(
-                    placeHolder: 'Enter your promo code',
-                    controller: _promoController,
-                    width: width,
-                    onClick: (() => {
-                        bloc
-                          ..add(CartPromoCodeAppliedEvent(
-                            //TODO: check that code is valid
-                            promoCode: _promoController.text))
-                      }),
+          state.showPromoPopup
+              ? OpenFlutterBottomPopup(
+                  title: '',
+                  child: Column(
+                    children: <Widget>[
+                      OpenFlutterInputButton(
+                        placeHolder: 'Enter your promo code',
+                        controller: _promoController,
+                        width: width,
+                        onClick: (() => {
+                              bloc
+                                ..add(CartPromoCodeAppliedEvent(
+                                    //TODO: check that code is valid
+                                    promoCode: _promoController.text))
+                            }),
+                      ),
+                      Padding(
+                          padding:
+                              EdgeInsets.only(bottom: AppSizes.sidePadding)),
+                      OpenFlutterBlockSubtitle(
+                        width: width,
+                        title: 'Your Promo Codes',
+                      ),
+                      Column(children: buildPromos(state.promos, bloc))
+                    ],
                   ),
-                  Padding(
-                    padding:
-                      EdgeInsets.only(bottom: AppSizes.sidePadding)),
-                  OpenFlutterBlockSubtitle(
-                    width: width,
-                    title: 'Your Promo Codes',
-                  ),
-                  Column(children: buildPromos(state.promos, bloc))
-                ],
-              ),
-            )
-            : Container()
+                )
+              : Container()
         ]);
       }
       return Container();
@@ -165,31 +164,32 @@ class _CartViewState extends State<CartView> {
   List<Widget> buildCartItems(List<CartItem> items, CartBloc bloc) {
     var widgets = <Widget>[];
     if (items.isNotEmpty) {
-    for (var i = 0; i < items.length; i++) {
-      widgets.add(Container(
-          padding: EdgeInsets.symmetric(
-              horizontal: AppSizes.sidePadding, vertical: AppSizes.sidePadding),
-          child: OpenFlutterCartTile(
-            item: items[i],
-            onChangeQuantity: ((int quantity) => {
-              bloc
-                ..add(CartQuantityChangedEvent(
-                  item: items[i], newQuantity: quantity)),
-              if(quantity < 1) {
-                items.remove(items[i]),
-              }
-            }),
-            onAddToFav: () {
-              bloc
-                ..add(CartAddToFavsEvent(item: items[i]));
-            },
-            onRemoveFromCart: () {
-              bloc
-                ..add(CartRemoveFromCartEvent(item: items[i]));
-              items.remove(items[i]);
-            },
-          )));
-    }}
+      for (var i = 0; i < items.length; i++) {
+        widgets.add(Container(
+            padding: EdgeInsets.symmetric(
+                horizontal: AppSizes.sidePadding,
+                vertical: AppSizes.sidePadding),
+            child: OpenFlutterCartTile(
+              item: items[i],
+              onChangeQuantity: ((int quantity) => {
+                    bloc
+                      ..add(CartQuantityChangedEvent(
+                          item: items[i], newQuantity: quantity)),
+                    if (quantity < 1)
+                      {
+                        items.remove(items[i]),
+                      }
+                  }),
+              onAddToFav: () {
+                bloc..add(CartAddToFavsEvent(item: items[i]));
+              },
+              onRemoveFromCart: () {
+                bloc..add(CartRemoveFromCartEvent(item: items[i]));
+                items.remove(items[i]);
+              },
+            )));
+      }
+    }
     return widgets;
   }
 }

@@ -112,7 +112,7 @@ class OpenFlutterOrderTile extends StatelessWidget {
                               padding: const EdgeInsets.only(
                                   left: AppSizes.sidePadding),
                               child: Text(
-                                '\$' + order.totalPrice.toStringAsFixed(0),
+                                '\AED' + order.totalPrice.toStringAsFixed(0),
                                 //total amount
                                 style: _theme.textTheme.display1,
                               ),
