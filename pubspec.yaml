@@ -64,12 +64,14 @@ flutter:
     - assets/icons/
     - assets/icons/bottom_menu/
     - assets/icons/products/
+    - assets/categories/
     - assets/icons/signin/
     - assets/icons/favourites/
     - assets/images/products/
     - assets/images/checkout/
     - assets/images/checkout/cart/
     - assets/splash/
+    - assets/brands/
     - assets/thumbs/
     - assets/thumbs/dress/
     - assets/thumbs/products/

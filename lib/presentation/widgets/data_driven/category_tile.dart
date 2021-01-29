@@ -34,8 +34,16 @@ class OpenFlutterCategoryTile extends StatelessWidget {
                 Container(
                     alignment: Alignment.centerLeft,
                     width: width - 200.0,
-                    child:
-                        Text(category.name, style: _theme.textTheme.display1)),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text(category.name, style: _theme.textTheme.display1),
+                        category.count != null
+                            ? Text(category.count.toString() + " Products",
+                                style: _theme.textTheme.display3)
+                            : SizedBox()
+                      ],
+                    )),
                 Container(
                   width: 200,
                   alignment: Alignment.centerRight,

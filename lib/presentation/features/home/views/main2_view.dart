@@ -33,14 +33,14 @@ class _Main2ViewState extends State<Main2View> {
     var width = MediaQuery.of(context).size.width;
     var widgetWidth = width - AppSizes.sidePadding * 2;
     return SingleChildScrollView(
-      child: Column(children: <Widget>[
+        child: Column(children: <Widget>[
       Container(
           height: width * 0.52,
           width: width,
           decoration: BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.fill,
-              image: AssetImage('assets/splash/topbanner.png'),
+              image: AssetImage('assets/splash/topbanner.jpg'),
             ),
           ),
           child: Column(
@@ -65,17 +65,12 @@ class _Main2ViewState extends State<Main2View> {
         description: 'Super summer sale',
       ),
       OpenFlutterProductListView(
-        width: widgetWidth, 
-        products: widget.salesProducts,
-        onFavoritesTap: ( (Product product) => {
-          BlocProvider.of<HomeBloc>(context).add(
-            HomeAddToFavoriteEvent(
-              isFavorite: !product.isFavorite,
-              product: product
-            )
-          )
-        })
-      ),
+          width: widgetWidth,
+          products: widget.salesProducts,
+          onFavoritesTap: ((Product product) => {
+                BlocProvider.of<HomeBloc>(context).add(HomeAddToFavoriteEvent(
+                    isFavorite: !product.isFavorite, product: product))
+              })),
       Padding(padding: EdgeInsets.only(top: AppSizes.sidePadding)),
       OpenFlutterBlockHeader(
         width: widgetWidth,
@@ -88,16 +83,12 @@ class _Main2ViewState extends State<Main2View> {
         description: 'You’ve never seen it before!',
       ),
       OpenFlutterProductListView(
-        width: widgetWidth, 
+        width: widgetWidth,
         products: widget.newProducts,
-        onFavoritesTap: ( (Product product) => {
-          BlocProvider.of<HomeBloc>(context).add(
-            HomeAddToFavoriteEvent(
-              isFavorite: !product.isFavorite,
-              product: product
-            )
-          )
-        }),
+        onFavoritesTap: ((Product product) => {
+              BlocProvider.of<HomeBloc>(context).add(HomeAddToFavoriteEvent(
+                  isFavorite: !product.isFavorite, product: product))
+            }),
       ),
       OpenFlutterButton(
         title: 'Next Home Page',

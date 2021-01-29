@@ -11,6 +11,7 @@ import 'package:openflutterecommerce/presentation/widgets/widgets.dart';
 
 import '../categories.dart';
 import '../categories_bloc.dart';
+import '../../../widgets/extensions/commerce_image_view.dart';
 
 class CategoriesTileView extends StatefulWidget {
   final Function changeView;
@@ -23,8 +24,23 @@ class CategoriesTileView extends StatefulWidget {
 
 class _CategoriesTileViewState extends State<CategoriesTileView>
     with SingleTickerProviderStateMixin {
-  final List<String> types = ['Women', 'Men', 'Kids'];
-  final List<int> categotyIds = [1, 2, 3];
+  final List<String> types = [
+    'IDLER',
+    'ELECTRICAL',
+    'MIRROR',
+    'THERMOSTAT AND HOUSING ',
+    'A/C',
+    'BADGE',
+    'CABLE',
+    'DAMPER',
+    'FAN',
+    'Oils & Lubricants',
+    'JOINT & KEY & LAMP',
+    'NOZZLE & OIL',
+    'PANEL & RADIATOR ',
+    'SPARK PLUG ',
+    'UPPER ARM && VACCUM && WASHER'
+  ];
   TabController _tabController;
 
   @override
@@ -53,34 +69,39 @@ class _CategoriesTileViewState extends State<CategoriesTileView>
             BlocBuilder<CategoryBloc, CategoryState>(builder: (context, state) {
       if (state is CategoryTileViewState) {
         var tabViews = <Widget>[];
-        for (var _ in categotyIds) {
+        for (var category in state.categories) {
           tabViews.add(SingleChildScrollView(
               child: Column(children: <Widget>[
             Padding(
-                padding: EdgeInsets.all(AppSizes.sidePadding),
-                child: Container(
-                    width: width,
-                    padding: EdgeInsets.all(AppSizes.sidePadding * 2),
-                    decoration: BoxDecoration(
-                      color: _theme.accentColor,
-                      borderRadius: BorderRadius.circular(AppSizes.imageRadius),
+                padding: EdgeInsets.symmetric(horizontal: AppSizes.sidePadding),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Container(
+                      width: 100,
+                      alignment: Alignment.centerRight,
+                      child: Image(image: category.image.getView()),
                     ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: <Widget>[
-                        Text('SUMMER SALES',
-                            style: _theme.textTheme.display1
-                                .copyWith(color: AppColors.white)),
-                        Text('Up to 50% off',
-                            style: _theme.textTheme.display1
-                                .copyWith(color: AppColors.white))
-                      ],
-                    ))),
+                    Padding(
+                        padding: EdgeInsets.all(AppSizes.sidePadding * 3),
+                        child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: <Widget>[
+                              Text(category.name,
+                                  style: _theme.textTheme.display1),
+                              category.count != null
+                                  ? Text(
+                                      category.count.toString() + " Products",
+                                      style: _theme.textTheme.display3)
+                                  : SizedBox()
+                            ]))
+                  ],
+                )),
             Container(
                 padding: EdgeInsets.all(AppSizes.sidePadding),
                 child: Column(
                     children: buildCategoryList(
-                        state.categories, width - AppSizes.sidePadding * 3)))
+                        category.submenu, width - AppSizes.sidePadding * 3)))
           ])));
         }
         return SafeArea(
@@ -99,7 +120,8 @@ class _CategoriesTileViewState extends State<CategoriesTileView>
     }));
   }
 
-  List<Widget> buildCategoryList(List<ProductCategory> categories, double width) {
+  List<Widget> buildCategoryList(
+      List<ProductCategory> categories, double width) {
     var elements = <Widget>[];
     for (var i = 0; i < categories.length; i++) {
       elements.add(InkWell(
@@ -108,8 +130,10 @@ class _CategoriesTileViewState extends State<CategoriesTileView>
                 OpenFlutterEcommerceRoutes.productList,
                 arguments: ProductListScreenParameters(categories[i]));
           }),
-          child: OpenFlutterCategoryTile(
-              height: 100, width: width, category: categories[i])));
+          child: categories[i].submenu.isNotEmpty
+              ? OpenFlutterCategoryTile(
+                  height: 100, width: width, category: categories[i])
+              : OpenFlutterCatregoryListElement(category: categories[i])));
     }
     return elements;
   }

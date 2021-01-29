@@ -8,43 +8,49 @@ import 'commerce_image.dart';
 class ProductCategory extends Equatable {
   final int id;
   final int parentId;
+  final int count;
   final String name;
   final String description;
   final CommerceImage image;
   final bool isCategoryContainer;
+  final List<ProductCategory> submenu;
 
-  ProductCategory(
-    this.id, {
-    int parentId,
-    this.name,
-    this.description,
-    this.image,
-    bool isCategoryContainer,
-  })  : parentId = parentId ?? 0,
-        isCategoryContainer = isCategoryContainer ?? false;
+  ProductCategory(this.id,
+      {int parentId,
+      this.name,
+      this.description,
+      this.image,
+        this.count,
+      bool isCategoryContainer,
+      List<ProductCategory> submenu})
+      : parentId = parentId ?? 0,
+        isCategoryContainer = isCategoryContainer ?? false,
+        submenu = submenu;
 
   @override
-  List<Object> get props => [id, parentId, name, image];
+  List<Object> get props => [id, parentId, name, image, submenu];
 
   @override
   bool get stringify => true;
 
   @override
-  factory ProductCategory.fromEntity(Entity entity) {
-    if ( entity is ProductCategoryEntity ) {
-      return ProductCategory(
-        entity.id, 
-        parentId: entity.parentId,
-        name: entity.title,
-        description: entity.description,
-        image: CommerceImage(
-          0,//TODO: remove id from CommerceImage
-          entity.image,
-          ''
-        )
-      );
+  factory ProductCategory.fromCategoryDef(Entity entity) {
+    if (entity is ProductCategoryEntity) {
+      return ProductCategory(entity.id,
+          parentId: entity.parentId,
+          name: entity.title,
+          description: entity.description,
+          submenu: entity.submenu,
+          count:entity.count,
+          isCategoryContainer: entity.submenu.isNotEmpty,
+
+          image: CommerceImage(
+              0, //TODO: remove id from CommerceImage
+              entity.image,
+              '',isLocal: true));
     } else {
-      throw EntityModelMapperException(message: 'Entity should be of type ProductCategoryEntity');
+      throw EntityModelMapperException(
+          message: 'Entity should be of type ProductCategoryEntity');
     }
   }
 }

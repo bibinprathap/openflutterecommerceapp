@@ -2,6 +2,8 @@
 // Author: openflutterproject@gmail.com
 // Date: 2020-02-06
 
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:openflutterecommerce/config/routes.dart';
@@ -60,7 +62,7 @@ class _CategoriesListViewState extends State<CategoriesListView> {
                 ),
               ),
               Column(
-                children: buildCategoryList(state.categories),
+                children: buildCategoryList(state.categories, width - AppSizes.sidePadding * 3),
               )
             ],
           ),
@@ -72,7 +74,7 @@ class _CategoriesListViewState extends State<CategoriesListView> {
     }));
   }
 
-  List<Widget> buildCategoryList(List<ProductCategory> categories) {
+  List<Widget> buildCategoryList(List<ProductCategory> categories,double width) {
     var elements = <Widget>[];
     if ( categories != null ) {
       for (var i = 0; i < categories.length; i++) {
@@ -88,7 +90,8 @@ class _CategoriesListViewState extends State<CategoriesListView> {
                         OpenFlutterEcommerceRoutes.productList,
                         arguments: ProductListScreenParameters(categories[i]));
                   },
-            child: OpenFlutterCatregoryListElement(category: categories[i]),
+            child: categories[i].submenu.isNotEmpty? OpenFlutterCategoryTile(
+                height: 100, width: width, category: categories[i]) :OpenFlutterCatregoryListElement(category: categories[i]),
           ),
         );
       }
