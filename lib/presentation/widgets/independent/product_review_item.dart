@@ -2,6 +2,9 @@
 // Author: juan.agu@outlook.com
 // Date: 2020-02-23
 
+import 'dart:convert';
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:openflutterecommerce/presentation/widgets/widgets.dart';
 
@@ -86,12 +89,22 @@ class OpenFlutterProductReviewItem extends StatelessWidget {
 
   Widget _buildAvatar() {
     if (_hasAnAvatar()) {
+      String BASE64_STRING =
+          avatarUrl.replaceAll('data:image/jpeg;base64,', '');
+      Uint8List bytes = avatarUrl.indexOf('data:image/jpeg;base64,') > -1
+          ? base64Decode(BASE64_STRING)
+          : null;
+      final ImageProvider image =
+          avatarUrl.indexOf('data:image/jpeg;base64,') > -1
+              ? MemoryImage(bytes)
+              : NetworkImage(
+                  avatarUrl,
+                );
+
       return Align(
         alignment: Alignment.topLeft,
         child: CircleAvatar(
-          backgroundImage: NetworkImage(
-            avatarUrl,
-          ),
+          backgroundImage: image,
         ),
       );
     }

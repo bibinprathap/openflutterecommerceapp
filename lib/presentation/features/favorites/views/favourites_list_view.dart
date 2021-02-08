@@ -37,6 +37,7 @@ class FavoritesListView extends StatelessWidget {
                               state.data[index].product.id,
                               state.data[index].product.categories.isNotEmpty ? 
                                 state.data[index].product.categories[0].id: 0,
+                              state.data[index].product.slug,
                               selectedAttributes:
                                   state.data[index].favoriteForm));
                     },

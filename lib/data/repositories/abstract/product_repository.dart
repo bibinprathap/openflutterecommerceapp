@@ -10,7 +10,7 @@ import '../../model/product.dart';
 
 abstract class ProductRepository {
   ///returns product info for the selected [id]
-  Future<Product> getProduct(int id);
+  Future<Product> getProduct(String slug);
 
   ///returns list of similar products for the product with [productId].
   ///The algorithm of selecting similarity is up to repository concrete
@@ -25,13 +25,13 @@ abstract class ProductRepository {
   ///price range, but can be extended to include more
   ///The result can be sorted by [sortRules] with values coming from lowest to
   ///highest or vice versa with main sort parameter specified.
-  Future<List<Product>> getProducts({
-    int pageIndex = 0,
-    int pageSize = AppConsts.page_size,
-    int categoryId = 0,
-    SortRules sortRules = const SortRules(),
-    FilterRules filterRules,
-  });
+  Future<List<Product>> getProducts(
+      {int pageIndex = 0,
+      int pageSize = AppConsts.page_size,
+      int categoryId = 0,
+      SortRules sortRules = const SortRules(),
+      FilterRules filterRules,
+      String slugorurl = ""});
 
   ///returns filter options available for products in category with
   ///id = [categoryId] and its subcategories. All rules should be set with

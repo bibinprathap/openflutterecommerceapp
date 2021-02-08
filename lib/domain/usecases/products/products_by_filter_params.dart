@@ -5,12 +5,10 @@ class ProductsByFilterParams {
   final int categoryId;
   final SortRules sortBy;
   final FilterRules filterRules;
+  final String slugorurl;
 
-  ProductsByFilterParams({
-    this.categoryId,
-    this.sortBy, 
-    this.filterRules, 
-  });
+  ProductsByFilterParams(
+      {this.categoryId, this.sortBy, this.filterRules, this.slugorurl});
 
-  bool get filterByCategory => categoryId != null;
+  bool get filterByCategoryOrSlug => categoryId != null || this.slugorurl != null;
 }

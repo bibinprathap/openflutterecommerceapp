@@ -7,18 +7,23 @@ import 'package:openflutterecommerce/data/repositories/abstract/product_reposito
 import 'package:openflutterecommerce/data/error/exceptions.dart';
 import 'package:openflutterecommerce/data/woocommerce/models/product_model.dart';
 import 'package:openflutterecommerce/data/woocommerce/repositories/woocommerce_wrapper.dart';
+import 'package:openflutterecommerce/domain/usecases/products/get_product_by_id_use_case.dart';
 import 'package:openflutterecommerce/domain/usecases/products/products_by_filter_params.dart';
 
 class RemoteProductRepository extends ProductRepository {
-  
   final WoocommercWrapperAbstract woocommerce;
 
   RemoteProductRepository({@required this.woocommerce});
 
   @override
-  Future<Product> getProduct(int id) {
-    // TODO: implement getProduct
-    throw UnimplementedError();
+  Future<Product> getProduct(String slug) async {
+    try {
+      List<dynamic> productsData =
+          await woocommerce.getProductDetails(ProductDetailsParams(slug: slug));
+      return productsData.length>0?Product.fromEntity(ProductModel.royalfromJson(productsData[0],1)):null;
+    } on HttpRequestException {
+      throw RemoteServerException();
+    }
   }
 
   @override
@@ -41,22 +46,21 @@ class RemoteProductRepository extends ProductRepository {
       int categoryId = 0,
       bool isFavorite = false,
       SortRules sortRules = const SortRules(),
+      String slugorurl = "",
       FilterRules filterRules}) async {
     // TODO: implement getProducts
-    try
-    {
+    try {
       List<dynamic> productsData = await woocommerce.getProductList(
-        ProductsByFilterParams(
-          categoryId: categoryId,
-          sortBy: sortRules, 
-          filterRules: filterRules, 
-        )
-      );
+          ProductsByFilterParams(
+              categoryId: categoryId,
+              sortBy: sortRules,
+              filterRules: filterRules,
+              slugorurl: slugorurl));
+
       List<Product> products = [];
-      for(int i = 0; i < productsData.length; i++){
+      for (int i = 0; i < productsData.length; i++) {
         products.add(
-          Product.fromEntity(ProductModel.fromJson(productsData[i]))
-        );
+            Product.fromEntity(ProductModel.royalfromJson(productsData[i],i)));
       }
       return products;
     } on HttpRequestException {

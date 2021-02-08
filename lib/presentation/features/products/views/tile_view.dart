@@ -39,7 +39,8 @@ class ProductsTileView extends StatelessWidget {
                         OpenFlutterEcommerceRoutes.product,
                         arguments: ProductDetailsParameters(
                             state.data.products[index].id,
-                            state.data.category.id));
+                            state.data.category.id,
+                          state.data.products[index].slug));
                   },
                 ));
           },

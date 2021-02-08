@@ -128,7 +128,8 @@ class _CategoriesTileViewState extends State<CategoriesTileView>
           onTap: (() {
             Navigator.of(context).pushNamed(
                 OpenFlutterEcommerceRoutes.productList,
-                arguments: ProductListScreenParameters(categories[i]));
+                arguments: ProductListScreenParameters(
+                    categories[i], categories[i].description));
           }),
           child: categories[i].submenu.isNotEmpty
               ? OpenFlutterCategoryTile(

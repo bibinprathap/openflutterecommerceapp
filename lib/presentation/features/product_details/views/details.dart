@@ -1,3 +1,6 @@
+import 'dart:convert';
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:openflutterecommerce/config/routes.dart';
@@ -83,11 +86,28 @@ class _ProductDetailsViewState extends State<ProductDetailsView> {
                         Container(
                           height: deviceHeight * 0.52,
                           child: ListView.builder(
-                            itemBuilder: (context, index) => Padding(
-                                padding: EdgeInsets.only(
-                                    right: AppSizes.sidePadding),
-                                child: Image.network(
-                                    state.product.images[index].address)),
+                            itemBuilder: (context, index) {
+                              String BASE64_STRING = state
+                                  .product.images[index].address
+                                  .replaceAll('data:image/jpeg;base64,', '');
+                              Uint8List bytes = state
+                                          .product.images[index].address
+                                          .indexOf('data:image/jpeg;base64,') >
+                                      -1
+                                  ? base64Decode(BASE64_STRING)
+                                  : null;
+                              final Widget image = state
+                                          .product.images[index].address
+                                          .indexOf('data:image/jpeg;base64,') >
+                                      -1
+                                  ? Image.memory(bytes)
+                                  : Image.network(
+                                      state.product.images[index].address);
+                              return Padding(
+                                  padding: EdgeInsets.only(
+                                      right: AppSizes.sidePadding),
+                                  child: image);
+                            },
                             scrollDirection: Axis.horizontal,
                             itemCount: state.product.images.length,
                           ),

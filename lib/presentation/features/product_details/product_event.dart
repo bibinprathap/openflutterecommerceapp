@@ -14,10 +14,12 @@ class ProductEvent extends Equatable {
 class ProductScreenLoadedEvent extends ProductEvent {
   final int productId;
   final int categoryId;
+  final String slug;
 
   ProductScreenLoadedEvent({
     @required this.productId, 
-    @required this.categoryId
+    @required this.categoryId,
+    @required this.slug
   });}
 
 @immutable

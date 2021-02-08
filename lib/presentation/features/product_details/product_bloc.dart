@@ -34,7 +34,9 @@ class ProductBloc extends Bloc<ProductEvent, ProductState> {
       final ProductDetailsResults data =  await getProductByIdUseCaseImpl.execute(
       ProductDetailsParams(
         categoryId: event.categoryId,
-        productId: event.productId)
+        productId: event.productId,
+        slug:event.slug
+        )
       );
       yield ProductLoadedState(product: data.productDetails, 
         similarProducts: data.similarProducts,

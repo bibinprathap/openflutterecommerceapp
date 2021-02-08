@@ -62,7 +62,8 @@ class _CategoriesListViewState extends State<CategoriesListView> {
                 ),
               ),
               Column(
-                children: buildCategoryList(state.categories, width - AppSizes.sidePadding * 3),
+                children: buildCategoryList(
+                    state.categories, width - AppSizes.sidePadding * 3),
               )
             ],
           ),
@@ -74,9 +75,10 @@ class _CategoriesListViewState extends State<CategoriesListView> {
     }));
   }
 
-  List<Widget> buildCategoryList(List<ProductCategory> categories,double width) {
+  List<Widget> buildCategoryList(
+      List<ProductCategory> categories, double width) {
     var elements = <Widget>[];
-    if ( categories != null ) {
+    if (categories != null) {
       for (var i = 0; i < categories.length; i++) {
         elements.add(
           InkWell(
@@ -88,10 +90,13 @@ class _CategoriesListViewState extends State<CategoriesListView> {
                 : () {
                     Navigator.of(context).pushNamed(
                         OpenFlutterEcommerceRoutes.productList,
-                        arguments: ProductListScreenParameters(categories[i]));
+                        arguments: ProductListScreenParameters(
+                            categories[i], categories[i].description));
                   },
-            child: categories[i].submenu.isNotEmpty? OpenFlutterCategoryTile(
-                height: 100, width: width, category: categories[i]) :OpenFlutterCatregoryListElement(category: categories[i]),
+            child: categories[i].submenu.isNotEmpty
+                ? OpenFlutterCategoryTile(
+                    height: 100, width: width, category: categories[i])
+                : OpenFlutterCatregoryListElement(category: categories[i]),
           ),
         );
       }

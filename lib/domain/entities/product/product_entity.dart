@@ -6,6 +6,9 @@ import 'package:openflutterecommerce/domain/entities/product/product_category_en
 
 class ProductEntity extends Entity<int> {
   final String title;
+  final String slug;
+  final String relatedurl;
+
   final String subTitle;
   final List<String> images;
   final String thumb;
@@ -27,6 +30,8 @@ class ProductEntity extends Entity<int> {
   ProductEntity(
     {int id,
     this.title,
+    this.slug,
+
     this.subTitle,
     this.images,
     this.thumb,
@@ -43,7 +48,7 @@ class ProductEntity extends Entity<int> {
     rating2Count,
     rating3Count,
     rating4Count,
-    rating5Count}) :
+    rating5Count, this.relatedurl}) :
       rating = rating??0,
       rating1Count = rating1Count??0,
       rating2Count = rating2Count??0,
@@ -62,6 +67,8 @@ class ProductEntity extends Entity<int> {
     return {
       'id': id,
       'title': title,
+      'slug': slug,
+      'relatedurl':relatedurl,
       //TODO: serialize all images and add tests
       'image': images.isNotEmpty?images[0]:'',
       'thumb': thumb,
@@ -85,6 +92,8 @@ class ProductEntity extends Entity<int> {
   List<Object> get props => [
     id, 
     title,
+    slug,
+    relatedurl,
     isFavourite,
     rating,
   ];

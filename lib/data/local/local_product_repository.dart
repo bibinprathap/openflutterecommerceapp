@@ -6,7 +6,7 @@ import 'package:openflutterecommerce/data/repositories/abstract/product_reposito
 
 class LocalProductRepository implements ProductRepository {
   @override
-  Future<Product> getProduct(int id) {
+  Future<Product> getProduct(String slug) {
     // TODO: implement getProduct
     throw UnimplementedError();
   }
@@ -25,7 +25,8 @@ class LocalProductRepository implements ProductRepository {
       int categoryId = 0,
       bool isFavorite = false,
       SortRules sortRules = const SortRules(),
-      FilterRules filterRules}) {
+      FilterRules filterRules,
+      String slugorurl = ""}) {
     // TODO: implement getProducts
     return null;
   }

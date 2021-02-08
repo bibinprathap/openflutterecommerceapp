@@ -14,6 +14,8 @@ class Product extends Equatable {
   final String title;
   //cateogry or hashtag to display next to title
   final String subTitle;
+  final String slug;
+    final String relatedurl ;
   final String shortDescription;
   final String description;
   final bool isFavorite;
@@ -38,6 +40,7 @@ class Product extends Equatable {
     this.id, {
     @required this.title,
     @required this.subTitle,
+        @required this.slug,
     this.shortDescription,
     this.description,
     @required this.price,
@@ -54,7 +57,8 @@ class Product extends Equatable {
     this.images,
     this.properties,
     this.selectableAttributes,
-    @required this.categories,
+        this.relatedurl,
+  @required this.categories,
     @required this.hashTags,
     this.isFavorite = false,
   }) : created = created ?? DateTime.now();
@@ -62,6 +66,8 @@ class Product extends Equatable {
   Product favorite(bool isFavorite) {
     return Product(id,
         title: title,
+        slug:slug,
+        relatedurl:relatedurl,
         subTitle: subTitle,
         shortDescription: shortDescription,
         description: description,
@@ -102,7 +108,9 @@ class Product extends Equatable {
       return Product(
         entity.id, 
         title: entity.title,
+        slug:entity.slug,
         subTitle: entity.subTitle,
+          relatedurl:entity.relatedurl,
         shortDescription: entity.description,
         description: entity.description,
         price: entity.price ?? 0,
@@ -130,6 +138,8 @@ class Product extends Equatable {
   List<Object> get props => [
         id,
         title,
+    slug,
+    relatedurl,
         shortDescription,
         description,
         isFavorite,

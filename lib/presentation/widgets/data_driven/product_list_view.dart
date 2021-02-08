@@ -43,7 +43,8 @@ class OpenFlutterProductListView extends StatelessWidget {
                   OpenFlutterEcommerceRoutes.product,
                   arguments: ProductDetailsParameters(product.id, 
                     product.categories.isNotEmpty ? 
-                      product.categories[0].id : 0
+                      product.categories[0].id : 0,
+                       product.slug,
                     )
                   );
             },

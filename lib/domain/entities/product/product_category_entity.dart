@@ -11,7 +11,7 @@ class ProductCategoryEntity extends Entity<int> {
   final int count;
   final List<ProductCategory> submenu;
   ProductCategoryEntity(
-      {int id,
+       {int id,
       this.title,
       this.description,
       this.image,

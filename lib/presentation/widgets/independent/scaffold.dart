@@ -9,6 +9,7 @@ import 'package:openflutterecommerce/config/AlgoliaApplication.dart';
 import 'package:openflutterecommerce/config/routes.dart';
 import 'package:openflutterecommerce/config/theme.dart';
 import 'package:openflutterecommerce/presentation/features/product_details/product_screen.dart';
+import 'package:openflutterecommerce/presentation/features/products/products.dart';
 
 import '../widgets.dart';
 import 'base_product_tile.dart';
@@ -577,1200 +578,1197 @@ final List<Entry> data = <Entry>[
   Entry(
     title: 'AUDI',
     image: 'assets/brands/audi.png',
-    url: '/catalog/products?make=AUDI&makeCode=AUDI',
+    url: '/productsList?make=AUDI&makeCode=AUDI',
     submenu: <Entry>[
       Entry(
         title: 'AUTOSTAR && BOSCH',
         url:
-            "/catalog/products?make=AU&makeCode=AUDI&origin=AUTOSTAR&origincode=AST",
+            "/productsList?make=AU&makeCode=AUDI&origin=AUTOSTAR&origincode=AST",
         submenu: <Entry>[
           Entry(
               title: "AUTOSTAR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=AUTOSTAR&origincode=AST"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=AUTOSTAR&origincode=AST"),
           Entry(
               title: "BEHR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=BEHR&origincode=BHR"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=BEHR&origincode=BHR"),
           Entry(
               title: "BILSTIEN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=BILSTIEN&origincode=BLN"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=BILSTIEN&origincode=BLN"),
           Entry(
               title: "BOGE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=BOGE&origincode=BOG"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=BOGE&origincode=BOG"),
           Entry(
               title: "BOSCH",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=BOSCH&origincode=BSH"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=BOSCH&origincode=BSH"),
           Entry(
               title: "BREMI",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=BREMI&origincode=BMI"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=BREMI&origincode=BMI"),
           Entry(
               title: "A/C",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=A/C&partsCategoryCode=AC"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=A/C&partsCategoryCode=AC"),
           Entry(
               title: "AC CONDENSER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=AC CONDENSER&partsCategoryCode=AC CONDENSER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=AC CONDENSER&partsCategoryCode=AC CONDENSER"),
           Entry(
               title: "AC ASSY",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=AC ASSY&partsCategoryCode=ACAS"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=AC ASSY&partsCategoryCode=ACAS"),
           Entry(
               title: "AC BLOWER MOTOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=AC BLOWER MOTOR&partsCategoryCode=ACBLM"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=AC BLOWER MOTOR&partsCategoryCode=ACBLM"),
           Entry(
               title: "ACCELERATOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ACCELERATOR&partsCategoryCode=ACCEL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ACCELERATOR&partsCategoryCode=ACCEL"),
           Entry(
               title: "AC COMPRESSOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
           Entry(
               title: "AC CONDENSER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
           Entry(
               title: "AC DRIER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
           Entry(
               title: "AC FAN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=AC FAN&partsCategoryCode=ACFA"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=AC FAN&partsCategoryCode=ACFA"),
           Entry(
               title: "ACTUATOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
           Entry(
               title: "ADAPTER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
           Entry(
               title: "ADDITIONAL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ADDITIONAL&partsCategoryCode=ADDIT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ADDITIONAL&partsCategoryCode=ADDIT"),
           Entry(
               title: "ADJUSTER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ADJUSTER&partsCategoryCode=ADJ"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ADJUSTER&partsCategoryCode=ADJ"),
           Entry(
               title: "AIR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=AIR&partsCategoryCode=AIR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=AIR&partsCategoryCode=AIR"),
           Entry(
               title: "ALTERNATOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
           Entry(
               title: "AMPLIFIER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=AMPLIFIER&partsCategoryCode=AMPLI"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=AMPLIFIER&partsCategoryCode=AMPLI"),
           Entry(
               title: "ARM",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ARM&partsCategoryCode=ARM"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ARM&partsCategoryCode=ARM"),
           Entry(
               title: "AXLE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=AXLE&partsCategoryCode=AX"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=AXLE&partsCategoryCode=AX"),
           Entry(
               title: "BATTERY",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BATTERY&partsCategoryCode=BA"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BATTERY&partsCategoryCode=BA"),
           Entry(
               title: "BAFFLE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BAFFLE&partsCategoryCode=BAFFL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BAFFLE&partsCategoryCode=BAFFL"),
           Entry(
               title: "BALL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BALL&partsCategoryCode=BALL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BALL&partsCategoryCode=BALL"),
           Entry(
               title: "BALL JOINT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
           Entry(
               title: "BAR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BAR&partsCategoryCode=BAR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BAR&partsCategoryCode=BAR"),
           Entry(
               title: "BEARING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BEARING&partsCategoryCode=BEA"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BEARING&partsCategoryCode=BEA"),
           Entry(
               title: "BEAM",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BEAM&partsCategoryCode=BEAM"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BEAM&partsCategoryCode=BEAM"),
           Entry(
               title: "BELT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BELT&partsCategoryCode=BELT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BELT&partsCategoryCode=BELT"),
           Entry(
               title: "BULB",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BULB&partsCategoryCode=BLB"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BULB&partsCategoryCode=BLB"),
           Entry(
               title: "BELT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BELT&partsCategoryCode=BLT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BELT&partsCategoryCode=BLT"),
           Entry(
               title: "BLOWER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BLOWER&partsCategoryCode=BLW"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BLOWER&partsCategoryCode=BLW"),
           Entry(
               title: "BUMPER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BUMPER&partsCategoryCode=BMP"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BUMPER&partsCategoryCode=BMP"),
           Entry(
               title: "BONET",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BONET&partsCategoryCode=BO"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BONET&partsCategoryCode=BO"),
           Entry(
               title: "BODY",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BODY&partsCategoryCode=BODY"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BODY&partsCategoryCode=BODY"),
           Entry(
               title: "BOLT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BOLT&partsCategoryCode=BOLT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BOLT&partsCategoryCode=BOLT"),
           Entry(
               title: "BOOT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BOOT&partsCategoryCode=BOOT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BOOT&partsCategoryCode=BOOT"),
           Entry(
               title: "BOWDEN CABLE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BOWDEN CABLE&partsCategoryCode=BOWDE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BOWDEN CABLE&partsCategoryCode=BOWDE"),
           Entry(
               title: "BRACKET",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BRACKET&partsCategoryCode=BRACK"),
           Entry(
               title: "BRAKE PAD",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
           Entry(
               title: "BREATHER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BREATHER&partsCategoryCode=BREAT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BREATHER&partsCategoryCode=BREAT"),
           Entry(
               title: "BRAKE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BRAKE&partsCategoryCode=BRK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BRAKE&partsCategoryCode=BRK"),
           Entry(
               title: "BUFFER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BUFFER&partsCategoryCode=BUFFE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BUFFER&partsCategoryCode=BUFFE"),
           Entry(
               title: "BUMPER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BUMPER&partsCategoryCode=BUMPER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BUMPER&partsCategoryCode=BUMPER"),
           Entry(
               title: "BUSH",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=BUSH&partsCategoryCode=BUSH"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=BUSH&partsCategoryCode=BUSH"),
         ],
       ),
       Entry(
         title: 'ELRING && GERMANY',
-        url:
-            "/catalog/products?make=AU&makeCode=AUDI&origin=CHINA&origincode=CHI",
+        url: "/productsList?make=AU&makeCode=AUDI&origin=CHINA&origincode=CHI",
         submenu: <Entry>[
           Entry(
               title: "CHINA",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=CHINA&origincode=CHI"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=CHINA&origincode=CHI"),
           Entry(
               title: "CONTI",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=CONTI&origincode=CON"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=CONTI&origincode=CON"),
           Entry(
               title: "DENSO",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=DENSO&origincode=DSO"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=DENSO&origincode=DSO"),
           Entry(
               title: "ELRING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=ELRING&origincode=ELR"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=ELRING&origincode=ELR"),
           Entry(
               title: "FEBI",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=FEBI&origincode=FBI"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=FEBI&origincode=FBI"),
           Entry(
               title: "GERMANY",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=GERMANY&origincode=GER"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=GERMANY&origincode=GER"),
           Entry(
               title: "HENGST",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=HENGST&origincode=HST"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=HENGST&origincode=HST"),
           Entry(
               title: "LEMFORDER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=LEMFORDER&origincode=LEM"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=LEMFORDER&origincode=LEM"),
           Entry(
               title: "CABLE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CABLE&partsCategoryCode=CAB"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CABLE&partsCategoryCode=CAB"),
           Entry(
               title: "CALIPER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CALIPER&partsCategoryCode=CALIP"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CALIPER&partsCategoryCode=CALIP"),
           Entry(
               title: "CAP",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CAP&partsCategoryCode=CAP"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CAP&partsCategoryCode=CAP"),
           Entry(
               title: "CARRIER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CARRIER&partsCategoryCode=CAR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CARRIER&partsCategoryCode=CAR"),
           Entry(
               title: "CHAIN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CHAIN&partsCategoryCode=CHA"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CHAIN&partsCategoryCode=CHA"),
           Entry(
               title: "CHASSIS",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CHASSIS&partsCategoryCode=CHASSIS"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CHASSIS&partsCategoryCode=CHASSIS"),
           Entry(
               title: "CHROME",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CHROME&partsCategoryCode=CHROM"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CHROME&partsCategoryCode=CHROM"),
           Entry(
               title: "CLIP",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CLIP&partsCategoryCode=CLIP"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CLIP&partsCategoryCode=CLIP"),
           Entry(
               title: "CLUTCH",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
           Entry(
               title: "COIL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=COIL&partsCategoryCode=COIL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=COIL&partsCategoryCode=COIL"),
           Entry(
               title: "COMPRESSOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
           Entry(
               title: "CONDENSER ",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CONDENSER &partsCategoryCode=COND"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CONDENSER &partsCategoryCode=COND"),
           Entry(
               title: "CONNECTING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CONNECTING&partsCategoryCode=CONNTNG"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CONNECTING&partsCategoryCode=CONNTNG"),
           Entry(
               title: "CONNECTOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CONNECTOR&partsCategoryCode=CONNTR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CONNECTOR&partsCategoryCode=CONNTR"),
           Entry(
               title: "CONTACT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CONTACT&partsCategoryCode=CONTA"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CONTACT&partsCategoryCode=CONTA"),
           Entry(
               title: "CONTROL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CONTROL&partsCategoryCode=CONTR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CONTROL&partsCategoryCode=CONTR"),
           Entry(
               title: "COOLANT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=COOLANT&partsCategoryCode=COOLA"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=COOLANT&partsCategoryCode=COOLA"),
           Entry(
               title: "COOLENT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=COOLENT&partsCategoryCode=COOLENT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=COOLENT&partsCategoryCode=COOLENT"),
           Entry(
               title: "COOLER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=COOLER&partsCategoryCode=COOLER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=COOLER&partsCategoryCode=COOLER"),
           Entry(
               title: "COUPLING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=COUPLING&partsCategoryCode=COUPL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=COUPLING&partsCategoryCode=COUPL"),
           Entry(
               title: "COVER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=COVER&partsCategoryCode=COVER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=COVER&partsCategoryCode=COVER"),
           Entry(
               title: "CRANK",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CRANK&partsCategoryCode=CRANK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CRANK&partsCategoryCode=CRANK"),
           Entry(
               title: "CUT BUSH",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
           Entry(
               title: "CV JOINT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CV JOINT&partsCategoryCode=CVJO"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CV JOINT&partsCategoryCode=CVJO"),
           Entry(
               title: "CYLINDER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=CYLINDER&partsCategoryCode=CYL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=CYLINDER&partsCategoryCode=CYL"),
           Entry(
               title: "DAMPER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=DAMPER&partsCategoryCode=DAMPE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=DAMPER&partsCategoryCode=DAMPE"),
           Entry(
               title: "DEFLECTOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=DEFLECTOR&partsCategoryCode=DEFLETR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=DEFLECTOR&partsCategoryCode=DEFLETR"),
           Entry(
               title: "DICKY",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=DICKY&partsCategoryCode=DICKY"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=DICKY&partsCategoryCode=DICKY"),
           Entry(
               title: "DISC",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=DISC&partsCategoryCode=DISC"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=DISC&partsCategoryCode=DISC"),
           Entry(
               title: "DOOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=DOOR&partsCategoryCode=DOOR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=DOOR&partsCategoryCode=DOOR"),
           Entry(
               title: "DOWEL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=DOWEL&partsCategoryCode=DOWEL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=DOWEL&partsCategoryCode=DOWEL"),
           Entry(
               title: "DRIER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=DRIER&partsCategoryCode=DRIER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=DRIER&partsCategoryCode=DRIER"),
           Entry(
               title: "DRIVE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
           Entry(
               title: "ECU",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ECU&partsCategoryCode=ECU"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ECU&partsCategoryCode=ECU"),
           Entry(
               title: "ELECTRICAL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ELECTRICAL&partsCategoryCode=ELECT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ELECTRICAL&partsCategoryCode=ELECT"),
           Entry(
               title: "ELECTRICAL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
           Entry(
               title: "EMBLEM",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=EMBLEM&partsCategoryCode=EMB"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=EMBLEM&partsCategoryCode=EMB"),
           Entry(
               title: "END",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=END&partsCategoryCode=END"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=END&partsCategoryCode=END"),
           Entry(
               title: "ENGINE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ENGINE&partsCategoryCode=ENG"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ENGINE&partsCategoryCode=ENG"),
           Entry(
               title: "ENGINE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
           Entry(
               title: "EVAPORATOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
           Entry(
               title: "EVAPORATOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=EVAPORATOR&partsCategoryCode=EVAPORATOR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=EVAPORATOR&partsCategoryCode=EVAPORATOR"),
           Entry(
               title: "EXHAUST",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=EXHAUST&partsCategoryCode=EXH"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=EXHAUST&partsCategoryCode=EXH"),
           Entry(
               title: "EXPANSION",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
           Entry(
               title: "FAN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FAN&partsCategoryCode=FAN"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FAN&partsCategoryCode=FAN"),
           Entry(
               title: "FASTENER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FASTENER&partsCategoryCode=FASTE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FASTENER&partsCategoryCode=FASTE"),
           Entry(
               title: "FENDER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FENDER&partsCategoryCode=FENDE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FENDER&partsCategoryCode=FENDE"),
           Entry(
               title: "FILTER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FILTER&partsCategoryCode=FI"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FILTER&partsCategoryCode=FI"),
           Entry(
               title: "FIILTER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FIILTER&partsCategoryCode=FIILTER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FIILTER&partsCategoryCode=FIILTER"),
           Entry(
               title: "FILTER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FILTER&partsCategoryCode=FILTER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FILTER&partsCategoryCode=FILTER"),
           Entry(
               title: "FLOOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FLOOR&partsCategoryCode=FL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FLOOR&partsCategoryCode=FL"),
           Entry(
               title: "FLANGE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FLANGE&partsCategoryCode=FLANG"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FLANGE&partsCategoryCode=FLANG"),
           Entry(
               title: "FOG",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FOG&partsCategoryCode=FOG"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FOG&partsCategoryCode=FOG"),
           Entry(
               title: "FRONT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FRONT&partsCategoryCode=FRNT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FRONT&partsCategoryCode=FRNT"),
           Entry(
               title: "FUEL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FUEL&partsCategoryCode=FU"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FUEL&partsCategoryCode=FU"),
           Entry(
               title: "FUEL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FUEL&partsCategoryCode=FUEL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FUEL&partsCategoryCode=FUEL"),
           Entry(
               title: "FUNNEL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FUNNEL&partsCategoryCode=FUNNE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FUNNEL&partsCategoryCode=FUNNE"),
           Entry(
               title: "FUSE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=FUSE&partsCategoryCode=FUSE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=FUSE&partsCategoryCode=FUSE"),
         ],
       ),
       Entry(
         title: 'MAHLE && NISSENS',
-        url:
-            "/catalog/products?make=AU&makeCode=AUDI&origin=MAHLE&origincode=MHF",
+        url: "/productsList?make=AU&makeCode=AUDI&origin=MAHLE&origincode=MHF",
         submenu: <Entry>[
           Entry(
               title: "MAHLE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=MAHLE&origincode=MHF"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=MAHLE&origincode=MHF"),
           Entry(
               title: "MAN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=MAN&origincode=MAN"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=MAN&origincode=MAN"),
           Entry(
               title: "MAXPART",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=MAXPART&origincode=MXP"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=MAXPART&origincode=MXP"),
           Entry(
               title: "MAYER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=MAYER&origincode=MAYER"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=MAYER&origincode=MAYER"),
           Entry(
               title: "MEYLE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=MEYLE&origincode=MEY"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=MEYLE&origincode=MEY"),
           Entry(
               title: "MOBIL 1",
               url:
-                  "/catalog/products?make=MB&makeCode=AUDI&origin=MOBIL 1&origincode=MOB"),
+                  "/productsList?make=MB&makeCode=AUDI&origin=MOBIL 1&origincode=MOB"),
           Entry(
               title: "NISSENS",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=NISSENS&origincode=NIS"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=NISSENS&origincode=NIS"),
           Entry(
               title: "GASKET",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=GASKET&partsCategoryCode=GAS"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=GASKET&partsCategoryCode=GAS"),
           Entry(
               title: "GASKET",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=GASKET&partsCategoryCode=GASK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=GASKET&partsCategoryCode=GASK"),
           Entry(
               title: "GEAR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=GEAR&partsCategoryCode=GEAR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=GEAR&partsCategoryCode=GEAR"),
           Entry(
               title: "GLASS",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=GLASS&partsCategoryCode=GL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=GLASS&partsCategoryCode=GL"),
           Entry(
               title: "GLASS",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=GLASS&partsCategoryCode=GLASS"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=GLASS&partsCategoryCode=GLASS"),
           Entry(
               title: "GLOW",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=GLOW&partsCategoryCode=GLOW"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=GLOW&partsCategoryCode=GLOW"),
           Entry(
               title: "GEAR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=GEAR&partsCategoryCode=GR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=GEAR&partsCategoryCode=GR"),
           Entry(
               title: "GRILL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=GRILL&partsCategoryCode=GRILL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=GRILL&partsCategoryCode=GRILL"),
           Entry(
               title: "GROMMET",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=GROMMET&partsCategoryCode=GROMM"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=GROMMET&partsCategoryCode=GROMM"),
           Entry(
               title: "GUIDE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
           Entry(
               title: "HAND",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HAND&partsCategoryCode=HAN"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HAND&partsCategoryCode=HAN"),
           Entry(
               title: "HANDL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HANDL&partsCategoryCode=HANDL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HANDL&partsCategoryCode=HANDL"),
           Entry(
               title: "HARNESS",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HARNESS&partsCategoryCode=HARNE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HARNESS&partsCategoryCode=HARNE"),
           Entry(
               title: "HEAD",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HEAD&partsCategoryCode=HEAD"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HEAD&partsCategoryCode=HEAD"),
           Entry(
               title: "HEAT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HEAT&partsCategoryCode=HEAT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HEAT&partsCategoryCode=HEAT"),
           Entry(
               title: "HIGH PRESSURE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HIGH PRESSURE&partsCategoryCode=HIGH"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HIGH PRESSURE&partsCategoryCode=HIGH"),
           Entry(
               title: "HINGE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HINGE&partsCategoryCode=HINGE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HINGE&partsCategoryCode=HINGE"),
           Entry(
               title: "HOLDER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HOLDER&partsCategoryCode=HOLDER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HOLDER&partsCategoryCode=HOLDER"),
           Entry(
               title: "HOOD",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HOOD&partsCategoryCode=HOOD"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HOOD&partsCategoryCode=HOOD"),
           Entry(
               title: "HOOK",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HOOK&partsCategoryCode=HOOK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HOOK&partsCategoryCode=HOOK"),
           Entry(
               title: "HORN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HORN&partsCategoryCode=HORN"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HORN&partsCategoryCode=HORN"),
           Entry(
               title: "HOSE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HOSE&partsCategoryCode=HOSE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HOSE&partsCategoryCode=HOSE"),
           Entry(
               title: "HOUSING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=HOUSING&partsCategoryCode=HOUSING"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=HOUSING&partsCategoryCode=HOUSING"),
         ],
       ),
       Entry(
         title: 'ORIGINAL && SACHS',
         url:
-            "/catalog/products?make=AU&makeCode=AUDI&origin=ORIGINAL&origincode=OE",
+            "/productsList?make=AU&makeCode=AUDI&origin=ORIGINAL&origincode=OE",
         submenu: <Entry>[
           Entry(
               title: "ORIGINAL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=ORIGINAL&origincode=OE"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=ORIGINAL&origincode=OE"),
           Entry(
               title: "OSRAM",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=OSRAM&origincode=OSR"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=OSRAM&origincode=OSR"),
           Entry(
               title: "RECONDITION",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=RECONDITION&origincode=RECONDITION"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=RECONDITION&origincode=RECONDITION"),
           Entry(
               title: "REMSA",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=REMSA&origincode=REM"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=REMSA&origincode=REM"),
           Entry(
               title: "SACHS",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=SACHS&origincode=SCH"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=SACHS&origincode=SCH"),
           Entry(
               title: "IGNITION",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
           Entry(
               title: "INJECTOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
           Entry(
               title: "INJECTOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=INJECTOR&partsCategoryCode=INJECTOR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=INJECTOR&partsCategoryCode=INJECTOR"),
           Entry(
               title: "INSERT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=INSERT&partsCategoryCode=INSER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=INSERT&partsCategoryCode=INSER"),
           Entry(
               title: "INTAKE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=INTAKE&partsCategoryCode=INTAK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=INTAKE&partsCategoryCode=INTAK"),
           Entry(
               title: "INTAKE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=INTAKE&partsCategoryCode=INTAKE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=INTAKE&partsCategoryCode=INTAKE"),
           Entry(
               title: "JOINT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=JOINT&partsCategoryCode=JOINT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=JOINT&partsCategoryCode=JOINT"),
           Entry(
               title: "KEY",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=KEY&partsCategoryCode=KEY"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=KEY&partsCategoryCode=KEY"),
           Entry(
               title: "KIT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=KIT&partsCategoryCode=KIT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=KIT&partsCategoryCode=KIT"),
           Entry(
               title: "LAMP",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=LAMP&partsCategoryCode=LAMP"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=LAMP&partsCategoryCode=LAMP"),
           Entry(
               title: "LATCH",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=LATCH&partsCategoryCode=LATCH"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=LATCH&partsCategoryCode=LATCH"),
           Entry(
               title: "LEVER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=LEVER&partsCategoryCode=LEVER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=LEVER&partsCategoryCode=LEVER"),
           Entry(
               title: "LIGHT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=LIGHT&partsCategoryCode=LGHT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=LIGHT&partsCategoryCode=LGHT"),
           Entry(
               title: "LINE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=LINE&partsCategoryCode=LINE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=LINE&partsCategoryCode=LINE"),
           Entry(
               title: "LINK",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=LINK&partsCategoryCode=LINK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=LINK&partsCategoryCode=LINK"),
           Entry(
               title: "LOCK",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=LOCK&partsCategoryCode=LOCK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=LOCK&partsCategoryCode=LOCK"),
           Entry(
               title: "LOGO",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=LOGO&partsCategoryCode=LOGO"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=LOGO&partsCategoryCode=LOGO"),
           Entry(
               title: "LOWER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=LOWER&partsCategoryCode=LOWER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=LOWER&partsCategoryCode=LOWER"),
           Entry(
               title: "MIRROR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
           Entry(
               title: "MODULE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=MODULE&partsCategoryCode=MODUL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=MODULE&partsCategoryCode=MODUL"),
           Entry(
               title: "MOLDING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=MOLDING&partsCategoryCode=MOLDI"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=MOLDING&partsCategoryCode=MOLDI"),
           Entry(
               title: "MOTOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
           Entry(
               title: "MOUDLING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
           Entry(
               title: "MOULDING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=MOULDING&partsCategoryCode=MOULD"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=MOULDING&partsCategoryCode=MOULD"),
           Entry(
               title: "MOUNT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
           Entry(
               title: "MOUNTING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=MOUNTING&partsCategoryCode=MOUNTING"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=MOUNTING&partsCategoryCode=MOUNTING"),
           Entry(
               title: "MOUNTING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
           Entry(
               title: "NOZZLE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
           Entry(
               title: "NUMBER PLATE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=NUMBER PLATE&partsCategoryCode=NUMBE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=NUMBER PLATE&partsCategoryCode=NUMBE"),
           Entry(
               title: "NUT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=NUT&partsCategoryCode=NUT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=NUT&partsCategoryCode=NUT"),
           Entry(
               title: "OIL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=OIL&partsCategoryCode=OIL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=OIL&partsCategoryCode=OIL"),
           Entry(
               title: "OIL",
               url:
-                  "/catalog/products?make=MB&makeCode=AUDI&partsCategory=OIL&partsCategoryCode=OIL"),
+                  "/productsList?make=MB&makeCode=AUDI&partsCategory=OIL&partsCategoryCode=OIL"),
           Entry(
               title: "OIL ASSY",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
           Entry(
               title: "OIL CAP",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=OIL CAP&partsCategoryCode=OILC"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=OIL CAP&partsCategoryCode=OILC"),
           Entry(
               title: "OIL COOLER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=OIL COOLER&partsCategoryCode=OILCO"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=OIL COOLER&partsCategoryCode=OILCO"),
           Entry(
               title: "O - RING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=O - RING&partsCategoryCode=O-R"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=O - RING&partsCategoryCode=O-R"),
           Entry(
               title: "OTHERS",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=OTHERS&partsCategoryCode=OTHER"),
           Entry(
               title: "PIECE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=PIECE&partsCategoryCode=PIECE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=PIECE&partsCategoryCode=PIECE"),
           Entry(
               title: "PIN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=PIN&partsCategoryCode=PIN"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=PIN&partsCategoryCode=PIN"),
           Entry(
               title: "PIPE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=PIPE&partsCategoryCode=PIPE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=PIPE&partsCategoryCode=PIPE"),
           Entry(
               title: "PISTON",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=PISTON&partsCategoryCode=PISTO"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=PISTON&partsCategoryCode=PISTO"),
           Entry(
               title: "PISTON",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=PISTON&partsCategoryCode=PISTON"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=PISTON&partsCategoryCode=PISTON"),
           Entry(
               title: "PLATE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=PLATE&partsCategoryCode=PLATE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=PLATE&partsCategoryCode=PLATE"),
           Entry(
               title: "PLUG",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=PLUG&partsCategoryCode=PLUG"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=PLUG&partsCategoryCode=PLUG"),
           Entry(
               title: "PRESSURE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=PRESSURE&partsCategoryCode=PRESS"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=PRESSURE&partsCategoryCode=PRESS"),
           Entry(
               title: "PULLEY",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=PULLEY&partsCategoryCode=PULLE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=PULLEY&partsCategoryCode=PULLE"),
           Entry(
               title: "PUMP",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=PUMP&partsCategoryCode=PUMP"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=PUMP&partsCategoryCode=PUMP"),
           Entry(
               title: "RACK",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=RACK&partsCategoryCode=RACK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=RACK&partsCategoryCode=RACK"),
           Entry(
               title: "RADIATOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
           Entry(
               title: "RADIATOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
           Entry(
               title: "RAIL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=RAIL&partsCategoryCode=RAIL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=RAIL&partsCategoryCode=RAIL"),
           Entry(
               title: "REAR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=REAR&partsCategoryCode=REAR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=REAR&partsCategoryCode=REAR"),
           Entry(
               title: "REFLECTOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
           Entry(
               title: "REGULATOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
           Entry(
               title: "REINFORCEMENT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=REINFORCEMENT&partsCategoryCode=REINF"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=REINFORCEMENT&partsCategoryCode=REINF"),
           Entry(
               title: "RELAY",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=RELAY&partsCategoryCode=RELAY"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=RELAY&partsCategoryCode=RELAY"),
           Entry(
               title: "REPAIR KIT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=REPAIR KIT&partsCategoryCode=REPAI"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=REPAIR KIT&partsCategoryCode=REPAI"),
           Entry(
               title: "RESERVOIR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
           Entry(
               title: "RESISTOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=RESISTOR&partsCategoryCode=RESIS"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=RESISTOR&partsCategoryCode=RESIS"),
           Entry(
               title: "RING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=RING&partsCategoryCode=RING"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=RING&partsCategoryCode=RING"),
           Entry(
               title: "RIVET",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=RIVET&partsCategoryCode=RIVET"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=RIVET&partsCategoryCode=RIVET"),
           Entry(
               title: "ROD",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ROD&partsCategoryCode=ROD"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ROD&partsCategoryCode=ROD"),
           Entry(
               title: "ROLLER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ROLLER&partsCategoryCode=ROLLE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ROLLER&partsCategoryCode=ROLLE"),
           Entry(
               title: "ROOF",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=ROOF&partsCategoryCode=ROOF"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=ROOF&partsCategoryCode=ROOF"),
           Entry(
               title: "RUBBER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=RUBBER&partsCategoryCode=RUBBE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=RUBBER&partsCategoryCode=RUBBE"),
           Entry(
               title: "SCREW",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SCREW&partsCategoryCode=SCREW"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SCREW&partsCategoryCode=SCREW"),
           Entry(
               title: "SEAL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SEAL&partsCategoryCode=SEAL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SEAL&partsCategoryCode=SEAL"),
           Entry(
               title: "SEAT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SEAT&partsCategoryCode=SEAT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SEAT&partsCategoryCode=SEAT"),
           Entry(
               title: "SENDER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SENDER&partsCategoryCode=SENDE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SENDER&partsCategoryCode=SENDE"),
           Entry(
               title: "SENSOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SENSOR&partsCategoryCode=SENSO"),
           Entry(
               title: "SENSOR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SENSOR&partsCategoryCode=SENSOR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SENSOR&partsCategoryCode=SENSOR"),
           Entry(
               title: "SHAFT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
           Entry(
               title: "SHOCK",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
           Entry(
               title: "SIDE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SIDE&partsCategoryCode=SIDE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SIDE&partsCategoryCode=SIDE"),
           Entry(
               title: "SLEEVE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SLEEVE&partsCategoryCode=SLEEV"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SLEEVE&partsCategoryCode=SLEEV"),
           Entry(
               title: "SLIDE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SLIDE&partsCategoryCode=SLIDE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SLIDE&partsCategoryCode=SLIDE"),
           Entry(
               title: "SPARK PLUG",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
           Entry(
               title: "SPEAKER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SPEAKER&partsCategoryCode=SPEAK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SPEAKER&partsCategoryCode=SPEAK"),
           Entry(
               title: "SPEAKER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SPEAKER&partsCategoryCode=SPEAKER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SPEAKER&partsCategoryCode=SPEAKER"),
           Entry(
               title: "SPOILER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
           Entry(
               title: "SPRING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SPRING&partsCategoryCode=SPRIN"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SPRING&partsCategoryCode=SPRIN"),
           Entry(
               title: "STABILIZER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=STABILIZER&partsCategoryCode=STABI"),
           Entry(
               title: "STARTER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=STARTER&partsCategoryCode=START"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=STARTER&partsCategoryCode=START"),
           Entry(
               title: "STARTER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=STARTER&partsCategoryCode=STARTER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=STARTER&partsCategoryCode=STARTER"),
           Entry(
               title: "STB LINK",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=STB LINK&partsCategoryCode=STBL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=STB LINK&partsCategoryCode=STBL"),
           Entry(
               title: "STEARING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=STEARING&partsCategoryCode=STEAR"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=STEARING&partsCategoryCode=STEAR"),
           Entry(
               title: "STEARING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=STEARING&partsCategoryCode=STEARING"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=STEARING&partsCategoryCode=STEARING"),
           Entry(
               title: "STEERING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=STEERING&partsCategoryCode=STEER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=STEERING&partsCategoryCode=STEER"),
           Entry(
               title: "STOP",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=STOP&partsCategoryCode=STOP"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=STOP&partsCategoryCode=STOP"),
           Entry(
               title: "STRIP",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=STRIP&partsCategoryCode=STRIP"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=STRIP&partsCategoryCode=STRIP"),
           Entry(
               title: "STRUT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=STRUT&partsCategoryCode=STRUT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=STRUT&partsCategoryCode=STRUT"),
           Entry(
               title: "STUD",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=STUD&partsCategoryCode=STUD"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=STUD&partsCategoryCode=STUD"),
           Entry(
               title: "SUN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SUN&partsCategoryCode=SUN"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SUN&partsCategoryCode=SUN"),
           Entry(
               title: "SUPPORT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
           Entry(
               title: "SUSPENSION",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SUSPENSION&partsCategoryCode=SUSPENSION"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SUSPENSION&partsCategoryCode=SUSPENSION"),
           Entry(
               title: "SWITCH",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=SWITCH&partsCategoryCode=SWITC"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=SWITCH&partsCategoryCode=SWITC"),
         ],
       ),
       Entry(
         title: 'TRUCKTEC && VICTOR REINZ',
         url:
-            "/catalog/products?make=AU&makeCode=AUDI&origin=TOPDRIVE&origincode=TDR",
+            "/productsList?make=AU&makeCode=AUDI&origin=TOPDRIVE&origincode=TDR",
         submenu: <Entry>[
           Entry(
               title: "TOPDRIVE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=TOPDRIVE&origincode=TDR"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=TOPDRIVE&origincode=TDR"),
           Entry(
               title: "TRUCKTEC",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=TRUCKTEC&origincode=TTC"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=TRUCKTEC&origincode=TTC"),
           Entry(
               title: "TRW",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=TRW&origincode=TRW"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=TRW&origincode=TRW"),
           Entry(
               title: "USED",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=USED&origincode=USD"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=USED&origincode=USD"),
           Entry(
               title: "VAICO",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=VAICO&origincode=VKO"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=VAICO&origincode=VKO"),
           Entry(
               title: "VDO",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=VDO&origincode=VDO"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=VDO&origincode=VDO"),
           Entry(
               title: "VICTOR REINZ",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=VICTOR REINZ&origincode=RNZ"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=VICTOR REINZ&origincode=RNZ"),
           Entry(
               title: "UPPER ARM",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
           Entry(
               title: "VACCUM",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=VACCUM&partsCategoryCode=VACCU"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=VACCUM&partsCategoryCode=VACCU"),
           Entry(
               title: "VALVE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=VALVE&partsCategoryCode=VALVE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=VALVE&partsCategoryCode=VALVE"),
           Entry(
               title: "V-BELT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
           Entry(
               title: "VENT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=VENT&partsCategoryCode=VENT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=VENT&partsCategoryCode=VENT"),
           Entry(
               title: "WASHER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=WASHER&partsCategoryCode=WASHE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=WASHER&partsCategoryCode=WASHE"),
           Entry(
               title: "WATER PUMP",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
           Entry(
               title: "WATER PUMP",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=WATER PUMP&partsCategoryCode=WATER PUMP"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=WATER PUMP&partsCategoryCode=WATER PUMP"),
           Entry(
               title: "WHEEL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
           Entry(
               title: "WIND",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=WIND&partsCategoryCode=WIND"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=WIND&partsCategoryCode=WIND"),
           Entry(
               title: "WINDOW",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=WINDOW&partsCategoryCode=WINDO"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=WINDOW&partsCategoryCode=WINDO"),
           Entry(
               title: "WINDSHIELD",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=WINDSHIELD&partsCategoryCode=WINDS"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=WINDSHIELD&partsCategoryCode=WINDS"),
           Entry(
               title: "WIPER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=WIPER&partsCategoryCode=WIPER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=WIPER&partsCategoryCode=WIPER"),
           Entry(
               title: "WIRE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=WIRE&partsCategoryCode=WIRE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=WIRE&partsCategoryCode=WIRE"),
           Entry(
               title: "WISH BONE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=WISH BONE&partsCategoryCode=WISH"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=WISH BONE&partsCategoryCode=WISH"),
         ],
       ),
       Entry(
         title: 'SHELL && TANK',
-        url:
-            "/catalog/products?make=AU&makeCode=AUDI&origin=CHINA&origincode=CHI",
+        url: "/productsList?make=AU&makeCode=AUDI&origin=CHINA&origincode=CHI",
         submenu: <Entry>[
           Entry(
               title: "SHELL",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=SHELL&origincode=SL"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=SHELL&origincode=SL"),
           Entry(
               title: "SIMMER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=SIMMER&origincode=SIM"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=SIMMER&origincode=SIM"),
           Entry(
               title: "SPARX",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=SPARX&origincode=SPX"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=SPARX&origincode=SPX"),
           Entry(
               title: "TAIWAN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=TAIWAN&origincode=TWN"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=TAIWAN&origincode=TWN"),
           Entry(
               title: "TEXTAR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=TEXTAR&origincode=TEX"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=TEXTAR&origincode=TEX"),
           Entry(
               title: "TANK",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TANK&partsCategoryCode=TANK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TANK&partsCategoryCode=TANK"),
           Entry(
               title: "TENSIONER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
           Entry(
               title: "TENSIONER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TENSIONER&partsCategoryCode=TENSIONER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TENSIONER&partsCategoryCode=TENSIONER"),
           Entry(
               title: "THERMOSTAT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
           Entry(
               title: "THERMOSTAT",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=THERMOSTAT&partsCategoryCode=THERMOSTAT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=THERMOSTAT&partsCategoryCode=THERMOSTAT"),
           Entry(
               title: "THROTTLE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=THROTTLE&partsCategoryCode=THROT"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=THROTTLE&partsCategoryCode=THROT"),
           Entry(
               title: "TIE ROD",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TIE ROD&partsCategoryCode=TIER"),
           Entry(
               title: "TIMING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TIMING&partsCategoryCode=TIMIN"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TIMING&partsCategoryCode=TIMIN"),
           Entry(
               title: "TIMING CHAIN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TIMING CHAIN&partsCategoryCode=TIMINC"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TIMING CHAIN&partsCategoryCode=TIMINC"),
           Entry(
               title: "TRACK ROD",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TRACK ROD&partsCategoryCode=TRACK"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TRACK ROD&partsCategoryCode=TRACK"),
           Entry(
               title: "TRANSMISSION",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
           Entry(
               title: "TRIM",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TRIM&partsCategoryCode=TRI"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TRIM&partsCategoryCode=TRI"),
           Entry(
               title: "TUBE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TUBE&partsCategoryCode=TUBE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TUBE&partsCategoryCode=TUBE"),
           Entry(
               title: "TURBO",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TURBO&partsCategoryCode=TURBO"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TURBO&partsCategoryCode=TURBO"),
           Entry(
               title: "TURN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TURN&partsCategoryCode=TURN"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TURN&partsCategoryCode=TURN"),
           Entry(
               title: "TYRE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&partsCategory=TYRE&partsCategoryCode=TYRE"),
+                  "/productsList?make=AU&makeCode=AUDI&partsCategory=TYRE&partsCategoryCode=TYRE"),
         ],
       )
     ],
@@ -1778,10594 +1776,10584 @@ final List<Entry> data = <Entry>[
   Entry(
     title: "BMW",
     image: 'assets/brands/BMW.png',
-    url: "/catalog/products?make=BMW&makeCode=BMW",
+    url: "/productsList?make=BMW&makeCode=BMW",
     submenu: <Entry>[
       Entry(
         title: 'AUTOSTAR && BOSCH',
         url:
-            "/catalog/products?make=AU&makeCode=AUDI&origin=AUTOSTAR&origincode=AST",
+            "/productsList?make=AU&makeCode=AUDI&origin=AUTOSTAR&origincode=AST",
         submenu: <Entry>[
           Entry(
               title: "AUTOSTAR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=AUTOSTAR&origincode=AST"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=AUTOSTAR&origincode=AST"),
           Entry(
               title: "BEHR",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=BEHR&origincode=BHR"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=BEHR&origincode=BHR"),
           Entry(
               title: "BILSTIEN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=BILSTIEN&origincode=BLN"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=BILSTIEN&origincode=BLN"),
           Entry(
               title: "BOGE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=BOGE&origincode=BOG"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=BOGE&origincode=BOG"),
           Entry(
               title: "BOSCH",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=BOSCH&origincode=BSH"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=BOSCH&origincode=BSH"),
           Entry(
               title: "BREMI",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=BREMI&origincode=BMI"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=BREMI&origincode=BMI"),
           Entry(
               title: "A/C",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=A/C&partsCategoryCode=A/C"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=A/C&partsCategoryCode=A/C"),
           Entry(
               title: "ABSORBER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ABSORBER&partsCategoryCode=ABS"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ABSORBER&partsCategoryCode=ABS"),
           Entry(
               title: "ABSORBER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ABSORBER&partsCategoryCode=ABSORBER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ABSORBER&partsCategoryCode=ABSORBER"),
           Entry(
               title: "A/C",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=A/C&partsCategoryCode=AC"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=A/C&partsCategoryCode=AC"),
           Entry(
               title: "AC ASSY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AC ASSY&partsCategoryCode=AC ASSY"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AC ASSY&partsCategoryCode=AC ASSY"),
           Entry(
               title: "AC BELT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AC BELT&partsCategoryCode=AC BELT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AC BELT&partsCategoryCode=AC BELT"),
           Entry(
               title: "AC BLOWER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AC BLOWER&partsCategoryCode=AC BLOWER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AC BLOWER&partsCategoryCode=AC BLOWER"),
           Entry(
               title: "AC CONDENSER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AC CONDENSER&partsCategoryCode=AC CONDENSER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AC CONDENSER&partsCategoryCode=AC CONDENSER"),
           Entry(
               title: "AC ASSY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AC ASSY&partsCategoryCode=ACAS"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AC ASSY&partsCategoryCode=ACAS"),
           Entry(
               title: "AC BELT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AC BELT&partsCategoryCode=ACBE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AC BELT&partsCategoryCode=ACBE"),
           Entry(
               title: "AC BLOWER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AC BLOWER&partsCategoryCode=ACBL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AC BLOWER&partsCategoryCode=ACBL"),
           Entry(
               title: "ACCELERATOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ACCELERATOR&partsCategoryCode=ACCEL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ACCELERATOR&partsCategoryCode=ACCEL"),
           Entry(
               title: "AC COMPRESSOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
           Entry(
               title: "AC CONDENSER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
           Entry(
               title: "AC DRIER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
           Entry(
               title: "AC FAN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AC FAN&partsCategoryCode=ACFA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AC FAN&partsCategoryCode=ACFA"),
           Entry(
               title: "ACTUATOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
           Entry(
               title: "ACTUATOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ACTUATOR&partsCategoryCode=ACTUATOR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ACTUATOR&partsCategoryCode=ACTUATOR"),
           Entry(
               title: "ADAPTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
           Entry(
               title: "ADDITIONAL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ADDITIONAL&partsCategoryCode=ADDIT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ADDITIONAL&partsCategoryCode=ADDIT"),
           Entry(
               title: "ADJUSTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ADJUSTER&partsCategoryCode=ADJ"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ADJUSTER&partsCategoryCode=ADJ"),
           Entry(
               title: "AIR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AIR&partsCategoryCode=AIR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AIR&partsCategoryCode=AIR"),
           Entry(
               title: "ALTERNATOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
           Entry(
               title: "AMPLIFIER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AMPLIFIER&partsCategoryCode=AMPLI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AMPLIFIER&partsCategoryCode=AMPLI"),
           Entry(
               title: "ANTI FREEZE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ANTI FREEZE&partsCategoryCode=ANTI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ANTI FREEZE&partsCategoryCode=ANTI"),
           Entry(
               title: "ARM",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ARM&partsCategoryCode=ARM"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ARM&partsCategoryCode=ARM"),
           Entry(
               title: "ASA BOLT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ASA BOLT&partsCategoryCode=ASAB"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ASA BOLT&partsCategoryCode=ASAB"),
           Entry(
               title: "ASA-BOLT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ASA-BOLT&partsCategoryCode=ASA-B"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ASA-BOLT&partsCategoryCode=ASA-B"),
           Entry(
               title: "ASA SCREW",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ASA SCREW&partsCategoryCode=ASAS"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ASA SCREW&partsCategoryCode=ASAS"),
           Entry(
               title: "ASHTRAY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ASHTRAY&partsCategoryCode=ASHTR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ASHTRAY&partsCategoryCode=ASHTR"),
           Entry(
               title: "ATF",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ATF&partsCategoryCode=ATF"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ATF&partsCategoryCode=ATF"),
           Entry(
               title: "AUDIO",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AUDIO&partsCategoryCode=AUDIO"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AUDIO&partsCategoryCode=AUDIO"),
           Entry(
               title: "AUXILARY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AUXILARY&partsCategoryCode=AUXIL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AUXILARY&partsCategoryCode=AUXIL"),
           Entry(
               title: "AXLE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AXLE&partsCategoryCode=AX"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AXLE&partsCategoryCode=AX"),
           Entry(
               title: "AXLE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=AXLE&partsCategoryCode=AXLE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=AXLE&partsCategoryCode=AXLE"),
           Entry(
               title: "BATTERY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BATTERY&partsCategoryCode=BA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BATTERY&partsCategoryCode=BA"),
           Entry(
               title: "BADGE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BADGE&partsCategoryCode=BADGE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BADGE&partsCategoryCode=BADGE"),
           Entry(
               title: "BALL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BALL&partsCategoryCode=BALL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BALL&partsCategoryCode=BALL"),
           Entry(
               title: "BALL JOINT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
           Entry(
               title: "BAR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BAR&partsCategoryCode=BAR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BAR&partsCategoryCode=BAR"),
           Entry(
               title: "BASE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BASE&partsCategoryCode=BASE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BASE&partsCategoryCode=BASE"),
           Entry(
               title: "BASIC",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BASIC&partsCategoryCode=BASIC"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BASIC&partsCategoryCode=BASIC"),
           Entry(
               title: "BEARING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BEARING&partsCategoryCode=BEA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BEARING&partsCategoryCode=BEA"),
           Entry(
               title: "BELLOWS",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BELLOWS&partsCategoryCode=BELLO"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BELLOWS&partsCategoryCode=BELLO"),
           Entry(
               title: "BULB",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BULB&partsCategoryCode=BLB"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BULB&partsCategoryCode=BLB"),
           Entry(
               title: "BELT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BELT&partsCategoryCode=BLT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BELT&partsCategoryCode=BLT"),
           Entry(
               title: "BLOWER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BLOWER&partsCategoryCode=BLW"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BLOWER&partsCategoryCode=BLW"),
           Entry(
               title: "BUMPER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BUMPER&partsCategoryCode=BMP"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BUMPER&partsCategoryCode=BMP"),
           Entry(
               title: "BONET",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BONET&partsCategoryCode=BO"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BONET&partsCategoryCode=BO"),
           Entry(
               title: "BODY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BODY&partsCategoryCode=BOD"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BODY&partsCategoryCode=BOD"),
           Entry(
               title: "BODY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BODY&partsCategoryCode=BODY"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BODY&partsCategoryCode=BODY"),
           Entry(
               title: "BOLT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BOLT&partsCategoryCode=BOLT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BOLT&partsCategoryCode=BOLT"),
           Entry(
               title: "BONET",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BONET&partsCategoryCode=BONET"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BONET&partsCategoryCode=BONET"),
           Entry(
               title: "BOOT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BOOT&partsCategoryCode=BOOT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BOOT&partsCategoryCode=BOOT"),
           Entry(
               title: "BOWDEN CABLE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BOWDEN CABLE&partsCategoryCode=BOWDE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BOWDEN CABLE&partsCategoryCode=BOWDE"),
           Entry(
               title: "BRACKET",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BRACKET&partsCategoryCode=BRACK"),
           Entry(
               title: "BRAKE PAD",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
           Entry(
               title: "BRAKE PAD",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE PAD"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE PAD"),
           Entry(
               title: "BREATHER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BREATHER&partsCategoryCode=BREAT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BREATHER&partsCategoryCode=BREAT"),
           Entry(
               title: "BRAKE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BRAKE&partsCategoryCode=BRK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BRAKE&partsCategoryCode=BRK"),
           Entry(
               title: "BUFFER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BUFFER&partsCategoryCode=BUFFE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BUFFER&partsCategoryCode=BUFFE"),
           Entry(
               title: "BUSH",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=BUSH&partsCategoryCode=BUSH"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=BUSH&partsCategoryCode=BUSH"),
           Entry(
               title: "CABLE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CABLE&partsCategoryCode=CAB"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CABLE&partsCategoryCode=CAB"),
           Entry(
               title: "CALIPER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CALIPER&partsCategoryCode=CALIP"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CALIPER&partsCategoryCode=CALIP"),
           Entry(
               title: "CAMERA",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CAMERA&partsCategoryCode=CAM"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CAMERA&partsCategoryCode=CAM"),
           Entry(
               title: "CAP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CAP&partsCategoryCode=CAP"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CAP&partsCategoryCode=CAP"),
           Entry(
               title: "CARRIER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CARRIER&partsCategoryCode=CAR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CARRIER&partsCategoryCode=CAR"),
           Entry(
               title: "CASE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CASE&partsCategoryCode=CASE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CASE&partsCategoryCode=CASE"),
           Entry(
               title: "CATALYST CONVERTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CATALYST CONVERTER&partsCategoryCode=CATAL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CATALYST CONVERTER&partsCategoryCode=CATAL"),
           Entry(
               title: "CATCH",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CATCH&partsCategoryCode=CATCH"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CATCH&partsCategoryCode=CATCH"),
           Entry(
               title: "CENTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CENTER&partsCategoryCode=CEN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CENTER&partsCategoryCode=CEN"),
           Entry(
               title: "CENTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CENTER&partsCategoryCode=CENTER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CENTER&partsCategoryCode=CENTER"),
           Entry(
               title: "CHAIN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CHAIN&partsCategoryCode=CHA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CHAIN&partsCategoryCode=CHA"),
           Entry(
               title: "CHANNEL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CHANNEL&partsCategoryCode=CHANN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CHANNEL&partsCategoryCode=CHANN"),
           Entry(
               title: "CHARGE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CHARGE&partsCategoryCode=CHARG"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CHARGE&partsCategoryCode=CHARG"),
           Entry(
               title: "CHROME",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CHROME&partsCategoryCode=CHROM"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CHROME&partsCategoryCode=CHROM"),
           Entry(
               title: "CLAMP ",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CLAMP &partsCategoryCode=CLAMP"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CLAMP &partsCategoryCode=CLAMP"),
           Entry(
               title: "CLIP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CLIP&partsCategoryCode=CLIP"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CLIP&partsCategoryCode=CLIP"),
           Entry(
               title: "CLUTCH",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
           Entry(
               title: "CLUTCH",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CLUTCH&partsCategoryCode=CLUTCH"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CLUTCH&partsCategoryCode=CLUTCH"),
           Entry(
               title: "COIL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=COIL&partsCategoryCode=COIL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=COIL&partsCategoryCode=COIL"),
           Entry(
               title: "COMPUTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=COMPUTER&partsCategoryCode=COM"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=COMPUTER&partsCategoryCode=COM"),
           Entry(
               title: "COMBINATION",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=COMBINATION&partsCategoryCode=COMBIN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=COMBINATION&partsCategoryCode=COMBIN"),
           Entry(
               title: "COMPRESSION",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=COMPRESSION&partsCategoryCode=COMPRSN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=COMPRESSION&partsCategoryCode=COMPRSN"),
           Entry(
               title: "COMPRESSOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
           Entry(
               title: "CONDENSER ",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CONDENSER &partsCategoryCode=COND"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CONDENSER &partsCategoryCode=COND"),
           Entry(
               title: "CONNECTING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CONNECTING&partsCategoryCode=CONNTNG"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CONNECTING&partsCategoryCode=CONNTNG"),
           Entry(
               title: "CONNECTOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CONNECTOR&partsCategoryCode=CONNTR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CONNECTOR&partsCategoryCode=CONNTR"),
           Entry(
               title: "CONTROL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CONTROL&partsCategoryCode=CONTR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CONTROL&partsCategoryCode=CONTR"),
           Entry(
               title: "CONVERTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CONVERTER&partsCategoryCode=CONVE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CONVERTER&partsCategoryCode=CONVE"),
           Entry(
               title: "COOLANT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=COOLANT&partsCategoryCode=COOLA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=COOLANT&partsCategoryCode=COOLA"),
           Entry(
               title: "COOLER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=COOLER&partsCategoryCode=COOLER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=COOLER&partsCategoryCode=COOLER"),
           Entry(
               title: "COOLING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=COOLING&partsCategoryCode=COOLI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=COOLING&partsCategoryCode=COOLI"),
           Entry(
               title: "COUPLING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=COUPLING&partsCategoryCode=COUPL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=COUPLING&partsCategoryCode=COUPL"),
           Entry(
               title: "COVER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=COVER&partsCategoryCode=COVER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=COVER&partsCategoryCode=COVER"),
           Entry(
               title: "CRANK",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CRANK&partsCategoryCode=CRANK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CRANK&partsCategoryCode=CRANK"),
           Entry(
               title: "CROSS",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CROSS&partsCategoryCode=CROSS"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CROSS&partsCategoryCode=CROSS"),
           Entry(
               title: "CUP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CUP&partsCategoryCode=CUP"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CUP&partsCategoryCode=CUP"),
           Entry(
               title: "CUT BUSH",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
           Entry(
               title: "CYLINDER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CYLINDER&partsCategoryCode=CYL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CYLINDER&partsCategoryCode=CYL"),
           Entry(
               title: "CYLENDER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=CYLENDER&partsCategoryCode=CYLEN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=CYLENDER&partsCategoryCode=CYLEN"),
           Entry(
               title: "DAMPER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DAMPER&partsCategoryCode=DAMPE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DAMPER&partsCategoryCode=DAMPE"),
           Entry(
               title: "DASHBOARD",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DASHBOARD&partsCategoryCode=DASHB"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DASHBOARD&partsCategoryCode=DASHB"),
           Entry(
               title: "DEFLECTION",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DEFLECTION&partsCategoryCode=DEFLETN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DEFLECTION&partsCategoryCode=DEFLETN"),
           Entry(
               title: "DEFLECTOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DEFLECTOR&partsCategoryCode=DEFLETR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DEFLECTOR&partsCategoryCode=DEFLETR"),
           Entry(
               title: "DELIVERY UNIT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DELIVERY UNIT&partsCategoryCode=DELIV"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DELIVERY UNIT&partsCategoryCode=DELIV"),
           Entry(
               title: "DICKY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DICKY&partsCategoryCode=DICKY"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DICKY&partsCategoryCode=DICKY"),
           Entry(
               title: "DISC",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DISC&partsCategoryCode=DISC"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DISC&partsCategoryCode=DISC"),
           Entry(
               title: "DISTRIBUTION",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DISTRIBUTION&partsCategoryCode=DISTR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DISTRIBUTION&partsCategoryCode=DISTR"),
           Entry(
               title: "DME",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DME&partsCategoryCode=DME"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DME&partsCategoryCode=DME"),
           Entry(
               title: "DOOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DOOR&partsCategoryCode=DOOR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DOOR&partsCategoryCode=DOOR"),
           Entry(
               title: "DOWEL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DOWEL&partsCategoryCode=DOWEL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DOWEL&partsCategoryCode=DOWEL"),
           Entry(
               title: "DRIER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DRIER&partsCategoryCode=DRIER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DRIER&partsCategoryCode=DRIER"),
           Entry(
               title: "DRIVE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
           Entry(
               title: "ECU",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ECU&partsCategoryCode=ECU"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ECU&partsCategoryCode=ECU"),
           Entry(
               title: "ELECTRICAL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ELECTRICAL&partsCategoryCode=ELECT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ELECTRICAL&partsCategoryCode=ELECT"),
           Entry(
               title: "ELECTRICAL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
           Entry(
               title: "ELEMENT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ELEMENT&partsCategoryCode=ELEME"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ELEMENT&partsCategoryCode=ELEME"),
           Entry(
               title: "EMBLEM",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=EMBLEM&partsCategoryCode=EMB"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=EMBLEM&partsCategoryCode=EMB"),
           Entry(
               title: "END",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=END&partsCategoryCode=END"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=END&partsCategoryCode=END"),
           Entry(
               title: "ENGINE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ENGINE&partsCategoryCode=ENG"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ENGINE&partsCategoryCode=ENG"),
           Entry(
               title: "ENGINE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
           Entry(
               title: "EVAPORATOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
           Entry(
               title: "EXHAUST",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=EXHAUST&partsCategoryCode=EXH"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=EXHAUST&partsCategoryCode=EXH"),
           Entry(
               title: "EXPANSION",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
           Entry(
               title: "EXTENSION",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=EXTENSION&partsCategoryCode=EXTEN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=EXTENSION&partsCategoryCode=EXTEN"),
           Entry(
               title: "FAN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FAN&partsCategoryCode=FAN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FAN&partsCategoryCode=FAN"),
           Entry(
               title: "FENDER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FENDER&partsCategoryCode=FENDE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FENDER&partsCategoryCode=FENDE"),
           Entry(
               title: "FILTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FILTER&partsCategoryCode=FI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FILTER&partsCategoryCode=FI"),
           Entry(
               title: "FILTER",
               url:
-                  "/catalog/products?make=MB&makeCode=BMW&partsCategory=FILTER&partsCategoryCode=FI"),
+                  "/productsList?make=MB&makeCode=BMW&partsCategory=FILTER&partsCategoryCode=FI"),
           Entry(
               title: "FIILTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FIILTER&partsCategoryCode=FIILT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FIILTER&partsCategoryCode=FIILT"),
           Entry(
               title: "FILL-IN FLAP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FILL-IN FLAP&partsCategoryCode=FILL-"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FILL-IN FLAP&partsCategoryCode=FILL-"),
           Entry(
               title: "FILLER PIPE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FILLER PIPE&partsCategoryCode=FILLER PIPE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FILLER PIPE&partsCategoryCode=FILLER PIPE"),
           Entry(
               title: "FILLISTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FILLISTER&partsCategoryCode=FILLI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FILLISTER&partsCategoryCode=FILLI"),
           Entry(
               title: "FILLER CAP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FILLER CAP&partsCategoryCode=FILLRC"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FILLER CAP&partsCategoryCode=FILLRC"),
           Entry(
               title: "FILLER FLAP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FILLER FLAP&partsCategoryCode=FILLRF"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FILLER FLAP&partsCategoryCode=FILLRF"),
           Entry(
               title: "FILLER NECK",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FILLER NECK&partsCategoryCode=FILLRN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FILLER NECK&partsCategoryCode=FILLRN"),
           Entry(
               title: "FILLER PIPE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FILLER PIPE&partsCategoryCode=FILLRP"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FILLER PIPE&partsCategoryCode=FILLRP"),
           Entry(
               title: "FILLER PIPE WASH CONTAINER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FILLER PIPE WASH CONTAINER&partsCategoryCode=FILLRPW"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FILLER PIPE WASH CONTAINER&partsCategoryCode=FILLRPW"),
           Entry(
               title: "FINISHER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FINISHER&partsCategoryCode=FINIS"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FINISHER&partsCategoryCode=FINIS"),
           Entry(
               title: "FLOOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FLOOR&partsCategoryCode=FL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FLOOR&partsCategoryCode=FL"),
           Entry(
               title: "FLAP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FLAP&partsCategoryCode=FLAP"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FLAP&partsCategoryCode=FLAP"),
           Entry(
               title: "FOG",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FOG&partsCategoryCode=FOG"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FOG&partsCategoryCode=FOG"),
           Entry(
               title: "FRAME",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FRAME&partsCategoryCode=FRAME"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FRAME&partsCategoryCode=FRAME"),
           Entry(
               title: "FRONT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FRONT&partsCategoryCode=FRNT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FRONT&partsCategoryCode=FRNT"),
           Entry(
               title: "FRONR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FRONR&partsCategoryCode=FRONR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FRONR&partsCategoryCode=FRONR"),
           Entry(
               title: "FUEL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FUEL&partsCategoryCode=FU"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FUEL&partsCategoryCode=FU"),
           Entry(
               title: "FUEL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FUEL&partsCategoryCode=FUEL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FUEL&partsCategoryCode=FUEL"),
           Entry(
               title: "FUSE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=FUSE&partsCategoryCode=FUSE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=FUSE&partsCategoryCode=FUSE"),
           Entry(
               title: "GASKET",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=GASKET&partsCategoryCode=GAS"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=GASKET&partsCategoryCode=GAS"),
           Entry(
               title: "GASKET",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=GASKET&partsCategoryCode=GASK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=GASKET&partsCategoryCode=GASK"),
           Entry(
               title: "GEAR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=GEAR&partsCategoryCode=GEAR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=GEAR&partsCategoryCode=GEAR"),
           Entry(
               title: "GLASS",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=GLASS&partsCategoryCode=GL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=GLASS&partsCategoryCode=GL"),
           Entry(
               title: "GLASS",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=GLASS&partsCategoryCode=GLASS"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=GLASS&partsCategoryCode=GLASS"),
           Entry(
               title: "GLOW",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=GLOW&partsCategoryCode=GLOW"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=GLOW&partsCategoryCode=GLOW"),
           Entry(
               title: "GEAR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=GEAR&partsCategoryCode=GR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=GEAR&partsCategoryCode=GR"),
           Entry(
               title: "GRID",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=GRID&partsCategoryCode=GRID"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=GRID&partsCategoryCode=GRID"),
           Entry(
               title: "GRILL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=GRILL&partsCategoryCode=GRILL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=GRILL&partsCategoryCode=GRILL"),
           Entry(
               title: "GROMMET",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=GROMMET&partsCategoryCode=GROMM"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=GROMMET&partsCategoryCode=GROMM"),
           Entry(
               title: "GUIDE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
           Entry(
               title: "HAND",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HAND&partsCategoryCode=HAN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HAND&partsCategoryCode=HAN"),
           Entry(
               title: "HANDL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HANDL&partsCategoryCode=HANDL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HANDL&partsCategoryCode=HANDL"),
           Entry(
               title: "HEAD",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HEAD&partsCategoryCode=HEAD"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HEAD&partsCategoryCode=HEAD"),
           Entry(
               title: "HEAT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HEAT&partsCategoryCode=HEAT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HEAT&partsCategoryCode=HEAT"),
           Entry(
               title: "HIGH PRESSURE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HIGH PRESSURE&partsCategoryCode=HIGH"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HIGH PRESSURE&partsCategoryCode=HIGH"),
           Entry(
               title: "HINGE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HINGE&partsCategoryCode=HINGE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HINGE&partsCategoryCode=HINGE"),
           Entry(
               title: "HOLDER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HOLDER&partsCategoryCode=HOLDER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HOLDER&partsCategoryCode=HOLDER"),
           Entry(
               title: "HOOD",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HOOD&partsCategoryCode=HOOD"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HOOD&partsCategoryCode=HOOD"),
           Entry(
               title: "HORN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HORN&partsCategoryCode=HORN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HORN&partsCategoryCode=HORN"),
           Entry(
               title: "HOSE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HOSE&partsCategoryCode=HOSE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HOSE&partsCategoryCode=HOSE"),
           Entry(
               title: "HOUSING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HOUSING&partsCategoryCode=HOUSING"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HOUSING&partsCategoryCode=HOUSING"),
           Entry(
               title: "HUB",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HUB&partsCategoryCode=HUB"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HUB&partsCategoryCode=HUB"),
           Entry(
               title: "HYDRAULIC",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=HYDRAULIC&partsCategoryCode=HYDRA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=HYDRAULIC&partsCategoryCode=HYDRA"),
           Entry(
               title: "IDLER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=IDLER&partsCategoryCode=IDLER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=IDLER&partsCategoryCode=IDLER"),
           Entry(
               title: "IGNITION",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
           Entry(
               title: "INDICATOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=INDICATOR&partsCategoryCode=INDIC"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=INDICATOR&partsCategoryCode=INDIC"),
           Entry(
               title: "INJECTOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
           Entry(
               title: "INSERT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=INSERT&partsCategoryCode=INSER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=INSERT&partsCategoryCode=INSER"),
           Entry(
               title: "INSTRUMENT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=INSTRUMENT&partsCategoryCode=INSTR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=INSTRUMENT&partsCategoryCode=INSTR"),
           Entry(
               title: "INSULATOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
           Entry(
               title: "INTAKE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=INTAKE&partsCategoryCode=INTAK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=INTAKE&partsCategoryCode=INTAK"),
           Entry(
               title: "INTERIOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=INTERIOR&partsCategoryCode=INTER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=INTERIOR&partsCategoryCode=INTER"),
           Entry(
               title: "JOINT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=JOINT&partsCategoryCode=JOINT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=JOINT&partsCategoryCode=JOINT"),
           Entry(
               title: "KEY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=KEY&partsCategoryCode=KEY"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=KEY&partsCategoryCode=KEY"),
           Entry(
               title: "KIT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=KIT&partsCategoryCode=KIT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=KIT&partsCategoryCode=KIT"),
           Entry(
               title: "KNOB",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=KNOB&partsCategoryCode=KNOB"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=KNOB&partsCategoryCode=KNOB"),
           Entry(
               title: "KNUCKLE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=KNUCKLE&partsCategoryCode=KNUCK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=KNUCKLE&partsCategoryCode=KNUCK"),
           Entry(
               title: "LAMP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=LAMP&partsCategoryCode=LAMP"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=LAMP&partsCategoryCode=LAMP"),
           Entry(
               title: "LATCH",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=LATCH&partsCategoryCode=LATCH"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=LATCH&partsCategoryCode=LATCH"),
           Entry(
               title: "LATERAL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=LATERAL&partsCategoryCode=LATER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=LATERAL&partsCategoryCode=LATER"),
           Entry(
               title: "LEVER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=LEVER&partsCategoryCode=LEVER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=LEVER&partsCategoryCode=LEVER"),
           Entry(
               title: "LIGHT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=LIGHT&partsCategoryCode=LGHT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=LIGHT&partsCategoryCode=LGHT"),
           Entry(
               title: "LINE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=LINE&partsCategoryCode=LINE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=LINE&partsCategoryCode=LINE"),
           Entry(
               title: "LINK",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=LINK&partsCategoryCode=LINK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=LINK&partsCategoryCode=LINK"),
           Entry(
               title: "LOCK",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=LOCK&partsCategoryCode=LOCK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=LOCK&partsCategoryCode=LOCK"),
           Entry(
               title: "LOGO",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=LOGO&partsCategoryCode=LOGO"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=LOGO&partsCategoryCode=LOGO"),
           Entry(
               title: "LOWER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=LOWER&partsCategoryCode=LOWER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=LOWER&partsCategoryCode=LOWER"),
           Entry(
               title: "MASTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=MASTER&partsCategoryCode=MASTE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=MASTER&partsCategoryCode=MASTE"),
           Entry(
               title: "MECHATRONIC",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=MECHATRONIC&partsCategoryCode=MECHA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=MECHATRONIC&partsCategoryCode=MECHA"),
           Entry(
               title: "MIRROR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
           Entry(
               title: "MODULE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=MODULE&partsCategoryCode=MODUL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=MODULE&partsCategoryCode=MODUL"),
           Entry(
               title: "MOLDING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=MOLDING&partsCategoryCode=MOLDI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=MOLDING&partsCategoryCode=MOLDI"),
           Entry(
               title: "MOTOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
           Entry(
               title: "MOUDLING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
           Entry(
               title: "MOUNT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
           Entry(
               title: "MOUNTING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
           Entry(
               title: "MULTIRIB",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=MULTIRIB&partsCategoryCode=MULTI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=MULTIRIB&partsCategoryCode=MULTI"),
           Entry(
               title: "NOZZLE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
           Entry(
               title: "NUT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=NUT&partsCategoryCode=NUT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=NUT&partsCategoryCode=NUT"),
           Entry(
               title: "OIL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=OIL&partsCategoryCode=OIL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=OIL&partsCategoryCode=OIL"),
           Entry(
               title: "OIL ASSY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
           Entry(
               title: "OIL CAP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=OIL CAP&partsCategoryCode=OILC"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=OIL CAP&partsCategoryCode=OILC"),
           Entry(
               title: "OIL COOLER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=OIL COOLER&partsCategoryCode=OILCO"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=OIL COOLER&partsCategoryCode=OILCO"),
           Entry(
               title: "O - RING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=O - RING&partsCategoryCode=O-R"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=O - RING&partsCategoryCode=O-R"),
           Entry(
               title: "OTHERS",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=OTHERS&partsCategoryCode=OTHER"),
           Entry(
               title: "PAD",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PAD&partsCategoryCode=PAD"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PAD&partsCategoryCode=PAD"),
           Entry(
               title: "PANEL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PANEL&partsCategoryCode=PANEL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PANEL&partsCategoryCode=PANEL"),
           Entry(
               title: "PIECE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PIECE&partsCategoryCode=PIECE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PIECE&partsCategoryCode=PIECE"),
           Entry(
               title: "PIN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PIN&partsCategoryCode=PIN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PIN&partsCategoryCode=PIN"),
           Entry(
               title: "PIPE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PIPE&partsCategoryCode=PIPE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PIPE&partsCategoryCode=PIPE"),
           Entry(
               title: "PISTON",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PISTON&partsCategoryCode=PISTO"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PISTON&partsCategoryCode=PISTO"),
           Entry(
               title: "PLATE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PLATE&partsCategoryCode=PLATE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PLATE&partsCategoryCode=PLATE"),
           Entry(
               title: "PLUG",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PLUG&partsCategoryCode=PLUG"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PLUG&partsCategoryCode=PLUG"),
           Entry(
               title: "POWER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=POWER&partsCategoryCode=POWER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=POWER&partsCategoryCode=POWER"),
           Entry(
               title: "PRESSURE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PRESSURE&partsCategoryCode=PRESS"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PRESSURE&partsCategoryCode=PRESS"),
           Entry(
               title: "PROTECTOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PROTECTOR&partsCategoryCode=PROTE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PROTECTOR&partsCategoryCode=PROTE"),
           Entry(
               title: "PULLEY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PULLEY&partsCategoryCode=PULLE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PULLEY&partsCategoryCode=PULLE"),
           Entry(
               title: "PULLY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PULLY&partsCategoryCode=PULLY"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PULLY&partsCategoryCode=PULLY"),
           Entry(
               title: "PUMP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=PUMP&partsCategoryCode=PUMP"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=PUMP&partsCategoryCode=PUMP"),
           Entry(
               title: "RADIATOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
           Entry(
               title: "RADIATOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
           Entry(
               title: "RAIL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=RAIL&partsCategoryCode=RAIL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=RAIL&partsCategoryCode=RAIL"),
           Entry(
               title: "REAR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=REAR&partsCategoryCode=REAR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=REAR&partsCategoryCode=REAR"),
           Entry(
               title: "REFLECTOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
           Entry(
               title: "REGISTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=REGISTER&partsCategoryCode=REGIS"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=REGISTER&partsCategoryCode=REGIS"),
           Entry(
               title: "REGULATOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
           Entry(
               title: "REINFORCEMENT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=REINFORCEMENT&partsCategoryCode=REINF"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=REINFORCEMENT&partsCategoryCode=REINF"),
           Entry(
               title: "RELAY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=RELAY&partsCategoryCode=RELAY"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=RELAY&partsCategoryCode=RELAY"),
           Entry(
               title: "RELEY",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=RELEY&partsCategoryCode=RELEY"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=RELEY&partsCategoryCode=RELEY"),
           Entry(
               title: "REPAIR KIT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=REPAIR KIT&partsCategoryCode=REPAI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=REPAIR KIT&partsCategoryCode=REPAI"),
           Entry(
               title: "RESERVOIR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
           Entry(
               title: "RESISTOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=RESISTOR&partsCategoryCode=RESIS"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=RESISTOR&partsCategoryCode=RESIS"),
           Entry(
               title: "RIVET",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=RIVET&partsCategoryCode=RIVET"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=RIVET&partsCategoryCode=RIVET"),
           Entry(
               title: "ROD",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ROD&partsCategoryCode=ROD"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ROD&partsCategoryCode=ROD"),
           Entry(
               title: "ROLLER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ROLLER&partsCategoryCode=ROLLE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ROLLER&partsCategoryCode=ROLLE"),
           Entry(
               title: "ROOF",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ROOF&partsCategoryCode=ROOF"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ROOF&partsCategoryCode=ROOF"),
           Entry(
               title: "ROTOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
           Entry(
               title: "RUBBER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=RUBBER&partsCategoryCode=RUBBE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=RUBBER&partsCategoryCode=RUBBE"),
           Entry(
               title: "SCREW",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SCREW&partsCategoryCode=SCREW"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SCREW&partsCategoryCode=SCREW"),
           Entry(
               title: "SEAL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SEAL&partsCategoryCode=SEAL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SEAL&partsCategoryCode=SEAL"),
           Entry(
               title: "SEALING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SEALING&partsCategoryCode=SEALI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SEALING&partsCategoryCode=SEALI"),
           Entry(
               title: "SEAT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SEAT&partsCategoryCode=SEAT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SEAT&partsCategoryCode=SEAT"),
           Entry(
               title: "SENDER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SENDER&partsCategoryCode=SENDER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SENDER&partsCategoryCode=SENDER"),
           Entry(
               title: "SENSOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SENSOR&partsCategoryCode=SENSO"),
           Entry(
               title: "SENSOR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SENSOR&partsCategoryCode=SENSOR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SENSOR&partsCategoryCode=SENSOR"),
           Entry(
               title: "SHAFT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
           Entry(
               title: "SHOCK",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
           Entry(
               title: "SIDE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SIDE&partsCategoryCode=SIDE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SIDE&partsCategoryCode=SIDE"),
           Entry(
               title: "SLEEVE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SLEEVE&partsCategoryCode=SLEEV"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SLEEVE&partsCategoryCode=SLEEV"),
           Entry(
               title: "SLIDE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SLIDE&partsCategoryCode=SLIDE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SLIDE&partsCategoryCode=SLIDE"),
           Entry(
               title: "SOCKET",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SOCKET&partsCategoryCode=SOCKE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SOCKET&partsCategoryCode=SOCKE"),
           Entry(
               title: "SOLENOID",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SOLENOID&partsCategoryCode=SOLEN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SOLENOID&partsCategoryCode=SOLEN"),
           Entry(
               title: "SPACER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SPACER&partsCategoryCode=SPACE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SPACER&partsCategoryCode=SPACE"),
           Entry(
               title: "SPARK PLUG",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
           Entry(
               title: "SPEAKER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SPEAKER&partsCategoryCode=SPEAK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SPEAKER&partsCategoryCode=SPEAK"),
           Entry(
               title: "SPINDLE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SPINDLE&partsCategoryCode=SPIND"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SPINDLE&partsCategoryCode=SPIND"),
           Entry(
               title: "SPOILER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
           Entry(
               title: "SPRAY NOZZLE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SPRAY NOZZLE&partsCategoryCode=SPRAY"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SPRAY NOZZLE&partsCategoryCode=SPRAY"),
           Entry(
               title: "SPRING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SPRING&partsCategoryCode=SPRIN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SPRING&partsCategoryCode=SPRIN"),
           Entry(
               title: "SPROCKET",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SPROCKET&partsCategoryCode=SPROC"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SPROCKET&partsCategoryCode=SPROC"),
           Entry(
               title: "ST.LINK",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=ST.LINK&partsCategoryCode=ST.LI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=ST.LINK&partsCategoryCode=ST.LI"),
           Entry(
               title: "STABILIZER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=STABILIZER&partsCategoryCode=STABI"),
           Entry(
               title: "STARTER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=STARTER&partsCategoryCode=START"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=STARTER&partsCategoryCode=START"),
           Entry(
               title: "STEARING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=STEARING&partsCategoryCode=STEAR"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=STEARING&partsCategoryCode=STEAR"),
           Entry(
               title: "STEERING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=STEERING&partsCategoryCode=STEER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=STEERING&partsCategoryCode=STEER"),
           Entry(
               title: "STEERING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=STEERING&partsCategoryCode=STEERING"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=STEERING&partsCategoryCode=STEERING"),
           Entry(
               title: "STICKER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=STICKER&partsCategoryCode=STICK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=STICKER&partsCategoryCode=STICK"),
           Entry(
               title: "STOP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=STOP&partsCategoryCode=STOP"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=STOP&partsCategoryCode=STOP"),
           Entry(
               title: "STRIP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=STRIP&partsCategoryCode=STRIP"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=STRIP&partsCategoryCode=STRIP"),
           Entry(
               title: "STRUT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=STRUT&partsCategoryCode=STRUT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=STRUT&partsCategoryCode=STRUT"),
           Entry(
               title: "SUCTION",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SUCTION&partsCategoryCode=SUCTI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SUCTION&partsCategoryCode=SUCTI"),
           Entry(
               title: "SUN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SUN&partsCategoryCode=SUN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SUN&partsCategoryCode=SUN"),
           Entry(
               title: "SUPPORT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
           Entry(
               title: "SUSPENSION",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
           Entry(
               title: "SUSPENSION",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SUSPENSION&partsCategoryCode=SUSPENSION"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SUSPENSION&partsCategoryCode=SUSPENSION"),
           Entry(
               title: "SWITCH",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=SWITCH&partsCategoryCode=SWITC"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=SWITCH&partsCategoryCode=SWITC"),
           Entry(
               title: "TANK",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=TANK&partsCategoryCode=TANK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=TANK&partsCategoryCode=TANK"),
           Entry(
               title: "TENSIONER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
           Entry(
               title: "THERMOSTAT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
           Entry(
               title: "THROTTLE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=THROTTLE&partsCategoryCode=THROT"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=THROTTLE&partsCategoryCode=THROT"),
           Entry(
               title: "TIE ROD",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=TIE ROD&partsCategoryCode=TIER"),
           Entry(
               title: "TIMING CHAIN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=TIMING CHAIN&partsCategoryCode=TIMINC"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=TIMING CHAIN&partsCategoryCode=TIMINC"),
           Entry(
               title: "TIRROD",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=TIRROD&partsCategoryCode=TIRRO"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=TIRROD&partsCategoryCode=TIRRO"),
           Entry(
               title: "TRANSMISSION",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
           Entry(
               title: "TRIM",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=TRIM&partsCategoryCode=TRI"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=TRIM&partsCategoryCode=TRI"),
           Entry(
               title: "TRUNK",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=TRUNK&partsCategoryCode=TRUNK"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=TRUNK&partsCategoryCode=TRUNK"),
           Entry(
               title: "TUBE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=TUBE&partsCategoryCode=TUBE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=TUBE&partsCategoryCode=TUBE"),
           Entry(
               title: "TURBO",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=TURBO&partsCategoryCode=TURBO"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=TURBO&partsCategoryCode=TURBO"),
           Entry(
               title: "TURN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=TURN&partsCategoryCode=TURN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=TURN&partsCategoryCode=TURN"),
           Entry(
               title: "TYRE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=TYRE&partsCategoryCode=TYRE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=TYRE&partsCategoryCode=TYRE"),
           Entry(
               title: "UPPER ARM",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
           Entry(
               title: "VACCUM",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=VACCUM&partsCategoryCode=VACCU"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=VACCUM&partsCategoryCode=VACCU"),
           Entry(
               title: "VALVE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=VALVE&partsCategoryCode=VALVE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=VALVE&partsCategoryCode=VALVE"),
           Entry(
               title: "V-BELT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
           Entry(
               title: "VIBRATION",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=VIBRATION&partsCategoryCode=VIBRA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=VIBRATION&partsCategoryCode=VIBRA"),
           Entry(
               title: "VOLTAGE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=VOLTAGE&partsCategoryCode=VOLTA"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=VOLTAGE&partsCategoryCode=VOLTA"),
           Entry(
               title: "WASHER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=WASHER&partsCategoryCode=WASHE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=WASHER&partsCategoryCode=WASHE"),
           Entry(
               title: "WATER PUMP",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
           Entry(
               title: "WEATER STRIPE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=WEATER STRIPE&partsCategoryCode=WEATE"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=WEATER STRIPE&partsCategoryCode=WEATE"),
           Entry(
               title: "WHEEL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
           Entry(
               title: "WIND",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=WIND&partsCategoryCode=WIND"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=WIND&partsCategoryCode=WIND"),
           Entry(
               title: "WINDOW",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=WINDOW&partsCategoryCode=WINDO"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=WINDOW&partsCategoryCode=WINDO"),
           Entry(
               title: "WINDSHIELD",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=WINDSHIELD&partsCategoryCode=WINDS"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=WINDSHIELD&partsCategoryCode=WINDS"),
           Entry(
               title: "WIPER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=WIPER&partsCategoryCode=WIPER"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=WIPER&partsCategoryCode=WIPER"),
           Entry(
               title: "WIRING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=WIRING&partsCategoryCode=WIRIN"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=WIRING&partsCategoryCode=WIRIN"),
           Entry(
               title: "WISH BONE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&partsCategory=WISH BONE&partsCategoryCode=WISH"),
+                  "/productsList?make=BM&makeCode=BMW&partsCategory=WISH BONE&partsCategoryCode=WISH"),
         ],
       ),
       Entry(
         title: 'ELRING && GERMANY',
-        url:
-            "/catalog/products?make=AU&makeCode=AUDI&origin=CHINA&origincode=CHI",
+        url: "/productsList?make=AU&makeCode=AUDI&origin=CHINA&origincode=CHI",
         submenu: <Entry>[
           Entry(
               title: "CHINA",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=CHINA&origincode=CHI"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=CHINA&origincode=CHI"),
           Entry(
               title: "CONTI",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=CONTI&origincode=CON"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=CONTI&origincode=CON"),
           Entry(
               title: "DENSO",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=DENSO&origincode=DSO"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=DENSO&origincode=DSO"),
           Entry(
               title: "ELRING",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=ELRING&origincode=ELR"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=ELRING&origincode=ELR"),
           Entry(
               title: "FEBI",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=FEBI&origincode=FBI"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=FEBI&origincode=FBI"),
           Entry(
               title: "GERMANY",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=GERMANY&origincode=GER"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=GERMANY&origincode=GER"),
           Entry(
               title: "HENGST",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=HENGST&origincode=HST"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=HENGST&origincode=HST"),
           Entry(
               title: "LEMFORDER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=LEMFORDER&origincode=LEM"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=LEMFORDER&origincode=LEM"),
         ],
       ),
       Entry(
         title: 'MAHLE && NISSENS',
-        url:
-            "/catalog/products?make=AU&makeCode=AUDI&origin=MAHLE&origincode=MHF",
+        url: "/productsList?make=AU&makeCode=AUDI&origin=MAHLE&origincode=MHF",
         submenu: <Entry>[
           Entry(
               title: "MAHLE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=MAHLE&origincode=MHF"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=MAHLE&origincode=MHF"),
           Entry(
               title: "MAN",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=MAN&origincode=MAN"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=MAN&origincode=MAN"),
           Entry(
               title: "MAXPART",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=MAXPART&origincode=MXP"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=MAXPART&origincode=MXP"),
           Entry(
               title: "MAYER",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=MAYER&origincode=MAYER"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=MAYER&origincode=MAYER"),
           Entry(
               title: "MEYLE",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=MEYLE&origincode=MEY"),
+                  "/productsList?make=AU&makeCode=AUDI&origin=MEYLE&origincode=MEY"),
           Entry(
               title: "MOBIL 1",
               url:
-                  "/catalog/products?make=MB&makeCode=AUDI&origin=MOBIL 1&origincode=MOB"),
+                  "/productsList?make=MB&makeCode=AUDI&origin=MOBIL 1&origincode=MOB"),
           Entry(
               title: "NISSENS",
               url:
-                  "/catalog/products?make=AU&makeCode=AUDI&origin=NISSENS&origincode=NIS")
+                  "/productsList?make=AU&makeCode=AUDI&origin=NISSENS&origincode=NIS")
         ],
       ),
       Entry(
         title: 'AUTOSTAR && BOSCH',
-        url: "/catalog/products?make=BM&makeCode=BMW&origin=ATC&origincode=ATC",
+        url: "/productsList?make=BM&makeCode=BMW&origin=ATC&origincode=ATC",
         submenu: <Entry>[
           Entry(
               title: "ATC",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=ATC&origincode=ATC"),
+                  "/productsList?make=BM&makeCode=BMW&origin=ATC&origincode=ATC"),
           Entry(
               title: "AUTOSTAR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=AUTOSTAR&origincode=AST"),
+                  "/productsList?make=BM&makeCode=BMW&origin=AUTOSTAR&origincode=AST"),
           Entry(
               title: "BEHR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=BEHR&origincode=BHR"),
+                  "/productsList?make=BM&makeCode=BMW&origin=BEHR&origincode=BHR"),
           Entry(
               title: "BILSTIEN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=BILSTIEN&origincode=BLN"),
+                  "/productsList?make=BM&makeCode=BMW&origin=BILSTIEN&origincode=BLN"),
           Entry(
               title: "BLUE PRINT",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=BLUE PRINT&origincode=BLP"),
+                  "/productsList?make=BM&makeCode=BMW&origin=BLUE PRINT&origincode=BLP"),
           Entry(
               title: "BOGE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=BOGE&origincode=BOG"),
+                  "/productsList?make=BM&makeCode=BMW&origin=BOGE&origincode=BOG"),
           Entry(
               title: "BOSCH",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=BOSCH&origincode=BSH"),
+                  "/productsList?make=BM&makeCode=BMW&origin=BOSCH&origincode=BSH"),
         ],
       ),
       Entry(
         title: 'BREMI && FERRADO',
-        url:
-            "/catalog/products?make=BM&makeCode=BMW&origin=BREMI&origincode=BMI",
+        url: "/productsList?make=BM&makeCode=BMW&origin=BREMI&origincode=BMI",
         submenu: <Entry>[
           Entry(
               title: "BREMI",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=BREMI&origincode=BMI"),
+                  "/productsList?make=BM&makeCode=BMW&origin=BREMI&origincode=BMI"),
           Entry(
               title: "CONTI",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=CONTI&origincode=CON"),
+                  "/productsList?make=BM&makeCode=BMW&origin=CONTI&origincode=CON"),
           Entry(
               title: "CORTECO",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=CORTECO&origincode=COR"),
+                  "/productsList?make=BM&makeCode=BMW&origin=CORTECO&origincode=COR"),
           Entry(
               title: "DENSO",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=DENSO&origincode=DSO"),
+                  "/productsList?make=BM&makeCode=BMW&origin=DENSO&origincode=DSO"),
           Entry(
               title: "ELFOTECH",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=ELFOTECH&origincode=ELF"),
+                  "/productsList?make=BM&makeCode=BMW&origin=ELFOTECH&origincode=ELF"),
           Entry(
               title: "ELRING",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=ELRING&origincode=ELR"),
+                  "/productsList?make=BM&makeCode=BMW&origin=ELRING&origincode=ELR"),
           Entry(
               title: "FAG",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=FAG&origincode=FTE"),
+                  "/productsList?make=BM&makeCode=BMW&origin=FAG&origincode=FTE"),
           Entry(
               title: "FEBI",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=FEBI&origincode=FBI"),
+                  "/productsList?make=BM&makeCode=BMW&origin=FEBI&origincode=FBI"),
           Entry(
               title: "FERRADO",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=FERRADO&origincode=FER"),
+                  "/productsList?make=BM&makeCode=BMW&origin=FERRADO&origincode=FER"),
         ],
       ),
       Entry(
         title: 'GERMANY && GOETZE',
-        url:
-            "/catalog/products?make=MB&makeCode=BMW&origin=GERMANY&origincode=GER",
+        url: "/productsList?make=MB&makeCode=BMW&origin=GERMANY&origincode=GER",
         submenu: <Entry>[
           Entry(
               title: "GERMANY",
               url:
-                  "/catalog/products?make=MB&makeCode=BMW&origin=GERMANY&origincode=GER"),
+                  "/productsList?make=MB&makeCode=BMW&origin=GERMANY&origincode=GER"),
           Entry(
               title: "GKN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=GKN&origincode=GKN"),
+                  "/productsList?make=BM&makeCode=BMW&origin=GKN&origincode=GKN"),
           Entry(
               title: "GOETZE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=GOETZE&origincode=GTZ"),
+                  "/productsList?make=BM&makeCode=BMW&origin=GOETZE&origincode=GTZ"),
           Entry(
               title: "HELLA",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=HELLA&origincode=HLA"),
+                  "/productsList?make=BM&makeCode=BMW&origin=HELLA&origincode=HLA"),
           Entry(
               title: "HENGST",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=HENGST&origincode=HST"),
+                  "/productsList?make=BM&makeCode=BMW&origin=HENGST&origincode=HST"),
           Entry(
               title: "HENGST",
               url:
-                  "/catalog/products?make=MB&makeCode=BMW&origin=HENGST&origincode=HST"),
+                  "/productsList?make=MB&makeCode=BMW&origin=HENGST&origincode=HST"),
           Entry(
               title: "JAPAN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=JAPAN&origincode=JAPAN"),
+                  "/productsList?make=BM&makeCode=BMW&origin=JAPAN&origincode=JAPAN"),
           Entry(
               title: "LEMFORDER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=LEMFORDER&origincode=LEM"),
+                  "/productsList?make=BM&makeCode=BMW&origin=LEMFORDER&origincode=LEM"),
         ],
       ),
       Entry(
         title: 'MAYER && NISSENS',
-        url: "/catalog/products?make=BM&makeCode=BMW&origin=LUK&origincode=LUK",
+        url: "/productsList?make=BM&makeCode=BMW&origin=LUK&origincode=LUK",
         submenu: <Entry>[
           Entry(
               title: "LUK",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=LUK&origincode=LUK"),
+                  "/productsList?make=BM&makeCode=BMW&origin=LUK&origincode=LUK"),
           Entry(
               title: "MAGNET MARELLI",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=MAGNET MARELLI&origincode=MM"),
+                  "/productsList?make=BM&makeCode=BMW&origin=MAGNET MARELLI&origincode=MM"),
           Entry(
               title: "MAHLE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=MAHLE&origincode=MHF"),
+                  "/productsList?make=BM&makeCode=BMW&origin=MAHLE&origincode=MHF"),
           Entry(
               title: "MAN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=MAN&origincode=MAN"),
+                  "/productsList?make=BM&makeCode=BMW&origin=MAN&origincode=MAN"),
           Entry(
               title: "MAXPART",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=MAXPART&origincode=MXP"),
+                  "/productsList?make=BM&makeCode=BMW&origin=MAXPART&origincode=MXP"),
           Entry(
               title: "MAYER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=MAYER&origincode=MAYER"),
+                  "/productsList?make=BM&makeCode=BMW&origin=MAYER&origincode=MAYER"),
           Entry(
               title: "MEYLE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=MEYLE&origincode=MEY"),
+                  "/productsList?make=BM&makeCode=BMW&origin=MEYLE&origincode=MEY"),
           Entry(
               title: "MOBIL 1",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=MOBIL 1&origincode=MOB"),
+                  "/productsList?make=BM&makeCode=BMW&origin=MOBIL 1&origincode=MOB"),
           Entry(
               title: "NISSENS",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=NISSENS&origincode=NIS")
+                  "/productsList?make=BM&makeCode=BMW&origin=NISSENS&origincode=NIS")
         ],
       ),
       Entry(
         title: 'ORIGINAL && SIMMER',
-        url:
-            "/catalog/products?make=BM&makeCode=BMW&origin=ORIGINAL&origincode=OE",
+        url: "/productsList?make=BM&makeCode=BMW&origin=ORIGINAL&origincode=OE",
         submenu: <Entry>[
           Entry(
               title: "ORIGINAL",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=ORIGINAL&origincode=OE"),
+                  "/productsList?make=BM&makeCode=BMW&origin=ORIGINAL&origincode=OE"),
           Entry(
               title: "OSRAM",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=OSRAM&origincode=OSR"),
+                  "/productsList?make=BM&makeCode=BMW&origin=OSRAM&origincode=OSR"),
           Entry(
               title: "PIERBURG",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=PIERBURG&origincode=PBG"),
+                  "/productsList?make=BM&makeCode=BMW&origin=PIERBURG&origincode=PBG"),
           Entry(
               title: "PIRELLI",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=PIRELLI&origincode=PIR"),
+                  "/productsList?make=BM&makeCode=BMW&origin=PIRELLI&origincode=PIR"),
           Entry(
               title: "REMSA",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=REMSA&origincode=REM"),
+                  "/productsList?make=BM&makeCode=BMW&origin=REMSA&origincode=REM"),
           Entry(
               title: "RHEINMANN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=RHEINMANN&origincode=RM"),
+                  "/productsList?make=BM&makeCode=BMW&origin=RHEINMANN&origincode=RM"),
           Entry(
               title: "SACHS",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=SACHS&origincode=SCH"),
+                  "/productsList?make=BM&makeCode=BMW&origin=SACHS&origincode=SCH"),
           Entry(
               title: "SIMMER",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=SIMMER&origincode=SIM"),
+                  "/productsList?make=BM&makeCode=BMW&origin=SIMMER&origincode=SIM"),
           Entry(
               title: "SKF",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=SKF&origincode=SKF"),
+                  "/productsList?make=BM&makeCode=BMW&origin=SKF&origincode=SKF"),
           Entry(
               title: "SPARX",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=SPARX&origincode=SPX"),
+                  "/productsList?make=BM&makeCode=BMW&origin=SPARX&origincode=SPX"),
         ],
       ),
       Entry(
         title: 'TEXTAR && VAICO',
         url:
-            "/catalog/products?make=BM&makeCode=BMW&origin=STABILUS&origincode=STB",
+            "/productsList?make=BM&makeCode=BMW&origin=STABILUS&origincode=STB",
         submenu: <Entry>[
           Entry(
               title: "STABILUS",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=STABILUS&origincode=STB"),
+                  "/productsList?make=BM&makeCode=BMW&origin=STABILUS&origincode=STB"),
           Entry(
               title: "TAIWAN",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=TAIWAN&origincode=TWN"),
+                  "/productsList?make=BM&makeCode=BMW&origin=TAIWAN&origincode=TWN"),
           Entry(
               title: "TEXTAR",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=TEXTAR&origincode=TEX"),
+                  "/productsList?make=BM&makeCode=BMW&origin=TEXTAR&origincode=TEX"),
           Entry(
               title: "TOPDRIVE",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=TOPDRIVE&origincode=TDR"),
+                  "/productsList?make=BM&makeCode=BMW&origin=TOPDRIVE&origincode=TDR"),
           Entry(
               title: "TRUCKTEC",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=TRUCKTEC&origincode=TTC"),
+                  "/productsList?make=BM&makeCode=BMW&origin=TRUCKTEC&origincode=TTC"),
           Entry(
               title: "TRW",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=TRW&origincode=TRW"),
+                  "/productsList?make=BM&makeCode=BMW&origin=TRW&origincode=TRW"),
           Entry(
               title: "USED",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=USED&origincode=USD"),
+                  "/productsList?make=BM&makeCode=BMW&origin=USED&origincode=USD"),
           Entry(
               title: "VAICO",
               url:
-                  "/catalog/products?make=BM&makeCode=BMW&origin=VAICO&origincode=VKO"),
+                  "/productsList?make=BM&makeCode=BMW&origin=VAICO&origincode=VKO"),
         ],
       ),
       Entry(
           title: "VALEO",
           url:
-              "/catalog/products?make=BM&makeCode=BMW&origin=VALEO&origincode=VAL"),
+              "/productsList?make=BM&makeCode=BMW&origin=VALEO&origincode=VAL"),
       Entry(
           title: "VARTA",
           url:
-              "/catalog/products?make=BM&makeCode=BMW&origin=VARTA&origincode=VAR"),
+              "/productsList?make=BM&makeCode=BMW&origin=VARTA&origincode=VAR"),
       Entry(
           title: "VDO",
-          url:
-              "/catalog/products?make=BM&makeCode=BMW&origin=VDO&origincode=VDO"),
+          url: "/productsList?make=BM&makeCode=BMW&origin=VDO&origincode=VDO"),
       Entry(
           title: "VICTOR REINZ",
           url:
-              "/catalog/products?make=BM&makeCode=BMW&origin=VICTOR REINZ&origincode=RNZ"),
+              "/productsList?make=BM&makeCode=BMW&origin=VICTOR REINZ&origincode=RNZ"),
       Entry(
           title: "WABCO",
           url:
-              "/catalog/products?make=BM&makeCode=BMW&origin=WABCO&origincode=WAB"),
+              "/productsList?make=BM&makeCode=BMW&origin=WABCO&origincode=WAB"),
       Entry(
           title: "WAHLER",
           url:
-              "/catalog/products?make=BM&makeCode=BMW&origin=WAHLER&origincode=WAH"),
+              "/productsList?make=BM&makeCode=BMW&origin=WAHLER&origincode=WAH"),
       Entry(
           title: "ZF",
-          url:
-              "/catalog/products?make=BM&makeCode=BMW&origin=ZF&origincode=ZF"),
+          url: "/productsList?make=BM&makeCode=BMW&origin=ZF&origincode=ZF"),
       Entry(
           title: "ZIMMERMANN",
           url:
-              "/catalog/products?make=BM&makeCode=BMW&origin=ZIMMERMANN&origincode=ZIM")
+              "/productsList?make=BM&makeCode=BMW&origin=ZIMMERMANN&origincode=ZIM")
     ],
   ),
   Entry(
     title: 'ACDELCO',
     image: 'assets/brands/acdelco.png',
-    url: '/catalog/products?make=ACDELCO&makeCode=ACDELCO',
+    url: '/productsList?make=ACDELCO&makeCode=ACDELCO',
     submenu: <Entry>[
       Entry(
           title: "ACDELCO",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&origin=ACDELCO&origincode=ACDELCO"),
+              "/productsList?make=AD&makeCode=ACDELCO&origin=ACDELCO&origincode=ACDELCO"),
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=AD&makeCode=ACDELCO&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "TAIWAN",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&origin=TAIWAN&origincode=TWN"),
+              "/productsList?make=AD&makeCode=ACDELCO&origin=TAIWAN&origincode=TWN"),
       Entry(
           title: "U.S.A",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&origin=U.S.A&origincode=U.S.A"),
+              "/productsList?make=AD&makeCode=ACDELCO&origin=U.S.A&origincode=U.S.A"),
       Entry(
           title: "ALTERNATOR",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
       Entry(
           title: "BRAKE",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=BRAKE&partsCategoryCode=BRK"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=BRAKE&partsCategoryCode=BRK"),
       Entry(
           title: "COMPRESSOR",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
       Entry(
           title: "CONDENSER ",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=CONDENSER &partsCategoryCode=COND"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=CONDENSER &partsCategoryCode=COND"),
       Entry(
           title: "FUEL",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=FUEL&partsCategoryCode=FU"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=FUEL&partsCategoryCode=FU"),
       Entry(
           title: "HAND",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=HAND&partsCategoryCode=HAN"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=HAND&partsCategoryCode=HAN"),
       Entry(
           title: "OIL",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=OIL&partsCategoryCode=OIL"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=OIL&partsCategoryCode=OIL"),
       Entry(
           title: "OIL ASSY",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
       Entry(
           title: "PLUG",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=PLUG&partsCategoryCode=PLUG"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=PLUG&partsCategoryCode=PLUG"),
       Entry(
           title: "RADIATOR",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
       Entry(
           title: "SEAL",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=SEAL&partsCategoryCode=SEAL"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=SEAL&partsCategoryCode=SEAL"),
       Entry(
           title: "SENSOR",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=SENSOR&partsCategoryCode=SENSO"),
       Entry(
           title: "SHAFT",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
       Entry(
           title: "SHOCK",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
       Entry(
           title: "SPARK PLUG",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
       Entry(
           title: "WATER PUMP",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
       Entry(
           title: "WIPER",
           url:
-              "/catalog/products?make=AD&makeCode=ACDELCO&partsCategory=WIPER&partsCategoryCode=WIPER"),
+              "/productsList?make=AD&makeCode=ACDELCO&partsCategory=WIPER&partsCategoryCode=WIPER"),
     ],
   ),
   Entry(
     title: 'ASTON',
-    url: '/catalog/products?make=ASTON&makeCode=ASTON',
+    url: '/productsList?make=ASTON&makeCode=ASTON',
     image: 'assets/brands/ASTON.png',
     submenu: <Entry>[
       Entry(
           title: "ACDELCO",
           url:
-              "/catalog/products?make=ASTON&makeCode=ASTON&origin=ACDELCO&origincode=ACDELCO"),
+              "/productsList?make=ASTON&makeCode=ASTON&origin=ACDELCO&origincode=ACDELCO"),
       Entry(
           title: "ABSORBER",
           url:
-              "/catalog/products?make=ASTON&makeCode=ASTON&partsCategory=ABSORBER&partsCategoryCode=ABSORBER"),
+              "/productsList?make=ASTON&makeCode=ASTON&partsCategory=ABSORBER&partsCategoryCode=ABSORBER"),
     ],
   ),
   Entry(
     title: "BENTLEY",
-    url: "/catalog/products?make=BENTLEY&makeCode=BENTLEY",
+    url: "/productsList?make=BENTLEY&makeCode=BENTLEY",
     image: 'assets/brands/BENTLEY.png',
     submenu: <Entry>[
       Entry(
           title: "BREMBO",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&origin=BREMBO&origincode=BREMBO"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&origin=BREMBO&origincode=BREMBO"),
       Entry(
           title: "GERMANY",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&origin=GERMANY&origincode=GER"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&origin=GERMANY&origincode=GER"),
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "U.K",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&origin=U.K&origincode=UK"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&origin=U.K&origincode=UK"),
       Entry(
           title: "A/C",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=A/C&partsCategoryCode=A/C"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=A/C&partsCategoryCode=A/C"),
       Entry(
           title: "AIR",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=AIR&partsCategoryCode=AIR"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=AIR&partsCategoryCode=AIR"),
       Entry(
           title: "ARM",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=ARM&partsCategoryCode=ARM"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=ARM&partsCategoryCode=ARM"),
       Entry(
           title: "AXLE",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=AXLE&partsCategoryCode=AXLE"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=AXLE&partsCategoryCode=AXLE"),
       Entry(
           title: "BALL JOINT",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=BALL JOINT&partsCategoryCode=BALL JOINT"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=BALL JOINT&partsCategoryCode=BALL JOINT"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE PAD"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE PAD"),
       Entry(
           title: "BRAKE",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=BRAKE&partsCategoryCode=BRK"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=BRAKE&partsCategoryCode=BRK"),
       Entry(
           title: "BUMPER",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=BUMPER&partsCategoryCode=BUMPER"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=BUMPER&partsCategoryCode=BUMPER"),
       Entry(
           title: "CONTROL",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=CONTROL&partsCategoryCode=CONTR"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=CONTROL&partsCategoryCode=CONTR"),
       Entry(
           title: "ENGINE",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
       Entry(
           title: "FILTER",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=FILTER&partsCategoryCode=FI"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=FILTER&partsCategoryCode=FI"),
       Entry(
           title: "FRONT",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=FRONT&partsCategoryCode=FRNT"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=FRONT&partsCategoryCode=FRNT"),
       Entry(
           title: "GEAR",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=GEAR&partsCategoryCode=GEAR"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=GEAR&partsCategoryCode=GEAR"),
       Entry(
           title: "HEAD",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=HEAD&partsCategoryCode=HEAD"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=HEAD&partsCategoryCode=HEAD"),
       Entry(
           title: "HUB",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=HUB&partsCategoryCode=HUB"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=HUB&partsCategoryCode=HUB"),
       Entry(
           title: "PIPE",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=PIPE&partsCategoryCode=PIPE"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=PIPE&partsCategoryCode=PIPE"),
       Entry(
           title: "PLUG",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=PLUG&partsCategoryCode=PLUG"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=PLUG&partsCategoryCode=PLUG"),
       Entry(
           title: "RADIATOR",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
       Entry(
           title: "STEERING",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=STEERING&partsCategoryCode=STEERING"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=STEERING&partsCategoryCode=STEERING"),
       Entry(
           title: "WHEEL",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
       Entry(
           title: "WIPER",
           url:
-              "/catalog/products?make=BENTLEY&makeCode=BENTLEY&partsCategory=WIPER&partsCategoryCode=WIPER"),
+              "/productsList?make=BENTLEY&makeCode=BENTLEY&partsCategory=WIPER&partsCategoryCode=WIPER"),
     ],
   ),
   Entry(
     title: "CADILLIC",
-    url: "/catalog/products?make=CADILLIC&makeCode=CADILLIC",
+    url: "/productsList?make=CADILLIC&makeCode=CADILLIC",
     image: 'assets/brands/CADILLAC.png',
     submenu: <Entry>[
       Entry(
           title: "GERMANY",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&origin=GERMANY&origincode=GER"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&origin=GERMANY&origincode=GER"),
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "TAIWAN",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&origin=TAIWAN&origincode=TWN"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&origin=TAIWAN&origincode=TWN"),
       Entry(
           title: "ARM",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=ARM&partsCategoryCode=ARM"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=ARM&partsCategoryCode=ARM"),
       Entry(
           title: "BATTERY",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=BATTERY&partsCategoryCode=BA"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=BATTERY&partsCategoryCode=BA"),
       Entry(
           title: "BAR",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=BAR&partsCategoryCode=BAR"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=BAR&partsCategoryCode=BAR"),
       Entry(
           title: "BULB",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=BULB&partsCategoryCode=BLB"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=BULB&partsCategoryCode=BLB"),
       Entry(
           title: "BELT",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=BELT&partsCategoryCode=BLT"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=BELT&partsCategoryCode=BLT"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
       Entry(
           title: "BRAKE",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=BRAKE&partsCategoryCode=BRK"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=BRAKE&partsCategoryCode=BRK"),
       Entry(
           title: "CONDENSER ",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=CONDENSER &partsCategoryCode=COND"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=CONDENSER &partsCategoryCode=COND"),
       Entry(
           title: "DICKY",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=DICKY&partsCategoryCode=DICKY"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=DICKY&partsCategoryCode=DICKY"),
       Entry(
           title: "ENGINE",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=ENGINE&partsCategoryCode=ENG"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=ENGINE&partsCategoryCode=ENG"),
       Entry(
           title: "FILTER",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=FILTER&partsCategoryCode=FI"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=FILTER&partsCategoryCode=FI"),
       Entry(
           title: "GRILL",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=GRILL&partsCategoryCode=GRILL"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=GRILL&partsCategoryCode=GRILL"),
       Entry(
           title: "LINK",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=LINK&partsCategoryCode=LINK"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=LINK&partsCategoryCode=LINK"),
       Entry(
           title: "LOWER",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=LOWER&partsCategoryCode=LOWER"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=LOWER&partsCategoryCode=LOWER"),
       Entry(
           title: "MASTER",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=MASTER&partsCategoryCode=MASTE"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=MASTER&partsCategoryCode=MASTE"),
       Entry(
           title: "MIRROR",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
       Entry(
           title: "MODULE",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=MODULE&partsCategoryCode=MODUL"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=MODULE&partsCategoryCode=MODUL"),
       Entry(
           title: "OIL",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=OIL&partsCategoryCode=OIL"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=OIL&partsCategoryCode=OIL"),
       Entry(
           title: "OTHERS",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=OTHERS&partsCategoryCode=OTHER"),
       Entry(
           title: "PLUG",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=PLUG&partsCategoryCode=PLUG"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=PLUG&partsCategoryCode=PLUG"),
       Entry(
           title: "RADIATOR",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
       Entry(
           title: "SEAL",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=SEAL&partsCategoryCode=SEAL"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=SEAL&partsCategoryCode=SEAL"),
       Entry(
           title: "SENSOR",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=SENSOR&partsCategoryCode=SENSO"),
       Entry(
           title: "SHAFT",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
       Entry(
           title: "SHOCK",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
       Entry(
           title: "SPARK PLUG",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
       Entry(
           title: "STABILIZER",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=STABILIZER&partsCategoryCode=STABI"),
       Entry(
           title: "SWITCH",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=SWITCH&partsCategoryCode=SWITC"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=SWITCH&partsCategoryCode=SWITC"),
       Entry(
           title: "TENSIONER",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
       Entry(
           title: "TIE ROD",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=TIE ROD&partsCategoryCode=TIER"),
       Entry(
           title: "TIMING",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=TIMING&partsCategoryCode=TIMIN"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=TIMING&partsCategoryCode=TIMIN"),
       Entry(
           title: "TRANSMISSION",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
       Entry(
           title: "UPPER ARM",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
       Entry(
           title: "WATER PUMP",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
       Entry(
           title: "WHEEL",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
       Entry(
           title: "WIRE",
           url:
-              "/catalog/products?make=CADILLIC&makeCode=CADILLIC&partsCategory=WIRE&partsCategoryCode=WIRE"),
+              "/productsList?make=CADILLIC&makeCode=CADILLIC&partsCategory=WIRE&partsCategoryCode=WIRE"),
     ],
   ),
   Entry(
     title: "CHEVROLET",
-    url: "/catalog/products?make=CHEVROLET&makeCode=CHEVROLET",
+    url: "/productsList?make=CHEVROLET&makeCode=CHEVROLET",
     image: 'assets/brands/CHEVROLET.png',
     submenu: <Entry>[
       Entry(
           title: "ACDELCO",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&origin=ACDELCO&origincode=ACDELCO"),
+              "/productsList?make=CH&makeCode=CHEVROLET&origin=ACDELCO&origincode=ACDELCO"),
       Entry(
           title: "KOYO",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&origin=KOYO&origincode=KOYO"),
+              "/productsList?make=CH&makeCode=CHEVROLET&origin=KOYO&origincode=KOYO"),
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=CH&makeCode=CHEVROLET&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "TAIWAN",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&origin=TAIWAN&origincode=TWN"),
+              "/productsList?make=CH&makeCode=CHEVROLET&origin=TAIWAN&origincode=TWN"),
       Entry(
           title: "ABSORBER",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=ABSORBER&partsCategoryCode=ABSORBER"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=ABSORBER&partsCategoryCode=ABSORBER"),
       Entry(
           title: "AC DRIER",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
       Entry(
           title: "ARM",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=ARM&partsCategoryCode=ARM"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=ARM&partsCategoryCode=ARM"),
       Entry(
           title: "BEARING",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=BEARING&partsCategoryCode=BEA"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=BEARING&partsCategoryCode=BEA"),
       Entry(
           title: "BELT",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=BELT&partsCategoryCode=BLT"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=BELT&partsCategoryCode=BLT"),
       Entry(
           title: "BOOT",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=BOOT&partsCategoryCode=BOOT"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=BOOT&partsCategoryCode=BOOT"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
       Entry(
           title: "BRAKE",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=BRAKE&partsCategoryCode=BRK"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=BRAKE&partsCategoryCode=BRK"),
       Entry(
           title: "BUSH",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=BUSH&partsCategoryCode=BUSH"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=BUSH&partsCategoryCode=BUSH"),
       Entry(
           title: "CABLE",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=CABLE&partsCategoryCode=CAB"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=CABLE&partsCategoryCode=CAB"),
       Entry(
           title: "COIL",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=COIL&partsCategoryCode=COIL"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=COIL&partsCategoryCode=COIL"),
       Entry(
           title: "COOLANT",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=COOLANT&partsCategoryCode=COOLA"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=COOLANT&partsCategoryCode=COOLA"),
       Entry(
           title: "ELECTRICAL",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
       Entry(
           title: "ENGINE",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=ENGINE&partsCategoryCode=ENG"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=ENGINE&partsCategoryCode=ENG"),
       Entry(
           title: "ENGINE",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
       Entry(
           title: "EVAPORATOR",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
       Entry(
           title: "EXPANSION",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
       Entry(
           title: "FAN",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=FAN&partsCategoryCode=FAN"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=FAN&partsCategoryCode=FAN"),
       Entry(
           title: "FILTER",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=FILTER&partsCategoryCode=FI"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=FILTER&partsCategoryCode=FI"),
       Entry(
           title: "FOG",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=FOG&partsCategoryCode=FOG"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=FOG&partsCategoryCode=FOG"),
       Entry(
           title: "FRONT",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=FRONT&partsCategoryCode=FRNT"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=FRONT&partsCategoryCode=FRNT"),
       Entry(
           title: "GASKET",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=GASKET&partsCategoryCode=GASK"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=GASKET&partsCategoryCode=GASK"),
       Entry(
           title: "GEAR",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=GEAR&partsCategoryCode=GR"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=GEAR&partsCategoryCode=GR"),
       Entry(
           title: "HOSE",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=HOSE&partsCategoryCode=HOSE"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=HOSE&partsCategoryCode=HOSE"),
       Entry(
           title: "LAMP",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=LAMP&partsCategoryCode=LAMP"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=LAMP&partsCategoryCode=LAMP"),
       Entry(
           title: "LOWER",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=LOWER&partsCategoryCode=LOWER"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=LOWER&partsCategoryCode=LOWER"),
       Entry(
           title: "MOUNT",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
       Entry(
           title: "MOUNTING",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
       Entry(
           title: "OIL",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=OIL&partsCategoryCode=OIL"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=OIL&partsCategoryCode=OIL"),
       Entry(
           title: "OIL ASSY",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
       Entry(
           title: "PIPE",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=PIPE&partsCategoryCode=PIPE"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=PIPE&partsCategoryCode=PIPE"),
       Entry(
           title: "PLUG",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=PLUG&partsCategoryCode=PLUG"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=PLUG&partsCategoryCode=PLUG"),
       Entry(
           title: "RADIATOR",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
       Entry(
           title: "RADIATOR",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
       Entry(
           title: "SEAL",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=SEAL&partsCategoryCode=SEAL"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=SEAL&partsCategoryCode=SEAL"),
       Entry(
           title: "SENSOR",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=SENSOR&partsCategoryCode=SENSO"),
       Entry(
           title: "SHOCK",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
       Entry(
           title: "SILICON",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=SILICON&partsCategoryCode=SILIC"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=SILICON&partsCategoryCode=SILIC"),
       Entry(
           title: "SPARK PLUG",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
       Entry(
           title: "STAB LINK",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=STAB LINK&partsCategoryCode=STAB"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=STAB LINK&partsCategoryCode=STAB"),
       Entry(
           title: "STABILIZER",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=STABILIZER&partsCategoryCode=STABI"),
       Entry(
           title: "TENSIONER",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
       Entry(
           title: "THERMOSTAT",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
       Entry(
           title: "TIE ROD",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=TIE ROD&partsCategoryCode=TIER"),
       Entry(
           title: "TRANSMISSION",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
       Entry(
           title: "VALVE",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=VALVE&partsCategoryCode=VALVE"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=VALVE&partsCategoryCode=VALVE"),
       Entry(
           title: "WATER PUMP",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
       Entry(
           title: "WINDOW",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=WINDOW&partsCategoryCode=WINDO"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=WINDOW&partsCategoryCode=WINDO"),
       Entry(
           title: "WIPER",
           url:
-              "/catalog/products?make=CH&makeCode=CHEVROLET&partsCategory=WIPER&partsCategoryCode=WIPER"),
+              "/productsList?make=CH&makeCode=CHEVROLET&partsCategory=WIPER&partsCategoryCode=WIPER"),
     ],
   ),
   Entry(
     title: "FERRARI",
-    url: "/catalog/products?make=FERRARI&makeCode=FERRARI",
+    url: "/productsList?make=FERRARI&makeCode=FERRARI",
     image: 'assets/brands/FERRARI.png',
     submenu: <Entry>[
       Entry(
           title: "BRITPART",
           url:
-              "/catalog/products?make=FR&makeCode=FERRARI&origin=BRITPART&origincode=BRIT"),
+              "/productsList?make=FR&makeCode=FERRARI&origin=BRITPART&origincode=BRIT"),
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=FR&makeCode=FERRARI&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=FR&makeCode=FERRARI&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=FR&makeCode=FERRARI&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+              "/productsList?make=FR&makeCode=FERRARI&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
       Entry(
           title: "SHOCK",
           url:
-              "/catalog/products?make=FR&makeCode=FERRARI&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+              "/productsList?make=FR&makeCode=FERRARI&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
       Entry(
           title: "STEERING",
           url:
-              "/catalog/products?make=FR&makeCode=FERRARI&partsCategory=STEERING&partsCategoryCode=STEERING"),
+              "/productsList?make=FR&makeCode=FERRARI&partsCategory=STEERING&partsCategoryCode=STEERING"),
     ],
   ),
   Entry(
     title: "FORD",
-    url: "/catalog/products?make=FORD&makeCode=FORD",
+    url: "/productsList?make=FORD&makeCode=FORD",
     image: 'assets/brands/FORD.png',
     submenu: <Entry>[
       Entry(
           title: "GERMANY",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&origin=GERMANY&origincode=GER"),
+              "/productsList?make=FD&makeCode=FORD&origin=GERMANY&origincode=GER"),
       Entry(
           title: "LEMFORDER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&origin=LEMFORDER&origincode=LEM"),
+              "/productsList?make=FD&makeCode=FORD&origin=LEMFORDER&origincode=LEM"),
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=FD&makeCode=FORD&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "TAIWAN",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&origin=TAIWAN&origincode=TWN"),
+              "/productsList?make=FD&makeCode=FORD&origin=TAIWAN&origincode=TWN"),
       Entry(
           title: "U.K",
-          url:
-              "/catalog/products?make=FD&makeCode=FORD&origin=U.K&origincode=UK"),
+          url: "/productsList?make=FD&makeCode=FORD&origin=U.K&origincode=UK"),
       Entry(
           title: "A/C",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=A/C&partsCategoryCode=AC"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=A/C&partsCategoryCode=AC"),
       Entry(
           title: "AC BELT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=AC BELT&partsCategoryCode=ACBE"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=AC BELT&partsCategoryCode=ACBE"),
       Entry(
           title: "AC COMPRESSOR",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
       Entry(
           title: "ADAPTER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
       Entry(
           title: "AIR",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=AIR&partsCategoryCode=AIR"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=AIR&partsCategoryCode=AIR"),
       Entry(
           title: "ARM",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=ARM&partsCategoryCode=ARM"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=ARM&partsCategoryCode=ARM"),
       Entry(
           title: "AXLE",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=AXLE&partsCategoryCode=AX"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=AXLE&partsCategoryCode=AX"),
       Entry(
           title: "BALL JOINT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
       Entry(
           title: "BAR",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=BAR&partsCategoryCode=BAR"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=BAR&partsCategoryCode=BAR"),
       Entry(
           title: "BEARING",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=BEARING&partsCategoryCode=BEA"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=BEARING&partsCategoryCode=BEA"),
       Entry(
           title: "BULB",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=BULB&partsCategoryCode=BLB"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=BULB&partsCategoryCode=BLB"),
       Entry(
           title: "BELT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=BELT&partsCategoryCode=BLT"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=BELT&partsCategoryCode=BLT"),
       Entry(
           title: "BUMPER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=BUMPER&partsCategoryCode=BMP"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=BUMPER&partsCategoryCode=BMP"),
       Entry(
           title: "BOLT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=BOLT&partsCategoryCode=BOLT"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=BOLT&partsCategoryCode=BOLT"),
       Entry(
           title: "BRACKET",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=BRACKET&partsCategoryCode=BRACK"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
       Entry(
           title: "BRG",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=BRG&partsCategoryCode=BRG"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=BRG&partsCategoryCode=BRG"),
       Entry(
           title: "BRAKE",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=BRAKE&partsCategoryCode=BRK"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=BRAKE&partsCategoryCode=BRK"),
       Entry(
           title: "BUSH",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=BUSH&partsCategoryCode=BUSH"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=BUSH&partsCategoryCode=BUSH"),
       Entry(
           title: "CALIPER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=CALIPER&partsCategoryCode=CALIP"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=CALIPER&partsCategoryCode=CALIP"),
       Entry(
           title: "CLUTCH",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
       Entry(
           title: "COMPRESSOR",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
       Entry(
           title: "COOLANT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=COOLANT&partsCategoryCode=COOLA"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=COOLANT&partsCategoryCode=COOLA"),
       Entry(
           title: "COOLENT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=COOLENT&partsCategoryCode=COOLENT"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=COOLENT&partsCategoryCode=COOLENT"),
       Entry(
           title: "COOLER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=COOLER&partsCategoryCode=COOLER"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=COOLER&partsCategoryCode=COOLER"),
       Entry(
           title: "COVER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=COVER&partsCategoryCode=COVER"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=COVER&partsCategoryCode=COVER"),
       Entry(
           title: "CUT BUSH",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
       Entry(
           title: "CV JOINT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=CV JOINT&partsCategoryCode=CVJO"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=CV JOINT&partsCategoryCode=CVJO"),
       Entry(
           title: "CYLINDER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=CYLINDER&partsCategoryCode=CYL"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=CYLINDER&partsCategoryCode=CYL"),
       Entry(
           title: "DISC",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=DISC&partsCategoryCode=DISC"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=DISC&partsCategoryCode=DISC"),
       Entry(
           title: "DOOR",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=DOOR&partsCategoryCode=DOOR"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=DOOR&partsCategoryCode=DOOR"),
       Entry(
           title: "DRIER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=DRIER&partsCategoryCode=DRIER"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=DRIER&partsCategoryCode=DRIER"),
       Entry(
           title: "DRIVE",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
       Entry(
           title: "ENGINE",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=ENGINE&partsCategoryCode=ENG"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=ENGINE&partsCategoryCode=ENG"),
       Entry(
           title: "FILTER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=FILTER&partsCategoryCode=FI"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=FILTER&partsCategoryCode=FI"),
       Entry(
           title: "FOG",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=FOG&partsCategoryCode=FOG"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=FOG&partsCategoryCode=FOG"),
       Entry(
           title: "FRONT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=FRONT&partsCategoryCode=FRNT"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=FRONT&partsCategoryCode=FRNT"),
       Entry(
           title: "FUEL",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=FUEL&partsCategoryCode=FU"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=FUEL&partsCategoryCode=FU"),
       Entry(
           title: "GASKET",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=GASKET&partsCategoryCode=GASK"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=GASKET&partsCategoryCode=GASK"),
       Entry(
           title: "GLASS",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=GLASS&partsCategoryCode=GL"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=GLASS&partsCategoryCode=GL"),
       Entry(
           title: "GEAR",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=GEAR&partsCategoryCode=GR"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=GEAR&partsCategoryCode=GR"),
       Entry(
           title: "HEAD",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=HEAD&partsCategoryCode=HEAD"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=HEAD&partsCategoryCode=HEAD"),
       Entry(
           title: "HEAT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=HEAT&partsCategoryCode=HEAT"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=HEAT&partsCategoryCode=HEAT"),
       Entry(
           title: "HOOD",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=HOOD&partsCategoryCode=HOOD"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=HOOD&partsCategoryCode=HOOD"),
       Entry(
           title: "HOSE",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=HOSE&partsCategoryCode=HOSE"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=HOSE&partsCategoryCode=HOSE"),
       Entry(
           title: "IDLER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=IDLER&partsCategoryCode=IDLER"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=IDLER&partsCategoryCode=IDLER"),
       Entry(
           title: "INJECTOR",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
       Entry(
           title: "JOINT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=JOINT&partsCategoryCode=JOINT"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=JOINT&partsCategoryCode=JOINT"),
       Entry(
           title: "KIT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=KIT&partsCategoryCode=KIT"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=KIT&partsCategoryCode=KIT"),
       Entry(
           title: "LAMP",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=LAMP&partsCategoryCode=LAMP"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=LAMP&partsCategoryCode=LAMP"),
       Entry(
           title: "LINK",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=LINK&partsCategoryCode=LINK"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=LINK&partsCategoryCode=LINK"),
       Entry(
           title: "LOCK",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=LOCK&partsCategoryCode=LOCK"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=LOCK&partsCategoryCode=LOCK"),
       Entry(
           title: "LOWER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=LOWER&partsCategoryCode=LOWER"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=LOWER&partsCategoryCode=LOWER"),
       Entry(
           title: "MASTER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=MASTER&partsCategoryCode=MASTE"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=MASTER&partsCategoryCode=MASTE"),
       Entry(
           title: "MIRROR",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
       Entry(
           title: "MODULE",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=MODULE&partsCategoryCode=MODUL"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=MODULE&partsCategoryCode=MODUL"),
       Entry(
           title: "MOUDLING",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
       Entry(
           title: "MOUNT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
       Entry(
           title: "MOUNTING",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
       Entry(
           title: "OIL",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=OIL&partsCategoryCode=OIL"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=OIL&partsCategoryCode=OIL"),
       Entry(
           title: "OIL ASSY",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
       Entry(
           title: "OTHERS",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=OTHERS&partsCategoryCode=OTHER"),
       Entry(
           title: "PAD",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=PAD&partsCategoryCode=PAD"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=PAD&partsCategoryCode=PAD"),
       Entry(
           title: "PIPE",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=PIPE&partsCategoryCode=PIPE"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=PIPE&partsCategoryCode=PIPE"),
       Entry(
           title: "PLUG",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=PLUG&partsCategoryCode=PLUG"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=PLUG&partsCategoryCode=PLUG"),
       Entry(
           title: "PULLEY",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=PULLEY&partsCategoryCode=PULLE"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=PULLEY&partsCategoryCode=PULLE"),
       Entry(
           title: "PUMP",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=PUMP&partsCategoryCode=PUMP"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=PUMP&partsCategoryCode=PUMP"),
       Entry(
           title: "RADIATOR",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
       Entry(
           title: "REAR",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=REAR&partsCategoryCode=REAR"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=REAR&partsCategoryCode=REAR"),
       Entry(
           title: "RING",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=RING&partsCategoryCode=RING"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=RING&partsCategoryCode=RING"),
       Entry(
           title: "ROTOR",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
       Entry(
           title: "SEAL",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=SEAL&partsCategoryCode=SEAL"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=SEAL&partsCategoryCode=SEAL"),
       Entry(
           title: "SENSOR",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=SENSOR&partsCategoryCode=SENSO"),
       Entry(
           title: "SHAFT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
       Entry(
           title: "SHOCK",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
       Entry(
           title: "SPARK PLUG",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
       Entry(
           title: "STABILIZER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=STABILIZER&partsCategoryCode=STABI"),
       Entry(
           title: "STARTER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=STARTER&partsCategoryCode=START"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=STARTER&partsCategoryCode=START"),
       Entry(
           title: "STB LINK",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=STB LINK&partsCategoryCode=STBL"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=STB LINK&partsCategoryCode=STBL"),
       Entry(
           title: "STEERING",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=STEERING&partsCategoryCode=STEER"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=STEERING&partsCategoryCode=STEER"),
       Entry(
           title: "STRUT",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=STRUT&partsCategoryCode=STRUT"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=STRUT&partsCategoryCode=STRUT"),
       Entry(
           title: "SWITCH",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=SWITCH&partsCategoryCode=SWITC"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=SWITCH&partsCategoryCode=SWITC"),
       Entry(
           title: "TENSIONER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
       Entry(
           title: "THROTTLE",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=THROTTLE&partsCategoryCode=THROT"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=THROTTLE&partsCategoryCode=THROT"),
       Entry(
           title: "TIE ROD",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=TIE ROD&partsCategoryCode=TIER"),
       Entry(
           title: "TIMING",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=TIMING&partsCategoryCode=TIMIN"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=TIMING&partsCategoryCode=TIMIN"),
       Entry(
           title: "TIMING CHAIN",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=TIMING CHAIN&partsCategoryCode=TIMINC"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=TIMING CHAIN&partsCategoryCode=TIMINC"),
       Entry(
           title: "TRANSMISSION",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
       Entry(
           title: "UPPER ARM",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
       Entry(
           title: "VALVE",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=VALVE&partsCategoryCode=VALVE"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=VALVE&partsCategoryCode=VALVE"),
       Entry(
           title: "WATER PUMP",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
       Entry(
           title: "WHEEL",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
       Entry(
           title: "WIPER",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=WIPER&partsCategoryCode=WIPER"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=WIPER&partsCategoryCode=WIPER"),
       Entry(
           title: "WISH BONE",
           url:
-              "/catalog/products?make=FD&makeCode=FORD&partsCategory=WISH BONE&partsCategoryCode=WISH"),
+              "/productsList?make=FD&makeCode=FORD&partsCategory=WISH BONE&partsCategoryCode=WISH"),
     ],
   ),
   Entry(
     title: "FREELANDER LR2",
-    url: "/catalog/products?make=FREELANDER LR2&makeCode=FREELANDER LR2",
+    url: "/productsList?make=FREELANDER LR2&makeCode=FREELANDER LR2",
     image: 'assets/brands/land-rover3.jpg',
     submenu: <Entry>[
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=FLLR2&makeCode=FREELANDER LR2&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=FLLR2&makeCode=FREELANDER LR2&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "SPARK PLUG",
           url:
-              "/catalog/products?make=FLLR2&makeCode=FREELANDER LR2&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+              "/productsList?make=FLLR2&makeCode=FREELANDER LR2&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
     ],
   ),
   Entry(
     title: "G.M.C",
-    url: "/catalog/products?make=G.M.C&makeCode=G.M.C",
+    url: "/productsList?make=G.M.C&makeCode=G.M.C",
     image: 'assets/brands/GMC.png',
     submenu: <Entry>[
       Entry(
           title: "ACDELCO",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&origin=ACDELCO&origincode=ACDELCO"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&origin=ACDELCO&origincode=ACDELCO"),
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "TAIWAN",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&origin=TAIWAN&origincode=TWN"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&origin=TAIWAN&origincode=TWN"),
       Entry(
           title: "BEARING",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=BEARING&partsCategoryCode=BEA"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=BEARING&partsCategoryCode=BEA"),
       Entry(
           title: "BLADE",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=BLADE&partsCategoryCode=BLADE"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=BLADE&partsCategoryCode=BLADE"),
       Entry(
           title: "BELT",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=BELT&partsCategoryCode=BLT"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=BELT&partsCategoryCode=BLT"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
       Entry(
           title: "CHAIN",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=CHAIN&partsCategoryCode=CHA"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=CHAIN&partsCategoryCode=CHA"),
       Entry(
           title: "COIL",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=COIL&partsCategoryCode=COIL"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=COIL&partsCategoryCode=COIL"),
       Entry(
           title: "FILTER",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=FILTER&partsCategoryCode=FI"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=FILTER&partsCategoryCode=FI"),
       Entry(
           title: "GASKET",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=GASKET&partsCategoryCode=GASK"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=GASKET&partsCategoryCode=GASK"),
       Entry(
           title: "GUIDE",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
       Entry(
           title: "HAND",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=HAND&partsCategoryCode=HAN"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=HAND&partsCategoryCode=HAN"),
       Entry(
           title: "HEAD",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=HEAD&partsCategoryCode=HEAD"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=HEAD&partsCategoryCode=HEAD"),
       Entry(
           title: "HOUSING",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=HOUSING&partsCategoryCode=HOUSING"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=HOUSING&partsCategoryCode=HOUSING"),
       Entry(
           title: "INJECTOR",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
       Entry(
           title: "LINK",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=LINK&partsCategoryCode=LINK"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=LINK&partsCategoryCode=LINK"),
       Entry(
           title: "LOWER",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=LOWER&partsCategoryCode=LOWER"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=LOWER&partsCategoryCode=LOWER"),
       Entry(
           title: "MOUNT",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
       Entry(
           title: "MOUNTING",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
       Entry(
           title: "OTHERS",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=OTHERS&partsCategoryCode=OTHER"),
       Entry(
           title: "RADIATOR",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
       Entry(
           title: "SEAL",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=SEAL&partsCategoryCode=SEAL"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=SEAL&partsCategoryCode=SEAL"),
       Entry(
           title: "SENSOR",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=SENSOR&partsCategoryCode=SENSO"),
       Entry(
           title: "SHOCK",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
       Entry(
           title: "SPARK PLUG",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
       Entry(
           title: "STEARING",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=STEARING&partsCategoryCode=STEAR"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=STEARING&partsCategoryCode=STEAR"),
       Entry(
           title: "STEERING",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=STEERING&partsCategoryCode=STEER"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=STEERING&partsCategoryCode=STEER"),
       Entry(
           title: "TENSIONER",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
       Entry(
           title: "VALVE",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=VALVE&partsCategoryCode=VALVE"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=VALVE&partsCategoryCode=VALVE"),
       Entry(
           title: "WATER PUMP",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
       Entry(
           title: "WIPER",
           url:
-              "/catalog/products?make=G.M.C&makeCode=G.M.C&partsCategory=WIPER&partsCategoryCode=WIPER"),
+              "/productsList?make=G.M.C&makeCode=G.M.C&partsCategory=WIPER&partsCategoryCode=WIPER"),
     ],
   ),
   Entry(
     title: "HONDA",
-    url: "/catalog/products?make=HONDA&makeCode=HONDA",
+    url: "/productsList?make=HONDA&makeCode=HONDA",
     image: 'assets/brands/HONDA.jpg',
     submenu: <Entry>[
       Entry(
           title: "GERMANY",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&origin=GERMANY&origincode=GER"),
+              "/productsList?make=HO&makeCode=HONDA&origin=GERMANY&origincode=GER"),
       Entry(
           title: "JAPAN",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&origin=JAPAN&origincode=JAPAN"),
+              "/productsList?make=HO&makeCode=HONDA&origin=JAPAN&origincode=JAPAN"),
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=HO&makeCode=HONDA&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "TAIWAN",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&origin=TAIWAN&origincode=TWN"),
+              "/productsList?make=HO&makeCode=HONDA&origin=TAIWAN&origincode=TWN"),
       Entry(
           title: "USED",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&origin=USED&origincode=USD"),
+              "/productsList?make=HO&makeCode=HONDA&origin=USED&origincode=USD"),
       Entry(
           title: "AC COMPRESSOR",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
       Entry(
           title: "ARM",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=ARM&partsCategoryCode=ARM"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=ARM&partsCategoryCode=ARM"),
       Entry(
           title: "ATF",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=ATF&partsCategoryCode=ATF"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=ATF&partsCategoryCode=ATF"),
       Entry(
           title: "BELT",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=BELT&partsCategoryCode=BLT"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=BELT&partsCategoryCode=BLT"),
       Entry(
           title: "BUMPER",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=BUMPER&partsCategoryCode=BMP"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=BUMPER&partsCategoryCode=BMP"),
       Entry(
           title: "BOOT",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=BOOT&partsCategoryCode=BOOT"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=BOOT&partsCategoryCode=BOOT"),
       Entry(
           title: "BRACKET",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=BRACKET&partsCategoryCode=BRACK"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
       Entry(
           title: "BRAKE",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=BRAKE&partsCategoryCode=BRK"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=BRAKE&partsCategoryCode=BRK"),
       Entry(
           title: "BUSH",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=BUSH&partsCategoryCode=BUSH"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=BUSH&partsCategoryCode=BUSH"),
       Entry(
           title: "COIL",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=COIL&partsCategoryCode=COIL"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=COIL&partsCategoryCode=COIL"),
       Entry(
           title: "CONDENSER ",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=CONDENSER &partsCategoryCode=COND"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=CONDENSER &partsCategoryCode=COND"),
       Entry(
           title: "COVER",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=COVER&partsCategoryCode=COVER"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=COVER&partsCategoryCode=COVER"),
       Entry(
           title: "DISC",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=DISC&partsCategoryCode=DISC"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=DISC&partsCategoryCode=DISC"),
       Entry(
           title: "ENGINE",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=ENGINE&partsCategoryCode=ENG"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=ENGINE&partsCategoryCode=ENG"),
       Entry(
           title: "EXPANSION",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
       Entry(
           title: "FILTER",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=FILTER&partsCategoryCode=FI"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=FILTER&partsCategoryCode=FI"),
       Entry(
           title: "FRONT",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=FRONT&partsCategoryCode=FRNT"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=FRONT&partsCategoryCode=FRNT"),
       Entry(
           title: "GASKET",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=GASKET&partsCategoryCode=GASK"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=GASKET&partsCategoryCode=GASK"),
       Entry(
           title: "GEAR",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=GEAR&partsCategoryCode=GR"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=GEAR&partsCategoryCode=GR"),
       Entry(
           title: "LINE",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=LINE&partsCategoryCode=LINE"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=LINE&partsCategoryCode=LINE"),
       Entry(
           title: "MIRROR",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
       Entry(
           title: "MOUNTING",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
       Entry(
           title: "OIL",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=OIL&partsCategoryCode=OIL"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=OIL&partsCategoryCode=OIL"),
       Entry(
           title: "OIL ASSY",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
       Entry(
           title: "OTHERS",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=OTHERS&partsCategoryCode=OTHER"),
       Entry(
           title: "PAD",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=PAD&partsCategoryCode=PAD"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=PAD&partsCategoryCode=PAD"),
       Entry(
           title: "PULLEY",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=PULLEY&partsCategoryCode=PULLE"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=PULLEY&partsCategoryCode=PULLE"),
       Entry(
           title: "PUMP",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=PUMP&partsCategoryCode=PUMP"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=PUMP&partsCategoryCode=PUMP"),
       Entry(
           title: "REGISTER",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=REGISTER&partsCategoryCode=REGIS"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=REGISTER&partsCategoryCode=REGIS"),
       Entry(
           title: "RUBBER",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=RUBBER&partsCategoryCode=RUBBE"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=RUBBER&partsCategoryCode=RUBBE"),
       Entry(
           title: "SEAL",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=SEAL&partsCategoryCode=SEAL"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=SEAL&partsCategoryCode=SEAL"),
       Entry(
           title: "SENSOR",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=SENSOR&partsCategoryCode=SENSO"),
       Entry(
           title: "SHOCK",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
       Entry(
           title: "SPARK PLUG",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
       Entry(
           title: "STEARING",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=STEARING&partsCategoryCode=STEAR"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=STEARING&partsCategoryCode=STEAR"),
       Entry(
           title: "STEERING",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=STEERING&partsCategoryCode=STEER"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=STEERING&partsCategoryCode=STEER"),
       Entry(
           title: "STRUT",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=STRUT&partsCategoryCode=STRUT"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=STRUT&partsCategoryCode=STRUT"),
       Entry(
           title: "WINDOW",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=WINDOW&partsCategoryCode=WINDO"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=WINDOW&partsCategoryCode=WINDO"),
       Entry(
           title: "WIPER",
           url:
-              "/catalog/products?make=HO&makeCode=HONDA&partsCategory=WIPER&partsCategoryCode=WIPER"),
+              "/productsList?make=HO&makeCode=HONDA&partsCategory=WIPER&partsCategoryCode=WIPER"),
     ],
   ),
   Entry(
     title: "HUMMER",
-    url: "/catalog/products?make=HUMMER&makeCode=HUMMER",
+    url: "/productsList?make=HUMMER&makeCode=HUMMER",
     image: 'assets/brands/hummer.png',
     submenu: <Entry>[
       Entry(
           title: "HENGST",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&origin=HENGST&origincode=HST"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&origin=HENGST&origincode=HST"),
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "TAIWAN",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&origin=TAIWAN&origincode=TWN"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&origin=TAIWAN&origincode=TWN"),
       Entry(
           title: "U.S.A",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&origin=U.S.A&origincode=U.S.A"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&origin=U.S.A&origincode=U.S.A"),
       Entry(
           title: "ABSORBER",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=ABSORBER&partsCategoryCode=ABS"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=ABSORBER&partsCategoryCode=ABS"),
       Entry(
           title: "BEARING",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=BEARING&partsCategoryCode=BEA"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=BEARING&partsCategoryCode=BEA"),
       Entry(
           title: "BULB",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=BULB&partsCategoryCode=BLB"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=BULB&partsCategoryCode=BLB"),
       Entry(
           title: "BELT",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=BELT&partsCategoryCode=BLT"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=BELT&partsCategoryCode=BLT"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
       Entry(
           title: "BUSH",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=BUSH&partsCategoryCode=BUSH"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=BUSH&partsCategoryCode=BUSH"),
       Entry(
           title: "CAP",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=CAP&partsCategoryCode=CAP"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=CAP&partsCategoryCode=CAP"),
       Entry(
           title: "CUT BUSH",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
       Entry(
           title: "FILTER",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=FILTER&partsCategoryCode=FI"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=FILTER&partsCategoryCode=FI"),
       Entry(
           title: "FRONT",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=FRONT&partsCategoryCode=FRNT"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=FRONT&partsCategoryCode=FRNT"),
       Entry(
           title: "GRILL",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=GRILL&partsCategoryCode=GRILL"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=GRILL&partsCategoryCode=GRILL"),
       Entry(
           title: "HAND",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=HAND&partsCategoryCode=HAN"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=HAND&partsCategoryCode=HAN"),
       Entry(
           title: "HEAD",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=HEAD&partsCategoryCode=HEAD"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=HEAD&partsCategoryCode=HEAD"),
       Entry(
           title: "JOINT",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=JOINT&partsCategoryCode=JOINT"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=JOINT&partsCategoryCode=JOINT"),
       Entry(
           title: "LOWER",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=LOWER&partsCategoryCode=LOWER"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=LOWER&partsCategoryCode=LOWER"),
       Entry(
           title: "MIRROR",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
       Entry(
           title: "MOUNTING",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
       Entry(
           title: "OTHERS",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=OTHERS&partsCategoryCode=OTHER"),
       Entry(
           title: "POWER",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=POWER&partsCategoryCode=POWER"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=POWER&partsCategoryCode=POWER"),
       Entry(
           title: "RADIATOR",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
       Entry(
           title: "REAR",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=REAR&partsCategoryCode=REAR"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=REAR&partsCategoryCode=REAR"),
       Entry(
           title: "RELAY",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=RELAY&partsCategoryCode=RELAY"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=RELAY&partsCategoryCode=RELAY"),
       Entry(
           title: "SHOCK",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
       Entry(
           title: "SPARK PLUG",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
       Entry(
           title: "SPRING",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=SPRING&partsCategoryCode=SPRIN"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=SPRING&partsCategoryCode=SPRIN"),
       Entry(
           title: "STABILIZER",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=STABILIZER&partsCategoryCode=STABI"),
       Entry(
           title: "TIE ROD",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=TIE ROD&partsCategoryCode=TIER"),
       Entry(
           title: "WIPER",
           url:
-              "/catalog/products?make=HUMMER&makeCode=HUMMER&partsCategory=WIPER&partsCategoryCode=WIPER"),
+              "/productsList?make=HUMMER&makeCode=HUMMER&partsCategory=WIPER&partsCategoryCode=WIPER"),
     ],
   ),
   Entry(
     title: "HYUNDAI",
-    url: "/catalog/products?make=HYUNDAI&makeCode=HYUNDAI",
+    url: "/productsList?make=HYUNDAI&makeCode=HYUNDAI",
     image: 'assets/brands/Hyundai.png',
     submenu: <Entry>[
       Entry(
           title: "KOYO",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&origin=KOYO&origincode=KOYO"),
+              "/productsList?make=HY&makeCode=HYUNDAI&origin=KOYO&origincode=KOYO"),
       Entry(
           title: "NISSENS",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&origin=NISSENS&origincode=NIS"),
+              "/productsList?make=HY&makeCode=HYUNDAI&origin=NISSENS&origincode=NIS"),
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=HY&makeCode=HYUNDAI&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "TAIWAN",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&origin=TAIWAN&origincode=TWN"),
+              "/productsList?make=HY&makeCode=HYUNDAI&origin=TAIWAN&origincode=TWN"),
       Entry(
           title: "ABSORBER",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=ABSORBER&partsCategoryCode=ABS"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=ABSORBER&partsCategoryCode=ABS"),
       Entry(
           title: "A/C",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=A/C&partsCategoryCode=AC"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=A/C&partsCategoryCode=AC"),
       Entry(
           title: "AIR",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=AIR&partsCategoryCode=AIR"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=AIR&partsCategoryCode=AIR"),
       Entry(
           title: "ALTERNATOR",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
       Entry(
           title: "BALL JOINT",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
       Entry(
           title: "BEARING",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=BEARING&partsCategoryCode=BEA"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=BEARING&partsCategoryCode=BEA"),
       Entry(
           title: "BEAM",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=BEAM&partsCategoryCode=BEAM"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=BEAM&partsCategoryCode=BEAM"),
       Entry(
           title: "BELT",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=BELT&partsCategoryCode=BLT"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=BELT&partsCategoryCode=BLT"),
       Entry(
           title: "BLOWER",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=BLOWER&partsCategoryCode=BLW"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=BLOWER&partsCategoryCode=BLW"),
       Entry(
           title: "BUMPER",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=BUMPER&partsCategoryCode=BMP"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=BUMPER&partsCategoryCode=BMP"),
       Entry(
           title: "BOOT",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=BOOT&partsCategoryCode=BOOT"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=BOOT&partsCategoryCode=BOOT"),
       Entry(
           title: "BRACKET",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=BRACKET&partsCategoryCode=BRACK"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
       Entry(
           title: "CHAIN",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=CHAIN&partsCategoryCode=CHA"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=CHAIN&partsCategoryCode=CHA"),
       Entry(
           title: "COIL",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=COIL&partsCategoryCode=COIL"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=COIL&partsCategoryCode=COIL"),
       Entry(
           title: "COMPRESSOR",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
       Entry(
           title: "CONDENSER ",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=CONDENSER &partsCategoryCode=COND"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=CONDENSER &partsCategoryCode=COND"),
       Entry(
           title: "COVER",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=COVER&partsCategoryCode=COVER"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=COVER&partsCategoryCode=COVER"),
       Entry(
           title: "CUT BUSH",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
       Entry(
           title: "DOOR",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=DOOR&partsCategoryCode=DOOR"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=DOOR&partsCategoryCode=DOOR"),
       Entry(
           title: "EMBLEM",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=EMBLEM&partsCategoryCode=EMB"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=EMBLEM&partsCategoryCode=EMB"),
       Entry(
           title: "ENGINE",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=ENGINE&partsCategoryCode=ENG"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=ENGINE&partsCategoryCode=ENG"),
       Entry(
           title: "EVAPORATOR",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
       Entry(
           title: "EXPANSION",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
       Entry(
           title: "FILTER",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=FILTER&partsCategoryCode=FI"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=FILTER&partsCategoryCode=FI"),
       Entry(
           title: "FOG",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=FOG&partsCategoryCode=FOG"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=FOG&partsCategoryCode=FOG"),
       Entry(
           title: "FRONT",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=FRONT&partsCategoryCode=FRNT"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=FRONT&partsCategoryCode=FRNT"),
       Entry(
           title: "GASKET",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=GASKET&partsCategoryCode=GASK"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=GASKET&partsCategoryCode=GASK"),
       Entry(
           title: "GRILL",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=GRILL&partsCategoryCode=GRILL"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=GRILL&partsCategoryCode=GRILL"),
       Entry(
           title: "GUIDE",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
       Entry(
           title: "HEAD",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=HEAD&partsCategoryCode=HEAD"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=HEAD&partsCategoryCode=HEAD"),
       Entry(
           title: "HOOD",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=HOOD&partsCategoryCode=HOOD"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=HOOD&partsCategoryCode=HOOD"),
       Entry(
           title: "HOSE",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=HOSE&partsCategoryCode=HOSE"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=HOSE&partsCategoryCode=HOSE"),
       Entry(
           title: "INJECTOR",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
       Entry(
           title: "JOINT",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=JOINT&partsCategoryCode=JOINT"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=JOINT&partsCategoryCode=JOINT"),
       Entry(
           title: "KEY",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=KEY&partsCategoryCode=KEY"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=KEY&partsCategoryCode=KEY"),
       Entry(
           title: "KIT",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=KIT&partsCategoryCode=KIT"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=KIT&partsCategoryCode=KIT"),
       Entry(
           title: "MIRROR",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
       Entry(
           title: "MOUDLING",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
       Entry(
           title: "NOZZLE",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
       Entry(
           title: "OIL",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=OIL&partsCategoryCode=OIL"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=OIL&partsCategoryCode=OIL"),
       Entry(
           title: "OTHERS",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=OTHERS&partsCategoryCode=OTHER"),
       Entry(
           title: "PANEL",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=PANEL&partsCategoryCode=PANEL"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=PANEL&partsCategoryCode=PANEL"),
       Entry(
           title: "PISTON",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=PISTON&partsCategoryCode=PISTO"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=PISTON&partsCategoryCode=PISTO"),
       Entry(
           title: "PUMP",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=PUMP&partsCategoryCode=PUMP"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=PUMP&partsCategoryCode=PUMP"),
       Entry(
           title: "RESERVOIR",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
       Entry(
           title: "SENSOR",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=SENSOR&partsCategoryCode=SENSO"),
       Entry(
           title: "SHAFT",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
       Entry(
           title: "SHOCK",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
       Entry(
           title: "SPARK PLUG",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
       Entry(
           title: "STABILIZER",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=STABILIZER&partsCategoryCode=STABI"),
       Entry(
           title: "STB LINK",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=STB LINK&partsCategoryCode=STBL"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=STB LINK&partsCategoryCode=STBL"),
       Entry(
           title: "STEARING",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=STEARING&partsCategoryCode=STEAR"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=STEARING&partsCategoryCode=STEAR"),
       Entry(
           title: "STRIP",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=STRIP&partsCategoryCode=STRIP"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=STRIP&partsCategoryCode=STRIP"),
       Entry(
           title: "TIE ROD",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=TIE ROD&partsCategoryCode=TIER"),
       Entry(
           title: "VALVE",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=VALVE&partsCategoryCode=VALVE"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=VALVE&partsCategoryCode=VALVE"),
       Entry(
           title: "WATER PUMP",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
       Entry(
           title: "WHEEL",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
       Entry(
           title: "WINDOW",
           url:
-              "/catalog/products?make=HY&makeCode=HYUNDAI&partsCategory=WINDOW&partsCategoryCode=WINDO"),
+              "/productsList?make=HY&makeCode=HYUNDAI&partsCategory=WINDOW&partsCategoryCode=WINDO"),
     ],
   ),
   Entry(
     title: "JAGUAR",
-    url: "/catalog/products?make=JAGUAR&makeCode=JAGUAR",
+    url: "/productsList?make=JAGUAR&makeCode=JAGUAR",
     image: 'assets/brands/JAGUAR.png',
     submenu: <Entry>[
       Entry(
           title: "COUNTY",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&origin=COUNTY&origincode=COUNTY"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&origin=COUNTY&origincode=COUNTY"),
       Entry(
           title: "DENSO",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&origin=DENSO&origincode=DSO"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&origin=DENSO&origincode=DSO"),
       Entry(
           title: "GERMANY",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&origin=GERMANY&origincode=GER"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&origin=GERMANY&origincode=GER"),
       Entry(
           title: "GKN",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&origin=GKN&origincode=GKN"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&origin=GKN&origincode=GKN"),
       Entry(
           title: "HELLA",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&origin=HELLA&origincode=HLA"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&origin=HELLA&origincode=HLA"),
       Entry(
           title: "LEMFORDER",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&origin=LEMFORDER&origincode=LEM"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&origin=LEMFORDER&origincode=LEM"),
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "TRW",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&origin=TRW&origincode=TRW"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&origin=TRW&origincode=TRW"),
       Entry(
           title: "U.K",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&origin=U.K&origincode=UK"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&origin=U.K&origincode=UK"),
       Entry(
           title: "USED",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&origin=USED&origincode=USD"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&origin=USED&origincode=USD"),
       Entry(
           title: "AC COMPRESSOR",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
       Entry(
           title: "AC CONDENSER",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
       Entry(
           title: "ANTI FREEZE",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=ANTI FREEZE&partsCategoryCode=ANTI"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=ANTI FREEZE&partsCategoryCode=ANTI"),
       Entry(
           title: "ARM",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=ARM&partsCategoryCode=ARM"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=ARM&partsCategoryCode=ARM"),
       Entry(
           title: "AXLE",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=AXLE&partsCategoryCode=AXLE"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=AXLE&partsCategoryCode=AXLE"),
       Entry(
           title: "BATTERY",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=BATTERY&partsCategoryCode=BA"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=BATTERY&partsCategoryCode=BA"),
       Entry(
           title: "BADGE",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=BADGE&partsCategoryCode=BADGE"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=BADGE&partsCategoryCode=BADGE"),
       Entry(
           title: "BALL JOINT",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
       Entry(
           title: "BAR",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=BAR&partsCategoryCode=BAR"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=BAR&partsCategoryCode=BAR"),
       Entry(
           title: "BELT",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=BELT&partsCategoryCode=BELT"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=BELT&partsCategoryCode=BELT"),
       Entry(
           title: "BELT",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=BELT&partsCategoryCode=BLT"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=BELT&partsCategoryCode=BLT"),
       Entry(
           title: "BONET",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=BONET&partsCategoryCode=BO"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=BONET&partsCategoryCode=BO"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
       Entry(
           title: "BRAKE",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=BRAKE&partsCategoryCode=BRK"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=BRAKE&partsCategoryCode=BRK"),
       Entry(
           title: "BUMPER",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=BUMPER&partsCategoryCode=BUMPER"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=BUMPER&partsCategoryCode=BUMPER"),
       Entry(
           title: "BUSH",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=BUSH&partsCategoryCode=BUSH"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=BUSH&partsCategoryCode=BUSH"),
       Entry(
           title: "CAP",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=CAP&partsCategoryCode=CAP"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=CAP&partsCategoryCode=CAP"),
       Entry(
           title: "CHAIN",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=CHAIN&partsCategoryCode=CHAIN"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=CHAIN&partsCategoryCode=CHAIN"),
       Entry(
           title: "COOLANT",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=COOLANT&partsCategoryCode=COOLA"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=COOLANT&partsCategoryCode=COOLA"),
       Entry(
           title: "COVER",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=COVER&partsCategoryCode=COVER"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=COVER&partsCategoryCode=COVER"),
       Entry(
           title: "CUT BUSH",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
       Entry(
           title: "ELEMENT",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=ELEMENT&partsCategoryCode=ELEME"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=ELEMENT&partsCategoryCode=ELEME"),
       Entry(
           title: "ENGINE",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=ENGINE&partsCategoryCode=ENG"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=ENGINE&partsCategoryCode=ENG"),
       Entry(
           title: "ENGINE",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
       Entry(
           title: "EVAPORATOR",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
       Entry(
           title: "EXPANSION",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
       Entry(
           title: "FILTER",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=FILTER&partsCategoryCode=FI"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=FILTER&partsCategoryCode=FI"),
       Entry(
           title: "FOG",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=FOG&partsCategoryCode=FOG"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=FOG&partsCategoryCode=FOG"),
       Entry(
           title: "FRONT",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=FRONT&partsCategoryCode=FRNT"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=FRONT&partsCategoryCode=FRNT"),
       Entry(
           title: "GASKET",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=GASKET&partsCategoryCode=GASK"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=GASKET&partsCategoryCode=GASK"),
       Entry(
           title: "GRILL",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=GRILL&partsCategoryCode=GRILL"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=GRILL&partsCategoryCode=GRILL"),
       Entry(
           title: "IGNITION",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
       Entry(
           title: "INSULATOR",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
       Entry(
           title: "JOINT",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=JOINT&partsCategoryCode=JOINT"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=JOINT&partsCategoryCode=JOINT"),
       Entry(
           title: "KIT",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=KIT&partsCategoryCode=KIT"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=KIT&partsCategoryCode=KIT"),
       Entry(
           title: "LINK",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=LINK&partsCategoryCode=LINK"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=LINK&partsCategoryCode=LINK"),
       Entry(
           title: "MOUNTING",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
       Entry(
           title: "OIL",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=OIL&partsCategoryCode=OIL"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=OIL&partsCategoryCode=OIL"),
       Entry(
           title: "OIL ASSY",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
       Entry(
           title: "OTHERS",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=OTHERS&partsCategoryCode=OTHER"),
       Entry(
           title: "PULLEY",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=PULLEY&partsCategoryCode=PULLE"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=PULLEY&partsCategoryCode=PULLE"),
       Entry(
           title: "RADIATOR",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
       Entry(
           title: "REAR",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=REAR&partsCategoryCode=REAR"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=REAR&partsCategoryCode=REAR"),
       Entry(
           title: "REGULATOR",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
       Entry(
           title: "SENSOR",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=SENSOR&partsCategoryCode=SENSO"),
       Entry(
           title: "SHAFT",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
       Entry(
           title: "SPARK PLUG",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
       Entry(
           title: "SPRING",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=SPRING&partsCategoryCode=SPRIN"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=SPRING&partsCategoryCode=SPRIN"),
       Entry(
           title: "STEERING",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=STEERING&partsCategoryCode=STEER"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=STEERING&partsCategoryCode=STEER"),
       Entry(
           title: "SUSPENSION",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
       Entry(
           title: "TANK",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=TANK&partsCategoryCode=TANK"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=TANK&partsCategoryCode=TANK"),
       Entry(
           title: "TENSIONER",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
       Entry(
           title: "THERMOSTAT",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
       Entry(
           title: "THERMOSTAT",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=THERMOSTAT&partsCategoryCode=THERMOSTAT"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=THERMOSTAT&partsCategoryCode=THERMOSTAT"),
       Entry(
           title: "TIE ROD",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=TIE ROD&partsCategoryCode=TIER"),
       Entry(
           title: "UPPER ARM",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
       Entry(
           title: "VALVE",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=VALVE&partsCategoryCode=VALVE"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=VALVE&partsCategoryCode=VALVE"),
       Entry(
           title: "WATER PUMP",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
       Entry(
           title: "WHEEL",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
       Entry(
           title: "WIPER",
           url:
-              "/catalog/products?make=JAGUAR&makeCode=JAGUAR&partsCategory=WIPER&partsCategoryCode=WIPER"),
+              "/productsList?make=JAGUAR&makeCode=JAGUAR&partsCategory=WIPER&partsCategoryCode=WIPER"),
     ],
   ),
   Entry(
     title: "JEEP",
-    url: "/catalog/products?make=JEEP&makeCode=JEEP",
+    url: "/productsList?make=JEEP&makeCode=JEEP",
     image: 'assets/brands/JEEP.png',
     submenu: <Entry>[
       Entry(
           title: "ACDELCO",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=ACDELCO&origincode=ACDELCO"),
+              "/productsList?make=JP&makeCode=JEEP&origin=ACDELCO&origincode=ACDELCO"),
       Entry(
           title: "CHINA",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=CHINA&origincode=CHI"),
+              "/productsList?make=JP&makeCode=JEEP&origin=CHINA&origincode=CHI"),
       Entry(
           title: "DENSO",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=DENSO&origincode=DSO"),
+              "/productsList?make=JP&makeCode=JEEP&origin=DENSO&origincode=DSO"),
       Entry(
           title: "GERMANY",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=GERMANY&origincode=GER"),
+              "/productsList?make=JP&makeCode=JEEP&origin=GERMANY&origincode=GER"),
       Entry(
           title: "JAPAN",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=JAPAN&origincode=JAPAN"),
+              "/productsList?make=JP&makeCode=JEEP&origin=JAPAN&origincode=JAPAN"),
       Entry(
           title: "LEMFORDER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=LEMFORDER&origincode=LEM"),
+              "/productsList?make=JP&makeCode=JEEP&origin=LEMFORDER&origincode=LEM"),
       Entry(
           title: "LUK",
-          url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=LUK&origincode=LUK"),
+          url: "/productsList?make=JP&makeCode=JEEP&origin=LUK&origincode=LUK"),
       Entry(
           title: "MAXPART",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=MAXPART&origincode=MXP"),
+              "/productsList?make=JP&makeCode=JEEP&origin=MAXPART&origincode=MXP"),
       Entry(
           title: "ORIGINAL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=ORIGINAL&origincode=OE"),
+              "/productsList?make=JP&makeCode=JEEP&origin=ORIGINAL&origincode=OE"),
       Entry(
           title: "TAIWAN",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=TAIWAN&origincode=TWN"),
+              "/productsList?make=JP&makeCode=JEEP&origin=TAIWAN&origincode=TWN"),
       Entry(
           title: "TURKEY",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=TURKEY&origincode=TKY"),
+              "/productsList?make=JP&makeCode=JEEP&origin=TURKEY&origincode=TKY"),
       Entry(
           title: "U.K",
-          url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=U.K&origincode=UK"),
+          url: "/productsList?make=JP&makeCode=JEEP&origin=U.K&origincode=UK"),
       Entry(
           title: "U.S.A",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&origin=U.S.A&origincode=U.S.A"),
+              "/productsList?make=JP&makeCode=JEEP&origin=U.S.A&origincode=U.S.A"),
       Entry(
           title: "A/C",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=A/C&partsCategoryCode=A/C"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=A/C&partsCategoryCode=A/C"),
       Entry(
           title: "ABSORBER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ABSORBER&partsCategoryCode=ABS"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ABSORBER&partsCategoryCode=ABS"),
       Entry(
           title: "ABSORBER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ABSORBER&partsCategoryCode=ABSORBER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ABSORBER&partsCategoryCode=ABSORBER"),
       Entry(
           title: "A/C",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=A/C&partsCategoryCode=AC"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=A/C&partsCategoryCode=AC"),
       Entry(
           title: "AC COMPRESSOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
       Entry(
           title: "AC CONDENSER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
       Entry(
           title: "AC DRIER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
       Entry(
           title: "ACTUATOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
       Entry(
           title: "ADAPTER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
       Entry(
           title: "ADJUSTER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ADJUSTER&partsCategoryCode=ADJ"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ADJUSTER&partsCategoryCode=ADJ"),
       Entry(
           title: "AIR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=AIR&partsCategoryCode=AIR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=AIR&partsCategoryCode=AIR"),
       Entry(
           title: "ALTERNATOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
       Entry(
           title: "ANTENNA",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ANTENNA&partsCategoryCode=ANTEN"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ANTENNA&partsCategoryCode=ANTEN"),
       Entry(
           title: "ARM",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ARM&partsCategoryCode=ARM"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ARM&partsCategoryCode=ARM"),
       Entry(
           title: "ATF",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ATF&partsCategoryCode=ATF"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ATF&partsCategoryCode=ATF"),
       Entry(
           title: "AXLE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=AXLE&partsCategoryCode=AX"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=AXLE&partsCategoryCode=AX"),
       Entry(
           title: "BATTERY",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BATTERY&partsCategoryCode=BA"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BATTERY&partsCategoryCode=BA"),
       Entry(
           title: "BAFFLE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BAFFLE&partsCategoryCode=BAFFL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BAFFLE&partsCategoryCode=BAFFL"),
       Entry(
           title: "BALL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BALL&partsCategoryCode=BALL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BALL&partsCategoryCode=BALL"),
       Entry(
           title: "BALL JOINT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
       Entry(
           title: "BAR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BAR&partsCategoryCode=BAR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BAR&partsCategoryCode=BAR"),
       Entry(
           title: "BAZEL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BAZEL&partsCategoryCode=BAZEL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BAZEL&partsCategoryCode=BAZEL"),
       Entry(
           title: "BEARING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BEARING&partsCategoryCode=BEA"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BEARING&partsCategoryCode=BEA"),
       Entry(
           title: "BEAM",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BEAM&partsCategoryCode=BEAM"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BEAM&partsCategoryCode=BEAM"),
       Entry(
           title: "BULB",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BULB&partsCategoryCode=BLB"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BULB&partsCategoryCode=BLB"),
       Entry(
           title: "BELT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BELT&partsCategoryCode=BLT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BELT&partsCategoryCode=BLT"),
       Entry(
           title: "BUMPER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BUMPER&partsCategoryCode=BMP"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BUMPER&partsCategoryCode=BMP"),
       Entry(
           title: "BONET",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BONET&partsCategoryCode=BO"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BONET&partsCategoryCode=BO"),
       Entry(
           title: "BODY",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BODY&partsCategoryCode=BODY"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BODY&partsCategoryCode=BODY"),
       Entry(
           title: "BOLT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BOLT&partsCategoryCode=BOLT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BOLT&partsCategoryCode=BOLT"),
       Entry(
           title: "BOOT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BOOT&partsCategoryCode=BOOT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BOOT&partsCategoryCode=BOOT"),
       Entry(
           title: "BRACKET",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BRACKET&partsCategoryCode=BRACK"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
       Entry(
           title: "BRAKE PAD",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE PAD"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE PAD"),
       Entry(
           title: "BRG",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BRG&partsCategoryCode=BRG"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BRG&partsCategoryCode=BRG"),
       Entry(
           title: "BRAKE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BRAKE&partsCategoryCode=BRK"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BRAKE&partsCategoryCode=BRK"),
       Entry(
           title: "BUSH",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=BUSH&partsCategoryCode=BUSH"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=BUSH&partsCategoryCode=BUSH"),
       Entry(
           title: "CABLE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CABLE&partsCategoryCode=CAB"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CABLE&partsCategoryCode=CAB"),
       Entry(
           title: "CAP",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CAP&partsCategoryCode=CAP"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CAP&partsCategoryCode=CAP"),
       Entry(
           title: "CATCH",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CATCH&partsCategoryCode=CATCH"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CATCH&partsCategoryCode=CATCH"),
       Entry(
           title: "CHROME",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CHROME&partsCategoryCode=CHROM"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CHROME&partsCategoryCode=CHROM"),
       Entry(
           title: "CLIP",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CLIP&partsCategoryCode=CLIP"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CLIP&partsCategoryCode=CLIP"),
       Entry(
           title: "CLUTCH",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
       Entry(
           title: "COIL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=COIL&partsCategoryCode=COIL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=COIL&partsCategoryCode=COIL"),
       Entry(
           title: "COMPRESSOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
       Entry(
           title: "CONDENSER ",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CONDENSER &partsCategoryCode=COND"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CONDENSER &partsCategoryCode=COND"),
       Entry(
           title: "CONNECTOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CONNECTOR&partsCategoryCode=CONNTR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CONNECTOR&partsCategoryCode=CONNTR"),
       Entry(
           title: "CONTROL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CONTROL&partsCategoryCode=CONTR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CONTROL&partsCategoryCode=CONTR"),
       Entry(
           title: "COOLANT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=COOLANT&partsCategoryCode=COOLA"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=COOLANT&partsCategoryCode=COOLA"),
       Entry(
           title: "COOLER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=COOLER&partsCategoryCode=COOLER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=COOLER&partsCategoryCode=COOLER"),
       Entry(
           title: "COOLING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=COOLING&partsCategoryCode=COOLING"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=COOLING&partsCategoryCode=COOLING"),
       Entry(
           title: "COUPLING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=COUPLING&partsCategoryCode=COUPL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=COUPLING&partsCategoryCode=COUPL"),
       Entry(
           title: "COVER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=COVER&partsCategoryCode=COVER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=COVER&partsCategoryCode=COVER"),
       Entry(
           title: "CROSS",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CROSS&partsCategoryCode=CROSS"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CROSS&partsCategoryCode=CROSS"),
       Entry(
           title: "CUSHION",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CUSHION&partsCategoryCode=CUSHI"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CUSHION&partsCategoryCode=CUSHI"),
       Entry(
           title: "CUT BUSH",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
       Entry(
           title: "CYLINDER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=CYLINDER&partsCategoryCode=CYL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=CYLINDER&partsCategoryCode=CYL"),
       Entry(
           title: "DISC",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=DISC&partsCategoryCode=DISC"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=DISC&partsCategoryCode=DISC"),
       Entry(
           title: "DOOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=DOOR&partsCategoryCode=DOOR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=DOOR&partsCategoryCode=DOOR"),
       Entry(
           title: "DRIER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=DRIER&partsCategoryCode=DRIER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=DRIER&partsCategoryCode=DRIER"),
       Entry(
           title: "ELECTRICAL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
       Entry(
           title: "END",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=END&partsCategoryCode=END"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=END&partsCategoryCode=END"),
       Entry(
           title: "ENGINE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ENGINE&partsCategoryCode=ENG"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ENGINE&partsCategoryCode=ENG"),
       Entry(
           title: "ENGINE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
       Entry(
           title: "EVAPORATOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
       Entry(
           title: "EXHAUST",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=EXHAUST&partsCategoryCode=EXH"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=EXHAUST&partsCategoryCode=EXH"),
       Entry(
           title: "EXPANSION",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
       Entry(
           title: "EXTENSION",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=EXTENSION&partsCategoryCode=EXTEN"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=EXTENSION&partsCategoryCode=EXTEN"),
       Entry(
           title: "FAN",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=FAN&partsCategoryCode=FAN"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=FAN&partsCategoryCode=FAN"),
       Entry(
           title: "FENDER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=FENDER&partsCategoryCode=FENDE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=FENDER&partsCategoryCode=FENDE"),
       Entry(
           title: "FILTER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=FILTER&partsCategoryCode=FI"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=FILTER&partsCategoryCode=FI"),
       Entry(
           title: "FOG",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=FOG&partsCategoryCode=FOG"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=FOG&partsCategoryCode=FOG"),
       Entry(
           title: "FRONT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=FRONT&partsCategoryCode=FRNT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=FRONT&partsCategoryCode=FRNT"),
       Entry(
           title: "FUEL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=FUEL&partsCategoryCode=FU"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=FUEL&partsCategoryCode=FU"),
       Entry(
           title: "GASKET",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=GASKET&partsCategoryCode=GASK"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=GASKET&partsCategoryCode=GASK"),
       Entry(
           title: "GLASS",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=GLASS&partsCategoryCode=GL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=GLASS&partsCategoryCode=GL"),
       Entry(
           title: "GLOW",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=GLOW&partsCategoryCode=GLOW"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=GLOW&partsCategoryCode=GLOW"),
       Entry(
           title: "GEAR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=GEAR&partsCategoryCode=GR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=GEAR&partsCategoryCode=GR"),
       Entry(
           title: "GRILL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=GRILL&partsCategoryCode=GRILL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=GRILL&partsCategoryCode=GRILL"),
       Entry(
           title: "GROMMET",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=GROMMET&partsCategoryCode=GROMM"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=GROMMET&partsCategoryCode=GROMM"),
       Entry(
           title: "HAND",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=HAND&partsCategoryCode=HAN"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=HAND&partsCategoryCode=HAN"),
       Entry(
           title: "HANDL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=HANDL&partsCategoryCode=HANDL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=HANDL&partsCategoryCode=HANDL"),
       Entry(
           title: "HEAD",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=HEAD&partsCategoryCode=HEAD"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=HEAD&partsCategoryCode=HEAD"),
       Entry(
           title: "HINGE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=HINGE&partsCategoryCode=HINGE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=HINGE&partsCategoryCode=HINGE"),
       Entry(
           title: "HOOD",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=HOOD&partsCategoryCode=HOOD"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=HOOD&partsCategoryCode=HOOD"),
       Entry(
           title: "HOOK",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=HOOK&partsCategoryCode=HOOK"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=HOOK&partsCategoryCode=HOOK"),
       Entry(
           title: "HORN",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=HORN&partsCategoryCode=HORN"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=HORN&partsCategoryCode=HORN"),
       Entry(
           title: "HOSE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=HOSE&partsCategoryCode=HOSE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=HOSE&partsCategoryCode=HOSE"),
       Entry(
           title: "HUB",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=HUB&partsCategoryCode=HUB"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=HUB&partsCategoryCode=HUB"),
       Entry(
           title: "IDLER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=IDLER&partsCategoryCode=IDLER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=IDLER&partsCategoryCode=IDLER"),
       Entry(
           title: "IGNITION",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
       Entry(
           title: "INJECTOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
       Entry(
           title: "INSERT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=INSERT&partsCategoryCode=INSER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=INSERT&partsCategoryCode=INSER"),
       Entry(
           title: "INSULATOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
       Entry(
           title: "JOINT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=JOINT&partsCategoryCode=JOINT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=JOINT&partsCategoryCode=JOINT"),
       Entry(
           title: "KEY",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=KEY&partsCategoryCode=KEY"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=KEY&partsCategoryCode=KEY"),
       Entry(
           title: "KIT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=KIT&partsCategoryCode=KIT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=KIT&partsCategoryCode=KIT"),
       Entry(
           title: "KNUCKLE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=KNUCKLE&partsCategoryCode=KNUCK"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=KNUCKLE&partsCategoryCode=KNUCK"),
       Entry(
           title: "LAMP",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=LAMP&partsCategoryCode=LAMP"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=LAMP&partsCategoryCode=LAMP"),
       Entry(
           title: "LATCH",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=LATCH&partsCategoryCode=LATCH"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=LATCH&partsCategoryCode=LATCH"),
       Entry(
           title: "LIGHT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=LIGHT&partsCategoryCode=LGHT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=LIGHT&partsCategoryCode=LGHT"),
       Entry(
           title: "LINE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=LINE&partsCategoryCode=LINE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=LINE&partsCategoryCode=LINE"),
       Entry(
           title: "LINK",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=LINK&partsCategoryCode=LINK"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=LINK&partsCategoryCode=LINK"),
       Entry(
           title: "LOCK",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=LOCK&partsCategoryCode=LOCK"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=LOCK&partsCategoryCode=LOCK"),
       Entry(
           title: "LOWER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=LOWER&partsCategoryCode=LOWER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=LOWER&partsCategoryCode=LOWER"),
       Entry(
           title: "MIRROR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
       Entry(
           title: "MODULE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=MODULE&partsCategoryCode=MODUL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=MODULE&partsCategoryCode=MODUL"),
       Entry(
           title: "MOLDING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=MOLDING&partsCategoryCode=MOLDI"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=MOLDING&partsCategoryCode=MOLDI"),
       Entry(
           title: "MOTOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
       Entry(
           title: "MOUDLING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
       Entry(
           title: "MOULDING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=MOULDING&partsCategoryCode=MOULD"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=MOULDING&partsCategoryCode=MOULD"),
       Entry(
           title: "MOUNT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
       Entry(
           title: "MOUNTING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
       Entry(
           title: "NAME PLATE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=NAME PLATE&partsCategoryCode=NAME"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=NAME PLATE&partsCategoryCode=NAME"),
       Entry(
           title: "NOZZLE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
       Entry(
           title: "NUT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=NUT&partsCategoryCode=NUT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=NUT&partsCategoryCode=NUT"),
       Entry(
           title: "OIL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=OIL&partsCategoryCode=OIL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=OIL&partsCategoryCode=OIL"),
       Entry(
           title: "OIL ASSY",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
       Entry(
           title: "O - RING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=O - RING&partsCategoryCode=O-R"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=O - RING&partsCategoryCode=O-R"),
       Entry(
           title: "OTHERS",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=OTHERS&partsCategoryCode=OTHER"),
       Entry(
           title: "PAD",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=PAD&partsCategoryCode=PAD"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=PAD&partsCategoryCode=PAD"),
       Entry(
           title: "PANEL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=PANEL&partsCategoryCode=PANEL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=PANEL&partsCategoryCode=PANEL"),
       Entry(
           title: "PIN",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=PIN&partsCategoryCode=PIN"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=PIN&partsCategoryCode=PIN"),
       Entry(
           title: "PIPE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=PIPE&partsCategoryCode=PIPE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=PIPE&partsCategoryCode=PIPE"),
       Entry(
           title: "PISTON",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=PISTON&partsCategoryCode=PISTO"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=PISTON&partsCategoryCode=PISTO"),
       Entry(
           title: "PLATE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=PLATE&partsCategoryCode=PLATE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=PLATE&partsCategoryCode=PLATE"),
       Entry(
           title: "PLUG",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=PLUG&partsCategoryCode=PLUG"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=PLUG&partsCategoryCode=PLUG"),
       Entry(
           title: "POWER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=POWER&partsCategoryCode=POWER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=POWER&partsCategoryCode=POWER"),
       Entry(
           title: "PULLEY",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=PULLEY&partsCategoryCode=PULLE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=PULLEY&partsCategoryCode=PULLE"),
       Entry(
           title: "PUMP",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=PUMP&partsCategoryCode=PUMP"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=PUMP&partsCategoryCode=PUMP"),
       Entry(
           title: "RACK",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=RACK&partsCategoryCode=RACK"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=RACK&partsCategoryCode=RACK"),
       Entry(
           title: "RADIATOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
       Entry(
           title: "RADIATOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
       Entry(
           title: "RAIL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=RAIL&partsCategoryCode=RAIL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=RAIL&partsCategoryCode=RAIL"),
       Entry(
           title: "REAR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=REAR&partsCategoryCode=REAR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=REAR&partsCategoryCode=REAR"),
       Entry(
           title: "REGULATOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
       Entry(
           title: "RELAY",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=RELAY&partsCategoryCode=RELAY"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=RELAY&partsCategoryCode=RELAY"),
       Entry(
           title: "RESERVOIR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
       Entry(
           title: "RESISTOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=RESISTOR&partsCategoryCode=RESIS"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=RESISTOR&partsCategoryCode=RESIS"),
       Entry(
           title: "RETAINER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=RETAINER&partsCategoryCode=RETAI"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=RETAINER&partsCategoryCode=RETAI"),
       Entry(
           title: "RING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=RING&partsCategoryCode=RING"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=RING&partsCategoryCode=RING"),
       Entry(
           title: "RIVET",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=RIVET&partsCategoryCode=RIVET"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=RIVET&partsCategoryCode=RIVET"),
       Entry(
           title: "ROOF",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ROOF&partsCategoryCode=ROOF"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ROOF&partsCategoryCode=ROOF"),
       Entry(
           title: "ROTOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
       Entry(
           title: "SCREW",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SCREW&partsCategoryCode=SCREW"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SCREW&partsCategoryCode=SCREW"),
       Entry(
           title: "SEAL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SEAL&partsCategoryCode=SEAL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SEAL&partsCategoryCode=SEAL"),
       Entry(
           title: "SEAT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SEAT&partsCategoryCode=SEAT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SEAT&partsCategoryCode=SEAT"),
       Entry(
           title: "SENSOR",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SENSOR&partsCategoryCode=SENSO"),
       Entry(
           title: "SHAFT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
       Entry(
           title: "SHIELD",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SHIELD&partsCategoryCode=SHIEL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SHIELD&partsCategoryCode=SHIEL"),
       Entry(
           title: "SHOCK",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
       Entry(
           title: "SILICON",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SILICON&partsCategoryCode=SILIC"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SILICON&partsCategoryCode=SILIC"),
       Entry(
           title: "SOLENOID",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SOLENOID&partsCategoryCode=SOLEN"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SOLENOID&partsCategoryCode=SOLEN"),
       Entry(
           title: "SPACER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SPACER&partsCategoryCode=SPACE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SPACER&partsCategoryCode=SPACE"),
       Entry(
           title: "SPARK PLUG",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
       Entry(
           title: "SPRING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SPRING&partsCategoryCode=SPRIN"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SPRING&partsCategoryCode=SPRIN"),
       Entry(
           title: "STAB LINK",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=STAB LINK&partsCategoryCode=STAB"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=STAB LINK&partsCategoryCode=STAB"),
       Entry(
           title: "STABILIZER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=STABILIZER&partsCategoryCode=STABI"),
       Entry(
           title: "STARTER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=STARTER&partsCategoryCode=START"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=STARTER&partsCategoryCode=START"),
       Entry(
           title: "STEARING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=STEARING&partsCategoryCode=STEAR"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=STEARING&partsCategoryCode=STEAR"),
       Entry(
           title: "STEERING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=STEERING&partsCategoryCode=STEER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=STEERING&partsCategoryCode=STEER"),
       Entry(
           title: "STEERING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=STEERING&partsCategoryCode=STEERING"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=STEERING&partsCategoryCode=STEERING"),
       Entry(
           title: "STRUT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=STRUT&partsCategoryCode=STRUT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=STRUT&partsCategoryCode=STRUT"),
       Entry(
           title: "STUD",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=STUD&partsCategoryCode=STUD"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=STUD&partsCategoryCode=STUD"),
       Entry(
           title: "SUPPORT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
       Entry(
           title: "SUSPENSION",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
       Entry(
           title: "SUSPENSION",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SUSPENSION&partsCategoryCode=SUSPENSION"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SUSPENSION&partsCategoryCode=SUSPENSION"),
       Entry(
           title: "SWITCH",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=SWITCH&partsCategoryCode=SWITC"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=SWITCH&partsCategoryCode=SWITC"),
       Entry(
           title: "TANK",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=TANK&partsCategoryCode=TANK"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=TANK&partsCategoryCode=TANK"),
       Entry(
           title: "TENSIONER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
       Entry(
           title: "THERMOSTAT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
       Entry(
           title: "THERMOSTAT",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=THERMOSTAT&partsCategoryCode=THERMOSTAT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=THERMOSTAT&partsCategoryCode=THERMOSTAT"),
       Entry(
           title: "THROTTLE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=THROTTLE&partsCategoryCode=THROT"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=THROTTLE&partsCategoryCode=THROT"),
       Entry(
           title: "THRUST",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=THRUST&partsCategoryCode=THRUS"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=THRUST&partsCategoryCode=THRUS"),
       Entry(
           title: "TIE ROD",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=TIE ROD&partsCategoryCode=TIER"),
       Entry(
           title: "TIMING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=TIMING&partsCategoryCode=TIMIN"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=TIMING&partsCategoryCode=TIMIN"),
       Entry(
           title: "TRANSMISSION",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
       Entry(
           title: "TRANSMISSION",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=TRANSMISSION&partsCategoryCode=TRANSMISSION"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=TRANSMISSION&partsCategoryCode=TRANSMISSION"),
       Entry(
           title: "TUBE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=TUBE&partsCategoryCode=TUBE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=TUBE&partsCategoryCode=TUBE"),
       Entry(
           title: "TYRE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=TYRE&partsCategoryCode=TYRE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=TYRE&partsCategoryCode=TYRE"),
       Entry(
           title: "UPPER ARM",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
       Entry(
           title: "VALVE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=VALVE&partsCategoryCode=VALVE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=VALVE&partsCategoryCode=VALVE"),
       Entry(
           title: "WATER PUMP",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
       Entry(
           title: "WATER PUMP",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=WATER PUMP&partsCategoryCode=WATER PUMP"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=WATER PUMP&partsCategoryCode=WATER PUMP"),
       Entry(
           title: "WEATER STRIPE",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=WEATER STRIPE&partsCategoryCode=WEATE"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=WEATER STRIPE&partsCategoryCode=WEATE"),
       Entry(
           title: "WHEEL",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
       Entry(
           title: "WINDOW",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=WINDOW&partsCategoryCode=WINDO"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=WINDOW&partsCategoryCode=WINDO"),
       Entry(
           title: "WIPER",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=WIPER&partsCategoryCode=WIPER"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=WIPER&partsCategoryCode=WIPER"),
       Entry(
           title: "WIRING",
           url:
-              "/catalog/products?make=JP&makeCode=JEEP&partsCategory=WIRING&partsCategoryCode=WIRIN"),
+              "/productsList?make=JP&makeCode=JEEP&partsCategory=WIRING&partsCategoryCode=WIRIN"),
     ],
   ),
   Entry(
       title: "KIA",
-      url: "/catalog/products?make=KIA&makeCode=KIA",
+      url: "/productsList?make=KIA&makeCode=KIA",
       image: 'assets/brands/kia.jpg',
       submenu: <Entry>[
         Entry(
             title: "BREMI",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&origin=BREMI&origincode=BMI"),
+                "/productsList?make=KI&makeCode=KIA&origin=BREMI&origincode=BMI"),
         Entry(
             title: "KOYO",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&origin=KOYO&origincode=KOYO"),
+                "/productsList?make=KI&makeCode=KIA&origin=KOYO&origincode=KOYO"),
         Entry(
             title: "OEM",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&origin=OEM&origincode=OEM"),
+                "/productsList?make=KI&makeCode=KIA&origin=OEM&origincode=OEM"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=KI&makeCode=KIA&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "BELT",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=BELT&partsCategoryCode=BLT"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=BELT&partsCategoryCode=BLT"),
         Entry(
             title: "BOOT",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=BOOT&partsCategoryCode=BOOT"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=BOOT&partsCategoryCode=BOOT"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
         Entry(
             title: "BRAKE",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=BRAKE&partsCategoryCode=BRK"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=BRAKE&partsCategoryCode=BRK"),
         Entry(
             title: "CARRIER",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=CARRIER&partsCategoryCode=CAR"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=CARRIER&partsCategoryCode=CAR"),
         Entry(
             title: "COIL",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=COIL&partsCategoryCode=COIL"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=COIL&partsCategoryCode=COIL"),
         Entry(
             title: "COMPRESSOR",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
         Entry(
             title: "CONTROL",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=CONTROL&partsCategoryCode=CONTR"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=CONTROL&partsCategoryCode=CONTR"),
         Entry(
             title: "COVER",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=COVER&partsCategoryCode=COVER"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=COVER&partsCategoryCode=COVER"),
         Entry(
             title: "CROSS",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=CROSS&partsCategoryCode=CROSS"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=CROSS&partsCategoryCode=CROSS"),
         Entry(
             title: "CUT BUSH",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
         Entry(
             title: "DOOR",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=DOOR&partsCategoryCode=DOOR"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=DOOR&partsCategoryCode=DOOR"),
         Entry(
             title: "ELECTRICAL",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=FILTER&partsCategoryCode=FI"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=FILTER&partsCategoryCode=FI"),
         Entry(
             title: "FOG",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=FOG&partsCategoryCode=FOG"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=FOG&partsCategoryCode=FOG"),
         Entry(
             title: "FRONT",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=FRONT&partsCategoryCode=FRNT"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=FRONT&partsCategoryCode=FRNT"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=GASKET&partsCategoryCode=GASK"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=GASKET&partsCategoryCode=GASK"),
         Entry(
             title: "GRILL",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=GRILL&partsCategoryCode=GRILL"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=GRILL&partsCategoryCode=GRILL"),
         Entry(
             title: "HEAD",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=HEAD&partsCategoryCode=HEAD"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=HEAD&partsCategoryCode=HEAD"),
         Entry(
             title: "KNUCKLE",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=KNUCKLE&partsCategoryCode=KNUCK"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=KNUCKLE&partsCategoryCode=KNUCK"),
         Entry(
             title: "LAMP",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=LAMP&partsCategoryCode=LAMP"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=LAMP&partsCategoryCode=LAMP"),
         Entry(
             title: "LINK",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=LINK&partsCategoryCode=LINK"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=LINK&partsCategoryCode=LINK"),
         Entry(
             title: "LOWER",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=LOWER&partsCategoryCode=LOWER"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=LOWER&partsCategoryCode=LOWER"),
         Entry(
             title: "MIRROR",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
         Entry(
             title: "MODULE",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=MODULE&partsCategoryCode=MODUL"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=MODULE&partsCategoryCode=MODUL"),
         Entry(
             title: "OTHERS",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=OTHERS&partsCategoryCode=OTHER"),
         Entry(
             title: "PAD",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=PAD&partsCategoryCode=PAD"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=PAD&partsCategoryCode=PAD"),
         Entry(
             title: "POWER",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=POWER&partsCategoryCode=POWER"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=POWER&partsCategoryCode=POWER"),
         Entry(
             title: "RAIL",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=RAIL&partsCategoryCode=RAIL"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=RAIL&partsCategoryCode=RAIL"),
         Entry(
             title: "REGULATOR",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
         Entry(
             title: "RESERVOIR",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
         Entry(
             title: "RESISTOR",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=RESISTOR&partsCategoryCode=RESIS"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=RESISTOR&partsCategoryCode=RESIS"),
         Entry(
             title: "SHAFT",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
         Entry(
             title: "SHOCK",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
         Entry(
             title: "SPRING",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=SPRING&partsCategoryCode=SPRIN"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=SPRING&partsCategoryCode=SPRIN"),
         Entry(
             title: "STB LINK",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=STB LINK&partsCategoryCode=STBL"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=STB LINK&partsCategoryCode=STBL"),
         Entry(
             title: "STEERING",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=STEERING&partsCategoryCode=STEER"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=STEERING&partsCategoryCode=STEER"),
         Entry(
             title: "STRUT",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=STRUT&partsCategoryCode=STRUT"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=STRUT&partsCategoryCode=STRUT"),
         Entry(
             title: "SUN",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=SUN&partsCategoryCode=SUN"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=SUN&partsCategoryCode=SUN"),
         Entry(
             title: "WHEEL",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
         Entry(
             title: "WINDOW",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=WINDOW&partsCategoryCode=WINDO"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=WINDOW&partsCategoryCode=WINDO"),
         Entry(
             title: "WIPER",
             url:
-                "/catalog/products?make=KI&makeCode=KIA&partsCategory=WIPER&partsCategoryCode=WIPER"),
+                "/productsList?make=KI&makeCode=KIA&partsCategory=WIPER&partsCategoryCode=WIPER"),
       ]),
   Entry(
       title: "LAND ROVER",
-      url: "/catalog/products?make=LAND ROVER&makeCode=LAND ROVER",
+      url: "/productsList?make=LAND ROVER&makeCode=LAND ROVER",
       image: 'assets/brands/LAND-ROVER.png',
       submenu: <Entry>[
         Entry(
             title: "ALLMAKES 4X4",
             url:
-                "/catalog/products?make=LR&makeCode=LAND ROVER&origin=ALLMAKES 4X4&origincode=ALL"),
+                "/productsList?make=LR&makeCode=LAND ROVER&origin=ALLMAKES 4X4&origincode=ALL"),
         Entry(
             title: "BRITPART",
             url:
-                "/catalog/products?make=LR&makeCode=LAND ROVER&origin=BRITPART&origincode=BRIT"),
+                "/productsList?make=LR&makeCode=LAND ROVER&origin=BRITPART&origincode=BRIT"),
         Entry(
             title: "DENSO",
             url:
-                "/catalog/products?make=LR&makeCode=LAND ROVER&origin=DENSO&origincode=DSO"),
+                "/productsList?make=LR&makeCode=LAND ROVER&origin=DENSO&origincode=DSO"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=LR&makeCode=LAND ROVER&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=LR&makeCode=LAND ROVER&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "VALEO",
             url:
-                "/catalog/products?make=LR&makeCode=LAND ROVER&origin=VALEO&origincode=VAL"),
+                "/productsList?make=LR&makeCode=LAND ROVER&origin=VALEO&origincode=VAL"),
         Entry(
             title: "ALTERNATOR",
             url:
-                "/catalog/products?make=LR&makeCode=LAND ROVER&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
+                "/productsList?make=LR&makeCode=LAND ROVER&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
         Entry(
             title: "AXLE",
             url:
-                "/catalog/products?make=LR&makeCode=LAND ROVER&partsCategory=AXLE&partsCategoryCode=AXLE"),
+                "/productsList?make=LR&makeCode=LAND ROVER&partsCategory=AXLE&partsCategoryCode=AXLE"),
         Entry(
             title: "OTHERS",
             url:
-                "/catalog/products?make=LR&makeCode=LAND ROVER&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+                "/productsList?make=LR&makeCode=LAND ROVER&partsCategory=OTHERS&partsCategoryCode=OTHER"),
         Entry(
             title: "REAR",
             url:
-                "/catalog/products?make=LR&makeCode=LAND ROVER&partsCategory=REAR&partsCategoryCode=REAR"),
+                "/productsList?make=LR&makeCode=LAND ROVER&partsCategory=REAR&partsCategoryCode=REAR"),
         Entry(
             title: "SEAL",
             url:
-                "/catalog/products?make=LR&makeCode=LAND ROVER&partsCategory=SEAL&partsCategoryCode=SEAL"),
+                "/productsList?make=LR&makeCode=LAND ROVER&partsCategory=SEAL&partsCategoryCode=SEAL"),
         Entry(
             title: "WIPER",
             url:
-                "/catalog/products?make=LR&makeCode=LAND ROVER&partsCategory=WIPER&partsCategoryCode=WIPER"),
+                "/productsList?make=LR&makeCode=LAND ROVER&partsCategory=WIPER&partsCategoryCode=WIPER"),
       ]),
   Entry(
       title: "MASERATI",
-      url: "/catalog/products?make=MASERATI&makeCode=MASERATI",
+      url: "/productsList?make=MASERATI&makeCode=MASERATI",
       image: 'assets/brands/MASERATI.png',
       submenu: <Entry>[
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=MAS&makeCode=MASERATI&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "AIR",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=AIR&partsCategoryCode=AIR"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=AIR&partsCategoryCode=AIR"),
         Entry(
             title: "BODY",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=BODY&partsCategoryCode=BODY"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=BODY&partsCategoryCode=BODY"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
         Entry(
             title: "BRAKE",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=BRAKE&partsCategoryCode=BRK"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=BRAKE&partsCategoryCode=BRK"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=FILTER&partsCategoryCode=FI"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=FILTER&partsCategoryCode=FI"),
         Entry(
             title: "FIILTER",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=FIILTER&partsCategoryCode=FIILTER"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=FIILTER&partsCategoryCode=FIILTER"),
         Entry(
             title: "OIL",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=OIL&partsCategoryCode=OIL"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=OIL&partsCategoryCode=OIL"),
         Entry(
             title: "RADIATOR",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
         Entry(
             title: "TANK",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=TANK&partsCategoryCode=TANK"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=TANK&partsCategoryCode=TANK"),
         Entry(
             title: "VACCUM",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=VACCUM&partsCategoryCode=VACCUM"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=VACCUM&partsCategoryCode=VACCUM"),
         Entry(
             title: "WHEEL",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
         Entry(
             title: "WIPER",
             url:
-                "/catalog/products?make=MAS&makeCode=MASERATI&partsCategory=WIPER&partsCategoryCode=WIPER"),
+                "/productsList?make=MAS&makeCode=MASERATI&partsCategory=WIPER&partsCategoryCode=WIPER"),
       ]),
   Entry(
       title: "MERCEDES BENZ",
-      url: "/catalog/products?make=MERCEDES BENZ&makeCode=MERCEDES BENZ",
+      url: "/productsList?make=MERCEDES BENZ&makeCode=MERCEDES BENZ",
       image: 'assets/brands/MERCEDES.png',
       submenu: <Entry>[
         Entry(
             title: "ATC",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=ATC&origincode=ATC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=ATC&origincode=ATC"),
         Entry(
             title: "AUTOSTAR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=AUTOSTAR&origincode=AST"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=AUTOSTAR&origincode=AST"),
         Entry(
             title: "BEHR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=BEHR&origincode=BHR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=BEHR&origincode=BHR"),
         Entry(
             title: "BERU",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=BERU&origincode=BER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=BERU&origincode=BER"),
         Entry(
             title: "BILSTIEN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=BILSTIEN&origincode=BLN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=BILSTIEN&origincode=BLN"),
         Entry(
             title: "BILSTIEN",
             url:
-                "/catalog/products?make=TY&makeCode=MERCEDES BENZ&origin=BILSTIEN&origincode=BLN"),
+                "/productsList?make=TY&makeCode=MERCEDES BENZ&origin=BILSTIEN&origincode=BLN"),
         Entry(
             title: "BLUE PRINT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=BLUE PRINT&origincode=BLP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=BLUE PRINT&origincode=BLP"),
         Entry(
             title: "BOGE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=BOGE&origincode=BOG"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=BOGE&origincode=BOG"),
         Entry(
             title: "BOSCH",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=BOSCH&origincode=BSH"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=BOSCH&origincode=BSH"),
         Entry(
             title: "BREMI",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=BREMI&origincode=BMI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=BREMI&origincode=BMI"),
         Entry(
             title: "CONTI",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=CONTI&origincode=CON"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=CONTI&origincode=CON"),
         Entry(
             title: "DELPHI",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=DELPHI&origincode=DELPHI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=DELPHI&origincode=DELPHI"),
         Entry(
             title: "DENSO",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=DENSO&origincode=DSO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=DENSO&origincode=DSO"),
         Entry(
             title: "ELFOTECH",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=ELFOTECH&origincode=ELF"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=ELFOTECH&origincode=ELF"),
         Entry(
             title: "ELRING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=ELRING&origincode=ELR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=ELRING&origincode=ELR"),
         Entry(
             title: "FAG",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=FAG&origincode=FTE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=FAG&origincode=FTE"),
         Entry(
             title: "FEBI",
             url:
-                "/catalog/products?make=BM&makeCode=MERCEDES BENZ&origin=FEBI&origincode=FBI"),
+                "/productsList?make=BM&makeCode=MERCEDES BENZ&origin=FEBI&origincode=FBI"),
         Entry(
             title: "FEBI",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=FEBI&origincode=FBI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=FEBI&origincode=FBI"),
         Entry(
             title: "FERRADO",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=FERRADO&origincode=FER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=FERRADO&origincode=FER"),
         Entry(
             title: "GERMANY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=GERMANY&origincode=GER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=GERMANY&origincode=GER"),
         Entry(
             title: "GLYCO",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=GLYCO&origincode=GLY"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=GLYCO&origincode=GLY"),
         Entry(
             title: "GULF",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=GULF&origincode=GLF"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=GULF&origincode=GLF"),
         Entry(
             title: "HELLA",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=HELLA&origincode=HLA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=HELLA&origincode=HLA"),
         Entry(
             title: "HENGST",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=HENGST&origincode=HST"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=HENGST&origincode=HST"),
         Entry(
             title: "IWIS",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=IWIS&origincode=IWS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=IWIS&origincode=IWS"),
         Entry(
             title: "JAPAN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=JAPAN&origincode=JAPAN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=JAPAN&origincode=JAPAN"),
         Entry(
             title: "KDR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=KDR&origincode=KDR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=KDR&origincode=KDR"),
         Entry(
             title: "KS",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=KS&origincode=KS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=KS&origincode=KS"),
         Entry(
             title: "LEMFORDER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=LEMFORDER&origincode=LEM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=LEMFORDER&origincode=LEM"),
         Entry(
             title: "LIQUI MOLY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=LIQUI MOLY&origincode=LIQUI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=LIQUI MOLY&origincode=LIQUI"),
         Entry(
             title: "LUK",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=LUK&origincode=LUK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=LUK&origincode=LUK"),
         Entry(
             title: "MAGNET MARELLI",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=MAGNET MARELLI&origincode=MM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=MAGNET MARELLI&origincode=MM"),
         Entry(
             title: "MAHLE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=MAHLE&origincode=MHF"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=MAHLE&origincode=MHF"),
         Entry(
             title: "MAN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=MAN&origincode=MAN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=MAN&origincode=MAN"),
         Entry(
             title: "MAXPART",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=MAXPART&origincode=MXP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=MAXPART&origincode=MXP"),
         Entry(
             title: "MAYER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=MAYER&origincode=MAYER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=MAYER&origincode=MAYER"),
         Entry(
             title: "MEYLE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=MEYLE&origincode=MEY"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=MEYLE&origincode=MEY"),
         Entry(
             title: "MEYLE",
             url:
-                "/catalog/products?make=MS&makeCode=MERCEDES BENZ&origin=MEYLE&origincode=MEY"),
+                "/productsList?make=MS&makeCode=MERCEDES BENZ&origin=MEYLE&origincode=MEY"),
         Entry(
             title: "NISSENS",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=NISSENS&origincode=NIS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=NISSENS&origincode=NIS"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=BM&makeCode=MERCEDES BENZ&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=BM&makeCode=MERCEDES BENZ&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "OSRAM",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=OSRAM&origincode=OSR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=OSRAM&origincode=OSR"),
         Entry(
             title: "PIERBURG",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=PIERBURG&origincode=PBG"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=PIERBURG&origincode=PBG"),
         Entry(
             title: "RECONDITION",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=RECONDITION&origincode=RECONDITION"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=RECONDITION&origincode=RECONDITION"),
         Entry(
             title: "REMSA",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=REMSA&origincode=REM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=REMSA&origincode=REM"),
         Entry(
             title: "RHEINMANN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=RHEINMANN&origincode=RM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=RHEINMANN&origincode=RM"),
         Entry(
             title: "SACHS",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=SACHS&origincode=SCH"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=SACHS&origincode=SCH"),
         Entry(
             title: "SACHS",
             url:
-                "/catalog/products?make=TY&makeCode=MERCEDES BENZ&origin=SACHS&origincode=SCH"),
+                "/productsList?make=TY&makeCode=MERCEDES BENZ&origin=SACHS&origincode=SCH"),
         Entry(
             title: "SIMMER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=SIMMER&origincode=SIM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=SIMMER&origincode=SIM"),
         Entry(
             title: "SKF",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=SKF&origincode=SKF"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=SKF&origincode=SKF"),
         Entry(
             title: "SPARX",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=SPARX&origincode=SPX"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=SPARX&origincode=SPX"),
         Entry(
             title: "STABILUS",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=STABILUS&origincode=STB"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=STABILUS&origincode=STB"),
         Entry(
             title: "STABILUS",
             url:
-                "/catalog/products?make=NS&makeCode=MERCEDES BENZ&origin=STABILUS&origincode=STB"),
+                "/productsList?make=NS&makeCode=MERCEDES BENZ&origin=STABILUS&origincode=STB"),
         Entry(
             title: "SWEDEN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=SWEDEN&origincode=SW"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=SWEDEN&origincode=SW"),
         Entry(
             title: "TAIWAN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=TAIWAN&origincode=TWN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=TAIWAN&origincode=TWN"),
         Entry(
             title: "TEXTAR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=TEXTAR&origincode=TEX"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=TEXTAR&origincode=TEX"),
         Entry(
             title: "TOPDRIVE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=TOPDRIVE&origincode=TDR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=TOPDRIVE&origincode=TDR"),
         Entry(
             title: "TRUCKTEC",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=TRUCKTEC&origincode=TTC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=TRUCKTEC&origincode=TTC"),
         Entry(
             title: "TRW",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=TRW&origincode=TRW"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=TRW&origincode=TRW"),
         Entry(
             title: "USED",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=USED&origincode=USD"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=USED&origincode=USD"),
         Entry(
             title: "VAICO",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=VAICO&origincode=VKO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=VAICO&origincode=VKO"),
         Entry(
             title: "VALEO",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=VALEO&origincode=VAL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=VALEO&origincode=VAL"),
         Entry(
             title: "VARTA",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=VARTA&origincode=VAR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=VARTA&origincode=VAR"),
         Entry(
             title: "VDO",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=VDO&origincode=VDO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=VDO&origincode=VDO"),
         Entry(
             title: "VICTOR REINZ",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=VICTOR REINZ&origincode=RNZ"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=VICTOR REINZ&origincode=RNZ"),
         Entry(
             title: "WABCO",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=WABCO&origincode=WAB"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=WABCO&origincode=WAB"),
         Entry(
             title: "WAHLER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=WAHLER&origincode=WAH"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=WAHLER&origincode=WAH"),
         Entry(
             title: "ZF",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=ZF&origincode=ZF"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=ZF&origincode=ZF"),
         Entry(
             title: "ZIMMERMANN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&origin=ZIMMERMANN&origincode=ZIM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&origin=ZIMMERMANN&origincode=ZIM"),
         Entry(
             title: "A/C",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=A/C&partsCategoryCode=A/C"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=A/C&partsCategoryCode=A/C"),
         Entry(
             title: "ABSORBER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ABSORBER&partsCategoryCode=ABS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ABSORBER&partsCategoryCode=ABS"),
         Entry(
             title: "ABSORBER",
             url:
-                "/catalog/products?make=TY&makeCode=MERCEDES BENZ&partsCategory=ABSORBER&partsCategoryCode=ABS"),
+                "/productsList?make=TY&makeCode=MERCEDES BENZ&partsCategory=ABSORBER&partsCategoryCode=ABS"),
         Entry(
             title: "ABSORBER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ABSORBER&partsCategoryCode=ABSORBER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ABSORBER&partsCategoryCode=ABSORBER"),
         Entry(
             title: "A/C",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=A/C&partsCategoryCode=AC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=A/C&partsCategoryCode=AC"),
         Entry(
             title: "AC ASSY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=AC ASSY&partsCategoryCode=AC ASSY"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=AC ASSY&partsCategoryCode=AC ASSY"),
         Entry(
             title: "AC BLOWER MOTOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=AC BLOWER MOTOR&partsCategoryCode=AC BLOWER MOTOR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=AC BLOWER MOTOR&partsCategoryCode=AC BLOWER MOTOR"),
         Entry(
             title: "AC CONDENSER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=AC CONDENSER&partsCategoryCode=AC CONDENSER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=AC CONDENSER&partsCategoryCode=AC CONDENSER"),
         Entry(
             title: "ACCELERATOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ACCELERATOR&partsCategoryCode=ACCEL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ACCELERATOR&partsCategoryCode=ACCEL"),
         Entry(
             title: "ACCELERATOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ACCELERATOR&partsCategoryCode=ACCELERATOR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ACCELERATOR&partsCategoryCode=ACCELERATOR"),
         Entry(
             title: "AC CONDENSER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
         Entry(
             title: "ACCUMUALTOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ACCUMUALTOR&partsCategoryCode=ACCUM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ACCUMUALTOR&partsCategoryCode=ACCUM"),
         Entry(
             title: "AC DRIER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
         Entry(
             title: "ACTUATOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
         Entry(
             title: "ADAPTER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
         Entry(
             title: "ADJUSTER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ADJUSTER&partsCategoryCode=ADJ"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ADJUSTER&partsCategoryCode=ADJ"),
         Entry(
             title: "AIR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=AIR&partsCategoryCode=AIR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=AIR&partsCategoryCode=AIR"),
         Entry(
             title: "ALTERNATOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
         Entry(
             title: "AMPLIFIER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=AMPLIFIER&partsCategoryCode=AMPLI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=AMPLIFIER&partsCategoryCode=AMPLI"),
         Entry(
             title: "ANTENNA",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ANTENNA&partsCategoryCode=ANTEN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ANTENNA&partsCategoryCode=ANTEN"),
         Entry(
             title: "ARM",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ARM&partsCategoryCode=ARM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ARM&partsCategoryCode=ARM"),
         Entry(
             title: "ASHTRAY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ASHTRAY&partsCategoryCode=ASHTR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ASHTRAY&partsCategoryCode=ASHTR"),
         Entry(
             title: "AUDIO",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=AUDIO&partsCategoryCode=AUDIO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=AUDIO&partsCategoryCode=AUDIO"),
         Entry(
             title: "AUXILARY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=AUXILARY&partsCategoryCode=AUXIL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=AUXILARY&partsCategoryCode=AUXIL"),
         Entry(
             title: "AXLE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=AXLE&partsCategoryCode=AX"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=AXLE&partsCategoryCode=AX"),
         Entry(
             title: "BATTERY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BATTERY&partsCategoryCode=BA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BATTERY&partsCategoryCode=BA"),
         Entry(
             title: "BADGE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BADGE&partsCategoryCode=BADGE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BADGE&partsCategoryCode=BADGE"),
         Entry(
             title: "BAFFLE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BAFFLE&partsCategoryCode=BAFFL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BAFFLE&partsCategoryCode=BAFFL"),
         Entry(
             title: "BALL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BALL&partsCategoryCode=BALL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BALL&partsCategoryCode=BALL"),
         Entry(
             title: "BALL JOINT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
         Entry(
             title: "BAR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BAR&partsCategoryCode=BAR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BAR&partsCategoryCode=BAR"),
         Entry(
             title: "BASE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BASE&partsCategoryCode=BASE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BASE&partsCategoryCode=BASE"),
         Entry(
             title: "BASIC",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BASIC&partsCategoryCode=BASIC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BASIC&partsCategoryCode=BASIC"),
         Entry(
             title: "BATTERY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BATTERY&partsCategoryCode=BATTERY"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BATTERY&partsCategoryCode=BATTERY"),
         Entry(
             title: "BEARING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BEARING&partsCategoryCode=BEA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BEARING&partsCategoryCode=BEA"),
         Entry(
             title: "BEAM",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BEAM&partsCategoryCode=BEAM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BEAM&partsCategoryCode=BEAM"),
         Entry(
             title: "BEARING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BEARING&partsCategoryCode=BEARING"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BEARING&partsCategoryCode=BEARING"),
         Entry(
             title: "BELLOWS",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BELLOWS&partsCategoryCode=BELLO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BELLOWS&partsCategoryCode=BELLO"),
         Entry(
             title: "BELT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BELT&partsCategoryCode=BELT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BELT&partsCategoryCode=BELT"),
         Entry(
             title: "BULB",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BULB&partsCategoryCode=BLB"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BULB&partsCategoryCode=BLB"),
         Entry(
             title: "BLINKER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BLINKER&partsCategoryCode=BLINK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BLINKER&partsCategoryCode=BLINK"),
         Entry(
             title: "BLOWER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BLOWER&partsCategoryCode=BLOWER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BLOWER&partsCategoryCode=BLOWER"),
         Entry(
             title: "BELT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BELT&partsCategoryCode=BLT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BELT&partsCategoryCode=BLT"),
         Entry(
             title: "BLOWER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BLOWER&partsCategoryCode=BLW"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BLOWER&partsCategoryCode=BLW"),
         Entry(
             title: "BUMPER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BUMPER&partsCategoryCode=BMP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BUMPER&partsCategoryCode=BMP"),
         Entry(
             title: "BONET",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BONET&partsCategoryCode=BO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BONET&partsCategoryCode=BO"),
         Entry(
             title: "BODY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BODY&partsCategoryCode=BOD"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BODY&partsCategoryCode=BOD"),
         Entry(
             title: "BODY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BODY&partsCategoryCode=BODY"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BODY&partsCategoryCode=BODY"),
         Entry(
             title: "BOLT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BOLT&partsCategoryCode=BOLT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BOLT&partsCategoryCode=BOLT"),
         Entry(
             title: "BOOT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BOOT&partsCategoryCode=BOOT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BOOT&partsCategoryCode=BOOT"),
         Entry(
             title: "BRACKET",
             url:
-                "/catalog/products?make=BM&makeCode=MERCEDES BENZ&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+                "/productsList?make=BM&makeCode=MERCEDES BENZ&partsCategory=BRACKET&partsCategoryCode=BRACK"),
         Entry(
             title: "BRACKET",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BRACKET&partsCategoryCode=BRACK"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE PAD"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE PAD"),
         Entry(
             title: "BREATHER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BREATHER&partsCategoryCode=BREAT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BREATHER&partsCategoryCode=BREAT"),
         Entry(
             title: "BRAKE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BRAKE&partsCategoryCode=BRK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BRAKE&partsCategoryCode=BRK"),
         Entry(
             title: "BUFFER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BUFFER&partsCategoryCode=BUFFE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BUFFER&partsCategoryCode=BUFFE"),
         Entry(
             title: "BUMPER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BUMPER&partsCategoryCode=BUMPER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BUMPER&partsCategoryCode=BUMPER"),
         Entry(
             title: "BUSH",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=BUSH&partsCategoryCode=BUSH"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=BUSH&partsCategoryCode=BUSH"),
         Entry(
             title: "CABLE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CABLE&partsCategoryCode=CAB"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CABLE&partsCategoryCode=CAB"),
         Entry(
             title: "CABLE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CABLE&partsCategoryCode=CABLE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CABLE&partsCategoryCode=CABLE"),
         Entry(
             title: "CALIPER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CALIPER&partsCategoryCode=CALIP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CALIPER&partsCategoryCode=CALIP"),
         Entry(
             title: "CAMERA",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CAMERA&partsCategoryCode=CAM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CAMERA&partsCategoryCode=CAM"),
         Entry(
             title: "CAP",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CAP&partsCategoryCode=CAP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CAP&partsCategoryCode=CAP"),
         Entry(
             title: "CATALYST CONVERTER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CATALYST CONVERTER&partsCategoryCode=CATAL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CATALYST CONVERTER&partsCategoryCode=CATAL"),
         Entry(
             title: "CATCH",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CATCH&partsCategoryCode=CATCH"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CATCH&partsCategoryCode=CATCH"),
         Entry(
             title: "CENTER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CENTER&partsCategoryCode=CEN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CENTER&partsCategoryCode=CEN"),
         Entry(
             title: "CHAIN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CHAIN&partsCategoryCode=CHA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CHAIN&partsCategoryCode=CHA"),
         Entry(
             title: "CHAIN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CHAIN&partsCategoryCode=CHAIN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CHAIN&partsCategoryCode=CHAIN"),
         Entry(
             title: "CHARGE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CHARGE&partsCategoryCode=CHARG"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CHARGE&partsCategoryCode=CHARG"),
         Entry(
             title: "CHASSIS",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CHASSIS&partsCategoryCode=CHASSIS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CHASSIS&partsCategoryCode=CHASSIS"),
         Entry(
             title: "CHECK ASSY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CHECK ASSY&partsCategoryCode=CHECK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CHECK ASSY&partsCategoryCode=CHECK"),
         Entry(
             title: "CHROME",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CHROME&partsCategoryCode=CHROM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CHROME&partsCategoryCode=CHROM"),
         Entry(
             title: "CLAMP ",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CLAMP &partsCategoryCode=CLAMP "),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CLAMP &partsCategoryCode=CLAMP "),
         Entry(
             title: "CLAMP ",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CLAMP &partsCategoryCode=CLAMP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CLAMP &partsCategoryCode=CLAMP"),
         Entry(
             title: "CLIP",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CLIP&partsCategoryCode=CLIP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CLIP&partsCategoryCode=CLIP"),
         Entry(
             title: "CLUTCH",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
         Entry(
             title: "CLUTCH",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CLUTCH&partsCategoryCode=CLUTCH"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CLUTCH&partsCategoryCode=CLUTCH"),
         Entry(
             title: "COIL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=COIL&partsCategoryCode=COIL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=COIL&partsCategoryCode=COIL"),
         Entry(
             title: "COMBINATION",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=COMBINATION&partsCategoryCode=COMBIN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=COMBINATION&partsCategoryCode=COMBIN"),
         Entry(
             title: "COMPRESSOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
         Entry(
             title: "CONDENSER ",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONDENSER &partsCategoryCode=COND"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONDENSER &partsCategoryCode=COND"),
         Entry(
             title: "CONNECTING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONNECTING&partsCategoryCode=CONNTNG"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONNECTING&partsCategoryCode=CONNTNG"),
         Entry(
             title: "CONNECTOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONNECTOR&partsCategoryCode=CONNTR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONNECTOR&partsCategoryCode=CONNTR"),
         Entry(
             title: "CONSOLE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONSOLE&partsCategoryCode=CONSO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONSOLE&partsCategoryCode=CONSO"),
         Entry(
             title: "CONSOLE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONSOLE&partsCategoryCode=CONSOLE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONSOLE&partsCategoryCode=CONSOLE"),
         Entry(
             title: "CONTACT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONTACT&partsCategoryCode=CONTA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONTACT&partsCategoryCode=CONTA"),
         Entry(
             title: "CONTROL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONTROL&partsCategoryCode=CONTR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONTROL&partsCategoryCode=CONTR"),
         Entry(
             title: "CONTROL",
             url:
-                "/catalog/products?make=MS&makeCode=MERCEDES BENZ&partsCategory=CONTROL&partsCategoryCode=CONTR"),
+                "/productsList?make=MS&makeCode=MERCEDES BENZ&partsCategory=CONTROL&partsCategoryCode=CONTR"),
         Entry(
             title: "CONTROL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONTROL&partsCategoryCode=CONTROL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CONTROL&partsCategoryCode=CONTROL"),
         Entry(
             title: "COOLANT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=COOLANT&partsCategoryCode=COOLA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=COOLANT&partsCategoryCode=COOLA"),
         Entry(
             title: "COOLANT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=COOLANT&partsCategoryCode=COOLANT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=COOLANT&partsCategoryCode=COOLANT"),
         Entry(
             title: "COOLER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=COOLER&partsCategoryCode=COOLER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=COOLER&partsCategoryCode=COOLER"),
         Entry(
             title: "COVER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=COVER&partsCategoryCode=COVER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=COVER&partsCategoryCode=COVER"),
         Entry(
             title: "CRANK",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CRANK&partsCategoryCode=CRANK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CRANK&partsCategoryCode=CRANK"),
         Entry(
             title: "CROSS",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CROSS&partsCategoryCode=CROSS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CROSS&partsCategoryCode=CROSS"),
         Entry(
             title: "CUP",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CUP&partsCategoryCode=CUP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CUP&partsCategoryCode=CUP"),
         Entry(
             title: "CV JOINT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CV JOINT&partsCategoryCode=CVJO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CV JOINT&partsCategoryCode=CVJO"),
         Entry(
             title: "CYLINDER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CYLINDER&partsCategoryCode=CYL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CYLINDER&partsCategoryCode=CYL"),
         Entry(
             title: "CYLINDER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=CYLINDER&partsCategoryCode=CYLINDER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=CYLINDER&partsCategoryCode=CYLINDER"),
         Entry(
             title: "DAMPER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=DAMPER&partsCategoryCode=DAMPE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=DAMPER&partsCategoryCode=DAMPE"),
         Entry(
             title: "DASHBOARD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=DASHBOARD&partsCategoryCode=DASHB"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=DASHBOARD&partsCategoryCode=DASHB"),
         Entry(
             title: "DEFLECTION",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=DEFLECTION&partsCategoryCode=DEFLETN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=DEFLECTION&partsCategoryCode=DEFLETN"),
         Entry(
             title: "DELIVERY UNIT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=DELIVERY UNIT&partsCategoryCode=DELIV"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=DELIVERY UNIT&partsCategoryCode=DELIV"),
         Entry(
             title: "DICKY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=DICKY&partsCategoryCode=DICKY"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=DICKY&partsCategoryCode=DICKY"),
         Entry(
             title: "DISC",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=DISC&partsCategoryCode=DISC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=DISC&partsCategoryCode=DISC"),
         Entry(
             title: "DISTRIBUTION",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=DISTRIBUTION&partsCategoryCode=DISTR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=DISTRIBUTION&partsCategoryCode=DISTR"),
         Entry(
             title: "DOOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=DOOR&partsCategoryCode=DOOR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=DOOR&partsCategoryCode=DOOR"),
         Entry(
             title: "DOWEL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=DOWEL&partsCategoryCode=DOWEL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=DOWEL&partsCategoryCode=DOWEL"),
         Entry(
             title: "DRIER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=DRIER&partsCategoryCode=DRIER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=DRIER&partsCategoryCode=DRIER"),
         Entry(
             title: "DRIVE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
         Entry(
             title: "ECU",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ECU&partsCategoryCode=ECU"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ECU&partsCategoryCode=ECU"),
         Entry(
             title: "ELECTRICAL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ELECTRICAL&partsCategoryCode=ELECT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ELECTRICAL&partsCategoryCode=ELECT"),
         Entry(
             title: "ELECTRICAL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
         Entry(
             title: "EMBLEM",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=EMBLEM&partsCategoryCode=EMB"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=EMBLEM&partsCategoryCode=EMB"),
         Entry(
             title: "EMBLEM",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=EMBLEM&partsCategoryCode=EMBLEM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=EMBLEM&partsCategoryCode=EMBLEM"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ENGINE&partsCategoryCode=ENG"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ENGINE&partsCategoryCode=ENG"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
         Entry(
             title: "EVAPORATOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
         Entry(
             title: "EXHAUST",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=EXHAUST&partsCategoryCode=EXH"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=EXHAUST&partsCategoryCode=EXH"),
         Entry(
             title: "EXHAUST",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=EXHAUST&partsCategoryCode=EXHAUST"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=EXHAUST&partsCategoryCode=EXHAUST"),
         Entry(
             title: "EXPANSION",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
         Entry(
             title: "FAN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FAN&partsCategoryCode=FAN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FAN&partsCategoryCode=FAN"),
         Entry(
             title: "FASTENER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FASTENER&partsCategoryCode=FASTE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FASTENER&partsCategoryCode=FASTE"),
         Entry(
             title: "FENDER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FENDER&partsCategoryCode=FENDE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FENDER&partsCategoryCode=FENDE"),
         Entry(
             title: "FENDER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FENDER&partsCategoryCode=FENDER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FENDER&partsCategoryCode=FENDER"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FILTER&partsCategoryCode=FI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FILTER&partsCategoryCode=FI"),
         Entry(
             title: "FIILTER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FIILTER&partsCategoryCode=FIILTER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FIILTER&partsCategoryCode=FIILTER"),
         Entry(
             title: "FILLER CAP",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FILLER CAP&partsCategoryCode=FILLRC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FILLER CAP&partsCategoryCode=FILLRC"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FILTER&partsCategoryCode=FILTER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FILTER&partsCategoryCode=FILTER"),
         Entry(
             title: "FITTING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FITTING&partsCategoryCode=FITTI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FITTING&partsCategoryCode=FITTI"),
         Entry(
             title: "FLOOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FLOOR&partsCategoryCode=FL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FLOOR&partsCategoryCode=FL"),
         Entry(
             title: "FLANGE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FLANGE&partsCategoryCode=FLANG"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FLANGE&partsCategoryCode=FLANG"),
         Entry(
             title: "FLAP",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FLAP&partsCategoryCode=FLAP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FLAP&partsCategoryCode=FLAP"),
         Entry(
             title: "FOG",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FOG&partsCategoryCode=FOG"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FOG&partsCategoryCode=FOG"),
         Entry(
             title: "FRAME",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FRAME&partsCategoryCode=FRAME"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FRAME&partsCategoryCode=FRAME"),
         Entry(
             title: "FRONT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FRONT&partsCategoryCode=FRNT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FRONT&partsCategoryCode=FRNT"),
         Entry(
             title: "FUEL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FUEL&partsCategoryCode=FU"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FUEL&partsCategoryCode=FU"),
         Entry(
             title: "FUEL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FUEL&partsCategoryCode=FUEL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FUEL&partsCategoryCode=FUEL"),
         Entry(
             title: "FUSE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=FUSE&partsCategoryCode=FUSE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=FUSE&partsCategoryCode=FUSE"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=GASKET&partsCategoryCode=GAS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=GASKET&partsCategoryCode=GAS"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=GASKET&partsCategoryCode=GASK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=GASKET&partsCategoryCode=GASK"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=GASKET&partsCategoryCode=GASKET"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=GASKET&partsCategoryCode=GASKET"),
         Entry(
             title: "GEAR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=GEAR&partsCategoryCode=GEAR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=GEAR&partsCategoryCode=GEAR"),
         Entry(
             title: "GLASS",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=GLASS&partsCategoryCode=GL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=GLASS&partsCategoryCode=GL"),
         Entry(
             title: "GLASS",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=GLASS&partsCategoryCode=GLASS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=GLASS&partsCategoryCode=GLASS"),
         Entry(
             title: "GLOW",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=GLOW&partsCategoryCode=GLOW"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=GLOW&partsCategoryCode=GLOW"),
         Entry(
             title: "GEAR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=GEAR&partsCategoryCode=GR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=GEAR&partsCategoryCode=GR"),
         Entry(
             title: "GRILL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=GRILL&partsCategoryCode=GRILL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=GRILL&partsCategoryCode=GRILL"),
         Entry(
             title: "GROMMET",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=GROMMET&partsCategoryCode=GROMM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=GROMMET&partsCategoryCode=GROMM"),
         Entry(
             title: "GUIDE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
         Entry(
             title: "HAND",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HAND&partsCategoryCode=HAN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HAND&partsCategoryCode=HAN"),
         Entry(
             title: "HAND",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HAND&partsCategoryCode=HAND"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HAND&partsCategoryCode=HAND"),
         Entry(
             title: "HANDL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HANDL&partsCategoryCode=HANDL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HANDL&partsCategoryCode=HANDL"),
         Entry(
             title: "HEAD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HEAD&partsCategoryCode=HEAD"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HEAD&partsCategoryCode=HEAD"),
         Entry(
             title: "HEAT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HEAT&partsCategoryCode=HEAT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HEAT&partsCategoryCode=HEAT"),
         Entry(
             title: "HIGH PRESSURE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HIGH PRESSURE&partsCategoryCode=HIGH"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HIGH PRESSURE&partsCategoryCode=HIGH"),
         Entry(
             title: "HINGE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HINGE&partsCategoryCode=HINGE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HINGE&partsCategoryCode=HINGE"),
         Entry(
             title: "HOLDER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HOLDER&partsCategoryCode=HOLDER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HOLDER&partsCategoryCode=HOLDER"),
         Entry(
             title: "HOOD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HOOD&partsCategoryCode=HOOD"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HOOD&partsCategoryCode=HOOD"),
         Entry(
             title: "HOOK",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HOOK&partsCategoryCode=HOOK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HOOK&partsCategoryCode=HOOK"),
         Entry(
             title: "HORN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HORN&partsCategoryCode=HORN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HORN&partsCategoryCode=HORN"),
         Entry(
             title: "HOSE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HOSE&partsCategoryCode=HOSE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HOSE&partsCategoryCode=HOSE"),
         Entry(
             title: "HOUSING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HOUSING&partsCategoryCode=HOUSING"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HOUSING&partsCategoryCode=HOUSING"),
         Entry(
             title: "HUB",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HUB&partsCategoryCode=HUB"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HUB&partsCategoryCode=HUB"),
         Entry(
             title: "HYDRAULIC",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=HYDRAULIC&partsCategoryCode=HYDRA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=HYDRAULIC&partsCategoryCode=HYDRA"),
         Entry(
             title: "IDLER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=IDLER&partsCategoryCode=IDLER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=IDLER&partsCategoryCode=IDLER"),
         Entry(
             title: "IGNITION",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
         Entry(
             title: "INDICATOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=INDICATOR&partsCategoryCode=INDIC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=INDICATOR&partsCategoryCode=INDIC"),
         Entry(
             title: "INJECTOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
         Entry(
             title: "INJECTOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=INJECTOR&partsCategoryCode=INJECTOR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=INJECTOR&partsCategoryCode=INJECTOR"),
         Entry(
             title: "INSERT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=INSERT&partsCategoryCode=INSER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=INSERT&partsCategoryCode=INSER"),
         Entry(
             title: "INSTRUMENT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=INSTRUMENT&partsCategoryCode=INSTR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=INSTRUMENT&partsCategoryCode=INSTR"),
         Entry(
             title: "INSULATOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
         Entry(
             title: "INTAKE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=INTAKE&partsCategoryCode=INTAK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=INTAKE&partsCategoryCode=INTAK"),
         Entry(
             title: "JOINT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=JOINT&partsCategoryCode=JOINT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=JOINT&partsCategoryCode=JOINT"),
         Entry(
             title: "KIT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=KIT&partsCategoryCode=KIT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=KIT&partsCategoryCode=KIT"),
         Entry(
             title: "KNOB",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=KNOB&partsCategoryCode=KNOB"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=KNOB&partsCategoryCode=KNOB"),
         Entry(
             title: "KNUCKLE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=KNUCKLE&partsCategoryCode=KNUCKLE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=KNUCKLE&partsCategoryCode=KNUCKLE"),
         Entry(
             title: "LAMP",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=LAMP&partsCategoryCode=LAMP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=LAMP&partsCategoryCode=LAMP"),
         Entry(
             title: "LEVER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=LEVER&partsCategoryCode=LEVER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=LEVER&partsCategoryCode=LEVER"),
         Entry(
             title: "LIGHT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=LIGHT&partsCategoryCode=LGHT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=LIGHT&partsCategoryCode=LGHT"),
         Entry(
             title: "LIGHT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=LIGHT&partsCategoryCode=LIGHT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=LIGHT&partsCategoryCode=LIGHT"),
         Entry(
             title: "LINE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=LINE&partsCategoryCode=LINE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=LINE&partsCategoryCode=LINE"),
         Entry(
             title: "LINK",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=LINK&partsCategoryCode=LINK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=LINK&partsCategoryCode=LINK"),
         Entry(
             title: "LOCK",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=LOCK&partsCategoryCode=LOCK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=LOCK&partsCategoryCode=LOCK"),
         Entry(
             title: "LOGO",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=LOGO&partsCategoryCode=LOGO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=LOGO&partsCategoryCode=LOGO"),
         Entry(
             title: "LOWER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=LOWER&partsCategoryCode=LOWER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=LOWER&partsCategoryCode=LOWER"),
         Entry(
             title: "MASTER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=MASTER&partsCategoryCode=MASTE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=MASTER&partsCategoryCode=MASTE"),
         Entry(
             title: "MIRROR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
         Entry(
             title: "MIRROR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=MIRROR&partsCategoryCode=MIRROR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=MIRROR&partsCategoryCode=MIRROR"),
         Entry(
             title: "MODULE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=MODULE&partsCategoryCode=MODUL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=MODULE&partsCategoryCode=MODUL"),
         Entry(
             title: "MOLDING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOLDING&partsCategoryCode=MOLDI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOLDING&partsCategoryCode=MOLDI"),
         Entry(
             title: "MOUDLING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
         Entry(
             title: "MOULDING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOULDING&partsCategoryCode=MOULD"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOULDING&partsCategoryCode=MOULD"),
         Entry(
             title: "MOULDING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOULDING&partsCategoryCode=MOULDING"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOULDING&partsCategoryCode=MOULDING"),
         Entry(
             title: "MOUNT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
         Entry(
             title: "MOUNTING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOUNTING&partsCategoryCode=MOUNTING"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOUNTING&partsCategoryCode=MOUNTING"),
         Entry(
             title: "MOUNTING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
         Entry(
             title: "MUD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=MUD&partsCategoryCode=MUD"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=MUD&partsCategoryCode=MUD"),
         Entry(
             title: "NOZZLE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
         Entry(
             title: "NOZZLE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=NOZZLE&partsCategoryCode=NOZZLE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=NOZZLE&partsCategoryCode=NOZZLE"),
         Entry(
             title: "NUT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=NUT&partsCategoryCode=NUT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=NUT&partsCategoryCode=NUT"),
         Entry(
             title: "OIL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=OIL&partsCategoryCode=OIL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=OIL&partsCategoryCode=OIL"),
         Entry(
             title: "OIL COOLER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=OIL COOLER&partsCategoryCode=OIL COOLER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=OIL COOLER&partsCategoryCode=OIL COOLER"),
         Entry(
             title: "OIL ASSY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
         Entry(
             title: "OIL CAP",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=OIL CAP&partsCategoryCode=OILC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=OIL CAP&partsCategoryCode=OILC"),
         Entry(
             title: "OIL COOLER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=OIL COOLER&partsCategoryCode=OILCO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=OIL COOLER&partsCategoryCode=OILCO"),
         Entry(
             title: "O - RING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=O - RING&partsCategoryCode=O-R"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=O - RING&partsCategoryCode=O-R"),
         Entry(
             title: "ORNAMENTAL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ORNAMENTAL&partsCategoryCode=ORNAM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ORNAMENTAL&partsCategoryCode=ORNAM"),
         Entry(
             title: "OTHERS",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=OTHERS&partsCategoryCode=OTHER"),
         Entry(
             title: "PAD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PAD&partsCategoryCode=PAD"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PAD&partsCategoryCode=PAD"),
         Entry(
             title: "PANEL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PANEL&partsCategoryCode=PANEL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PANEL&partsCategoryCode=PANEL"),
         Entry(
             title: "PIECE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PIECE&partsCategoryCode=PIECE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PIECE&partsCategoryCode=PIECE"),
         Entry(
             title: "PIN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PIN&partsCategoryCode=PIN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PIN&partsCategoryCode=PIN"),
         Entry(
             title: "PIPE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PIPE&partsCategoryCode=PIPE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PIPE&partsCategoryCode=PIPE"),
         Entry(
             title: "PISTON",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PISTON&partsCategoryCode=PISTO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PISTON&partsCategoryCode=PISTO"),
         Entry(
             title: "PISTON",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PISTON&partsCategoryCode=PISTON"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PISTON&partsCategoryCode=PISTON"),
         Entry(
             title: "PLATE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PLATE&partsCategoryCode=PLATE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PLATE&partsCategoryCode=PLATE"),
         Entry(
             title: "PLUG",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PLUG&partsCategoryCode=PLUG"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PLUG&partsCategoryCode=PLUG"),
         Entry(
             title: "POWER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=POWER&partsCategoryCode=POWER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=POWER&partsCategoryCode=POWER"),
         Entry(
             title: "PRESSURE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PRESSURE&partsCategoryCode=PRESS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PRESSURE&partsCategoryCode=PRESS"),
         Entry(
             title: "PROTECTOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PROTECTOR&partsCategoryCode=PROTE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PROTECTOR&partsCategoryCode=PROTE"),
         Entry(
             title: "PULLEY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PULLEY&partsCategoryCode=PULLE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PULLEY&partsCategoryCode=PULLE"),
         Entry(
             title: "PULLEY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PULLEY&partsCategoryCode=PULLEY"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PULLEY&partsCategoryCode=PULLEY"),
         Entry(
             title: "PULLY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PULLY&partsCategoryCode=PULLY"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PULLY&partsCategoryCode=PULLY"),
         Entry(
             title: "PUMP",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=PUMP&partsCategoryCode=PUMP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=PUMP&partsCategoryCode=PUMP"),
         Entry(
             title: "RACK",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=RACK&partsCategoryCode=RACK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=RACK&partsCategoryCode=RACK"),
         Entry(
             title: "RADIATOR",
             url:
-                "/catalog/products?make=BM&makeCode=MERCEDES BENZ&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+                "/productsList?make=BM&makeCode=MERCEDES BENZ&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
         Entry(
             title: "RADIATOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
         Entry(
             title: "RADIATOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
         Entry(
             title: "RAIL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=RAIL&partsCategoryCode=RAIL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=RAIL&partsCategoryCode=RAIL"),
         Entry(
             title: "REAR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=REAR&partsCategoryCode=REAR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=REAR&partsCategoryCode=REAR"),
         Entry(
             title: "REFLECTOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
         Entry(
             title: "REFLECTOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=REFLECTOR&partsCategoryCode=REFLECTOR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=REFLECTOR&partsCategoryCode=REFLECTOR"),
         Entry(
             title: "REGULATOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
         Entry(
             title: "REINFORCEMENT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=REINFORCEMENT&partsCategoryCode=REINF"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=REINFORCEMENT&partsCategoryCode=REINF"),
         Entry(
             title: "RELAY",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=RELAY&partsCategoryCode=RELAY"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=RELAY&partsCategoryCode=RELAY"),
         Entry(
             title: "REPAIR KIT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=REPAIR KIT&partsCategoryCode=REPAI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=REPAIR KIT&partsCategoryCode=REPAI"),
         Entry(
             title: "RESERVOIR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
         Entry(
             title: "RESISTOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=RESISTOR&partsCategoryCode=RESIS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=RESISTOR&partsCategoryCode=RESIS"),
         Entry(
             title: "RETAINER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=RETAINER&partsCategoryCode=RETAI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=RETAINER&partsCategoryCode=RETAI"),
         Entry(
             title: "RING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=RING&partsCategoryCode=RING"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=RING&partsCategoryCode=RING"),
         Entry(
             title: "RIVET",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=RIVET&partsCategoryCode=RIVET"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=RIVET&partsCategoryCode=RIVET"),
         Entry(
             title: "ROD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ROD&partsCategoryCode=ROD"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ROD&partsCategoryCode=ROD"),
         Entry(
             title: "ROLLER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ROLLER&partsCategoryCode=ROLLE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ROLLER&partsCategoryCode=ROLLE"),
         Entry(
             title: "ROLLER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ROLLER&partsCategoryCode=ROLLER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ROLLER&partsCategoryCode=ROLLER"),
         Entry(
             title: "ROOF",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ROOF&partsCategoryCode=ROOF"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ROOF&partsCategoryCode=ROOF"),
         Entry(
             title: "ROTOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
         Entry(
             title: "RUBBER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=RUBBER&partsCategoryCode=RUBBE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=RUBBER&partsCategoryCode=RUBBE"),
         Entry(
             title: "SCREW",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SCREW&partsCategoryCode=SCREW"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SCREW&partsCategoryCode=SCREW"),
         Entry(
             title: "SEAL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SEAL&partsCategoryCode=SEAL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SEAL&partsCategoryCode=SEAL"),
         Entry(
             title: "SEALING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SEALING&partsCategoryCode=SEALI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SEALING&partsCategoryCode=SEALI"),
         Entry(
             title: "SEAT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SEAT&partsCategoryCode=SEAT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SEAT&partsCategoryCode=SEAT"),
         Entry(
             title: "SENDER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SENDER&partsCategoryCode=SENDE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SENDER&partsCategoryCode=SENDE"),
         Entry(
             title: "SENSOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SENSOR&partsCategoryCode=SENSO"),
         Entry(
             title: "SENSOR",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SENSOR&partsCategoryCode=SENSOR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SENSOR&partsCategoryCode=SENSOR"),
         Entry(
             title: "SHAFT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
         Entry(
             title: "SHOCK",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
         Entry(
             title: "SHOCK",
             url:
-                "/catalog/products?make=NS&makeCode=MERCEDES BENZ&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+                "/productsList?make=NS&makeCode=MERCEDES BENZ&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
         Entry(
             title: "SHOCK",
             url:
-                "/catalog/products?make=TY&makeCode=MERCEDES BENZ&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+                "/productsList?make=TY&makeCode=MERCEDES BENZ&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
         Entry(
             title: "SIDE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SIDE&partsCategoryCode=SIDE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SIDE&partsCategoryCode=SIDE"),
         Entry(
             title: "SILICON",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SILICON&partsCategoryCode=SILIC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SILICON&partsCategoryCode=SILIC"),
         Entry(
             title: "SLEEVE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SLEEVE&partsCategoryCode=SLEEVE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SLEEVE&partsCategoryCode=SLEEVE"),
         Entry(
             title: "SLIDE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SLIDE&partsCategoryCode=SLIDE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SLIDE&partsCategoryCode=SLIDE"),
         Entry(
             title: "SOLENOID",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SOLENOID&partsCategoryCode=SOLEN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SOLENOID&partsCategoryCode=SOLEN"),
         Entry(
             title: "SPACER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SPACER&partsCategoryCode=SPACE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SPACER&partsCategoryCode=SPACE"),
         Entry(
             title: "SPARK PLUG",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
         Entry(
             title: "SPEAKER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SPEAKER&partsCategoryCode=SPEAK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SPEAKER&partsCategoryCode=SPEAK"),
         Entry(
             title: "SPOILER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
         Entry(
             title: "SPRING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SPRING&partsCategoryCode=SPRIN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SPRING&partsCategoryCode=SPRIN"),
         Entry(
             title: "SPRING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SPRING&partsCategoryCode=SPRING"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SPRING&partsCategoryCode=SPRING"),
         Entry(
             title: "STAB LINK",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STAB LINK&partsCategoryCode=STAB"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STAB LINK&partsCategoryCode=STAB"),
         Entry(
             title: "STABILIZER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STABILIZER&partsCategoryCode=STABI"),
         Entry(
             title: "STABILIZER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STABILIZER&partsCategoryCode=STABILIZER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STABILIZER&partsCategoryCode=STABILIZER"),
         Entry(
             title: "STARTER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STARTER&partsCategoryCode=START"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STARTER&partsCategoryCode=START"),
         Entry(
             title: "STB LINK",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STB LINK&partsCategoryCode=STB LINK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STB LINK&partsCategoryCode=STB LINK"),
         Entry(
             title: "STEARING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STEARING&partsCategoryCode=STEAR"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STEARING&partsCategoryCode=STEAR"),
         Entry(
             title: "STEERING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STEERING&partsCategoryCode=STEER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STEERING&partsCategoryCode=STEER"),
         Entry(
             title: "STEERING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STEERING&partsCategoryCode=STEERING"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STEERING&partsCategoryCode=STEERING"),
         Entry(
             title: "STICKER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STICKER&partsCategoryCode=STICK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STICKER&partsCategoryCode=STICK"),
         Entry(
             title: "STOP",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STOP&partsCategoryCode=STOP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STOP&partsCategoryCode=STOP"),
         Entry(
             title: "STRIP",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STRIP&partsCategoryCode=STRIP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STRIP&partsCategoryCode=STRIP"),
         Entry(
             title: "STRUT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STRUT&partsCategoryCode=STRUT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STRUT&partsCategoryCode=STRUT"),
         Entry(
             title: "STUD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=STUD&partsCategoryCode=STUD"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=STUD&partsCategoryCode=STUD"),
         Entry(
             title: "SUCTION",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SUCTION&partsCategoryCode=SUCTI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SUCTION&partsCategoryCode=SUCTI"),
         Entry(
             title: "SUN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SUN&partsCategoryCode=SUN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SUN&partsCategoryCode=SUN"),
         Entry(
             title: "SUPPORT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
         Entry(
             title: "SUSPENSION",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
         Entry(
             title: "SUSPENSION",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SUSPENSION&partsCategoryCode=SUSPENSION"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SUSPENSION&partsCategoryCode=SUSPENSION"),
         Entry(
             title: "SWITCH",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SWITCH&partsCategoryCode=SWITC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SWITCH&partsCategoryCode=SWITC"),
         Entry(
             title: "SWITCH",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=SWITCH&partsCategoryCode=SWITCH"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=SWITCH&partsCategoryCode=SWITCH"),
         Entry(
             title: "TANK",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TANK&partsCategoryCode=TANK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TANK&partsCategoryCode=TANK"),
         Entry(
             title: "TENSIONER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
         Entry(
             title: "TENSIONER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TENSIONER&partsCategoryCode=TENSIONER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TENSIONER&partsCategoryCode=TENSIONER"),
         Entry(
             title: "THERMOSTAT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
         Entry(
             title: "THERMOSTAT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=THERMOSTAT&partsCategoryCode=THERMOSTAT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=THERMOSTAT&partsCategoryCode=THERMOSTAT"),
         Entry(
             title: "THRUST",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=THRUST&partsCategoryCode=THRUS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=THRUST&partsCategoryCode=THRUS"),
         Entry(
             title: "TIE ROD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TIE ROD&partsCategoryCode=TIE ROD"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TIE ROD&partsCategoryCode=TIE ROD"),
         Entry(
             title: "TIE ROD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TIE ROD&partsCategoryCode=TIER"),
         Entry(
             title: "TIMING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TIMING&partsCategoryCode=TIMIN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TIMING&partsCategoryCode=TIMIN"),
         Entry(
             title: "TIMING CHAIN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TIMING CHAIN&partsCategoryCode=TIMINC"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TIMING CHAIN&partsCategoryCode=TIMINC"),
         Entry(
             title: "TRANSMISSION",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
         Entry(
             title: "TRIM",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TRIM&partsCategoryCode=TRI"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TRIM&partsCategoryCode=TRI"),
         Entry(
             title: "TRUNK",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TRUNK&partsCategoryCode=TRUNK"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TRUNK&partsCategoryCode=TRUNK"),
         Entry(
             title: "TUBE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TUBE&partsCategoryCode=TUBE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TUBE&partsCategoryCode=TUBE"),
         Entry(
             title: "TURBO",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TURBO&partsCategoryCode=TURBO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TURBO&partsCategoryCode=TURBO"),
         Entry(
             title: "TURN",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TURN&partsCategoryCode=TURN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TURN&partsCategoryCode=TURN"),
         Entry(
             title: "TYPE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TYPE&partsCategoryCode=TYPE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TYPE&partsCategoryCode=TYPE"),
         Entry(
             title: "TYRE LINER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=TYRE LINER&partsCategoryCode=TYREL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=TYRE LINER&partsCategoryCode=TYREL"),
         Entry(
             title: "UPPER ARM",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
         Entry(
             title: "UPPER ARM",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=UPPER ARM&partsCategoryCode=UPPER ARM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=UPPER ARM&partsCategoryCode=UPPER ARM"),
         Entry(
             title: "VACCUM",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=VACCUM&partsCategoryCode=VACCU"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=VACCUM&partsCategoryCode=VACCU"),
         Entry(
             title: "VACCUM",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=VACCUM&partsCategoryCode=VACCUM"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=VACCUM&partsCategoryCode=VACCUM"),
         Entry(
             title: "VALVE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=VALVE&partsCategoryCode=VALVE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=VALVE&partsCategoryCode=VALVE"),
         Entry(
             title: "V-BELT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
         Entry(
             title: "VENT",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=VENT&partsCategoryCode=VENT"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=VENT&partsCategoryCode=VENT"),
         Entry(
             title: "VIBRATION",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=VIBRATION&partsCategoryCode=VIBRA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=VIBRATION&partsCategoryCode=VIBRA"),
         Entry(
             title: "VOLTAGE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=VOLTAGE&partsCategoryCode=VOLTA"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=VOLTAGE&partsCategoryCode=VOLTA"),
         Entry(
             title: "WASHER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WASHER&partsCategoryCode=WASHE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WASHER&partsCategoryCode=WASHE"),
         Entry(
             title: "WASHER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WASHER&partsCategoryCode=WASHER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WASHER&partsCategoryCode=WASHER"),
         Entry(
             title: "WATER PUMP",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
         Entry(
             title: "WATER PUMP",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WATER PUMP&partsCategoryCode=WATER PUMP"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WATER PUMP&partsCategoryCode=WATER PUMP"),
         Entry(
             title: "WEATER STRIPE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WEATER STRIPE&partsCategoryCode=WEATE"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WEATER STRIPE&partsCategoryCode=WEATE"),
         Entry(
             title: "WHEEL",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
         Entry(
             title: "WIND",
             url:
-                "/catalog/products?make=BM&makeCode=MERCEDES BENZ&partsCategory=WIND&partsCategoryCode=WIND"),
+                "/productsList?make=BM&makeCode=MERCEDES BENZ&partsCategory=WIND&partsCategoryCode=WIND"),
         Entry(
             title: "WIND",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WIND&partsCategoryCode=WIND"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WIND&partsCategoryCode=WIND"),
         Entry(
             title: "WINDOW",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WINDOW&partsCategoryCode=WINDO"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WINDOW&partsCategoryCode=WINDO"),
         Entry(
             title: "WINDOW",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WINDOW&partsCategoryCode=WINDOW"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WINDOW&partsCategoryCode=WINDOW"),
         Entry(
             title: "WINDSHIELD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WINDSHIELD&partsCategoryCode=WINDS"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WINDSHIELD&partsCategoryCode=WINDS"),
         Entry(
             title: "WINDSHIELD",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WINDSHIELD&partsCategoryCode=WINDSHIELD"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WINDSHIELD&partsCategoryCode=WINDSHIELD"),
         Entry(
             title: "WIPER",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WIPER&partsCategoryCode=WIPER"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WIPER&partsCategoryCode=WIPER"),
         Entry(
             title: "WIRING",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WIRING&partsCategoryCode=WIRIN"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WIRING&partsCategoryCode=WIRIN"),
         Entry(
             title: "WISH BONE",
             url:
-                "/catalog/products?make=MB&makeCode=MERCEDES BENZ&partsCategory=WISH BONE&partsCategoryCode=WISH"),
+                "/productsList?make=MB&makeCode=MERCEDES BENZ&partsCategory=WISH BONE&partsCategoryCode=WISH"),
       ]),
   Entry(
       title: "MITSUBISHI",
-      url: "/catalog/products?make=MITSUBISHI&makeCode=MITSUBISHI",
+      url: "/productsList?make=MITSUBISHI&makeCode=MITSUBISHI",
       image: 'assets/brands/MITSUBISHI.png',
       submenu: <Entry>[
         Entry(
             title: "AUTOSTAR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&origin=AUTOSTAR&origincode=AST"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&origin=AUTOSTAR&origincode=AST"),
         Entry(
             title: "BREMI",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&origin=BREMI&origincode=BMI"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&origin=BREMI&origincode=BMI"),
         Entry(
             title: "FEBI",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&origin=FEBI&origincode=FBI"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&origin=FEBI&origincode=FBI"),
         Entry(
             title: "GERMANY",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&origin=GERMANY&origincode=GER"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&origin=GERMANY&origincode=GER"),
         Entry(
             title: "HELLA",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&origin=HELLA&origincode=HLA"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&origin=HELLA&origincode=HLA"),
         Entry(
             title: "JAPAN",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&origin=JAPAN&origincode=JAPAN"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&origin=JAPAN&origincode=JAPAN"),
         Entry(
             title: "MEYLE",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&origin=MEYLE&origincode=MEY"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&origin=MEYLE&origincode=MEY"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "PRESTONE",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&origin=PRESTONE&origincode=PST"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&origin=PRESTONE&origincode=PST"),
         Entry(
             title: "SHELL",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&origin=SHELL&origincode=SL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&origin=SHELL&origincode=SL"),
         Entry(
             title: "TAIWAN",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&origin=TAIWAN&origincode=TWN"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&origin=TAIWAN&origincode=TWN"),
         Entry(
             title: "VAICO",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&origin=VAICO&origincode=VKO"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&origin=VAICO&origincode=VKO"),
         Entry(
             title: "A/C",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=A/C&partsCategoryCode=AC"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=A/C&partsCategoryCode=AC"),
         Entry(
             title: "ACCUMUALTOR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=ACCUMUALTOR&partsCategoryCode=ACCUM"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=ACCUMUALTOR&partsCategoryCode=ACCUM"),
         Entry(
             title: "AC DRIER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
         Entry(
             title: "ACTUATOR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
         Entry(
             title: "ADJUSTER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=ADJUSTER&partsCategoryCode=ADJ"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=ADJUSTER&partsCategoryCode=ADJ"),
         Entry(
             title: "AIR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=AIR&partsCategoryCode=AIR"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=AIR&partsCategoryCode=AIR"),
         Entry(
             title: "ALTERNATOR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
         Entry(
             title: "ARM",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=ARM&partsCategoryCode=ARM"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=ARM&partsCategoryCode=ARM"),
         Entry(
             title: "BALL JOINT",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
         Entry(
             title: "BEARING",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=BEARING&partsCategoryCode=BEA"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=BEARING&partsCategoryCode=BEA"),
         Entry(
             title: "BULB",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=BULB&partsCategoryCode=BLB"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=BULB&partsCategoryCode=BLB"),
         Entry(
             title: "BELT",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=BELT&partsCategoryCode=BLT"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=BELT&partsCategoryCode=BLT"),
         Entry(
             title: "BLOWER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=BLOWER&partsCategoryCode=BLW"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=BLOWER&partsCategoryCode=BLW"),
         Entry(
             title: "BUMPER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=BUMPER&partsCategoryCode=BMP"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=BUMPER&partsCategoryCode=BMP"),
         Entry(
             title: "BODY",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=BODY&partsCategoryCode=BOD"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=BODY&partsCategoryCode=BOD"),
         Entry(
             title: "BOOT",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=BOOT&partsCategoryCode=BOOT"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=BOOT&partsCategoryCode=BOOT"),
         Entry(
             title: "BRACKET",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=BRACKET&partsCategoryCode=BRACK"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
         Entry(
             title: "BRAKE",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=BRAKE&partsCategoryCode=BRK"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=BRAKE&partsCategoryCode=BRK"),
         Entry(
             title: "BUSH",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=BUSH&partsCategoryCode=BUSH"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=BUSH&partsCategoryCode=BUSH"),
         Entry(
             title: "CASE",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=CASE&partsCategoryCode=CASE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=CASE&partsCategoryCode=CASE"),
         Entry(
             title: "CLIP",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=CLIP&partsCategoryCode=CLIP"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=CLIP&partsCategoryCode=CLIP"),
         Entry(
             title: "CLUTCH",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
         Entry(
             title: "COIL",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=COIL&partsCategoryCode=COIL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=COIL&partsCategoryCode=COIL"),
         Entry(
             title: "COMPRESSOR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
         Entry(
             title: "CONNECTING",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=CONNECTING&partsCategoryCode=CONNTNG"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=CONNECTING&partsCategoryCode=CONNTNG"),
         Entry(
             title: "CONNECTOR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=CONNECTOR&partsCategoryCode=CONNTR"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=CONNECTOR&partsCategoryCode=CONNTR"),
         Entry(
             title: "CONTROL",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=CONTROL&partsCategoryCode=CONTR"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=CONTROL&partsCategoryCode=CONTR"),
         Entry(
             title: "CONVERTER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=CONVERTER&partsCategoryCode=CONVE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=CONVERTER&partsCategoryCode=CONVE"),
         Entry(
             title: "COOLANT",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=COOLANT&partsCategoryCode=COOLA"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=COOLANT&partsCategoryCode=COOLA"),
         Entry(
             title: "COVER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=COVER&partsCategoryCode=COVER"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=COVER&partsCategoryCode=COVER"),
         Entry(
             title: "CUP",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=CUP&partsCategoryCode=CUP"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=CUP&partsCategoryCode=CUP"),
         Entry(
             title: "CYLINDER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=CYLINDER&partsCategoryCode=CYL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=CYLINDER&partsCategoryCode=CYL"),
         Entry(
             title: "CYLENDER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=CYLENDER&partsCategoryCode=CYLEN"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=CYLENDER&partsCategoryCode=CYLEN"),
         Entry(
             title: "DISC",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=DISC&partsCategoryCode=DISC"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=DISC&partsCategoryCode=DISC"),
         Entry(
             title: "DOOR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=DOOR&partsCategoryCode=DOOR"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=DOOR&partsCategoryCode=DOOR"),
         Entry(
             title: "ELECTRICAL",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
         Entry(
             title: "END",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=END&partsCategoryCode=END"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=END&partsCategoryCode=END"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
         Entry(
             title: "EVAPORATOR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
         Entry(
             title: "FAN",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=FAN&partsCategoryCode=FAN"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=FAN&partsCategoryCode=FAN"),
         Entry(
             title: "FENDER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=FENDER&partsCategoryCode=FENDE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=FENDER&partsCategoryCode=FENDE"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=FILTER&partsCategoryCode=FI"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=FILTER&partsCategoryCode=FI"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=FILTER&partsCategoryCode=FILTER"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=FILTER&partsCategoryCode=FILTER"),
         Entry(
             title: "FOG",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=FOG&partsCategoryCode=FOG"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=FOG&partsCategoryCode=FOG"),
         Entry(
             title: "FRONT",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=FRONT&partsCategoryCode=FRNT"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=FRONT&partsCategoryCode=FRNT"),
         Entry(
             title: "FUEL",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=FUEL&partsCategoryCode=FU"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=FUEL&partsCategoryCode=FU"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=GASKET&partsCategoryCode=GASK"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=GASKET&partsCategoryCode=GASK"),
         Entry(
             title: "GLASS",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=GLASS&partsCategoryCode=GL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=GLASS&partsCategoryCode=GL"),
         Entry(
             title: "GRILL",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=GRILL&partsCategoryCode=GRILL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=GRILL&partsCategoryCode=GRILL"),
         Entry(
             title: "GROMMET",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=GROMMET&partsCategoryCode=GROMM"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=GROMMET&partsCategoryCode=GROMM"),
         Entry(
             title: "HARNESS",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=HARNESS&partsCategoryCode=HARNE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=HARNESS&partsCategoryCode=HARNE"),
         Entry(
             title: "HEAD",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=HEAD&partsCategoryCode=HEAD"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=HEAD&partsCategoryCode=HEAD"),
         Entry(
             title: "HOLDER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=HOLDER&partsCategoryCode=HOLDER"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=HOLDER&partsCategoryCode=HOLDER"),
         Entry(
             title: "HUB",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=HUB&partsCategoryCode=HUB"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=HUB&partsCategoryCode=HUB"),
         Entry(
             title: "HYDRAULIC",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=HYDRAULIC&partsCategoryCode=HYDRA"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=HYDRAULIC&partsCategoryCode=HYDRA"),
         Entry(
             title: "JOINT",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=JOINT&partsCategoryCode=JOINT"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=JOINT&partsCategoryCode=JOINT"),
         Entry(
             title: "KIT",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=KIT&partsCategoryCode=KIT"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=KIT&partsCategoryCode=KIT"),
         Entry(
             title: "LAMP",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=LAMP&partsCategoryCode=LAMP"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=LAMP&partsCategoryCode=LAMP"),
         Entry(
             title: "LINE",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=LINE&partsCategoryCode=LINE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=LINE&partsCategoryCode=LINE"),
         Entry(
             title: "LINK",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=LINK&partsCategoryCode=LINK"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=LINK&partsCategoryCode=LINK"),
         Entry(
             title: "LOCK",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=LOCK&partsCategoryCode=LOCK"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=LOCK&partsCategoryCode=LOCK"),
         Entry(
             title: "LOWER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=LOWER&partsCategoryCode=LOWER"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=LOWER&partsCategoryCode=LOWER"),
         Entry(
             title: "MIRROR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
         Entry(
             title: "MODULE",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=MODULE&partsCategoryCode=MODUL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=MODULE&partsCategoryCode=MODUL"),
         Entry(
             title: "MOTOR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
         Entry(
             title: "MOUNTING",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
         Entry(
             title: "OIL",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=OIL&partsCategoryCode=OIL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=OIL&partsCategoryCode=OIL"),
         Entry(
             title: "OIL ASSY",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
         Entry(
             title: "OTHERS",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=OTHERS&partsCategoryCode=OTHER"),
         Entry(
             title: "PAD",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=PAD&partsCategoryCode=PAD"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=PAD&partsCategoryCode=PAD"),
         Entry(
             title: "PANEL",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=PANEL&partsCategoryCode=PANEL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=PANEL&partsCategoryCode=PANEL"),
         Entry(
             title: "PLATE",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=PLATE&partsCategoryCode=PLATE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=PLATE&partsCategoryCode=PLATE"),
         Entry(
             title: "PLUG",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=PLUG&partsCategoryCode=PLUG"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=PLUG&partsCategoryCode=PLUG"),
         Entry(
             title: "PULLEY",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=PULLEY&partsCategoryCode=PULLE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=PULLEY&partsCategoryCode=PULLE"),
         Entry(
             title: "PUMP",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=PUMP&partsCategoryCode=PUMP"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=PUMP&partsCategoryCode=PUMP"),
         Entry(
             title: "RADIATOR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
         Entry(
             title: "REAR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=REAR&partsCategoryCode=REAR"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=REAR&partsCategoryCode=REAR"),
         Entry(
             title: "REFLECTOR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
         Entry(
             title: "REINFORCEMENT",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=REINFORCEMENT&partsCategoryCode=REINF"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=REINFORCEMENT&partsCategoryCode=REINF"),
         Entry(
             title: "RELAY",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=RELAY&partsCategoryCode=RELAY"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=RELAY&partsCategoryCode=RELAY"),
         Entry(
             title: "SEAL",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=SEAL&partsCategoryCode=SEAL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=SEAL&partsCategoryCode=SEAL"),
         Entry(
             title: "SEAT",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=SEAT&partsCategoryCode=SEAT"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=SEAT&partsCategoryCode=SEAT"),
         Entry(
             title: "SENSOR",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=SENSOR&partsCategoryCode=SENSO"),
         Entry(
             title: "SHAFT",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
         Entry(
             title: "SHIELD",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=SHIELD&partsCategoryCode=SHIEL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=SHIELD&partsCategoryCode=SHIEL"),
         Entry(
             title: "SHOCK",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
         Entry(
             title: "SPARK PLUG",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
         Entry(
             title: "SPOILER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
         Entry(
             title: "SPRING",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=SPRING&partsCategoryCode=SPRIN"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=SPRING&partsCategoryCode=SPRIN"),
         Entry(
             title: "STABILIZER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=STABILIZER&partsCategoryCode=STABI"),
         Entry(
             title: "STARTER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=STARTER&partsCategoryCode=START"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=STARTER&partsCategoryCode=START"),
         Entry(
             title: "STEERING",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=STEERING&partsCategoryCode=STEER"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=STEERING&partsCategoryCode=STEER"),
         Entry(
             title: "SWITCH",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=SWITCH&partsCategoryCode=SWITC"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=SWITCH&partsCategoryCode=SWITC"),
         Entry(
             title: "TANK",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=TANK&partsCategoryCode=TANK"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=TANK&partsCategoryCode=TANK"),
         Entry(
             title: "TENSIONER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
         Entry(
             title: "THERMOSTAT",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
         Entry(
             title: "TIE ROD",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=TIE ROD&partsCategoryCode=TIER"),
         Entry(
             title: "TIMING",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=TIMING&partsCategoryCode=TIMIN"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=TIMING&partsCategoryCode=TIMIN"),
         Entry(
             title: "TRIM",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=TRIM&partsCategoryCode=TRI"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=TRIM&partsCategoryCode=TRI"),
         Entry(
             title: "UPPER ARM",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
         Entry(
             title: "VALVE",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=VALVE&partsCategoryCode=VALVE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=VALVE&partsCategoryCode=VALVE"),
         Entry(
             title: "WATER PUMP",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
         Entry(
             title: "WEATER STRIPE",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=WEATER STRIPE&partsCategoryCode=WEATE"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=WEATER STRIPE&partsCategoryCode=WEATE"),
         Entry(
             title: "WHEEL",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
         Entry(
             title: "WIPER",
             url:
-                "/catalog/products?make=MS&makeCode=MITSUBISHI&partsCategory=WIPER&partsCategoryCode=WIPER"),
+                "/productsList?make=MS&makeCode=MITSUBISHI&partsCategory=WIPER&partsCategoryCode=WIPER"),
       ]),
   Entry(
       title: "NISSAN",
-      url: "/catalog/products?make=NISSAN&makeCode=NISSAN",
+      url: "/productsList?make=NISSAN&makeCode=NISSAN",
       image: 'assets/brands/NISSAN.png',
       submenu: <Entry>[
         Entry(
             title: "GERMANY",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&origin=GERMANY&origincode=GER"),
+                "/productsList?make=NS&makeCode=NISSAN&origin=GERMANY&origincode=GER"),
         Entry(
             title: "INCOE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&origin=INCOE&origincode=INCOE"),
+                "/productsList?make=NS&makeCode=NISSAN&origin=INCOE&origincode=INCOE"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=NS&makeCode=NISSAN&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "TAIWAN",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&origin=TAIWAN&origincode=TWN"),
+                "/productsList?make=NS&makeCode=NISSAN&origin=TAIWAN&origincode=TWN"),
         Entry(
             title: "ABSORBER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=ABSORBER&partsCategoryCode=ABS"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=ABSORBER&partsCategoryCode=ABS"),
         Entry(
             title: "AC COMPRESSOR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
         Entry(
             title: "AIR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=AIR&partsCategoryCode=AIR"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=AIR&partsCategoryCode=AIR"),
         Entry(
             title: "ALTERNATOR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
         Entry(
             title: "ATF",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=ATF&partsCategoryCode=ATF"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=ATF&partsCategoryCode=ATF"),
         Entry(
             title: "BASE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BASE&partsCategoryCode=BASE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BASE&partsCategoryCode=BASE"),
         Entry(
             title: "BEARING",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BEARING&partsCategoryCode=BEA"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BEARING&partsCategoryCode=BEA"),
         Entry(
             title: "BULB",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BULB&partsCategoryCode=BLB"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BULB&partsCategoryCode=BLB"),
         Entry(
             title: "BELT",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BELT&partsCategoryCode=BLT"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BELT&partsCategoryCode=BLT"),
         Entry(
             title: "BUMPER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BUMPER&partsCategoryCode=BMP"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BUMPER&partsCategoryCode=BMP"),
         Entry(
             title: "BODY",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BODY&partsCategoryCode=BOD"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BODY&partsCategoryCode=BOD"),
         Entry(
             title: "BODY",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BODY&partsCategoryCode=BODY"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BODY&partsCategoryCode=BODY"),
         Entry(
             title: "BOLT",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BOLT&partsCategoryCode=BOLT"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BOLT&partsCategoryCode=BOLT"),
         Entry(
             title: "BOOT",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BOOT&partsCategoryCode=BOOT"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BOOT&partsCategoryCode=BOOT"),
         Entry(
             title: "BRACKET",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BRACKET&partsCategoryCode=BRACK"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE PAD"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE PAD"),
         Entry(
             title: "BRAKE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BRAKE&partsCategoryCode=BRK"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BRAKE&partsCategoryCode=BRK"),
         Entry(
             title: "BUFFER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BUFFER&partsCategoryCode=BUFFE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BUFFER&partsCategoryCode=BUFFE"),
         Entry(
             title: "BUSH",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=BUSH&partsCategoryCode=BUSH"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=BUSH&partsCategoryCode=BUSH"),
         Entry(
             title: "CABLE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=CABLE&partsCategoryCode=CAB"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=CABLE&partsCategoryCode=CAB"),
         Entry(
             title: "CALIPER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=CALIPER&partsCategoryCode=CALIP"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=CALIPER&partsCategoryCode=CALIP"),
         Entry(
             title: "CAP",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=CAP&partsCategoryCode=CAP"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=CAP&partsCategoryCode=CAP"),
         Entry(
             title: "CLIP",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=CLIP&partsCategoryCode=CLIP"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=CLIP&partsCategoryCode=CLIP"),
         Entry(
             title: "CLUTCH",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
         Entry(
             title: "COIL",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=COIL&partsCategoryCode=COIL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=COIL&partsCategoryCode=COIL"),
         Entry(
             title: "COMPRESSOR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
         Entry(
             title: "CONDENSER ",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=CONDENSER &partsCategoryCode=COND"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=CONDENSER &partsCategoryCode=COND"),
         Entry(
             title: "COOLANT",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=COOLANT&partsCategoryCode=COOLA"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=COOLANT&partsCategoryCode=COOLA"),
         Entry(
             title: "COVER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=COVER&partsCategoryCode=COVER"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=COVER&partsCategoryCode=COVER"),
         Entry(
             title: "CUP",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=CUP&partsCategoryCode=CUP"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=CUP&partsCategoryCode=CUP"),
         Entry(
             title: "CUT BUSH",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
         Entry(
             title: "CYLINDER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=CYLINDER&partsCategoryCode=CYL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=CYLINDER&partsCategoryCode=CYL"),
         Entry(
             title: "DISC",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=DISC&partsCategoryCode=DISC"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=DISC&partsCategoryCode=DISC"),
         Entry(
             title: "DOOR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=DOOR&partsCategoryCode=DOOR"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=DOOR&partsCategoryCode=DOOR"),
         Entry(
             title: "ELECTRICAL",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
         Entry(
             title: "EMBLEM",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=EMBLEM&partsCategoryCode=EMB"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=EMBLEM&partsCategoryCode=EMB"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=ENGINE&partsCategoryCode=ENG"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=ENGINE&partsCategoryCode=ENG"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
         Entry(
             title: "EVAPORATOR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
         Entry(
             title: "FAN",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=FAN&partsCategoryCode=FAN"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=FAN&partsCategoryCode=FAN"),
         Entry(
             title: "FENDER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=FENDER&partsCategoryCode=FENDE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=FENDER&partsCategoryCode=FENDE"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=FILTER&partsCategoryCode=FI"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=FILTER&partsCategoryCode=FI"),
         Entry(
             title: "FINISHER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=FINISHER&partsCategoryCode=FINIS"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=FINISHER&partsCategoryCode=FINIS"),
         Entry(
             title: "FOG",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=FOG&partsCategoryCode=FOG"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=FOG&partsCategoryCode=FOG"),
         Entry(
             title: "FRONT",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=FRONT&partsCategoryCode=FRNT"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=FRONT&partsCategoryCode=FRNT"),
         Entry(
             title: "FUEL",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=FUEL&partsCategoryCode=FU"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=FUEL&partsCategoryCode=FU"),
         Entry(
             title: "FUSE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=FUSE&partsCategoryCode=FUSE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=FUSE&partsCategoryCode=FUSE"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=GASKET&partsCategoryCode=GASK"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=GASKET&partsCategoryCode=GASK"),
         Entry(
             title: "GLASS",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=GLASS&partsCategoryCode=GL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=GLASS&partsCategoryCode=GL"),
         Entry(
             title: "GEAR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=GEAR&partsCategoryCode=GR"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=GEAR&partsCategoryCode=GR"),
         Entry(
             title: "GRILL",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=GRILL&partsCategoryCode=GRILL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=GRILL&partsCategoryCode=GRILL"),
         Entry(
             title: "HEAD",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=HEAD&partsCategoryCode=HEAD"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=HEAD&partsCategoryCode=HEAD"),
         Entry(
             title: "HOSE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=HOSE&partsCategoryCode=HOSE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=HOSE&partsCategoryCode=HOSE"),
         Entry(
             title: "IDLER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=IDLER&partsCategoryCode=IDLER"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=IDLER&partsCategoryCode=IDLER"),
         Entry(
             title: "IGNITION",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
         Entry(
             title: "INSERT",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=INSERT&partsCategoryCode=INSER"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=INSERT&partsCategoryCode=INSER"),
         Entry(
             title: "INSULATOR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
         Entry(
             title: "KIT",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=KIT&partsCategoryCode=KIT"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=KIT&partsCategoryCode=KIT"),
         Entry(
             title: "LAMP",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=LAMP&partsCategoryCode=LAMP"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=LAMP&partsCategoryCode=LAMP"),
         Entry(
             title: "LINE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=LINE&partsCategoryCode=LINE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=LINE&partsCategoryCode=LINE"),
         Entry(
             title: "LINK",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=LINK&partsCategoryCode=LINK"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=LINK&partsCategoryCode=LINK"),
         Entry(
             title: "LOCK",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=LOCK&partsCategoryCode=LOCK"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=LOCK&partsCategoryCode=LOCK"),
         Entry(
             title: "LOWER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=LOWER&partsCategoryCode=LOWER"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=LOWER&partsCategoryCode=LOWER"),
         Entry(
             title: "MIRROR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
         Entry(
             title: "MODULE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=MODULE&partsCategoryCode=MODUL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=MODULE&partsCategoryCode=MODUL"),
         Entry(
             title: "MOTOR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
         Entry(
             title: "MOUDLING",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
         Entry(
             title: "MOUNTING",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
         Entry(
             title: "NOZZLE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
         Entry(
             title: "NUT",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=NUT&partsCategoryCode=NUT"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=NUT&partsCategoryCode=NUT"),
         Entry(
             title: "OIL",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=OIL&partsCategoryCode=OIL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=OIL&partsCategoryCode=OIL"),
         Entry(
             title: "OIL ASSY",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
         Entry(
             title: "OTHERS",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=OTHERS&partsCategoryCode=OTHER"),
         Entry(
             title: "PAD",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=PAD&partsCategoryCode=PAD"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=PAD&partsCategoryCode=PAD"),
         Entry(
             title: "PIPE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=PIPE&partsCategoryCode=PIPE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=PIPE&partsCategoryCode=PIPE"),
         Entry(
             title: "PLUG",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=PLUG&partsCategoryCode=PLUG"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=PLUG&partsCategoryCode=PLUG"),
         Entry(
             title: "PULLEY",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=PULLEY&partsCategoryCode=PULLE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=PULLEY&partsCategoryCode=PULLE"),
         Entry(
             title: "PUMP",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=PUMP&partsCategoryCode=PUMP"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=PUMP&partsCategoryCode=PUMP"),
         Entry(
             title: "RACK",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=RACK&partsCategoryCode=RACK"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=RACK&partsCategoryCode=RACK"),
         Entry(
             title: "RADIATOR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
         Entry(
             title: "REAR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=REAR&partsCategoryCode=REAR"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=REAR&partsCategoryCode=REAR"),
         Entry(
             title: "REGULATOR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
         Entry(
             title: "REPAIR KIT",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=REPAIR KIT&partsCategoryCode=REPAI"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=REPAIR KIT&partsCategoryCode=REPAI"),
         Entry(
             title: "RING",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=RING&partsCategoryCode=RING"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=RING&partsCategoryCode=RING"),
         Entry(
             title: "ROD",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=ROD&partsCategoryCode=ROD"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=ROD&partsCategoryCode=ROD"),
         Entry(
             title: "ROTOR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
         Entry(
             title: "SEAL",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=SEAL&partsCategoryCode=SEAL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=SEAL&partsCategoryCode=SEAL"),
         Entry(
             title: "SENDER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=SENDER&partsCategoryCode=SENDE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=SENDER&partsCategoryCode=SENDE"),
         Entry(
             title: "SENSOR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=SENSOR&partsCategoryCode=SENSO"),
         Entry(
             title: "SENSOR",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=SENSOR&partsCategoryCode=SENSOR"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=SENSOR&partsCategoryCode=SENSOR"),
         Entry(
             title: "SHAFT",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
         Entry(
             title: "SHOCK",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
         Entry(
             title: "SOCKET",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=SOCKET&partsCategoryCode=SOCKE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=SOCKET&partsCategoryCode=SOCKE"),
         Entry(
             title: "SPARK PLUG",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
         Entry(
             title: "SPRING",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=SPRING&partsCategoryCode=SPRIN"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=SPRING&partsCategoryCode=SPRIN"),
         Entry(
             title: "STARTER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=STARTER&partsCategoryCode=START"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=STARTER&partsCategoryCode=START"),
         Entry(
             title: "STEARING",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=STEARING&partsCategoryCode=STEAR"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=STEARING&partsCategoryCode=STEAR"),
         Entry(
             title: "STEERING",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=STEERING&partsCategoryCode=STEER"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=STEERING&partsCategoryCode=STEER"),
         Entry(
             title: "STUD",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=STUD&partsCategoryCode=STUD"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=STUD&partsCategoryCode=STUD"),
         Entry(
             title: "SUPPORT",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
         Entry(
             title: "SWITCH",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=SWITCH&partsCategoryCode=SWITC"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=SWITCH&partsCategoryCode=SWITC"),
         Entry(
             title: "TANK",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=TANK&partsCategoryCode=TANK"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=TANK&partsCategoryCode=TANK"),
         Entry(
             title: "TENSIONER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
         Entry(
             title: "THERMOSTAT",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
         Entry(
             title: "TIE ROD",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=TIE ROD&partsCategoryCode=TIER"),
         Entry(
             title: "TRANSMISSION",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
         Entry(
             title: "TUBE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=TUBE&partsCategoryCode=TUBE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=TUBE&partsCategoryCode=TUBE"),
         Entry(
             title: "TYRE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=TYRE&partsCategoryCode=TYRE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=TYRE&partsCategoryCode=TYRE"),
         Entry(
             title: "UPPER ARM",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
         Entry(
             title: "VALVE",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=VALVE&partsCategoryCode=VALVE"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=VALVE&partsCategoryCode=VALVE"),
         Entry(
             title: "WATER PUMP",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
         Entry(
             title: "WATER PUMP",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=WATER PUMP&partsCategoryCode=WATER PUMP"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=WATER PUMP&partsCategoryCode=WATER PUMP"),
         Entry(
             title: "WHEEL",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
         Entry(
             title: "WIPER",
             url:
-                "/catalog/products?make=NS&makeCode=NISSAN&partsCategory=WIPER&partsCategoryCode=WIPER"),
+                "/productsList?make=NS&makeCode=NISSAN&partsCategory=WIPER&partsCategoryCode=WIPER"),
       ]),
   Entry(
       title: "PORSCHE",
-      url: "/catalog/products?make=PORSCHE&makeCode=PORSCHE",
+      url: "/productsList?make=PORSCHE&makeCode=PORSCHE",
       image: 'assets/brands/PORSCHE.png',
       submenu: <Entry>[
         Entry(
             title: "BEHR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=BEHR&origincode=BHR"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=BEHR&origincode=BHR"),
         Entry(
             title: "BERU",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=BERU&origincode=BER"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=BERU&origincode=BER"),
         Entry(
             title: "BOSCH",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=BOSCH&origincode=BSH"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=BOSCH&origincode=BSH"),
         Entry(
             title: "CONTI",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=CONTI&origincode=CON"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=CONTI&origincode=CON"),
         Entry(
             title: "DENSO",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=DENSO&origincode=DSO"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=DENSO&origincode=DSO"),
         Entry(
             title: "ELRING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=ELRING&origincode=ELR"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=ELRING&origincode=ELR"),
         Entry(
             title: "FEBI",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=FEBI&origincode=FBI"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=FEBI&origincode=FBI"),
         Entry(
             title: "GERMANY",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=GERMANY&origincode=GER"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=GERMANY&origincode=GER"),
         Entry(
             title: "HENGST",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=HENGST&origincode=HST"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=HENGST&origincode=HST"),
         Entry(
             title: "LEMFORDER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=LEMFORDER&origincode=LEM"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=LEMFORDER&origincode=LEM"),
         Entry(
             title: "MAHLE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=MAHLE&origincode=MHF"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=MAHLE&origincode=MHF"),
         Entry(
             title: "MAN",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=MAN&origincode=MAN"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=MAN&origincode=MAN"),
         Entry(
             title: "MAXPART",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=MAXPART&origincode=MXP"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=MAXPART&origincode=MXP"),
         Entry(
             title: "MEYLE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=MEYLE&origincode=MEY"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=MEYLE&origincode=MEY"),
         Entry(
             title: "NISSENS",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=NISSENS&origincode=NIS"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=NISSENS&origincode=NIS"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "RECONDITION",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=RECONDITION&origincode=RECONDITION"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=RECONDITION&origincode=RECONDITION"),
         Entry(
             title: "REMSA",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=REMSA&origincode=REM"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=REMSA&origincode=REM"),
         Entry(
             title: "SACHS",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=SACHS&origincode=SCH"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=SACHS&origincode=SCH"),
         Entry(
             title: "SPARX",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=SPARX&origincode=SPX"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=SPARX&origincode=SPX"),
         Entry(
             title: "STABILUS",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=STABILUS&origincode=STB"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=STABILUS&origincode=STB"),
         Entry(
             title: "TAIWAN",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=TAIWAN&origincode=TWN"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=TAIWAN&origincode=TWN"),
         Entry(
             title: "TEXTAR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=TEXTAR&origincode=TEX"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=TEXTAR&origincode=TEX"),
         Entry(
             title: "TOPDRIVE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=TOPDRIVE&origincode=TDR"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=TOPDRIVE&origincode=TDR"),
         Entry(
             title: "TRUCKTEC",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=TRUCKTEC&origincode=TTC"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=TRUCKTEC&origincode=TTC"),
         Entry(
             title: "TRW",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=TRW&origincode=TRW"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=TRW&origincode=TRW"),
         Entry(
             title: "USED",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=USED&origincode=USD"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=USED&origincode=USD"),
         Entry(
             title: "VAICO",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=VAICO&origincode=VKO"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=VAICO&origincode=VKO"),
         Entry(
             title: "VDO",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=VDO&origincode=VDO"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=VDO&origincode=VDO"),
         Entry(
             title: "VICTOR REINZ",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&origin=VICTOR REINZ&origincode=RNZ"),
+                "/productsList?make=PO&makeCode=PORSCHE&origin=VICTOR REINZ&origincode=RNZ"),
         Entry(
             title: "A/C",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=A/C&partsCategoryCode=AC"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=A/C&partsCategoryCode=AC"),
         Entry(
             title: "AC BLOWER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=AC BLOWER&partsCategoryCode=AC BLOWER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=AC BLOWER&partsCategoryCode=AC BLOWER"),
         Entry(
             title: "AC COMPRESSOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=AC COMPRESSOR&partsCategoryCode=AC COMPRESSOR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=AC COMPRESSOR&partsCategoryCode=AC COMPRESSOR"),
         Entry(
             title: "AC ASSY",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=AC ASSY&partsCategoryCode=ACAS"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=AC ASSY&partsCategoryCode=ACAS"),
         Entry(
             title: "AC BLOWER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=AC BLOWER&partsCategoryCode=ACBL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=AC BLOWER&partsCategoryCode=ACBL"),
         Entry(
             title: "AC COMPRESSOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
         Entry(
             title: "AC CONDENSER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
         Entry(
             title: "ACTUATOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
         Entry(
             title: "ADAPTER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
         Entry(
             title: "ADDITIONAL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=ADDITIONAL&partsCategoryCode=ADDIT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=ADDITIONAL&partsCategoryCode=ADDIT"),
         Entry(
             title: "AIR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=AIR&partsCategoryCode=AIR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=AIR&partsCategoryCode=AIR"),
         Entry(
             title: "ALTERNATOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
         Entry(
             title: "AXLE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=AXLE&partsCategoryCode=AX"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=AXLE&partsCategoryCode=AX"),
         Entry(
             title: "BATTERY",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BATTERY&partsCategoryCode=BA"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BATTERY&partsCategoryCode=BA"),
         Entry(
             title: "BAR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BAR&partsCategoryCode=BAR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BAR&partsCategoryCode=BAR"),
         Entry(
             title: "BASE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BASE&partsCategoryCode=BASE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BASE&partsCategoryCode=BASE"),
         Entry(
             title: "BEARING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BEARING&partsCategoryCode=BEA"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BEARING&partsCategoryCode=BEA"),
         Entry(
             title: "BELLOWS",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BELLOWS&partsCategoryCode=BELLO"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BELLOWS&partsCategoryCode=BELLO"),
         Entry(
             title: "BULB",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BULB&partsCategoryCode=BLB"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BULB&partsCategoryCode=BLB"),
         Entry(
             title: "BELT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BELT&partsCategoryCode=BLT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BELT&partsCategoryCode=BLT"),
         Entry(
             title: "BLOWER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BLOWER&partsCategoryCode=BLW"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BLOWER&partsCategoryCode=BLW"),
         Entry(
             title: "BUMPER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BUMPER&partsCategoryCode=BMP"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BUMPER&partsCategoryCode=BMP"),
         Entry(
             title: "BONET",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BONET&partsCategoryCode=BO"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BONET&partsCategoryCode=BO"),
         Entry(
             title: "BODY",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BODY&partsCategoryCode=BODY"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BODY&partsCategoryCode=BODY"),
         Entry(
             title: "BOLT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BOLT&partsCategoryCode=BOLT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BOLT&partsCategoryCode=BOLT"),
         Entry(
             title: "BOOT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BOOT&partsCategoryCode=BOOT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BOOT&partsCategoryCode=BOOT"),
         Entry(
             title: "BRACKET",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BRACKET&partsCategoryCode=BRACK"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
         Entry(
             title: "BREATHER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BREATHER&partsCategoryCode=BREAT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BREATHER&partsCategoryCode=BREAT"),
         Entry(
             title: "BRAKE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BRAKE&partsCategoryCode=BRK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BRAKE&partsCategoryCode=BRK"),
         Entry(
             title: "BUSH",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=BUSH&partsCategoryCode=BUSH"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=BUSH&partsCategoryCode=BUSH"),
         Entry(
             title: "CABLE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CABLE&partsCategoryCode=CAB"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CABLE&partsCategoryCode=CAB"),
         Entry(
             title: "CAP",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CAP&partsCategoryCode=CAP"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CAP&partsCategoryCode=CAP"),
         Entry(
             title: "CHAIN",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CHAIN&partsCategoryCode=CHA"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CHAIN&partsCategoryCode=CHA"),
         Entry(
             title: "CLAMP ",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CLAMP &partsCategoryCode=CLAMP"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CLAMP &partsCategoryCode=CLAMP"),
         Entry(
             title: "CLIP",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CLIP&partsCategoryCode=CLIP"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CLIP&partsCategoryCode=CLIP"),
         Entry(
             title: "COIL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=COIL&partsCategoryCode=COIL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=COIL&partsCategoryCode=COIL"),
         Entry(
             title: "COMPRESSOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
         Entry(
             title: "CONDENSER ",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CONDENSER &partsCategoryCode=COND"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CONDENSER &partsCategoryCode=COND"),
         Entry(
             title: "CONNECTOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CONNECTOR&partsCategoryCode=CONNTR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CONNECTOR&partsCategoryCode=CONNTR"),
         Entry(
             title: "CONSOLE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CONSOLE&partsCategoryCode=CONSO"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CONSOLE&partsCategoryCode=CONSO"),
         Entry(
             title: "CONTROL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CONTROL&partsCategoryCode=CONTR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CONTROL&partsCategoryCode=CONTR"),
         Entry(
             title: "CONVERTER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CONVERTER&partsCategoryCode=CONVE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CONVERTER&partsCategoryCode=CONVE"),
         Entry(
             title: "COOLANT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=COOLANT&partsCategoryCode=COOLA"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=COOLANT&partsCategoryCode=COOLA"),
         Entry(
             title: "COOLING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=COOLING&partsCategoryCode=COOLI"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=COOLING&partsCategoryCode=COOLI"),
         Entry(
             title: "COUPLING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=COUPLING&partsCategoryCode=COUPL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=COUPLING&partsCategoryCode=COUPL"),
         Entry(
             title: "COVER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=COVER&partsCategoryCode=COVER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=COVER&partsCategoryCode=COVER"),
         Entry(
             title: "CRANK",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CRANK&partsCategoryCode=CRANK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CRANK&partsCategoryCode=CRANK"),
         Entry(
             title: "CROSS",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CROSS&partsCategoryCode=CROSS"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CROSS&partsCategoryCode=CROSS"),
         Entry(
             title: "CUT BUSH",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
         Entry(
             title: "DICKY",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=DICKY&partsCategoryCode=DICKY"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=DICKY&partsCategoryCode=DICKY"),
         Entry(
             title: "DISC",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=DISC&partsCategoryCode=DISC"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=DISC&partsCategoryCode=DISC"),
         Entry(
             title: "DISTRIBUTION",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=DISTRIBUTION&partsCategoryCode=DISTR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=DISTRIBUTION&partsCategoryCode=DISTR"),
         Entry(
             title: "DOOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=DOOR&partsCategoryCode=DOOR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=DOOR&partsCategoryCode=DOOR"),
         Entry(
             title: "DOWEL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=DOWEL&partsCategoryCode=DOWEL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=DOWEL&partsCategoryCode=DOWEL"),
         Entry(
             title: "DRIVE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
         Entry(
             title: "ELECTRICAL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=ELECTRICAL&partsCategoryCode=ELECT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=ELECTRICAL&partsCategoryCode=ELECT"),
         Entry(
             title: "ELECTRICAL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
         Entry(
             title: "END",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=END&partsCategoryCode=END"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=END&partsCategoryCode=END"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=ENGINE&partsCategoryCode=ENG"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=ENGINE&partsCategoryCode=ENG"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
         Entry(
             title: "EVAPORATOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
         Entry(
             title: "EXHAUST",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=EXHAUST&partsCategoryCode=EXH"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=EXHAUST&partsCategoryCode=EXH"),
         Entry(
             title: "EXPANSION",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
         Entry(
             title: "EXPANSION",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=EXPANSION&partsCategoryCode=EXPANSION"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=EXPANSION&partsCategoryCode=EXPANSION"),
         Entry(
             title: "FAN",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FAN&partsCategoryCode=FAN"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FAN&partsCategoryCode=FAN"),
         Entry(
             title: "FENDER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FENDER&partsCategoryCode=FENDE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FENDER&partsCategoryCode=FENDE"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FILTER&partsCategoryCode=FI"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FILTER&partsCategoryCode=FI"),
         Entry(
             title: "FILLER NECK",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FILLER NECK&partsCategoryCode=FILLRN"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FILLER NECK&partsCategoryCode=FILLRN"),
         Entry(
             title: "FILM",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FILM&partsCategoryCode=FILM"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FILM&partsCategoryCode=FILM"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FILTER&partsCategoryCode=FILTER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FILTER&partsCategoryCode=FILTER"),
         Entry(
             title: "FLOOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FLOOR&partsCategoryCode=FL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FLOOR&partsCategoryCode=FL"),
         Entry(
             title: "FLANGE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FLANGE&partsCategoryCode=FLANG"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FLANGE&partsCategoryCode=FLANG"),
         Entry(
             title: "FLAP",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FLAP&partsCategoryCode=FLAP"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FLAP&partsCategoryCode=FLAP"),
         Entry(
             title: "FOG",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FOG&partsCategoryCode=FOG"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FOG&partsCategoryCode=FOG"),
         Entry(
             title: "FRAME",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FRAME&partsCategoryCode=FRAME"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FRAME&partsCategoryCode=FRAME"),
         Entry(
             title: "FRONT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FRONT&partsCategoryCode=FRNT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FRONT&partsCategoryCode=FRNT"),
         Entry(
             title: "FUEL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FUEL&partsCategoryCode=FU"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FUEL&partsCategoryCode=FU"),
         Entry(
             title: "FUSE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=FUSE&partsCategoryCode=FUSE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=FUSE&partsCategoryCode=FUSE"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=GASKET&partsCategoryCode=GAS"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=GASKET&partsCategoryCode=GAS"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=GASKET&partsCategoryCode=GASK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=GASKET&partsCategoryCode=GASK"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=GASKET&partsCategoryCode=GASKET"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=GASKET&partsCategoryCode=GASKET"),
         Entry(
             title: "GEAR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=GEAR&partsCategoryCode=GEAR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=GEAR&partsCategoryCode=GEAR"),
         Entry(
             title: "GLOW",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=GLOW&partsCategoryCode=GLOW"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=GLOW&partsCategoryCode=GLOW"),
         Entry(
             title: "GEAR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=GEAR&partsCategoryCode=GR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=GEAR&partsCategoryCode=GR"),
         Entry(
             title: "GRILL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=GRILL&partsCategoryCode=GRILL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=GRILL&partsCategoryCode=GRILL"),
         Entry(
             title: "GUIDE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
         Entry(
             title: "HEAD",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=HEAD&partsCategoryCode=HEAD"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=HEAD&partsCategoryCode=HEAD"),
         Entry(
             title: "HEAT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=HEAT&partsCategoryCode=HEAT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=HEAT&partsCategoryCode=HEAT"),
         Entry(
             title: "HIGH PRESSURE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=HIGH PRESSURE&partsCategoryCode=HIGH"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=HIGH PRESSURE&partsCategoryCode=HIGH"),
         Entry(
             title: "HINGE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=HINGE&partsCategoryCode=HINGE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=HINGE&partsCategoryCode=HINGE"),
         Entry(
             title: "HOOD",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=HOOD&partsCategoryCode=HOOD"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=HOOD&partsCategoryCode=HOOD"),
         Entry(
             title: "HOOK",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=HOOK&partsCategoryCode=HOOK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=HOOK&partsCategoryCode=HOOK"),
         Entry(
             title: "HORN",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=HORN&partsCategoryCode=HORN"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=HORN&partsCategoryCode=HORN"),
         Entry(
             title: "HOSE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=HOSE&partsCategoryCode=HOSE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=HOSE&partsCategoryCode=HOSE"),
         Entry(
             title: "HOUSING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=HOUSING&partsCategoryCode=HOUSING"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=HOUSING&partsCategoryCode=HOUSING"),
         Entry(
             title: "HUB",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=HUB&partsCategoryCode=HUB"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=HUB&partsCategoryCode=HUB"),
         Entry(
             title: "IGNITION",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
         Entry(
             title: "INDICATOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=INDICATOR&partsCategoryCode=INDIC"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=INDICATOR&partsCategoryCode=INDIC"),
         Entry(
             title: "INTAKE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=INTAKE&partsCategoryCode=INTAK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=INTAKE&partsCategoryCode=INTAK"),
         Entry(
             title: "JOINT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=JOINT&partsCategoryCode=JOINT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=JOINT&partsCategoryCode=JOINT"),
         Entry(
             title: "KEY",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=KEY&partsCategoryCode=KEY"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=KEY&partsCategoryCode=KEY"),
         Entry(
             title: "KNOB",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=KNOB&partsCategoryCode=KNOB"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=KNOB&partsCategoryCode=KNOB"),
         Entry(
             title: "LAMP",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=LAMP&partsCategoryCode=LAMP"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=LAMP&partsCategoryCode=LAMP"),
         Entry(
             title: "LEVER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=LEVER&partsCategoryCode=LEVER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=LEVER&partsCategoryCode=LEVER"),
         Entry(
             title: "LIGHT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=LIGHT&partsCategoryCode=LGHT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=LIGHT&partsCategoryCode=LGHT"),
         Entry(
             title: "LINE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=LINE&partsCategoryCode=LINE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=LINE&partsCategoryCode=LINE"),
         Entry(
             title: "LINK",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=LINK&partsCategoryCode=LINK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=LINK&partsCategoryCode=LINK"),
         Entry(
             title: "LOCK",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=LOCK&partsCategoryCode=LOCK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=LOCK&partsCategoryCode=LOCK"),
         Entry(
             title: "LOGO",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=LOGO&partsCategoryCode=LOGO"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=LOGO&partsCategoryCode=LOGO"),
         Entry(
             title: "LOWER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=LOWER&partsCategoryCode=LOWER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=LOWER&partsCategoryCode=LOWER"),
         Entry(
             title: "MIRROR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
         Entry(
             title: "MIRROR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=MIRROR&partsCategoryCode=MIRROR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=MIRROR&partsCategoryCode=MIRROR"),
         Entry(
             title: "MODULE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=MODULE&partsCategoryCode=MODUL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=MODULE&partsCategoryCode=MODUL"),
         Entry(
             title: "MOTOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
         Entry(
             title: "MOUDLING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
         Entry(
             title: "MOULDING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=MOULDING&partsCategoryCode=MOULD"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=MOULDING&partsCategoryCode=MOULD"),
         Entry(
             title: "MOUNT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
         Entry(
             title: "MOUNTING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=MOUNTING&partsCategoryCode=MOUNTING"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=MOUNTING&partsCategoryCode=MOUNTING"),
         Entry(
             title: "MOUNTING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
         Entry(
             title: "NOZZLE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
         Entry(
             title: "NUT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=NUT&partsCategoryCode=NUT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=NUT&partsCategoryCode=NUT"),
         Entry(
             title: "OIL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=OIL&partsCategoryCode=OIL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=OIL&partsCategoryCode=OIL"),
         Entry(
             title: "OIL ASSY",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
         Entry(
             title: "OIL COOLER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=OIL COOLER&partsCategoryCode=OILCO"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=OIL COOLER&partsCategoryCode=OILCO"),
         Entry(
             title: "O - RING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=O - RING&partsCategoryCode=O-R"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=O - RING&partsCategoryCode=O-R"),
         Entry(
             title: "OTHERS",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=OTHERS&partsCategoryCode=OTHER"),
         Entry(
             title: "PIECE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=PIECE&partsCategoryCode=PIECE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=PIECE&partsCategoryCode=PIECE"),
         Entry(
             title: "PIPE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=PIPE&partsCategoryCode=PIPE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=PIPE&partsCategoryCode=PIPE"),
         Entry(
             title: "PLATE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=PLATE&partsCategoryCode=PLATE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=PLATE&partsCategoryCode=PLATE"),
         Entry(
             title: "PLUG",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=PLUG&partsCategoryCode=PLUG"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=PLUG&partsCategoryCode=PLUG"),
         Entry(
             title: "POWER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=POWER&partsCategoryCode=POWER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=POWER&partsCategoryCode=POWER"),
         Entry(
             title: "PRESSURE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=PRESSURE&partsCategoryCode=PRESS"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=PRESSURE&partsCategoryCode=PRESS"),
         Entry(
             title: "PULLEY",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=PULLEY&partsCategoryCode=PULLE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=PULLEY&partsCategoryCode=PULLE"),
         Entry(
             title: "PULLEY",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=PULLEY&partsCategoryCode=PULLEY"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=PULLEY&partsCategoryCode=PULLEY"),
         Entry(
             title: "PULLY",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=PULLY&partsCategoryCode=PULLY"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=PULLY&partsCategoryCode=PULLY"),
         Entry(
             title: "PUMP",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=PUMP&partsCategoryCode=PUMP"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=PUMP&partsCategoryCode=PUMP"),
         Entry(
             title: "RACK",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=RACK&partsCategoryCode=RACK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=RACK&partsCategoryCode=RACK"),
         Entry(
             title: "RADIATOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
         Entry(
             title: "RAIL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=RAIL&partsCategoryCode=RAIL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=RAIL&partsCategoryCode=RAIL"),
         Entry(
             title: "REAR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=REAR&partsCategoryCode=REAR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=REAR&partsCategoryCode=REAR"),
         Entry(
             title: "REFLECTOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
         Entry(
             title: "RELEY",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=RELEY&partsCategoryCode=RELEY"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=RELEY&partsCategoryCode=RELEY"),
         Entry(
             title: "REPAIR KIT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=REPAIR KIT&partsCategoryCode=REPAI"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=REPAIR KIT&partsCategoryCode=REPAI"),
         Entry(
             title: "RESERVOIR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=RESERVOIR&partsCategoryCode=RESER"),
         Entry(
             title: "RING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=RING&partsCategoryCode=RING"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=RING&partsCategoryCode=RING"),
         Entry(
             title: "ROLLER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=ROLLER&partsCategoryCode=ROLLE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=ROLLER&partsCategoryCode=ROLLE"),
         Entry(
             title: "ROOF",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=ROOF&partsCategoryCode=ROOF"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=ROOF&partsCategoryCode=ROOF"),
         Entry(
             title: "RUBBER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=RUBBER&partsCategoryCode=RUBBE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=RUBBER&partsCategoryCode=RUBBE"),
         Entry(
             title: "SCREW",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SCREW&partsCategoryCode=SCREW"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SCREW&partsCategoryCode=SCREW"),
         Entry(
             title: "SEAL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SEAL&partsCategoryCode=SEAL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SEAL&partsCategoryCode=SEAL"),
         Entry(
             title: "SEALING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SEALING&partsCategoryCode=SEALI"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SEALING&partsCategoryCode=SEALI"),
         Entry(
             title: "SEAT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SEAT&partsCategoryCode=SEAT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SEAT&partsCategoryCode=SEAT"),
         Entry(
             title: "SENSOR",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SENSOR&partsCategoryCode=SENSO"),
         Entry(
             title: "SHAFT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
         Entry(
             title: "SHIELD",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SHIELD&partsCategoryCode=SHIEL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SHIELD&partsCategoryCode=SHIEL"),
         Entry(
             title: "SHOCK",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
         Entry(
             title: "SLEEVE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SLEEVE&partsCategoryCode=SLEEV"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SLEEVE&partsCategoryCode=SLEEV"),
         Entry(
             title: "SOCKET",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SOCKET&partsCategoryCode=SOCKE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SOCKET&partsCategoryCode=SOCKE"),
         Entry(
             title: "SPACER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SPACER&partsCategoryCode=SPACE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SPACER&partsCategoryCode=SPACE"),
         Entry(
             title: "SPARK PLUG",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
         Entry(
             title: "SPOILER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
         Entry(
             title: "SPRING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SPRING&partsCategoryCode=SPRIN"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SPRING&partsCategoryCode=SPRIN"),
         Entry(
             title: "STAB LINK",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=STAB LINK&partsCategoryCode=STAB"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=STAB LINK&partsCategoryCode=STAB"),
         Entry(
             title: "STABILIZER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=STABILIZER&partsCategoryCode=STABI"),
         Entry(
             title: "STARTER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=STARTER&partsCategoryCode=START"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=STARTER&partsCategoryCode=START"),
         Entry(
             title: "STEARING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=STEARING&partsCategoryCode=STEAR"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=STEARING&partsCategoryCode=STEAR"),
         Entry(
             title: "STEERING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=STEERING&partsCategoryCode=STEER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=STEERING&partsCategoryCode=STEER"),
         Entry(
             title: "STEERING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=STEERING&partsCategoryCode=STEERING"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=STEERING&partsCategoryCode=STEERING"),
         Entry(
             title: "STOP",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=STOP&partsCategoryCode=STOP"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=STOP&partsCategoryCode=STOP"),
         Entry(
             title: "STRIP",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=STRIP&partsCategoryCode=STRIP"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=STRIP&partsCategoryCode=STRIP"),
         Entry(
             title: "STRUT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=STRUT&partsCategoryCode=STRUT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=STRUT&partsCategoryCode=STRUT"),
         Entry(
             title: "SUN",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SUN&partsCategoryCode=SUN"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SUN&partsCategoryCode=SUN"),
         Entry(
             title: "SUPPORT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
         Entry(
             title: "SUSPENSION",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
         Entry(
             title: "SUSPENSION",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SUSPENSION&partsCategoryCode=SUSPENSION"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SUSPENSION&partsCategoryCode=SUSPENSION"),
         Entry(
             title: "SWITCH",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SWITCH&partsCategoryCode=SWITC"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SWITCH&partsCategoryCode=SWITC"),
         Entry(
             title: "SWITCH",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=SWITCH&partsCategoryCode=SWITCH"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=SWITCH&partsCategoryCode=SWITCH"),
         Entry(
             title: "TANK",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=TANK&partsCategoryCode=TANK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=TANK&partsCategoryCode=TANK"),
         Entry(
             title: "TENSIONER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
         Entry(
             title: "THERMOSTAT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
         Entry(
             title: "TIE ROD",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=TIE ROD&partsCategoryCode=TIER"),
         Entry(
             title: "TRACK ROD",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=TRACK ROD&partsCategoryCode=TRACK"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=TRACK ROD&partsCategoryCode=TRACK"),
         Entry(
             title: "TRANSMISSION",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
         Entry(
             title: "TRIM",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=TRIM&partsCategoryCode=TRI"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=TRIM&partsCategoryCode=TRI"),
         Entry(
             title: "TUBE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=TUBE&partsCategoryCode=TUBE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=TUBE&partsCategoryCode=TUBE"),
         Entry(
             title: "TURBO",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=TURBO&partsCategoryCode=TURBO"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=TURBO&partsCategoryCode=TURBO"),
         Entry(
             title: "TURN",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=TURN&partsCategoryCode=TURN"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=TURN&partsCategoryCode=TURN"),
         Entry(
             title: "TYRE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=TYRE&partsCategoryCode=TYRE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=TYRE&partsCategoryCode=TYRE"),
         Entry(
             title: "TYRE LINER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=TYRE LINER&partsCategoryCode=TYREL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=TYRE LINER&partsCategoryCode=TYREL"),
         Entry(
             title: "UPPER ARM",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
         Entry(
             title: "VACCUM",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=VACCUM&partsCategoryCode=VACCU"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=VACCUM&partsCategoryCode=VACCU"),
         Entry(
             title: "VALVE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=VALVE&partsCategoryCode=VALVE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=VALVE&partsCategoryCode=VALVE"),
         Entry(
             title: "V-BELT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
         Entry(
             title: "VENT",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=VENT&partsCategoryCode=VENT"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=VENT&partsCategoryCode=VENT"),
         Entry(
             title: "VIBRATION",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=VIBRATION&partsCategoryCode=VIBRA"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=VIBRATION&partsCategoryCode=VIBRA"),
         Entry(
             title: "WASHER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=WASHER&partsCategoryCode=WASHE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=WASHER&partsCategoryCode=WASHE"),
         Entry(
             title: "WATER PUMP",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
         Entry(
             title: "WATER PUMP",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=WATER PUMP&partsCategoryCode=WATER PUMP"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=WATER PUMP&partsCategoryCode=WATER PUMP"),
         Entry(
             title: "WHEEL",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
         Entry(
             title: "WIND",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=WIND&partsCategoryCode=WIND"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=WIND&partsCategoryCode=WIND"),
         Entry(
             title: "WINDOW",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=WINDOW&partsCategoryCode=WINDO"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=WINDOW&partsCategoryCode=WINDO"),
         Entry(
             title: "WIPER",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=WIPER&partsCategoryCode=WIPER"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=WIPER&partsCategoryCode=WIPER"),
         Entry(
             title: "WIRE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=WIRE&partsCategoryCode=WIRE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=WIRE&partsCategoryCode=WIRE"),
         Entry(
             title: "WIRING",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=WIRING&partsCategoryCode=WIRIN"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=WIRING&partsCategoryCode=WIRIN"),
         Entry(
             title: "WISH BONE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=WISH BONE&partsCategoryCode=WISH"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=WISH BONE&partsCategoryCode=WISH"),
         Entry(
             title: "WISH BONE",
             url:
-                "/catalog/products?make=PO&makeCode=PORSCHE&partsCategory=WISH BONE&partsCategoryCode=WISH BONE"),
+                "/productsList?make=PO&makeCode=PORSCHE&partsCategory=WISH BONE&partsCategoryCode=WISH BONE"),
       ]),
   Entry(
       title: "RANGE ROVER",
       image: 'assets/brands/range_rover_0.png',
-      url: "/catalog/products?make=RANGE ROVER&makeCode=RANGE ROVER",
+      url: "/productsList?make=RANGE ROVER&makeCode=RANGE ROVER",
       submenu: <Entry>[
         Entry(
             title: "AIR TEX",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=AIR TEX&origincode=AIR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=AIR TEX&origincode=AIR"),
         Entry(
             title: "ALLMAKES 4X4",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=ALLMAKES 4X4&origincode=ALL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=ALLMAKES 4X4&origincode=ALL"),
         Entry(
             title: "BEHR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=BEHR&origincode=BHR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=BEHR&origincode=BHR"),
         Entry(
             title: "BLUE PRINT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=BLUE PRINT&origincode=BLP"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=BLUE PRINT&origincode=BLP"),
         Entry(
             title: "BORG WARNER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=BORG WARNER&origincode=BORG"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=BORG WARNER&origincode=BORG"),
         Entry(
             title: "BOSCH",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=BOSCH&origincode=BSH"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=BOSCH&origincode=BSH"),
         Entry(
             title: "BRITPART",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=BRITPART&origincode=BRIT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=BRITPART&origincode=BRIT"),
         Entry(
             title: "CALTEX",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=CALTEX&origincode=CAL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=CALTEX&origincode=CAL"),
         Entry(
             title: "CASTROL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=CASTROL&origincode=CAS"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=CASTROL&origincode=CAS"),
         Entry(
             title: "CHAMPION",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=CHAMPION&origincode=CHAM"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=CHAMPION&origincode=CHAM"),
         Entry(
             title: "CORTECO",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=CORTECO&origincode=COR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=CORTECO&origincode=COR"),
         Entry(
             title: "COUNTY",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=COUNTY&origincode=COUNTY"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=COUNTY&origincode=COUNTY"),
         Entry(
             title: "DAYCO",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=DAYCO&origincode=DAY"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=DAYCO&origincode=DAY"),
         Entry(
             title: "DELPHI",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=DELPHI&origincode=DELPHI"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=DELPHI&origincode=DELPHI"),
         Entry(
             title: "DENSO",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=DENSO&origincode=DSO"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=DENSO&origincode=DSO"),
         Entry(
             title: "DPS",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=DPS&origincode=DPS"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=DPS&origincode=DPS"),
         Entry(
             title: "DUNLOP",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=DUNLOP&origincode=DLP"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=DUNLOP&origincode=DLP"),
         Entry(
             title: "EURO",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=EURO&origincode=EURO"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=EURO&origincode=EURO"),
         Entry(
             title: "FEBI",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=FEBI&origincode=FBI"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=FEBI&origincode=FBI"),
         Entry(
             title: "FERRADO",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=FERRADO&origincode=FER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=FERRADO&origincode=FER"),
         Entry(
             title: "GARRETT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=GARRETT&origincode=GAR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=GARRETT&origincode=GAR"),
         Entry(
             title: "GERMANY",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=GERMANY&origincode=GER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=GERMANY&origincode=GER"),
         Entry(
             title: "GKN",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=GKN&origincode=GKN"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=GKN&origincode=GKN"),
         Entry(
             title: "HASTINGS",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=HASTINGS&origincode=HAS"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=HASTINGS&origincode=HAS"),
         Entry(
             title: "HELLA",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=HELLA&origincode=HLA"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=HELLA&origincode=HLA"),
         Entry(
             title: "HENGST",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=HENGST&origincode=HST"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=HENGST&origincode=HST"),
         Entry(
             title: "HITACHI",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=HITACHI&origincode=HIT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=HITACHI&origincode=HIT"),
         Entry(
             title: "LEMFORDER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=LEMFORDER&origincode=LEM"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=LEMFORDER&origincode=LEM"),
         Entry(
             title: "MAGNET MARELLI",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=MAGNET MARELLI&origincode=MM"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=MAGNET MARELLI&origincode=MM"),
         Entry(
             title: "MAHLE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=MAHLE&origincode=MHF"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=MAHLE&origincode=MHF"),
         Entry(
             title: "MAN",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=MAN&origincode=MAN"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=MAN&origincode=MAN"),
         Entry(
             title: "MAXPART",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=MAXPART&origincode=MXP"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=MAXPART&origincode=MXP"),
         Entry(
             title: "MAYER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=MAYER&origincode=MAYER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=MAYER&origincode=MAYER"),
         Entry(
             title: "MEYLE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=MEYLE&origincode=MEY"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=MEYLE&origincode=MEY"),
         Entry(
             title: "NGK",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=NGK&origincode=NGK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=NGK&origincode=NGK"),
         Entry(
             title: "NISSENS",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=NISSENS&origincode=NIS"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=NISSENS&origincode=NIS"),
         Entry(
             title: "OEM",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=OEM&origincode=OEM"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=OEM&origincode=OEM"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=BM&makeCode=RANGE ROVER&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=BM&makeCode=RANGE ROVER&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "SANDEN",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=SANDEN&origincode=SAN"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=SANDEN&origincode=SAN"),
         Entry(
             title: "TAIWAN",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=TAIWAN&origincode=TWN"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=TAIWAN&origincode=TWN"),
         Entry(
             title: "TEXTAR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=TEXTAR&origincode=TEX"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=TEXTAR&origincode=TEX"),
         Entry(
             title: "TRUCKTEC",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=TRUCKTEC&origincode=TTC"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=TRUCKTEC&origincode=TTC"),
         Entry(
             title: "TRW",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=TRW&origincode=TRW"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=TRW&origincode=TRW"),
         Entry(
             title: "U.K",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=U.K&origincode=UK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=U.K&origincode=UK"),
         Entry(
             title: "VALEO",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=VALEO&origincode=VAL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=VALEO&origincode=VAL"),
         Entry(
             title: "VDO",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=VDO&origincode=VDO"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=VDO&origincode=VDO"),
         Entry(
             title: "ZF",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&origin=ZF&origincode=ZF"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&origin=ZF&origincode=ZF"),
         Entry(
             title: "A/C",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=A/C&partsCategoryCode=A/C"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=A/C&partsCategoryCode=A/C"),
         Entry(
             title: "ABSORBER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ABSORBER&partsCategoryCode=ABS"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ABSORBER&partsCategoryCode=ABS"),
         Entry(
             title: "A/C",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=A/C&partsCategoryCode=AC"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=A/C&partsCategoryCode=AC"),
         Entry(
             title: "AC BLOWER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=AC BLOWER&partsCategoryCode=AC BLOWER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=AC BLOWER&partsCategoryCode=AC BLOWER"),
         Entry(
             title: "AC CONDENSER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=AC CONDENSER&partsCategoryCode=AC CONDENSER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=AC CONDENSER&partsCategoryCode=AC CONDENSER"),
         Entry(
             title: "AC ASSY",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=AC ASSY&partsCategoryCode=ACAS"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=AC ASSY&partsCategoryCode=ACAS"),
         Entry(
             title: "AC BELT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=AC BELT&partsCategoryCode=ACBE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=AC BELT&partsCategoryCode=ACBE"),
         Entry(
             title: "AC BLOWER MOTOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=AC BLOWER MOTOR&partsCategoryCode=ACBLM"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=AC BLOWER MOTOR&partsCategoryCode=ACBLM"),
         Entry(
             title: "AC COMPRESSOR",
             url:
-                "/catalog/products?make=BM&makeCode=RANGE ROVER&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
+                "/productsList?make=BM&makeCode=RANGE ROVER&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
         Entry(
             title: "AC COMPRESSOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
         Entry(
             title: "AC CONDENSER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
         Entry(
             title: "ACCUMUALTOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ACCUMUALTOR&partsCategoryCode=ACCUM"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ACCUMUALTOR&partsCategoryCode=ACCUM"),
         Entry(
             title: "AC DRIER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=AC DRIER&partsCategoryCode=ACDR"),
         Entry(
             title: "ACTUATOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
         Entry(
             title: "ACTUATOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ACTUATOR&partsCategoryCode=ACTUATOR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ACTUATOR&partsCategoryCode=ACTUATOR"),
         Entry(
             title: "ADAPTER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ADAPTER&partsCategoryCode=ADAPT"),
         Entry(
             title: "AIR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=AIR&partsCategoryCode=AIR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=AIR&partsCategoryCode=AIR"),
         Entry(
             title: "ALTERNATOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
         Entry(
             title: "ANTI FREEZE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ANTI FREEZE&partsCategoryCode=ANTI"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ANTI FREEZE&partsCategoryCode=ANTI"),
         Entry(
             title: "ARM",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ARM&partsCategoryCode=ARM"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ARM&partsCategoryCode=ARM"),
         Entry(
             title: "ASHTRAY",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ASHTRAY&partsCategoryCode=ASHTRAY"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ASHTRAY&partsCategoryCode=ASHTRAY"),
         Entry(
             title: "AUXILARY",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=AUXILARY&partsCategoryCode=AUXIL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=AUXILARY&partsCategoryCode=AUXIL"),
         Entry(
             title: "AXLE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=AXLE&partsCategoryCode=AX"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=AXLE&partsCategoryCode=AX"),
         Entry(
             title: "AXLE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=AXLE&partsCategoryCode=AXLE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=AXLE&partsCategoryCode=AXLE"),
         Entry(
             title: "BATTERY",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BATTERY&partsCategoryCode=BA"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BATTERY&partsCategoryCode=BA"),
         Entry(
             title: "BADGE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BADGE&partsCategoryCode=BADGE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BADGE&partsCategoryCode=BADGE"),
         Entry(
             title: "BALL JOINT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
         Entry(
             title: "BAR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BAR&partsCategoryCode=BAR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BAR&partsCategoryCode=BAR"),
         Entry(
             title: "BATTERY",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BATTERY&partsCategoryCode=BATTERY"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BATTERY&partsCategoryCode=BATTERY"),
         Entry(
             title: "BAZEL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BAZEL&partsCategoryCode=BAZEL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BAZEL&partsCategoryCode=BAZEL"),
         Entry(
             title: "BEARING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BEARING&partsCategoryCode=BEA"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BEARING&partsCategoryCode=BEA"),
         Entry(
             title: "BULB",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BULB&partsCategoryCode=BLB"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BULB&partsCategoryCode=BLB"),
         Entry(
             title: "BELT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BELT&partsCategoryCode=BLT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BELT&partsCategoryCode=BLT"),
         Entry(
             title: "BUMPER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BUMPER&partsCategoryCode=BMP"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BUMPER&partsCategoryCode=BMP"),
         Entry(
             title: "BONET",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BONET&partsCategoryCode=BO"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BONET&partsCategoryCode=BO"),
         Entry(
             title: "BODY",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BODY&partsCategoryCode=BODY"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BODY&partsCategoryCode=BODY"),
         Entry(
             title: "BOLT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BOLT&partsCategoryCode=BOLT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BOLT&partsCategoryCode=BOLT"),
         Entry(
             title: "BONET",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BONET&partsCategoryCode=BONET"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BONET&partsCategoryCode=BONET"),
         Entry(
             title: "BOOT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BOOT&partsCategoryCode=BOOT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BOOT&partsCategoryCode=BOOT"),
         Entry(
             title: "BRACKET",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BRACKET&partsCategoryCode=BRACK"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=BM&makeCode=RANGE ROVER&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+                "/productsList?make=BM&makeCode=RANGE ROVER&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE PAD"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE PAD"),
         Entry(
             title: "BREATHER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BREATHER&partsCategoryCode=BREATHER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BREATHER&partsCategoryCode=BREATHER"),
         Entry(
             title: "BRAKE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BRAKE&partsCategoryCode=BRK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BRAKE&partsCategoryCode=BRK"),
         Entry(
             title: "BUMPER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BUMPER&partsCategoryCode=BUMPER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BUMPER&partsCategoryCode=BUMPER"),
         Entry(
             title: "BUSH",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=BUSH&partsCategoryCode=BUSH"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=BUSH&partsCategoryCode=BUSH"),
         Entry(
             title: "CAMERA",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CAMERA&partsCategoryCode=CAM"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CAMERA&partsCategoryCode=CAM"),
         Entry(
             title: "CAMERA",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CAMERA&partsCategoryCode=CAMERA"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CAMERA&partsCategoryCode=CAMERA"),
         Entry(
             title: "CAP",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CAP&partsCategoryCode=CAP"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CAP&partsCategoryCode=CAP"),
         Entry(
             title: "CATALYST CONVERTER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CATALYST CONVERTER&partsCategoryCode=CATAL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CATALYST CONVERTER&partsCategoryCode=CATAL"),
         Entry(
             title: "CENTER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CENTER&partsCategoryCode=CEN"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CENTER&partsCategoryCode=CEN"),
         Entry(
             title: "CHAIN",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CHAIN&partsCategoryCode=CHA"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CHAIN&partsCategoryCode=CHA"),
         Entry(
             title: "CHAIN",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CHAIN&partsCategoryCode=CHAIN"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CHAIN&partsCategoryCode=CHAIN"),
         Entry(
             title: "CHROME",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CHROME&partsCategoryCode=CHROM"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CHROME&partsCategoryCode=CHROM"),
         Entry(
             title: "CLIP",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CLIP&partsCategoryCode=CLIP"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CLIP&partsCategoryCode=CLIP"),
         Entry(
             title: "CLUTCH",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
         Entry(
             title: "COIL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=COIL&partsCategoryCode=COIL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=COIL&partsCategoryCode=COIL"),
         Entry(
             title: "COMPRESSION",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=COMPRESSION&partsCategoryCode=COMPRESSION"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=COMPRESSION&partsCategoryCode=COMPRESSION"),
         Entry(
             title: "COMPRESSOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
         Entry(
             title: "COMPUTER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=COMPUTER&partsCategoryCode=COMPUTER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=COMPUTER&partsCategoryCode=COMPUTER"),
         Entry(
             title: "CONDENSER ",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CONDENSER &partsCategoryCode=COND"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CONDENSER &partsCategoryCode=COND"),
         Entry(
             title: "CONNECTING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CONNECTING&partsCategoryCode=CONNTNG"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CONNECTING&partsCategoryCode=CONNTNG"),
         Entry(
             title: "CONTROL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CONTROL&partsCategoryCode=CONTR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CONTROL&partsCategoryCode=CONTR"),
         Entry(
             title: "CONVERTER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CONVERTER&partsCategoryCode=CONVE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CONVERTER&partsCategoryCode=CONVE"),
         Entry(
             title: "COOLANT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=COOLANT&partsCategoryCode=COOLA"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=COOLANT&partsCategoryCode=COOLA"),
         Entry(
             title: "COOLER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=COOLER&partsCategoryCode=COOLER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=COOLER&partsCategoryCode=COOLER"),
         Entry(
             title: "COVER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=COVER&partsCategoryCode=COVER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=COVER&partsCategoryCode=COVER"),
         Entry(
             title: "CRANK",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CRANK&partsCategoryCode=CRANK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CRANK&partsCategoryCode=CRANK"),
         Entry(
             title: "CUP",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CUP&partsCategoryCode=CUP"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CUP&partsCategoryCode=CUP"),
         Entry(
             title: "CUT BUSH",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CUT BUSH&partsCategoryCode=CUTB"),
         Entry(
             title: "CYLINDER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=CYLINDER&partsCategoryCode=CYL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=CYLINDER&partsCategoryCode=CYL"),
         Entry(
             title: "DAMPER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=DAMPER&partsCategoryCode=DAMPE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=DAMPER&partsCategoryCode=DAMPE"),
         Entry(
             title: "DASHBOARD",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=DASHBOARD&partsCategoryCode=DASHB"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=DASHBOARD&partsCategoryCode=DASHB"),
         Entry(
             title: "DEFLECTOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=DEFLECTOR&partsCategoryCode=DEFLETR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=DEFLECTOR&partsCategoryCode=DEFLETR"),
         Entry(
             title: "DISC",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=DISC&partsCategoryCode=DISC"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=DISC&partsCategoryCode=DISC"),
         Entry(
             title: "DOOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=DOOR&partsCategoryCode=DOOR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=DOOR&partsCategoryCode=DOOR"),
         Entry(
             title: "DRIER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=DRIER&partsCategoryCode=DRIER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=DRIER&partsCategoryCode=DRIER"),
         Entry(
             title: "DRIVE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
         Entry(
             title: "ELECTRICAL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ENGINE&partsCategoryCode=ENG"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ENGINE&partsCategoryCode=ENG"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
         Entry(
             title: "EVAPORATOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
         Entry(
             title: "EXHAUST",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=EXHAUST&partsCategoryCode=EXH"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=EXHAUST&partsCategoryCode=EXH"),
         Entry(
             title: "EXHAUST",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=EXHAUST&partsCategoryCode=EXHAUST"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=EXHAUST&partsCategoryCode=EXHAUST"),
         Entry(
             title: "EXPANSION",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
         Entry(
             title: "FAN",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=FAN&partsCategoryCode=FAN"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=FAN&partsCategoryCode=FAN"),
         Entry(
             title: "FENDER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=FENDER&partsCategoryCode=FENDE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=FENDER&partsCategoryCode=FENDE"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=FILTER&partsCategoryCode=FI"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=FILTER&partsCategoryCode=FI"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=FILTER&partsCategoryCode=FILTER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=FILTER&partsCategoryCode=FILTER"),
         Entry(
             title: "FINISHER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=FINISHER&partsCategoryCode=FINIS"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=FINISHER&partsCategoryCode=FINIS"),
         Entry(
             title: "FOG",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=FOG&partsCategoryCode=FOG"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=FOG&partsCategoryCode=FOG"),
         Entry(
             title: "FRONT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=FRONT&partsCategoryCode=FRNT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=FRONT&partsCategoryCode=FRNT"),
         Entry(
             title: "FUEL",
             url:
-                "/catalog/products?make=BM&makeCode=RANGE ROVER&partsCategory=FUEL&partsCategoryCode=FU"),
+                "/productsList?make=BM&makeCode=RANGE ROVER&partsCategory=FUEL&partsCategoryCode=FU"),
         Entry(
             title: "FUEL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=FUEL&partsCategoryCode=FU"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=FUEL&partsCategoryCode=FU"),
         Entry(
             title: "FUEL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=FUEL&partsCategoryCode=FUEL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=FUEL&partsCategoryCode=FUEL"),
         Entry(
             title: "FUSE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=FUSE&partsCategoryCode=FUSE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=FUSE&partsCategoryCode=FUSE"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=GASKET&partsCategoryCode=GAS"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=GASKET&partsCategoryCode=GAS"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=BM&makeCode=RANGE ROVER&partsCategory=GASKET&partsCategoryCode=GASK"),
+                "/productsList?make=BM&makeCode=RANGE ROVER&partsCategory=GASKET&partsCategoryCode=GASK"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=GASKET&partsCategoryCode=GASK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=GASKET&partsCategoryCode=GASK"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=GASKET&partsCategoryCode=GASKET"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=GASKET&partsCategoryCode=GASKET"),
         Entry(
             title: "GLASS",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=GLASS&partsCategoryCode=GL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=GLASS&partsCategoryCode=GL"),
         Entry(
             title: "GLASS",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=GLASS&partsCategoryCode=GLASS"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=GLASS&partsCategoryCode=GLASS"),
         Entry(
             title: "GLOW",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=GLOW&partsCategoryCode=GLOW"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=GLOW&partsCategoryCode=GLOW"),
         Entry(
             title: "GEAR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=GEAR&partsCategoryCode=GR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=GEAR&partsCategoryCode=GR"),
         Entry(
             title: "GRILL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=GRILL&partsCategoryCode=GRILL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=GRILL&partsCategoryCode=GRILL"),
         Entry(
             title: "GUIDE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
         Entry(
             title: "HAND",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=HAND&partsCategoryCode=HAND"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=HAND&partsCategoryCode=HAND"),
         Entry(
             title: "HANDL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=HANDL&partsCategoryCode=HANDL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=HANDL&partsCategoryCode=HANDL"),
         Entry(
             title: "HEAD",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=HEAD&partsCategoryCode=HEAD"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=HEAD&partsCategoryCode=HEAD"),
         Entry(
             title: "HIGH PRESSURE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=HIGH PRESSURE&partsCategoryCode=HIGH"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=HIGH PRESSURE&partsCategoryCode=HIGH"),
         Entry(
             title: "HINGE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=HINGE&partsCategoryCode=HINGE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=HINGE&partsCategoryCode=HINGE"),
         Entry(
             title: "HOOD",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=HOOD&partsCategoryCode=HOOD"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=HOOD&partsCategoryCode=HOOD"),
         Entry(
             title: "HOOK",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=HOOK&partsCategoryCode=HOOK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=HOOK&partsCategoryCode=HOOK"),
         Entry(
             title: "HORN",
             url:
-                "/catalog/products?make=BM&makeCode=RANGE ROVER&partsCategory=HORN&partsCategoryCode=HORN"),
+                "/productsList?make=BM&makeCode=RANGE ROVER&partsCategory=HORN&partsCategoryCode=HORN"),
         Entry(
             title: "HOSE",
             url:
-                "/catalog/products?make=BM&makeCode=RANGE ROVER&partsCategory=HOSE&partsCategoryCode=HOSE"),
+                "/productsList?make=BM&makeCode=RANGE ROVER&partsCategory=HOSE&partsCategoryCode=HOSE"),
         Entry(
             title: "HOSE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=HOSE&partsCategoryCode=HOSE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=HOSE&partsCategoryCode=HOSE"),
         Entry(
             title: "HUB",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=HUB&partsCategoryCode=HUB"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=HUB&partsCategoryCode=HUB"),
         Entry(
             title: "IDLER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=IDLER&partsCategoryCode=IDLER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=IDLER&partsCategoryCode=IDLER"),
         Entry(
             title: "IGNITION",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
         Entry(
             title: "INJECTOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
         Entry(
             title: "INSERT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=INSERT&partsCategoryCode=INSER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=INSERT&partsCategoryCode=INSER"),
         Entry(
             title: "INSTRUMENT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=INSTRUMENT&partsCategoryCode=INSTR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=INSTRUMENT&partsCategoryCode=INSTR"),
         Entry(
             title: "INSULATOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
         Entry(
             title: "INTAKE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=INTAKE&partsCategoryCode=INTAK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=INTAKE&partsCategoryCode=INTAK"),
         Entry(
             title: "INTAKE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=INTAKE&partsCategoryCode=INTAKE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=INTAKE&partsCategoryCode=INTAKE"),
         Entry(
             title: "JOINT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=JOINT&partsCategoryCode=JOINT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=JOINT&partsCategoryCode=JOINT"),
         Entry(
             title: "KIT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=KIT&partsCategoryCode=KIT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=KIT&partsCategoryCode=KIT"),
         Entry(
             title: "KNUCKLE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=KNUCKLE&partsCategoryCode=KNUCK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=KNUCKLE&partsCategoryCode=KNUCK"),
         Entry(
             title: "LAMP",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=LAMP&partsCategoryCode=LAMP"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=LAMP&partsCategoryCode=LAMP"),
         Entry(
             title: "LATCH",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=LATCH&partsCategoryCode=LATCH"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=LATCH&partsCategoryCode=LATCH"),
         Entry(
             title: "LEVER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=LEVER&partsCategoryCode=LEVER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=LEVER&partsCategoryCode=LEVER"),
         Entry(
             title: "LIGHT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=LIGHT&partsCategoryCode=LGHT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=LIGHT&partsCategoryCode=LGHT"),
         Entry(
             title: "LINK",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=LINK&partsCategoryCode=LINK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=LINK&partsCategoryCode=LINK"),
         Entry(
             title: "LOCK",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=LOCK&partsCategoryCode=LOCK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=LOCK&partsCategoryCode=LOCK"),
         Entry(
             title: "LOGO",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=LOGO&partsCategoryCode=LOGO"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=LOGO&partsCategoryCode=LOGO"),
         Entry(
             title: "LOWER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=LOWER&partsCategoryCode=LOWER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=LOWER&partsCategoryCode=LOWER"),
         Entry(
             title: "MASTER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=MASTER&partsCategoryCode=MASTE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=MASTER&partsCategoryCode=MASTE"),
         Entry(
             title: "MIRROR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
         Entry(
             title: "MIRROR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=MIRROR&partsCategoryCode=MIRROR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=MIRROR&partsCategoryCode=MIRROR"),
         Entry(
             title: "MODULE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=MODULE&partsCategoryCode=MODUL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=MODULE&partsCategoryCode=MODUL"),
         Entry(
             title: "MOTOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
         Entry(
             title: "MOUDLING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
         Entry(
             title: "MOULDING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=MOULDING&partsCategoryCode=MOULD"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=MOULDING&partsCategoryCode=MOULD"),
         Entry(
             title: "MOUNT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
         Entry(
             title: "MOUNTING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=MOUNTING&partsCategoryCode=MOUNTING"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=MOUNTING&partsCategoryCode=MOUNTING"),
         Entry(
             title: "MOUNTING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
         Entry(
             title: "MUD",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=MUD&partsCategoryCode=MUD"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=MUD&partsCategoryCode=MUD"),
         Entry(
             title: "NAME PLATE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=NAME PLATE&partsCategoryCode=NAME"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=NAME PLATE&partsCategoryCode=NAME"),
         Entry(
             title: "NAME PLATE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=NAME PLATE&partsCategoryCode=NAME PLATE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=NAME PLATE&partsCategoryCode=NAME PLATE"),
         Entry(
             title: "NOZZLE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
         Entry(
             title: "NUT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=NUT&partsCategoryCode=NUT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=NUT&partsCategoryCode=NUT"),
         Entry(
             title: "OIL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=OIL&partsCategoryCode=OIL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=OIL&partsCategoryCode=OIL"),
         Entry(
             title: "OIL ASSY",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
         Entry(
             title: "OIL COOLER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=OIL COOLER&partsCategoryCode=OILCO"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=OIL COOLER&partsCategoryCode=OILCO"),
         Entry(
             title: "O - RING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=O - RING&partsCategoryCode=O-R"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=O - RING&partsCategoryCode=O-R"),
         Entry(
             title: "OTHERS",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=OTHERS&partsCategoryCode=OTHER"),
         Entry(
             title: "PANEL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=PANEL&partsCategoryCode=PANEL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=PANEL&partsCategoryCode=PANEL"),
         Entry(
             title: "PIPE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=PIPE&partsCategoryCode=PIPE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=PIPE&partsCategoryCode=PIPE"),
         Entry(
             title: "PISTON",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=PISTON&partsCategoryCode=PISTO"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=PISTON&partsCategoryCode=PISTO"),
         Entry(
             title: "PLATE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=PLATE&partsCategoryCode=PLATE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=PLATE&partsCategoryCode=PLATE"),
         Entry(
             title: "PLUG",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=PLUG&partsCategoryCode=PLUG"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=PLUG&partsCategoryCode=PLUG"),
         Entry(
             title: "POWER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=POWER&partsCategoryCode=POWER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=POWER&partsCategoryCode=POWER"),
         Entry(
             title: "PULLEY",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=PULLEY&partsCategoryCode=PULLE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=PULLEY&partsCategoryCode=PULLE"),
         Entry(
             title: "PUMP",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=PUMP&partsCategoryCode=PUMP"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=PUMP&partsCategoryCode=PUMP"),
         Entry(
             title: "RACK",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=RACK&partsCategoryCode=RACK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=RACK&partsCategoryCode=RACK"),
         Entry(
             title: "RADIATOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
         Entry(
             title: "RADIATOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=RADIATOR&partsCategoryCode=RADIATOR"),
         Entry(
             title: "REAR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=REAR&partsCategoryCode=REAR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=REAR&partsCategoryCode=REAR"),
         Entry(
             title: "REFLECTOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
         Entry(
             title: "REGULATOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
         Entry(
             title: "RETAINER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=RETAINER&partsCategoryCode=RETAI"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=RETAINER&partsCategoryCode=RETAI"),
         Entry(
             title: "ROD",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ROD&partsCategoryCode=ROD"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ROD&partsCategoryCode=ROD"),
         Entry(
             title: "ROTOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
         Entry(
             title: "SCREW",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SCREW&partsCategoryCode=SCREW"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SCREW&partsCategoryCode=SCREW"),
         Entry(
             title: "SEAL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SEAL&partsCategoryCode=SEAL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SEAL&partsCategoryCode=SEAL"),
         Entry(
             title: "SEAT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SEAT&partsCategoryCode=SEAT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SEAT&partsCategoryCode=SEAT"),
         Entry(
             title: "SENDER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SENDER&partsCategoryCode=SENDE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SENDER&partsCategoryCode=SENDE"),
         Entry(
             title: "SENSOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SENSOR&partsCategoryCode=SENSO"),
         Entry(
             title: "SENSOR",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SENSOR&partsCategoryCode=SENSOR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SENSOR&partsCategoryCode=SENSOR"),
         Entry(
             title: "SHAFT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
         Entry(
             title: "SHIELD",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SHIELD&partsCategoryCode=SHIEL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SHIELD&partsCategoryCode=SHIEL"),
         Entry(
             title: "SHOCK",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
         Entry(
             title: "SIDE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SIDE&partsCategoryCode=SIDE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SIDE&partsCategoryCode=SIDE"),
         Entry(
             title: "SPARK PLUG",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
         Entry(
             title: "SPARK PLUG",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SPARK PLUG&partsCategoryCode=SPARK PLUG"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SPARK PLUG&partsCategoryCode=SPARK PLUG"),
         Entry(
             title: "SPOILER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
         Entry(
             title: "SPRING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SPRING&partsCategoryCode=SPRIN"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SPRING&partsCategoryCode=SPRIN"),
         Entry(
             title: "SPROCKET",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SPROCKET&partsCategoryCode=SPROCKET"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SPROCKET&partsCategoryCode=SPROCKET"),
         Entry(
             title: "STABILIZER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=STABILIZER&partsCategoryCode=STABI"),
         Entry(
             title: "STARTER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=STARTER&partsCategoryCode=START"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=STARTER&partsCategoryCode=START"),
         Entry(
             title: "STEARING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=STEARING&partsCategoryCode=STEAR"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=STEARING&partsCategoryCode=STEAR"),
         Entry(
             title: "STEERING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=STEERING&partsCategoryCode=STEER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=STEERING&partsCategoryCode=STEER"),
         Entry(
             title: "SUPPORT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
         Entry(
             title: "SUSPENSION",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
         Entry(
             title: "SWITCH",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=SWITCH&partsCategoryCode=SWITC"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=SWITCH&partsCategoryCode=SWITC"),
         Entry(
             title: "TANK",
             url:
-                "/catalog/products?make=BM&makeCode=RANGE ROVER&partsCategory=TANK&partsCategoryCode=TANK"),
+                "/productsList?make=BM&makeCode=RANGE ROVER&partsCategory=TANK&partsCategoryCode=TANK"),
         Entry(
             title: "TANK",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=TANK&partsCategoryCode=TANK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=TANK&partsCategoryCode=TANK"),
         Entry(
             title: "TENSIONER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
         Entry(
             title: "THERMOSTAT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
         Entry(
             title: "THERMOSTAT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=THERMOSTAT&partsCategoryCode=THERMOSTAT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=THERMOSTAT&partsCategoryCode=THERMOSTAT"),
         Entry(
             title: "THERMOSTAT AND HOUSING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=THERMOSTAT AND HOUSING&partsCategoryCode=THERMOSTAT AND HOUSING"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=THERMOSTAT AND HOUSING&partsCategoryCode=THERMOSTAT AND HOUSING"),
         Entry(
             title: "THROTTLE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=THROTTLE&partsCategoryCode=THROT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=THROTTLE&partsCategoryCode=THROT"),
         Entry(
             title: "THROTTLE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=THROTTLE&partsCategoryCode=THROTTLE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=THROTTLE&partsCategoryCode=THROTTLE"),
         Entry(
             title: "TIE ROD",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=TIE ROD&partsCategoryCode=TIER"),
         Entry(
             title: "TIMING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=TIMING&partsCategoryCode=TIMIN"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=TIMING&partsCategoryCode=TIMIN"),
         Entry(
             title: "TIMING CHAIN",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=TIMING CHAIN&partsCategoryCode=TIMINC"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=TIMING CHAIN&partsCategoryCode=TIMINC"),
         Entry(
             title: "TIMING",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=TIMING&partsCategoryCode=TIMING"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=TIMING&partsCategoryCode=TIMING"),
         Entry(
             title: "TRACK ROD",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=TRACK ROD&partsCategoryCode=TRACK"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=TRACK ROD&partsCategoryCode=TRACK"),
         Entry(
             title: "TRANSMISSION",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
         Entry(
             title: "TRANSMISSION",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=TRANSMISSION&partsCategoryCode=TRANSMISSION"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=TRANSMISSION&partsCategoryCode=TRANSMISSION"),
         Entry(
             title: "TUBE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=TUBE&partsCategoryCode=TUBE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=TUBE&partsCategoryCode=TUBE"),
         Entry(
             title: "TURBO",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=TURBO&partsCategoryCode=TURBO"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=TURBO&partsCategoryCode=TURBO"),
         Entry(
             title: "UPPER ARM",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
         Entry(
             title: "UPPER ARM",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=UPPER ARM&partsCategoryCode=UPPER ARM"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=UPPER ARM&partsCategoryCode=UPPER ARM"),
         Entry(
             title: "VACCUM",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=VACCUM&partsCategoryCode=VACCU"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=VACCUM&partsCategoryCode=VACCU"),
         Entry(
             title: "VALVE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=VALVE&partsCategoryCode=VALVE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=VALVE&partsCategoryCode=VALVE"),
         Entry(
             title: "V-BELT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
         Entry(
             title: "VENT",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=VENT&partsCategoryCode=VENT"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=VENT&partsCategoryCode=VENT"),
         Entry(
             title: "WATER PUMP",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
         Entry(
             title: "WEATER STRIPE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=WEATER STRIPE&partsCategoryCode=WEATE"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=WEATER STRIPE&partsCategoryCode=WEATE"),
         Entry(
             title: "WHEEL",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
         Entry(
             title: "WIND",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=WIND&partsCategoryCode=WIND"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=WIND&partsCategoryCode=WIND"),
         Entry(
             title: "WINDOW",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=WINDOW&partsCategoryCode=WINDO"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=WINDOW&partsCategoryCode=WINDO"),
         Entry(
             title: "WIPER",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=WIPER&partsCategoryCode=WIPER"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=WIPER&partsCategoryCode=WIPER"),
         Entry(
             title: "WISH BONE",
             url:
-                "/catalog/products?make=RR&makeCode=RANGE ROVER&partsCategory=WISH BONE&partsCategoryCode=WISH"),
+                "/productsList?make=RR&makeCode=RANGE ROVER&partsCategory=WISH BONE&partsCategoryCode=WISH"),
       ]),
   Entry(
       title: "SSANG YONG",
-      url: "/catalog/products?make=SSANG YONG&makeCode=SSANG YONG",
+      url: "/productsList?make=SSANG YONG&makeCode=SSANG YONG",
       image: 'assets/brands/SSANG-YONG.png',
       submenu: <Entry>[
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=SSANG YONG&makeCode=SSANG YONG&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=SSANG YONG&makeCode=SSANG YONG&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "HEAD",
             url:
-                "/catalog/products?make=SSANG YONG&makeCode=SSANG YONG&partsCategory=HEAD&partsCategoryCode=HEAD"),
+                "/productsList?make=SSANG YONG&makeCode=SSANG YONG&partsCategory=HEAD&partsCategoryCode=HEAD"),
       ]),
   Entry(
       title: "TOYOTA",
-      url: "/catalog/products?make=TOYOTA&makeCode=TOYOTA",
+      url: "/productsList?make=TOYOTA&makeCode=TOYOTA",
       image: 'assets/brands/TOYOTA.png',
       submenu: <Entry>[
         Entry(
             title: "ACDELCO",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=ACDELCO&origincode=ACDELCO"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=ACDELCO&origincode=ACDELCO"),
         Entry(
             title: "ADNOC",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=ADNOC&origincode=ADNOC"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=ADNOC&origincode=ADNOC"),
         Entry(
             title: "DENSO",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=DENSO&origincode=DSO"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=DENSO&origincode=DSO"),
         Entry(
             title: "FJ TECH",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=FJ TECH&origincode=FJ"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=FJ TECH&origincode=FJ"),
         Entry(
             title: "GERMANY",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=GERMANY&origincode=GER"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=GERMANY&origincode=GER"),
         Entry(
             title: "GMB",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=GMB&origincode=GMB"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=GMB&origincode=GMB"),
         Entry(
             title: "INCOE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=INCOE&origincode=INCOE"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=INCOE&origincode=INCOE"),
         Entry(
             title: "JAPAN",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=JAPAN&origincode=JAPAN"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=JAPAN&origincode=JAPAN"),
         Entry(
             title: "KOYO",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=KOYO&origincode=KOYO"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=KOYO&origincode=KOYO"),
         Entry(
             title: "LEMFORDER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=LEMFORDER&origincode=LEM"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=LEMFORDER&origincode=LEM"),
         Entry(
             title: "MAXPART",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=MAXPART&origincode=MXP"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=MAXPART&origincode=MXP"),
         Entry(
             title: "MOBIS",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=MOBIS&origincode=MOBIS"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=MOBIS&origincode=MOBIS"),
         Entry(
             title: "NGK",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=NGK&origincode=NGK"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=NGK&origincode=NGK"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=TO&makeCode=TOYOTA&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=TO&makeCode=TOYOTA&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "OSRAM",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=OSRAM&origincode=OSR"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=OSRAM&origincode=OSR"),
         Entry(
             title: "PIERBURG",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=PIERBURG&origincode=PBG"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=PIERBURG&origincode=PBG"),
         Entry(
             title: "PRESTONE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=PRESTONE&origincode=PST"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=PRESTONE&origincode=PST"),
         Entry(
             title: "SF",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=SF&origincode=SF"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=SF&origincode=SF"),
         Entry(
             title: "SHELL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=SHELL&origincode=SL"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=SHELL&origincode=SL"),
         Entry(
             title: "SUPER GRIP",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=SUPER GRIP&origincode=SPG"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=SUPER GRIP&origincode=SPG"),
         Entry(
             title: "TAIWAN",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=TAIWAN&origincode=TWN"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=TAIWAN&origincode=TWN"),
         Entry(
             title: "TRW",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&origin=TRW&origincode=TRW"),
+                "/productsList?make=TY&makeCode=TOYOTA&origin=TRW&origincode=TRW"),
         Entry(
             title: "ABSORBER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ABSORBER&partsCategoryCode=ABS"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ABSORBER&partsCategoryCode=ABS"),
         Entry(
             title: "AC COMPRESSOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=AC COMPRESSOR&partsCategoryCode=AC COMPRESSOR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=AC COMPRESSOR&partsCategoryCode=AC COMPRESSOR"),
         Entry(
             title: "ACCELERATOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ACCELERATOR&partsCategoryCode=ACCEL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ACCELERATOR&partsCategoryCode=ACCEL"),
         Entry(
             title: "AC COMPRESSOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=AC COMPRESSOR&partsCategoryCode=ACCOM"),
         Entry(
             title: "AC CONDENSER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=AC CONDENSER&partsCategoryCode=ACCON"),
         Entry(
             title: "ACCUMUALTOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ACCUMUALTOR&partsCategoryCode=ACCUM"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ACCUMUALTOR&partsCategoryCode=ACCUM"),
         Entry(
             title: "ACTUATOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ACTUATOR&partsCategoryCode=ACTUA"),
         Entry(
             title: "ADJUSTER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ADJUSTER&partsCategoryCode=ADJ"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ADJUSTER&partsCategoryCode=ADJ"),
         Entry(
             title: "AIR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=AIR&partsCategoryCode=AIR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=AIR&partsCategoryCode=AIR"),
         Entry(
             title: "ALTERNATOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ALTERNATOR&partsCategoryCode=ALTER"),
         Entry(
             title: "AMPLIFIER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=AMPLIFIER&partsCategoryCode=AMPLI"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=AMPLIFIER&partsCategoryCode=AMPLI"),
         Entry(
             title: "ANTENNA",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ANTENNA&partsCategoryCode=ANTEN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ANTENNA&partsCategoryCode=ANTEN"),
         Entry(
             title: "ARM",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ARM&partsCategoryCode=ARM"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ARM&partsCategoryCode=ARM"),
         Entry(
             title: "AXLE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=AXLE&partsCategoryCode=AX"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=AXLE&partsCategoryCode=AX"),
         Entry(
             title: "BATTERY",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BATTERY&partsCategoryCode=BA"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BATTERY&partsCategoryCode=BA"),
         Entry(
             title: "BALL JOINT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BALL JOINT&partsCategoryCode=BALLJ"),
         Entry(
             title: "BAR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BAR&partsCategoryCode=BAR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BAR&partsCategoryCode=BAR"),
         Entry(
             title: "BASE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BASE&partsCategoryCode=BASE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BASE&partsCategoryCode=BASE"),
         Entry(
             title: "BEARING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BEARING&partsCategoryCode=BEA"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BEARING&partsCategoryCode=BEA"),
         Entry(
             title: "BLADE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BLADE&partsCategoryCode=BLADE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BLADE&partsCategoryCode=BLADE"),
         Entry(
             title: "BULB",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BULB&partsCategoryCode=BLB"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BULB&partsCategoryCode=BLB"),
         Entry(
             title: "BELT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BELT&partsCategoryCode=BLT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BELT&partsCategoryCode=BLT"),
         Entry(
             title: "BLOWER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BLOWER&partsCategoryCode=BLW"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BLOWER&partsCategoryCode=BLW"),
         Entry(
             title: "BUMPER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BUMPER&partsCategoryCode=BMP"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BUMPER&partsCategoryCode=BMP"),
         Entry(
             title: "BONET",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BONET&partsCategoryCode=BO"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BONET&partsCategoryCode=BO"),
         Entry(
             title: "BODY",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BODY&partsCategoryCode=BODY"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BODY&partsCategoryCode=BODY"),
         Entry(
             title: "BOLT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BOLT&partsCategoryCode=BOLT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BOLT&partsCategoryCode=BOLT"),
         Entry(
             title: "BOOT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BOOT&partsCategoryCode=BOOT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BOOT&partsCategoryCode=BOOT"),
         Entry(
             title: "BRACKET",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BRACKET&partsCategoryCode=BRACK"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
         Entry(
             title: "BRAKE",
             url:
-                "/catalog/products?make=TO&makeCode=TOYOTA&partsCategory=BRAKE&partsCategoryCode=BRK"),
+                "/productsList?make=TO&makeCode=TOYOTA&partsCategory=BRAKE&partsCategoryCode=BRK"),
         Entry(
             title: "BRAKE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BRAKE&partsCategoryCode=BRK"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BRAKE&partsCategoryCode=BRK"),
         Entry(
             title: "BULB",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BULB&partsCategoryCode=BULB"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BULB&partsCategoryCode=BULB"),
         Entry(
             title: "BUSH",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=BUSH&partsCategoryCode=BUSH"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=BUSH&partsCategoryCode=BUSH"),
         Entry(
             title: "CABLE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CABLE&partsCategoryCode=CAB"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CABLE&partsCategoryCode=CAB"),
         Entry(
             title: "CALIPER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CALIPER&partsCategoryCode=CALIP"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CALIPER&partsCategoryCode=CALIP"),
         Entry(
             title: "CAMERA",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CAMERA&partsCategoryCode=CAM"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CAMERA&partsCategoryCode=CAM"),
         Entry(
             title: "CAP",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CAP&partsCategoryCode=CAP"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CAP&partsCategoryCode=CAP"),
         Entry(
             title: "CARRIER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CARRIER&partsCategoryCode=CAR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CARRIER&partsCategoryCode=CAR"),
         Entry(
             title: "CASE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CASE&partsCategoryCode=CASE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CASE&partsCategoryCode=CASE"),
         Entry(
             title: "CATALYST CONVERTER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CATALYST CONVERTER&partsCategoryCode=CATAL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CATALYST CONVERTER&partsCategoryCode=CATAL"),
         Entry(
             title: "CHAIN",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CHAIN&partsCategoryCode=CHA"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CHAIN&partsCategoryCode=CHA"),
         Entry(
             title: "CHANNEL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CHANNEL&partsCategoryCode=CHANN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CHANNEL&partsCategoryCode=CHANN"),
         Entry(
             title: "CHECK ASSY",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CHECK ASSY&partsCategoryCode=CHECK"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CHECK ASSY&partsCategoryCode=CHECK"),
         Entry(
             title: "CLAMP ",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CLAMP &partsCategoryCode=CLAMP"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CLAMP &partsCategoryCode=CLAMP"),
         Entry(
             title: "CLIP",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CLIP&partsCategoryCode=CLIP"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CLIP&partsCategoryCode=CLIP"),
         Entry(
             title: "CLUTCH",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CLUTCH&partsCategoryCode=CLUTC"),
         Entry(
             title: "CLUTCH",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CLUTCH&partsCategoryCode=CLUTCH"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CLUTCH&partsCategoryCode=CLUTCH"),
         Entry(
             title: "CLY ASSY",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CLY ASSY&partsCategoryCode=CLYA"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CLY ASSY&partsCategoryCode=CLYA"),
         Entry(
             title: "COIL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=COIL&partsCategoryCode=COIL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=COIL&partsCategoryCode=COIL"),
         Entry(
             title: "COMPUTER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=COMPUTER&partsCategoryCode=COM"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=COMPUTER&partsCategoryCode=COM"),
         Entry(
             title: "COMPRESSOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=COMPRESSOR&partsCategoryCode=COMPRSR"),
         Entry(
             title: "CONDENSER ",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CONDENSER &partsCategoryCode=COND"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CONDENSER &partsCategoryCode=COND"),
         Entry(
             title: "CONNECTING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CONNECTING&partsCategoryCode=CONNTNG"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CONNECTING&partsCategoryCode=CONNTNG"),
         Entry(
             title: "CONTROL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CONTROL&partsCategoryCode=CONTR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CONTROL&partsCategoryCode=CONTR"),
         Entry(
             title: "COOLANT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=COOLANT&partsCategoryCode=COOLA"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=COOLANT&partsCategoryCode=COOLA"),
         Entry(
             title: "COOLER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=COOLER&partsCategoryCode=COOLER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=COOLER&partsCategoryCode=COOLER"),
         Entry(
             title: "COOLING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=COOLING&partsCategoryCode=COOLI"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=COOLING&partsCategoryCode=COOLI"),
         Entry(
             title: "COUPLING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=COUPLING&partsCategoryCode=COUPL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=COUPLING&partsCategoryCode=COUPL"),
         Entry(
             title: "COVER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=COVER&partsCategoryCode=COVER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=COVER&partsCategoryCode=COVER"),
         Entry(
             title: "CUP",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CUP&partsCategoryCode=CUP"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CUP&partsCategoryCode=CUP"),
         Entry(
             title: "CUSHION",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CUSHION&partsCategoryCode=CUSHI"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CUSHION&partsCategoryCode=CUSHI"),
         Entry(
             title: "CV JOINT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CV JOINT&partsCategoryCode=CVJO"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CV JOINT&partsCategoryCode=CVJO"),
         Entry(
             title: "CYLINDER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CYLINDER&partsCategoryCode=CYL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CYLINDER&partsCategoryCode=CYL"),
         Entry(
             title: "CYLENDER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=CYLENDER&partsCategoryCode=CYLEN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=CYLENDER&partsCategoryCode=CYLEN"),
         Entry(
             title: "DAMPER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=DAMPER&partsCategoryCode=DAMPE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=DAMPER&partsCategoryCode=DAMPE"),
         Entry(
             title: "DASHBOARD",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=DASHBOARD&partsCategoryCode=DASHB"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=DASHBOARD&partsCategoryCode=DASHB"),
         Entry(
             title: "DEFLECTOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=DEFLECTOR&partsCategoryCode=DEFLETR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=DEFLECTOR&partsCategoryCode=DEFLETR"),
         Entry(
             title: "DISC",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=DISC&partsCategoryCode=DISC"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=DISC&partsCategoryCode=DISC"),
         Entry(
             title: "DOOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=DOOR&partsCategoryCode=DOOR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=DOOR&partsCategoryCode=DOOR"),
         Entry(
             title: "DRIER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=DRIER&partsCategoryCode=DRIER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=DRIER&partsCategoryCode=DRIER"),
         Entry(
             title: "DRIVE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=DRIVE&partsCategoryCode=DRIVE"),
         Entry(
             title: "DRUM",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=DRUM&partsCategoryCode=DRUM"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=DRUM&partsCategoryCode=DRUM"),
         Entry(
             title: "ECU",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ECU&partsCategoryCode=ECU"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ECU&partsCategoryCode=ECU"),
         Entry(
             title: "ELECTRICAL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ELECTRICAL&partsCategoryCode=ELECT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ELECTRICAL&partsCategoryCode=ELECT"),
         Entry(
             title: "ELECTRICAL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ELECTRICAL&partsCategoryCode=ELECTRICAL"),
         Entry(
             title: "ELEMENT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ELEMENT&partsCategoryCode=ELEME"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ELEMENT&partsCategoryCode=ELEME"),
         Entry(
             title: "EMBLEM",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=EMBLEM&partsCategoryCode=EMB"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=EMBLEM&partsCategoryCode=EMB"),
         Entry(
             title: "END",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=END&partsCategoryCode=END"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=END&partsCategoryCode=END"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ENGINE&partsCategoryCode=ENG"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ENGINE&partsCategoryCode=ENG"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ENGINE&partsCategoryCode=ENGINE"),
         Entry(
             title: "EVAPORATOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=EVAPORATOR&partsCategoryCode=EVA"),
         Entry(
             title: "EXHAUST",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=EXHAUST&partsCategoryCode=EXHAUST"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=EXHAUST&partsCategoryCode=EXHAUST"),
         Entry(
             title: "EXPANSION",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=EXPANSION&partsCategoryCode=EXPAN"),
         Entry(
             title: "EXTENSION",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=EXTENSION&partsCategoryCode=EXTEN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=EXTENSION&partsCategoryCode=EXTEN"),
         Entry(
             title: "FAN",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=FAN&partsCategoryCode=FAN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=FAN&partsCategoryCode=FAN"),
         Entry(
             title: "FENDER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=FENDER&partsCategoryCode=FENDE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=FENDER&partsCategoryCode=FENDE"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=FILTER&partsCategoryCode=FI"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=FILTER&partsCategoryCode=FI"),
         Entry(
             title: "FILLER SUB ASSY",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=FILLER SUB ASSY&partsCategoryCode=FILLRS"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=FILLER SUB ASSY&partsCategoryCode=FILLRS"),
         Entry(
             title: "FILTER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=FILTER&partsCategoryCode=FILTER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=FILTER&partsCategoryCode=FILTER"),
         Entry(
             title: "FITTING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=FITTING&partsCategoryCode=FITTI"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=FITTING&partsCategoryCode=FITTI"),
         Entry(
             title: "FLANGE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=FLANGE&partsCategoryCode=FLANG"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=FLANGE&partsCategoryCode=FLANG"),
         Entry(
             title: "FOG",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=FOG&partsCategoryCode=FOG"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=FOG&partsCategoryCode=FOG"),
         Entry(
             title: "FRONT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=FRONT&partsCategoryCode=FRNT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=FRONT&partsCategoryCode=FRNT"),
         Entry(
             title: "FUEL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=FUEL&partsCategoryCode=FU"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=FUEL&partsCategoryCode=FU"),
         Entry(
             title: "FUEL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=FUEL&partsCategoryCode=FUEL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=FUEL&partsCategoryCode=FUEL"),
         Entry(
             title: "FUSE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=FUSE&partsCategoryCode=FUSE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=FUSE&partsCategoryCode=FUSE"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=GASKET&partsCategoryCode=GASK"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=GASKET&partsCategoryCode=GASK"),
         Entry(
             title: "GASKET",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=GASKET&partsCategoryCode=GASKET"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=GASKET&partsCategoryCode=GASKET"),
         Entry(
             title: "GEAR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=GEAR&partsCategoryCode=GEAR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=GEAR&partsCategoryCode=GEAR"),
         Entry(
             title: "GLASS",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=GLASS&partsCategoryCode=GL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=GLASS&partsCategoryCode=GL"),
         Entry(
             title: "GLOW",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=GLOW&partsCategoryCode=GLOW"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=GLOW&partsCategoryCode=GLOW"),
         Entry(
             title: "GEAR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=GEAR&partsCategoryCode=GR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=GEAR&partsCategoryCode=GR"),
         Entry(
             title: "GRILL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=GRILL&partsCategoryCode=GRILL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=GRILL&partsCategoryCode=GRILL"),
         Entry(
             title: "GROMMET",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=GROMMET&partsCategoryCode=GROMM"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=GROMMET&partsCategoryCode=GROMM"),
         Entry(
             title: "GUIDE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=GUIDE&partsCategoryCode=GUIDE"),
         Entry(
             title: "HAND",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=HAND&partsCategoryCode=HAN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=HAND&partsCategoryCode=HAN"),
         Entry(
             title: "HANDL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=HANDL&partsCategoryCode=HANDL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=HANDL&partsCategoryCode=HANDL"),
         Entry(
             title: "HEAD",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=HEAD&partsCategoryCode=HEAD"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=HEAD&partsCategoryCode=HEAD"),
         Entry(
             title: "HIGH PRESSURE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=HIGH PRESSURE&partsCategoryCode=HIGH"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=HIGH PRESSURE&partsCategoryCode=HIGH"),
         Entry(
             title: "HINGE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=HINGE&partsCategoryCode=HINGE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=HINGE&partsCategoryCode=HINGE"),
         Entry(
             title: "HOLDER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=HOLDER&partsCategoryCode=HOLDER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=HOLDER&partsCategoryCode=HOLDER"),
         Entry(
             title: "HOOD",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=HOOD&partsCategoryCode=HOOD"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=HOOD&partsCategoryCode=HOOD"),
         Entry(
             title: "HOOK",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=HOOK&partsCategoryCode=HOOK"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=HOOK&partsCategoryCode=HOOK"),
         Entry(
             title: "HORN",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=HORN&partsCategoryCode=HORN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=HORN&partsCategoryCode=HORN"),
         Entry(
             title: "HOSE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=HOSE&partsCategoryCode=HOSE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=HOSE&partsCategoryCode=HOSE"),
         Entry(
             title: "HOUSING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=HOUSING&partsCategoryCode=HOUSING"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=HOUSING&partsCategoryCode=HOUSING"),
         Entry(
             title: "HUB",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=HUB&partsCategoryCode=HUB"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=HUB&partsCategoryCode=HUB"),
         Entry(
             title: "IDLER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=IDLER&partsCategoryCode=IDLER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=IDLER&partsCategoryCode=IDLER"),
         Entry(
             title: "IGNITION",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=IGNITION&partsCategoryCode=IGNIT"),
         Entry(
             title: "INJECTOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=INJECTOR&partsCategoryCode=INJEC"),
         Entry(
             title: "INSTRUMENT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=INSTRUMENT&partsCategoryCode=INSTR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=INSTRUMENT&partsCategoryCode=INSTR"),
         Entry(
             title: "INSULATOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=INSULATOR&partsCategoryCode=INSUL"),
         Entry(
             title: "JOINT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=JOINT&partsCategoryCode=JOINT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=JOINT&partsCategoryCode=JOINT"),
         Entry(
             title: "KEY",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=KEY&partsCategoryCode=KEY"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=KEY&partsCategoryCode=KEY"),
         Entry(
             title: "KIT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=KIT&partsCategoryCode=KIT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=KIT&partsCategoryCode=KIT"),
         Entry(
             title: "KNOB",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=KNOB&partsCategoryCode=KNOB"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=KNOB&partsCategoryCode=KNOB"),
         Entry(
             title: "KNUCKLE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=KNUCKLE&partsCategoryCode=KNUCK"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=KNUCKLE&partsCategoryCode=KNUCK"),
         Entry(
             title: "LAMP",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=LAMP&partsCategoryCode=LAMP"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=LAMP&partsCategoryCode=LAMP"),
         Entry(
             title: "LATERAL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=LATERAL&partsCategoryCode=LATER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=LATERAL&partsCategoryCode=LATER"),
         Entry(
             title: "LENS & BODY",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=LENS & BODY&partsCategoryCode=LENS"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=LENS & BODY&partsCategoryCode=LENS"),
         Entry(
             title: "LEVER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=LEVER&partsCategoryCode=LEVER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=LEVER&partsCategoryCode=LEVER"),
         Entry(
             title: "LIGHT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=LIGHT&partsCategoryCode=LGHT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=LIGHT&partsCategoryCode=LGHT"),
         Entry(
             title: "LIGHT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=LIGHT&partsCategoryCode=LIGHT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=LIGHT&partsCategoryCode=LIGHT"),
         Entry(
             title: "LINE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=LINE&partsCategoryCode=LINE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=LINE&partsCategoryCode=LINE"),
         Entry(
             title: "LINK",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=LINK&partsCategoryCode=LINK"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=LINK&partsCategoryCode=LINK"),
         Entry(
             title: "LOCK",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=LOCK&partsCategoryCode=LOCK"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=LOCK&partsCategoryCode=LOCK"),
         Entry(
             title: "LOWER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=LOWER&partsCategoryCode=LOWER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=LOWER&partsCategoryCode=LOWER"),
         Entry(
             title: "MASTER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=MASTER&partsCategoryCode=MASTE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=MASTER&partsCategoryCode=MASTE"),
         Entry(
             title: "MIRROR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=MIRROR&partsCategoryCode=MIRRO"),
         Entry(
             title: "MODULE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=MODULE&partsCategoryCode=MODUL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=MODULE&partsCategoryCode=MODUL"),
         Entry(
             title: "MOTOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=MOTOR&partsCategoryCode=MOTOR"),
         Entry(
             title: "MOUDLING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=MOUDLING&partsCategoryCode=MOUDL"),
         Entry(
             title: "MOUNT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=MOUNT&partsCategoryCode=MOUNT"),
         Entry(
             title: "MOUNTING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
         Entry(
             title: "MUD",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=MUD&partsCategoryCode=MUD"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=MUD&partsCategoryCode=MUD"),
         Entry(
             title: "NOZZLE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=NOZZLE&partsCategoryCode=NOZZL"),
         Entry(
             title: "NUT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=NUT&partsCategoryCode=NUT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=NUT&partsCategoryCode=NUT"),
         Entry(
             title: "OIL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=OIL&partsCategoryCode=OIL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=OIL&partsCategoryCode=OIL"),
         Entry(
             title: "OIL ASSY",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=OIL ASSY&partsCategoryCode=OILA"),
         Entry(
             title: "O - RING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=O - RING&partsCategoryCode=O-R"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=O - RING&partsCategoryCode=O-R"),
         Entry(
             title: "ORNAMENTAL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ORNAMENTAL&partsCategoryCode=ORNAM"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ORNAMENTAL&partsCategoryCode=ORNAM"),
         Entry(
             title: "OTHERS",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=OTHERS&partsCategoryCode=OTHER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=OTHERS&partsCategoryCode=OTHER"),
         Entry(
             title: "PAD",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=PAD&partsCategoryCode=PAD"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=PAD&partsCategoryCode=PAD"),
         Entry(
             title: "PANEL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=PANEL&partsCategoryCode=PANEL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=PANEL&partsCategoryCode=PANEL"),
         Entry(
             title: "PIN",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=PIN&partsCategoryCode=PIN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=PIN&partsCategoryCode=PIN"),
         Entry(
             title: "PIPE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=PIPE&partsCategoryCode=PIPE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=PIPE&partsCategoryCode=PIPE"),
         Entry(
             title: "PISTON",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=PISTON&partsCategoryCode=PISTO"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=PISTON&partsCategoryCode=PISTO"),
         Entry(
             title: "PLATE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=PLATE&partsCategoryCode=PLATE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=PLATE&partsCategoryCode=PLATE"),
         Entry(
             title: "PLUG",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=PLUG&partsCategoryCode=PLUG"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=PLUG&partsCategoryCode=PLUG"),
         Entry(
             title: "POWER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=POWER&partsCategoryCode=POWER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=POWER&partsCategoryCode=POWER"),
         Entry(
             title: "PRESSURE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=PRESSURE&partsCategoryCode=PRESS"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=PRESSURE&partsCategoryCode=PRESS"),
         Entry(
             title: "PROTECTOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=PROTECTOR&partsCategoryCode=PROTE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=PROTECTOR&partsCategoryCode=PROTE"),
         Entry(
             title: "PULLEY",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=PULLEY&partsCategoryCode=PULLE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=PULLEY&partsCategoryCode=PULLE"),
         Entry(
             title: "PUMP",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=PUMP&partsCategoryCode=PUMP"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=PUMP&partsCategoryCode=PUMP"),
         Entry(
             title: "RACK",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=RACK&partsCategoryCode=RACK"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=RACK&partsCategoryCode=RACK"),
         Entry(
             title: "RADIATOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
         Entry(
             title: "RAIL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=RAIL&partsCategoryCode=RAIL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=RAIL&partsCategoryCode=RAIL"),
         Entry(
             title: "REAR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=REAR&partsCategoryCode=REAR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=REAR&partsCategoryCode=REAR"),
         Entry(
             title: "REFLECTOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=REFLECTOR&partsCategoryCode=REFLE"),
         Entry(
             title: "REGISTER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=REGISTER&partsCategoryCode=REGIS"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=REGISTER&partsCategoryCode=REGIS"),
         Entry(
             title: "REGULATOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=REGULATOR&partsCategoryCode=REGUL"),
         Entry(
             title: "REINFORCEMENT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=REINFORCEMENT&partsCategoryCode=REINF"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=REINFORCEMENT&partsCategoryCode=REINF"),
         Entry(
             title: "RELAY",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=RELAY&partsCategoryCode=RELAY"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=RELAY&partsCategoryCode=RELAY"),
         Entry(
             title: "RESISTOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=RESISTOR&partsCategoryCode=RESIS"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=RESISTOR&partsCategoryCode=RESIS"),
         Entry(
             title: "RETAINER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=RETAINER&partsCategoryCode=RETAI"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=RETAINER&partsCategoryCode=RETAI"),
         Entry(
             title: "RING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=RING&partsCategoryCode=RING"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=RING&partsCategoryCode=RING"),
         Entry(
             title: "ROD",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ROD&partsCategoryCode=ROD"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ROD&partsCategoryCode=ROD"),
         Entry(
             title: "ROLLER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ROLLER&partsCategoryCode=ROLLE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ROLLER&partsCategoryCode=ROLLE"),
         Entry(
             title: "ROTOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=ROTOR&partsCategoryCode=ROTOR"),
         Entry(
             title: "RUBBER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=RUBBER&partsCategoryCode=RUBBE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=RUBBER&partsCategoryCode=RUBBE"),
         Entry(
             title: "SCREW",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SCREW&partsCategoryCode=SCREW"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SCREW&partsCategoryCode=SCREW"),
         Entry(
             title: "SEAL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SEAL&partsCategoryCode=SEAL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SEAL&partsCategoryCode=SEAL"),
         Entry(
             title: "SEAT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SEAT&partsCategoryCode=SEAT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SEAT&partsCategoryCode=SEAT"),
         Entry(
             title: "SENSOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SENSOR&partsCategoryCode=SENSO"),
         Entry(
             title: "SENSOR",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SENSOR&partsCategoryCode=SENSOR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SENSOR&partsCategoryCode=SENSOR"),
         Entry(
             title: "SHAFT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SHAFT&partsCategoryCode=SHAFT"),
         Entry(
             title: "SHIELD",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SHIELD&partsCategoryCode=SHIEL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SHIELD&partsCategoryCode=SHIEL"),
         Entry(
             title: "SHOCK",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
         Entry(
             title: "SILICON",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SILICON&partsCategoryCode=SILIC"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SILICON&partsCategoryCode=SILIC"),
         Entry(
             title: "SLEEVE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SLEEVE&partsCategoryCode=SLEEV"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SLEEVE&partsCategoryCode=SLEEV"),
         Entry(
             title: "SOLENOID",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SOLENOID&partsCategoryCode=SOLEN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SOLENOID&partsCategoryCode=SOLEN"),
         Entry(
             title: "SPACER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SPACER&partsCategoryCode=SPACE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SPACER&partsCategoryCode=SPACE"),
         Entry(
             title: "SPARK PLUG",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SPARK PLUG&partsCategoryCode=SPARK"),
         Entry(
             title: "SPINDLE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SPINDLE&partsCategoryCode=SPIND"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SPINDLE&partsCategoryCode=SPIND"),
         Entry(
             title: "SPOILER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SPOILER&partsCategoryCode=SPOIL"),
         Entry(
             title: "SPRING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SPRING&partsCategoryCode=SPRIN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SPRING&partsCategoryCode=SPRIN"),
         Entry(
             title: "STABILIZER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=STABILIZER&partsCategoryCode=STABI"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=STABILIZER&partsCategoryCode=STABI"),
         Entry(
             title: "STARTER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=STARTER&partsCategoryCode=START"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=STARTER&partsCategoryCode=START"),
         Entry(
             title: "STEARING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=STEARING&partsCategoryCode=STEAR"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=STEARING&partsCategoryCode=STEAR"),
         Entry(
             title: "STEERING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=STEERING&partsCategoryCode=STEER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=STEERING&partsCategoryCode=STEER"),
         Entry(
             title: "STEERING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=STEERING&partsCategoryCode=STEERING"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=STEERING&partsCategoryCode=STEERING"),
         Entry(
             title: "STOP",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=STOP&partsCategoryCode=STOP"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=STOP&partsCategoryCode=STOP"),
         Entry(
             title: "STRUT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=STRUT&partsCategoryCode=STRUT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=STRUT&partsCategoryCode=STRUT"),
         Entry(
             title: "SUPPORT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SUPPORT&partsCategoryCode=SUPPO"),
         Entry(
             title: "SUSPENSION",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SUSPENSION&partsCategoryCode=SUSPE"),
         Entry(
             title: "SUSPENSION",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SUSPENSION&partsCategoryCode=SUSPENSION"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SUSPENSION&partsCategoryCode=SUSPENSION"),
         Entry(
             title: "SWITCH",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=SWITCH&partsCategoryCode=SWITC"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=SWITCH&partsCategoryCode=SWITC"),
         Entry(
             title: "TANK",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=TANK&partsCategoryCode=TANK"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=TANK&partsCategoryCode=TANK"),
         Entry(
             title: "TENSIONER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=TENSIONER&partsCategoryCode=TENSI"),
         Entry(
             title: "THERMOSTAT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=THERMOSTAT&partsCategoryCode=THERM"),
         Entry(
             title: "THROTTLE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=THROTTLE&partsCategoryCode=THROT"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=THROTTLE&partsCategoryCode=THROT"),
         Entry(
             title: "THRUST",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=THRUST&partsCategoryCode=THRUS"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=THRUST&partsCategoryCode=THRUS"),
         Entry(
             title: "TIE ROD",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=TIE ROD&partsCategoryCode=TIER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=TIE ROD&partsCategoryCode=TIER"),
         Entry(
             title: "TIMING",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=TIMING&partsCategoryCode=TIMIN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=TIMING&partsCategoryCode=TIMIN"),
         Entry(
             title: "TIMING CHAIN",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=TIMING CHAIN&partsCategoryCode=TIMINC"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=TIMING CHAIN&partsCategoryCode=TIMINC"),
         Entry(
             title: "TIMING CHAIN",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=TIMING CHAIN&partsCategoryCode=TIMING CHAIN"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=TIMING CHAIN&partsCategoryCode=TIMING CHAIN"),
         Entry(
             title: "TRANSMISSION",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=TRANSMISSION&partsCategoryCode=TRANS"),
         Entry(
             title: "TUBE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=TUBE&partsCategoryCode=TUBE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=TUBE&partsCategoryCode=TUBE"),
         Entry(
             title: "TURBO",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=TURBO&partsCategoryCode=TURBO"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=TURBO&partsCategoryCode=TURBO"),
         Entry(
             title: "TYRE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=TYRE&partsCategoryCode=TYRE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=TYRE&partsCategoryCode=TYRE"),
         Entry(
             title: "UPPER ARM",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=UPPER ARM&partsCategoryCode=UPPER"),
         Entry(
             title: "VALVE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=VALVE&partsCategoryCode=VALVE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=VALVE&partsCategoryCode=VALVE"),
         Entry(
             title: "V-BELT",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
         Entry(
             title: "WASHER",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=WASHER&partsCategoryCode=WASHE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=WASHER&partsCategoryCode=WASHE"),
         Entry(
             title: "WATER PUMP",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=WATER PUMP&partsCategoryCode=WATER"),
         Entry(
             title: "WEATER STRIPE",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=WEATER STRIPE&partsCategoryCode=WEATE"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=WEATER STRIPE&partsCategoryCode=WEATE"),
         Entry(
             title: "WHEEL",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=WHEEL&partsCategoryCode=WHEEL"),
         Entry(
             title: "WIND",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=WIND&partsCategoryCode=WIND"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=WIND&partsCategoryCode=WIND"),
         Entry(
             title: "WINDOW",
             url:
-                "/catalog/products?make=TY&makeCode=TOYOTA&partsCategory=WINDOW&partsCategoryCode=WINDO"),
+                "/productsList?make=TY&makeCode=TOYOTA&partsCategory=WINDOW&partsCategoryCode=WINDO"),
       ]),
   Entry(
       title: "UK",
       image: 'assets/brands/uk.jpg',
-      url: "/catalog/products?make=UK&makeCode=UK",
+      url: "/productsList?make=UK&makeCode=UK",
       submenu: <Entry>[
         Entry(
             title: "GERMANY",
             url:
-                "/catalog/products?make=UK&makeCode=UK&origin=GERMANY&origincode=GER"),
+                "/productsList?make=UK&makeCode=UK&origin=GERMANY&origincode=GER"),
         Entry(
             title: "NISSENS",
             url:
-                "/catalog/products?make=UK&makeCode=UK&origin=NISSENS&origincode=NIS"),
+                "/productsList?make=UK&makeCode=UK&origin=NISSENS&origincode=NIS"),
         Entry(
             title: "DRIER",
             url:
-                "/catalog/products?make=UK&makeCode=UK&partsCategory=DRIER&partsCategoryCode=DRIER"),
+                "/productsList?make=UK&makeCode=UK&partsCategory=DRIER&partsCategoryCode=DRIER"),
         Entry(
             title: "RADIATOR",
             url:
-                "/catalog/products?make=UK&makeCode=UK&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
+                "/productsList?make=UK&makeCode=UK&partsCategory=RADIATOR&partsCategoryCode=RADIA"),
         Entry(
             title: "SENSOR",
             url:
-                "/catalog/products?make=UK&makeCode=UK&partsCategory=SENSOR&partsCategoryCode=SENSO"),
+                "/productsList?make=UK&makeCode=UK&partsCategory=SENSOR&partsCategoryCode=SENSO"),
       ]),
   Entry(
       title: "VOLKS WAGON",
-      url: "/catalog/products?make=VOLKS WAGON&makeCode=VOLKS WAGON",
+      url: "/productsList?make=VOLKS WAGON&makeCode=VOLKS WAGON",
       image: 'assets/brands/VOLKSWAGEN.jpg',
       submenu: <Entry>[
         Entry(
             title: "GERMANY",
             url:
-                "/catalog/products?make=CADILLIC&makeCode=CADILLIC&origin=GERMANY&origincode=GER"),
+                "/productsList?make=CADILLIC&makeCode=CADILLIC&origin=GERMANY&origincode=GER"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=CADILLIC&makeCode=CADILLIC&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=CADILLIC&makeCode=CADILLIC&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "TAIWAN",
             url:
-                "/catalog/products?make=CADILLIC&makeCode=CADILLIC&origin=TAIWAN&origincode=TWN"),
+                "/productsList?make=CADILLIC&makeCode=CADILLIC&origin=TAIWAN&origincode=TWN"),
       ]),
   Entry(
       title: "VOLVO",
-      url: "/catalog/products?make=VOLVO&makeCode=VOLVO",
+      url: "/productsList?make=VOLVO&makeCode=VOLVO",
       image: 'assets/brands/volvo.jpg',
       submenu: <Entry>[
         Entry(
             title: "BOGE",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&origin=BOGE&origincode=BOG"),
+                "/productsList?make=VO&makeCode=VOLVO&origin=BOGE&origincode=BOG"),
         Entry(
             title: "CONTI",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&origin=CONTI&origincode=CON"),
+                "/productsList?make=VO&makeCode=VOLVO&origin=CONTI&origincode=CON"),
         Entry(
             title: "ORIGINAL",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&origin=ORIGINAL&origincode=OE"),
+                "/productsList?make=VO&makeCode=VOLVO&origin=ORIGINAL&origincode=OE"),
         Entry(
             title: "REMSA",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&origin=REMSA&origincode=REM"),
+                "/productsList?make=VO&makeCode=VOLVO&origin=REMSA&origincode=REM"),
         Entry(
             title: "SWEDEN",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&origin=SWEDEN&origincode=SW"),
+                "/productsList?make=VO&makeCode=VOLVO&origin=SWEDEN&origincode=SW"),
         Entry(
             title: "TEXTAR",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&origin=TEXTAR&origincode=TEX"),
+                "/productsList?make=VO&makeCode=VOLVO&origin=TEXTAR&origincode=TEX"),
         Entry(
             title: "BRACKET",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&partsCategory=BRACKET&partsCategoryCode=BRACK"),
+                "/productsList?make=VO&makeCode=VOLVO&partsCategory=BRACKET&partsCategoryCode=BRACK"),
         Entry(
             title: "BRAKE PAD",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
+                "/productsList?make=VO&makeCode=VOLVO&partsCategory=BRAKE PAD&partsCategoryCode=BRAKE"),
         Entry(
             title: "BRAKE",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&partsCategory=BRAKE&partsCategoryCode=BRK"),
+                "/productsList?make=VO&makeCode=VOLVO&partsCategory=BRAKE&partsCategoryCode=BRK"),
         Entry(
             title: "ENGINE",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&partsCategory=ENGINE&partsCategoryCode=ENG"),
+                "/productsList?make=VO&makeCode=VOLVO&partsCategory=ENGINE&partsCategoryCode=ENG"),
         Entry(
             title: "FRONT",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&partsCategory=FRONT&partsCategoryCode=FRNT"),
+                "/productsList?make=VO&makeCode=VOLVO&partsCategory=FRONT&partsCategoryCode=FRNT"),
         Entry(
             title: "MOUNTING",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
+                "/productsList?make=VO&makeCode=VOLVO&partsCategory=MOUNTING&partsCategoryCode=MOUNTNG"),
         Entry(
             title: "SHOCK",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
+                "/productsList?make=VO&makeCode=VOLVO&partsCategory=SHOCK&partsCategoryCode=SHOCK"),
         Entry(
             title: "V-BELT",
             url:
-                "/catalog/products?make=VO&makeCode=VOLVO&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
+                "/productsList?make=VO&makeCode=VOLVO&partsCategory=V-BELT&partsCategoryCode=V-BEL"),
       ]),
   Entry(
     title: 'Blog',
@@ -12482,21 +12470,38 @@ class EntryItem extends StatelessWidget {
   Widget _buildTiles(Entry root, BuildContext context) {
     var _theme = Theme.of(context);
     if (root.submenu == null || root.submenu.isEmpty)
-      return ListTile(
-          title: Text(root.title,
-              style: _theme.textTheme.display1
-                  .copyWith(fontWeight: FontWeight.bold)));
+      return InkWell(
+          onTap: () {
+            Navigator.of(context).pushNamed(
+                OpenFlutterEcommerceRoutes.productList,
+                arguments: ProductListScreenParameters(null, root.url));
+          },
+          child: ListTile(
+              title: Text(root.title,
+                  style: _theme.textTheme.display1
+                      .copyWith(fontWeight: FontWeight.bold))));
     return ExpansionTile(
       key: PageStorageKey<Entry>(root),
       title: InkWell(
-        onTap: () {},
-        child: ListTile(
-            title: Text(root.title,
-                style: _theme.textTheme.display1
-                    .copyWith(fontWeight: FontWeight.bold)),
-            leading: root.image != null
-                ? Image(height: 25, width: 25, image: AssetImage(root.image))
-                : null),
+        onTap: () {
+          Navigator.of(context).pushNamed(
+              OpenFlutterEcommerceRoutes.productList,
+              arguments: ProductListScreenParameters(null, root.url));
+        },
+        child: InkWell(
+            onTap: () {
+              Navigator.of(context).pushNamed(
+                  OpenFlutterEcommerceRoutes.productList,
+                  arguments: ProductListScreenParameters(null, root.url));
+            },
+            child: ListTile(
+                title: Text(root.title,
+                    style: _theme.textTheme.display1
+                        .copyWith(fontWeight: FontWeight.bold)),
+                leading: root.image != null
+                    ? Image(
+                        height: 25, width: 25, image: AssetImage(root.image))
+                    : null)),
       ),
       children:
           root.submenu.map((title) => _buildTiles(title, context)).toList(),
@@ -12580,7 +12585,7 @@ class DataSearch extends SearchDelegate<String> {
                   onTap: () {
                     Navigator.of(context).pushNamed(
                         OpenFlutterEcommerceRoutes.product,
-                        arguments: ProductDetailsParameters(65, 20));
+                        arguments: ProductDetailsParameters(65, 20, "slug"));
                   },
                   child: Row(
                     children: <Widget>[
@@ -12678,7 +12683,7 @@ class DataSearch extends SearchDelegate<String> {
                   onTap: () {
                     Navigator.of(context).pushNamed(
                         OpenFlutterEcommerceRoutes.product,
-                        arguments: ProductDetailsParameters(65, 20));
+                        arguments: ProductDetailsParameters(65, 20, "slug"));
                   },
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.start,

@@ -26,9 +26,10 @@ class ProductDetailsScreen extends StatefulWidget {
 class ProductDetailsParameters {
   final int productId;
   final int categoryId;
+  final String slug;
   final HashMap<ProductAttribute, String> selectedAttributes;
 
-  const ProductDetailsParameters(this.productId, this.categoryId, {this.selectedAttributes});
+  const ProductDetailsParameters(this.productId, this.categoryId,this.slug, {this.selectedAttributes});
 }
 
 class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
@@ -45,7 +46,8 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                 productId: widget.parameters.productId)
               ..add(ProductScreenLoadedEvent(
                 productId: widget.parameters.productId,
-                categoryId: widget.parameters.categoryId
+                categoryId: widget.parameters.categoryId,
+                  slug: widget.parameters.slug
               ));
           },
           child: ProductWrapper(),
