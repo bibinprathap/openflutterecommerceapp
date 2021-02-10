@@ -33,6 +33,8 @@ abstract class ProductRepository {
       FilterRules filterRules,
       String slugorurl = ""});
 
+  List<Product> getHomeProducts({int type = 0});
+
   ///returns filter options available for products in category with
   ///id = [categoryId] and its subcategories. All rules should be set with
   ///initial (unselected) values

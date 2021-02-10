@@ -91,7 +91,9 @@ class _CategoriesListViewState extends State<CategoriesListView> {
                     Navigator.of(context).pushNamed(
                         OpenFlutterEcommerceRoutes.productList,
                         arguments: ProductListScreenParameters(
-                            categories[i], categories[i].description));
+                            categories[i],
+                            '/productsList?filter_lang=en&filter_slug=' +
+                                categories[i].description));
                   },
             child: categories[i].submenu.isNotEmpty
                 ? OpenFlutterCategoryTile(

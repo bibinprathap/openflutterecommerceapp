@@ -17,16 +17,20 @@ class GetHomePageProductsUseCaseImpl implements GetHomePageProductsUseCase {
     try {
       ProductRepository productRepository = sl();
       return HomeProductsResult(
-        salesProducts: await productRepository.getProducts(
-            categoryId: 1, slugorurl: "/productsList?filter_lang=en&filter_make=AU&filter_makeCode=AUDI&filter_origin=BOGE&filter_origincode=BOG"),
-        newProducts: await productRepository.getProducts(
-            categoryId: 2, slugorurl: "/productsList?filter_lang=en&filter_make=MB&filter_makeCode=MERCEDES%20BENZ&filter_origin=SPARX&filter_origincode=SPX"),
+        salesProducts: await productRepository.getHomeProducts(type: 0),
+        newProducts: await productRepository.getHomeProducts(type: 1),
+        topSeller: await productRepository.getHomeProducts(type: 2),
+        availableOffers: await productRepository.getHomeProducts(type: 3),
+        newArrivals: await productRepository.getHomeProducts(type: 4),
         result: false,
       );
     } catch (e) {
       return HomeProductsResult(
           salesProducts: [],
           newProducts: [],
+          topSeller: [],
+          availableOffers: [],
+          newArrivals: [],
           result: false,
           exception: HomeProductsException());
     }
@@ -37,10 +41,19 @@ class HomeProductParams {}
 
 class HomeProductsResult extends UseCaseResult {
   final List<Product> salesProducts;
+  final List<Product> availableOffers;
+  final List<Product> newArrivals;
+  final List<Product> topSeller;
   final List<Product> newProducts;
 
   HomeProductsResult(
-      {this.salesProducts, this.newProducts, Exception exception, bool result})
+      {this.salesProducts,
+      this.newProducts,
+      this.availableOffers,
+      this.newArrivals,
+      this.topSeller,
+      Exception exception,
+      bool result})
       : super(exception: exception, result: result);
 }
 

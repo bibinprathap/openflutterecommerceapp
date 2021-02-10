@@ -32,6 +32,12 @@ class LocalProductRepository implements ProductRepository {
   }
 
   @override
+  List<Product> getHomeProducts({int type = 0}) {
+    // TODO: implement getProducts
+    return null;
+  }
+
+  @override
   Future<FilterRules> getPossibleFilterOptions(int categoryId) {
     // TODO: implement getPossibleFilterOptions
     return null;

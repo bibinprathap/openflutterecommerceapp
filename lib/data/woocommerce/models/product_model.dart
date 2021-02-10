@@ -97,10 +97,10 @@ class ProductModel extends ProductEntity {
         //TODO: add all categories related to product
        // categories: _getCategoriesFromJson(json),
         orderNumber: 1,
-          selectableAttributes:null,
+        selectableAttributes:null,
        // selectableAttributes: _getSelectableAttributesFromJson(json),
        // hashTags: _getHashTagsFromJson(json),
-          hashTags:null
+        hashTags:null
       );
     } catch (e) {
       print("Error: $e");

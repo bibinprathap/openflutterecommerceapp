@@ -22,23 +22,22 @@ class ProductRepositoryImpl extends ProductRepository with FavoritesRepository {
   @override
   Future<Product> getProduct(String slug) async {
     try {
-    NetworkStatus networkStatus = sl();
-    ProductRepository productRepository;
-    if (networkStatus.isConnected != null) {
-      productRepository = RemoteProductRepository(woocommerce: sl());
-    } else {
-      productRepository = LocalProductRepository();
+      NetworkStatus networkStatus = sl();
+      ProductRepository productRepository;
+      if (networkStatus.isConnected != null) {
+        productRepository = RemoteProductRepository(woocommerce: sl());
+      } else {
+        productRepository = LocalProductRepository();
+      }
+
+      Product product = await productRepository.getProduct(slug);
+
+      //check favorites
+
+      return product;
+    } on HttpRequestException {
+      throw RemoteServerException();
     }
-
-   Product product = await productRepository.getProduct(slug);
-
-    //check favorites
-
-
-    return product;
-  } on HttpRequestException {
-  throw RemoteServerException();
-}
   }
 
   @override
@@ -61,6 +60,35 @@ class ProductRepositoryImpl extends ProductRepository with FavoritesRepository {
   }
 
   @override
+  List<Product> getHomeProducts({
+    int type = 0,
+  }) {
+    // TODO: implement getProducts
+    try {
+      NetworkStatus networkStatus = sl();
+      ProductRepository productRepository;
+      if (networkStatus.isConnected != null) {
+        productRepository = RemoteProductRepository(woocommerce: sl());
+      } else {
+        productRepository = LocalProductRepository();
+      }
+
+      List<Product> products = productRepository.getHomeProducts(type: type);
+
+      //check favorites
+      dataStorage.products = [];
+      products.forEach((product) => {
+            dataStorage.products
+                .add(product.favorite(checkFavorite(product.id)))
+          });
+
+      return dataStorage.products;
+    } on HttpRequestException {
+      throw RemoteServerException();
+    }
+  }
+
+  @override
   Future<List<Product>> getProducts(
       {int pageIndex = 0,
       int pageSize = AppConsts.page_size,
@@ -79,7 +107,13 @@ class ProductRepositoryImpl extends ProductRepository with FavoritesRepository {
         productRepository = LocalProductRepository();
       }
 
-      List<Product> products = await productRepository.getProducts(pageIndex :pageIndex, pageSize:pageSize,categoryId:categoryId,sortRules:sortRules,filterRules:filterRules,slugorurl:slugorurl);
+      List<Product> products = await productRepository.getProducts(
+          pageIndex: pageIndex,
+          pageSize: pageSize,
+          categoryId: categoryId,
+          sortRules: sortRules,
+          filterRules: filterRules,
+          slugorurl: slugorurl);
 
       //check favorites
       dataStorage.products = [];

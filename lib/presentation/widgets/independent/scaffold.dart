@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:openflutterecommerce/config/AlgoliaApplication.dart';
 import 'package:openflutterecommerce/config/routes.dart';
 import 'package:openflutterecommerce/config/theme.dart';
+import 'package:openflutterecommerce/data/model/category.dart';
 import 'package:openflutterecommerce/presentation/features/product_details/product_screen.dart';
 import 'package:openflutterecommerce/presentation/features/products/products.dart';
 
@@ -12474,7 +12475,8 @@ class EntryItem extends StatelessWidget {
           onTap: () {
             Navigator.of(context).pushNamed(
                 OpenFlutterEcommerceRoutes.productList,
-                arguments: ProductListScreenParameters(null, root.url));
+                arguments: ProductListScreenParameters(
+                    ProductCategory(0, name: root.title), root.url));
           },
           child: ListTile(
               title: Text(root.title,
@@ -12486,13 +12488,15 @@ class EntryItem extends StatelessWidget {
         onTap: () {
           Navigator.of(context).pushNamed(
               OpenFlutterEcommerceRoutes.productList,
-              arguments: ProductListScreenParameters(null, root.url));
+              arguments: ProductListScreenParameters(
+                  ProductCategory(0, name: root.title), root.url));
         },
         child: InkWell(
             onTap: () {
               Navigator.of(context).pushNamed(
                   OpenFlutterEcommerceRoutes.productList,
-                  arguments: ProductListScreenParameters(null, root.url));
+                  arguments: ProductListScreenParameters(
+                      ProductCategory(0, name: root.title), root.url));
             },
             child: ListTile(
                 title: Text(root.title,

@@ -22,12 +22,21 @@ class HomeInitialState extends HomeState {
 class HomeLoadedState extends HomeState {
   final List<Product> salesProducts;
   final List<Product> newProducts;
+  final List<Product> newArrivals;
+  final List<Product> topSeller;
+  final List<Product> availableOffers;
 
-  HomeLoadedState({this.salesProducts, this.newProducts});
+  HomeLoadedState(
+      {this.salesProducts,
+      this.newProducts,
+      this.newArrivals,
+      this.topSeller,
+      this.availableOffers});
 
   @override
   String toString() => 'HomeLoadedState';
 
   @override
-  List<Object> get props => [salesProducts, newProducts];
+  List<Object> get props =>
+      [salesProducts, newProducts, topSeller, availableOffers, newArrivals];
 }

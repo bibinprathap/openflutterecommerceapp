@@ -16,10 +16,17 @@ import 'package:openflutterecommerce/presentation/widgets/widgets.dart';
 class Main2View extends StatefulWidget {
   final Function changeView;
   final List<Product> salesProducts;
+  final List<Product> availableOffers;
   final List<Product> newProducts;
+  final List<Product> topSeller;
 
   const Main2View(
-      {Key key, this.changeView, this.salesProducts, this.newProducts})
+      {Key key,
+      this.changeView,
+      this.salesProducts,
+      this.availableOffers,
+      this.newProducts,
+      this.topSeller})
       : super(key: key);
 
   @override
@@ -35,34 +42,60 @@ class _Main2ViewState extends State<Main2View> {
     return SingleChildScrollView(
         child: Column(children: <Widget>[
       Container(
-          height: width * 0.52,
+          height: width * 0.72,
           width: width,
           decoration: BoxDecoration(
+            color: const Color(0xff7c94b6),
             image: DecorationImage(
               fit: BoxFit.fill,
+              colorFilter: new ColorFilter.mode(
+                  Colors.black.withOpacity(0.4), BlendMode.dstATop),
               image: AssetImage('assets/splash/topbanner.jpg'),
             ),
           ),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.end,
-            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Container(
                   padding: EdgeInsets.only(left: AppSizes.sidePadding),
                   width: width,
-                  child: Text('Street clothes',
-                      style: _theme.textTheme.headline.copyWith(fontSize: 34)))
+                  child: Text(
+                      'Get Quotation for Your Vehicle"s Spare Parts From Different Suppliers',
+                      style: _theme.textTheme.headline
+                          .copyWith(fontSize: 24, color: Colors.white))),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                  padding: EdgeInsets.only(left: AppSizes.sidePadding),
+                  width: width,
+                  child: Text(
+                      'You Can Choose Suppliers who give better product in cheep price and fast delivery',
+                      style: _theme.textTheme.headline
+                          .copyWith(fontSize: 14, color: Colors.white))),
+              SizedBox(
+                height: 10,
+              ),
+              OpenFlutterButton(
+                title: 'Search Spare Parts',
+                width: 260,
+                height: 48,
+                onPressed: () {
+                  showSearch(context: context, delegate: DataSearch());
+                },
+              )
             ],
           )),
       OpenFlutterBlockHeader(
         width: widgetWidth,
-        title: 'Sale',
+        title: 'Featured Products',
         linkText: 'View All',
         onLinkTap: () => {
           Navigator.of(context).pushNamed(OpenFlutterEcommerceRoutes.shop,
               arguments: CategoriesParameters(2))
         },
-        description: 'Super summer sale',
+        description: 'Spare Parts For Your Car',
       ),
       OpenFlutterProductListView(
           width: widgetWidth,
@@ -74,13 +107,14 @@ class _Main2ViewState extends State<Main2View> {
       Padding(padding: EdgeInsets.only(top: AppSizes.sidePadding)),
       OpenFlutterBlockHeader(
         width: widgetWidth,
-        title: 'New',
+        title: 'Bestsellers',
         linkText: 'View All',
         onLinkTap: () => {
           Navigator.of(context).pushNamed(OpenFlutterEcommerceRoutes.shop,
               arguments: CategoriesParameters(3))
         },
-        description: 'You’ve never seen it before!',
+        description:
+            'You Can Choose Spare Part Suppliers who give better product in cheep price and fast delivery',
       ),
       OpenFlutterProductListView(
         width: widgetWidth,
@@ -90,12 +124,53 @@ class _Main2ViewState extends State<Main2View> {
                   isFavorite: !product.isFavorite, product: product))
             }),
       ),
+      Padding(padding: EdgeInsets.only(top: AppSizes.sidePadding)),
+      OpenFlutterBlockHeader(
+        width: widgetWidth,
+        title: 'Top Rated',
+        linkText: 'View All',
+        onLinkTap: () => {
+          Navigator.of(context).pushNamed(OpenFlutterEcommerceRoutes.shop,
+              arguments: CategoriesParameters(3))
+        },
+        description:
+            'Widerange Of Auto Spare Parts Uae Bring From The Global In Short Period *Available Now',
+      ),
+      OpenFlutterProductListView(
+        width: widgetWidth,
+        products: widget.topSeller,
+        onFavoritesTap: ((Product product) => {
+              BlocProvider.of<HomeBloc>(context).add(HomeAddToFavoriteEvent(
+                  isFavorite: !product.isFavorite, product: product))
+            }),
+      ),
+      Padding(padding: EdgeInsets.only(top: AppSizes.sidePadding)),
+      OpenFlutterBlockHeader(
+        width: widgetWidth,
+        title: 'Available Offers',
+        linkText: 'View All ',
+        onLinkTap: () => {
+          Navigator.of(context).pushNamed(OpenFlutterEcommerceRoutes.shop,
+              arguments: CategoriesParameters(3))
+        },
+        description: 'Top Online Car Parts Dubai – Uae Order Now',
+      ),
+      OpenFlutterProductListView(
+        width: widgetWidth,
+        products: widget.availableOffers,
+        onFavoritesTap: ((Product product) => {
+              BlocProvider.of<HomeBloc>(context).add(HomeAddToFavoriteEvent(
+                  isFavorite: !product.isFavorite, product: product))
+            }),
+      ),
       OpenFlutterButton(
-        title: 'Next Home Page',
-        width: 160,
+        title: 'View All Spare Parts',
+        width: 260,
         height: 48,
-        onPressed: (() =>
-            widget.changeView(changeType: ViewChangeType.Forward)),
+        onPressed: () => {
+          Navigator.of(context).pushNamed(OpenFlutterEcommerceRoutes.shop,
+              arguments: CategoriesParameters(0))
+        },
       )
     ]));
   }
