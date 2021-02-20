@@ -2,10 +2,13 @@
 // Author: openflutterproject@gmail.com
 // Date: 2020-02-06
 
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:openflutterecommerce/config/app_settings.dart';
 import 'package:openflutterecommerce/config/routes.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class OpenFlutterBottomMenu extends StatelessWidget {
   final int menuIndex;
@@ -34,7 +37,44 @@ class OpenFlutterBottomMenu extends StatelessWidget {
       ),
     );
   }
+  BottomNavigationBarItem getItemImage(
+      String image, String title, ThemeData theme, int index) {
+    return BottomNavigationBarItem(
+      icon: Image.asset(
+        image,
+        height: 24.0,
+        width: 24.0
+      ),
+      title: Text(
+        title,
+        style: TextStyle(
+          fontSize: 10.0,
+          fontWeight: FontWeight.bold,
+          color:  Color(0xFF2AA952),
+        ),
+      ),
+    );
+  }
+  void launchWhatsApp(
+      {@required int phone,
+        @required String message,
+      }) async {
+    String url() {
+      if (Platform.isAndroid) {
+        // add the [https]
+        return "https://wa.me/$phone/?text=${Uri.parse(message)}"; // new line
+      } else {
+        // add the [https]
+        return "https://api.whatsapp.com/send?phone=$phone=${Uri.parse(message)}"; // new line
+      }
+    }
 
+    if (await canLaunch(url())) {
+      await launch(url());
+    } else {
+      throw 'Could not launch ${url()}';
+    }
+  }
   @override
   Widget build(BuildContext context) {
     final _theme = Theme.of(context);
@@ -46,8 +86,8 @@ class OpenFlutterBottomMenu extends StatelessWidget {
           _theme, 3),
     ];
     if ( AppSettings.profileEnabled ) {
-      menuItems.add(getItem(
-        'assets/icons/bottom_menu/profile.svg', 'Profile', _theme, 4));
+      menuItems.add(getItemImage(
+        'assets/icons/bottom_menu/whatsapp.png', 'WhatsApp', _theme, 4));
     }
     return Container(
       decoration: BoxDecoration(
@@ -81,8 +121,7 @@ class OpenFlutterBottomMenu extends StatelessWidget {
                     context, OpenFlutterEcommerceRoutes.favourites);
                 break;
               case 4:
-                Navigator.pushNamed(
-                    context, OpenFlutterEcommerceRoutes.profile);
+                launchWhatsApp(phone:971523195838,message: "Hey!I%20would%20like%20to%20know%20more%20about%20some%20parts");
                 break;
             }
           },
