@@ -11,6 +11,7 @@ import 'package:openflutterecommerce/config/theme.dart';
 import 'package:openflutterecommerce/data/model/category.dart';
 import 'package:openflutterecommerce/presentation/features/product_details/product_screen.dart';
 import 'package:openflutterecommerce/presentation/features/products/products.dart';
+import 'package:openflutterecommerce/presentation/features/royalpages/RoyalpagesScreen.dart';
 
 import '../widgets.dart';
 import 'base_product_tile.dart';
@@ -12473,10 +12474,15 @@ class EntryItem extends StatelessWidget {
     if (root.submenu == null || root.submenu.isEmpty)
       return InkWell(
           onTap: () {
-            Navigator.of(context).pushNamed(
-                OpenFlutterEcommerceRoutes.productList,
-                arguments: ProductListScreenParameters(
-                    ProductCategory(0, name: root.title), root.url));
+            if(root.url.indexOf("/productsList")==-1){
+              Navigator.of(context).pushNamed(
+                  OpenFlutterEcommerceRoutes.royalpages,arguments:RoyalPagesScreenParameters(root.title, root.url)); }
+            else {
+              Navigator.of(context).pushNamed(
+                  OpenFlutterEcommerceRoutes.productList,
+                  arguments: ProductListScreenParameters(
+                      ProductCategory(0, name: root.title), root.url));
+            }
           },
           child: ListTile(
               title: Text(root.title,
@@ -12493,10 +12499,16 @@ class EntryItem extends StatelessWidget {
         },
         child: InkWell(
             onTap: () {
+              if(root.url.indexOf("/productsList")==-1){
+                   Navigator.of(context).pushNamed(
+                  OpenFlutterEcommerceRoutes.royalpages,arguments:RoyalPagesScreenParameters(root.title, root.url)); }
+              else
+              {
               Navigator.of(context).pushNamed(
                   OpenFlutterEcommerceRoutes.productList,
                   arguments: ProductListScreenParameters(
                       ProductCategory(0, name: root.title), root.url));
+              }
             },
             child: ListTile(
                 title: Text(root.title,

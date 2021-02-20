@@ -40,14 +40,17 @@ class _Main1ViewState extends State<Main1View> {
                 height: width * 1.43,
                 width: width,
                 decoration: BoxDecoration(
+                  color: const Color(0xff7c94b6),
                   image: DecorationImage(
                     fit: BoxFit.fill,
+                    colorFilter: new ColorFilter.mode(
+                        Colors.black.withOpacity(0.4), BlendMode.dstATop),
                     image: AssetImage('assets/splash/splash-home.png'),
                   ),
                 ),
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     Container(
                       padding: EdgeInsets.only(
@@ -57,7 +60,8 @@ class _Main1ViewState extends State<Main1View> {
                       child: FittedBox(
                         fit: BoxFit.scaleDown,
                         child: Text(translate('fashionSale'),
-                            style: _theme.textTheme.headline),
+                            style: _theme.textTheme.headline
+                                .copyWith(fontSize: 34, color: Colors.white)),
                       ),
                     ),
                     Container(
@@ -67,11 +71,10 @@ class _Main1ViewState extends State<Main1View> {
                           top: AppSizes.sidePadding),
                       width: 160,
                       child: OpenFlutterButton(
-                        title: 'Check',
+                        title: 'Shop All',
                         width: 160,
                         height: 48,
-                        onPressed: (() => widget.changeView(
-                            changeType: ViewChangeType.Forward)),
+                        onPressed: (() => Scaffold.of(context).openDrawer()),
                       ),
                     )
                   ],
@@ -84,7 +87,8 @@ class _Main1ViewState extends State<Main1View> {
                 Navigator.of(context).pushNamed(OpenFlutterEcommerceRoutes.shop,
                     arguments: CategoriesParameters(0))
               },
-              description: 'You’ve never seen it before!',
+              description:
+                  'Toyota Genuine Spare Parts .Genuine Value And Genuine Safty Online Uae',
             ),
             OpenFlutterProductListView(
               width: widgetWidth,
@@ -95,13 +99,6 @@ class _Main1ViewState extends State<Main1View> {
                             isFavorite: !product.isFavorite, product: product))
                   }),
             ),
-            OpenFlutterButton(
-              title: 'Next Home Page',
-              width: 160,
-              height: 48,
-              onPressed: (() =>
-                  widget.changeView(changeType: ViewChangeType.Forward)),
-            )
           ],
         ),
       );

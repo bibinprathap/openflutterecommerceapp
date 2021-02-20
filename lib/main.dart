@@ -12,6 +12,7 @@ import 'package:openflutterecommerce/data/repositories/abstract/product_reposito
 import 'package:openflutterecommerce/data/repositories/abstract/user_repository.dart';
 import 'package:openflutterecommerce/locator.dart';
 import 'package:openflutterecommerce/presentation/features/forget_password/forget_password_screen.dart';
+import 'package:openflutterecommerce/presentation/features/royalpages/RoyalpagesScreen.dart';
 import 'package:openflutterecommerce/presentation/features/sign_in/sign_in.dart';
 import 'package:openflutterecommerce/presentation/features/filters/filters_screen.dart';
 import 'package:openflutterecommerce/presentation/features/product_details/product_screen.dart';
@@ -193,6 +194,14 @@ class OpenFlutterEcommerceApp extends StatelessWidget {
       return MaterialPageRoute(builder: (context) {
         return ProductsScreen(
           parameters: productListScreenParameters,
+        );
+      });
+    } else if (settings.name == OpenFlutterEcommerceRoutes.royalpages) {
+      final RoyalPagesScreenParameters royalPagesScreenParameters =
+          settings.arguments;
+      return MaterialPageRoute(builder: (context) {
+        return RoyalPagesScreen(
+          parameters: royalPagesScreenParameters,
         );
       });
     } else if (settings.name == OpenFlutterEcommerceRoutes.product) {
